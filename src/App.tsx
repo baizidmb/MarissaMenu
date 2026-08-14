@@ -9,6 +9,7 @@ import HotelInfoModal from './components/HotelInfoModal';
 import AllergenModal from './components/AllergenModal';
 import FiscalModal from './components/FiscalModal';
 import QrTableStandView from './components/QrTableStandView';
+import StaffAuthModal from './components/StaffAuthModal';
 import { MenuItem, Language } from './types/menu';
 import { MENU_ITEMS, CATEGORIES } from './data/menuData';
 
@@ -25,6 +26,7 @@ export function App() {
   const [selectedAllergenId, setSelectedAllergenId] = useState<number | null>(null);
   const [showFiscalModal, setShowFiscalModal] = useState<boolean>(false);
   const [showStaffQrView, setShowStaffQrView] = useState<boolean>(false);
+  const [showAuthModal, setShowAuthModal] = useState<boolean>(false);
 
   // Table number from URL query ?table=12
   const [tableNumber, setTableNumber] = useState<string | null>(null);
@@ -41,7 +43,12 @@ export function App() {
       }
 
       if (params.get('staff') === 'true' || params.get('admin') === 'true') {
-        setShowStaffQrView(true);
+        const isAuth = sessionStorage.getItem('marissa_admin_auth') === 'true';
+        if (isAuth) {
+          setShowStaffQrView(true);
+        } else {
+          setShowAuthModal(true);
+        }
       }
     }
   }, []);
@@ -53,6 +60,26 @@ export function App() {
   const handleOpenAllergenModalWithId = (id: number) => {
     setSelectedAllergenId(id);
     setShowAllergenModal(true);
+  };
+
+  const handleRequestStaffQr = () => {
+    const isAuth = sessionStorage.getItem('marissa_admin_auth') === 'true';
+    if (isAuth) {
+      setShowStaffQrView(true);
+    } else {
+      setShowAuthModal(true);
+    }
+  };
+
+  const handleAuthSuccess = () => {
+    sessionStorage.setItem('marissa_admin_auth', 'true');
+    setShowAuthModal(false);
+    setShowStaffQrView(true);
+  };
+
+  const handleLockStaffQr = () => {
+    sessionStorage.removeItem('marissa_admin_auth');
+    setShowStaffQrView(false);
   };
 
   // Filter items dynamically based on Category, Search Query, and Dietary Quick Filters
@@ -86,7 +113,11 @@ export function App() {
   if (showStaffQrView) {
     return (
       <div className="min-h-screen bg-[#F8F6F2]">
-        <QrTableStandView onClose={() => setShowStaffQrView(false)} lang={lang} />
+        <QrTableStandView
+          onClose={() => setShowStaffQrView(false)}
+          onLock={handleLockStaffQr}
+          lang={lang}
+        />
       </div>
     );
   }
@@ -133,7 +164,7 @@ export function App() {
           {searchQuery && (
             <button
               onClick={() => setSearchQuery('')}
-              className="text-xs font-bold text-[#C19B77] hover:underline"
+              className="text-xs font-bold text-[#C19B77] hover:underline cursor-pointer"
             >
               Șterge căutarea
             </button>
@@ -182,7 +213,7 @@ export function App() {
       <FloatingActions lang={lang} tableNumber={tableNumber} />
 
       {/* Footer Component with ANPC & SAL links */}
-      <Footer lang={lang} onOpenStaffQr={() => setShowStaffQrView(true)} />
+      <Footer lang={lang} onOpenStaffQr={handleRequestStaffQr} />
 
       {/* Modals & Bottom Drawers */}
       {selectedItem && (
@@ -208,6 +239,14 @@ export function App() {
 
       {showFiscalModal && (
         <FiscalModal lang={lang} onClose={() => setShowFiscalModal(false)} />
+      )}
+
+      {showAuthModal && (
+        <StaffAuthModal
+          lang={lang}
+          onClose={() => setShowAuthModal(false)}
+          onSuccess={handleAuthSuccess}
+        />
       )}
     </div>
   );
