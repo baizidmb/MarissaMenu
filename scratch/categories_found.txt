@@ -1,0 +1,73 @@
+Line    7: Pește și produse derivate
+Line   20: Carne de pasăre (pui, curcan și rață)              -   Carne de porc
+Line   21: Carne de vită                                                      -    Pește
+Line   24: Desert (piure de castane, vulcan de ciocolată cu înghețată)
+Line   25: Mic dejun
+Line   30: (ou prăjit, ceapă, slănină de porc, cartofi prăjiti, condimente)
+Line   36: (ou, ceapă, slănină de porc, condimente)
+Line   73: Gustări Reci/Calde
+Line   83: Fast Food
+Line   87: (chiflă, cartofi prăjiți, piept de pui, roșie, salată sezon, iaurt, maioneză, condimente)
+Line   90: (cartofi prăjiți, carne de pui, lipie, varză, roșie, ceapă, castraveți murați, maioneză, ketchup, condimente)
+Line   93: (chiflă, carne de vită, roșii, castraveți, brânză cheddar, sos cheddar, cartofi prăjiți, condimente)
+Line   95: Ciorbe/supe
+Line   97: (burtă de vită, legume asortate, smântână, ou, usturoi, ulei, oțet, făină de grâu, condimente)
+Line  100: (legume asortate, piept de pui, ou, ulei, oțet, usturoi, făină, smântână, condimente)
+Line  103: (ciolan de porc,  cârnați,  fasole, ou, legume asortate, ceapă, făină, pastă de ardei iute, condimente)
+Line  107: (legume asortate, cartofi, pulpă de porc, roșii, condimente)
+Line  111: (legume asortate, fasole, ciolan de porc, smântână, ulei, pasta de ardei, ceapă, făină de grâu, ulei, condimente)
+Line  123: Platouri
+Line  125: (piept de pui, ceafă de porc, ciolan de porc, cartofi prăjiți, mix de legume, iaurt, maioneză, condimente)
+Line  128: (ceafă de porc, piept de pui, aripioare crispy, cartofi wedges, murături, sos chilli, condimente)
+Line  131: (ceafă de porc, mici, scăriță de porc, legume la grătar, cartofi prăjiți, salată mixtă, sos muștar, sare)
+Line  133: Preparate din pui
+Line  135: (piept de pui, unt, sare, condimente)
+Line  138: (pulpe de pui , condimente)
+Line  141: ( piept de rață, legume asortate, portocală, amidon de grâu, unt)
+Line  144: (piept de pui, cartofi, unt, ciuperci, smântână lichidă, pătrunjel verde, ulei de floarea soarelui, condimente)
+Line  147: (piept de pui, legume, unt, smântână lichidă, unt de arahide, ulei de floarea soarelui, condimente)
+Line  150: (piept de pui, ou, făină de grâu, cartofi, sos din roșii, ulei de palmier,  condimente)
+Line  156: (piept de pui, ou, făină, pesmet, condimente)
+Line  158: Preparate din vită
+Line  160: (mușchiuleț de vită, unt, cartofi, rozmarin, ciuperci, smântână lichidă, ulei, condimente)
+Line  166: (carne de vită, ulei de măsline, unt , cartofi, fructe, trufe, amidon, condimente)
+Line  169: (carne de vită, unt, rucola , ulei, sare, otet balsamic, condimente)
+Line  171: Preparate din porc
+Line  173: (mușchiulet de porc, cartofi, pastă de trufe, hribi, crustă de verdețuri, ulei, condimente)
+Line  176: (cotlet de porc, ciuperci amestecate, bacon, roșii, mozzarella, smântână lichidă, ulei de floarea soarelui, condimente)
+Line  179: (cotlet de porc, sos picant, cașcaval, ulei de floarea soarelui, ou, făină de grâu, condimente)
+Line  182: (ceafă de porc, slănină afumată, ou, sos picant, cartofi, condimente)
+Line  185: (ceafă de porc, condimente)
+Line  188: (costiță de porc, cartofi wedges, sos barbeque, usturoi, condimente)
+Line  191: (ciolan de porc)
+Line  194: (ciolan de porc, ulei de floarea soarelui, usturoi, condimente)
+Line  197: (carne de porc, usturoi, sos roșu, ou, telemea, burduf, ulei de floarea soarelui, condimente)
+Line  200: (obrăjori de porc, cartofi, unt, portocale,verdeață, amidon de porumb, ulei de floarea soarelui, condimente)
+Line  203: (cotlet de porc, cartofi, praz, muștar, ulei, pătrunjel, ardei, roșii, lămâie, ierburi, unt, condiment)
+Line  235: Garnituri
+Line  266: Paste
+Line  268: (paste, șuncă, sos de roșii, ciuperci, parmezan, ulei de floarea soarelui, condimente)
+Line  274: (paste, smântână lichidă, parmezan, ou, gorgonzola, brânză de burduf, unt, ulei de floarea soarelui, condimente)
+Line  277: (paste, roșii, sos de roșii, pesto, ulei de măsline, condimente)
+Line  280: (paste,  creveți, mix de legume, unt, smântână, condimente)
+Line  283: (paste, fructe de mare, roșii, lămâie, unt, usturoi, ulei de masline)
+Line  286: (somon, paste, smântână, usturoi, pătrunjel, unt, condimente)
+Line  294: Salate aperitiv
+Line  302: (piept de pui, salată iceberg, parmezan, ou, lămâie, muștar,  file de anșoa, capere, castraveți murați, ulei de măsline, condimente)
+Line  308: (piept de pui/creveți, parmezan, avocado, salată iceberg și de sezon, susan, castraveți, roșii, lămâie, muștar, ulei de măsline, condimente)
+Line  310: Salate
+Line  323: Desert
+Line  349: Pizza
+Line  403: (făină de grâu, sare, drojdie, sos de roșii, mozzarella, cartofi prăjiți,  piept de pui)
+Line  412: (făină de grâu, sare, drojdie, sos de roșii, mozzarella, carne de pui, cartofi prăjiți, roșii cuburi, castraveți murați, ceapă, sos alb, oregano)
+Line  417: Ambalaje pentru produsele comandate la pachet
+Line  423: EXTRA-TOPPINGS
+Line  454: Băuturi răcoritoare
+Line  566: Băuturi  alcoolice
+Line  624: Bere
+Line  625: Bere (alcool  5 -6% vol.)
+Line  644: Bere la doză
+Line  649: Bere la halbă
+Line  657: PRODUSE TRADIȚIONALE DE SĂRBĂTORI
+Line  663: ( carne porc, ciolan, orez,condimente, făină porumb, smântână)
+Line  667: (piept de pui, ouă, morcovi, cartofi, ulei, muștar,condimente)

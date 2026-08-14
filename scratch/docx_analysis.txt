@@ -1,0 +1,284 @@
+Line  26 [mic-dejun]: Price 25.0 LEI -> Mic dejun 3,7300gr.  25,00 lei
+Line  29 [mic-dejun]: Price 28.0 LEI -> Mic dejun, cartofi prăjiți cu ouă și slănină 3,7 250gr  28,00lei
+Line  32 [mic-dejun]: Price 28.0 LEI -> Omletă cu şuncă și caşcaval 3,7225 gr.28,00 lei
+Line  35 [mic-dejun]: Price 30.0 LEI -> Omletă ţărănească cu slănină și ceapă 3300 gr.30,00 lei
+Line  38 [mic-dejun]: Price 35.0 LEI -> Marissa breakfast 1,3, 7, 11  370gr  35,00 lei
+Line  41 [mic-dejun]: Price 25.0 LEI -> Platou mic dejun 3,725/80/100/25 gr.25,00 lei
+Line  44 [mic-dejun]: Price 25.0 LEI -> Bruschete cu roșii 7300 gr25,00 lei
+Line  47 [mic-dejun]: Price 18.0 LEI -> Bacon prăjit/slănină prăjită100 gr. 18,00 lei
+Line  51 [mic-dejun]: Price 12.0 LEI -> Cremvurşti 7             100 gr.             12,00 lei
+Line  53 [mic-dejun]: Price 12.0 LEI -> Telemea 7100 gr.12,00 lei
+Line  55 [mic-dejun]: Price 12.0 LEI -> Caşcaval 7100 gr.12,00 lei
+Line  57 [mic-dejun]: Price 8.0 LEI -> Lapte 7200 ml.8,00 lei
+Line  59 [mic-dejun]: Price 8.0 LEI -> Iaurt 71 pahar8,00 lei
+Line  61 [mic-dejun]: Price 5.0 LEI -> Unt porţionat 725 gr.5,00 lei
+Line  63 [mic-dejun]: Price 12.0 LEI -> Cacao cu lapte7200 ml. 12,00 lei
+Line  66 [mic-dejun]: Price 15.0 LEI -> Cereale cu lapte7,8 200gr/50 gr.  15,00 lei
+Line  69 [mic-dejun]: Price 5.0 LEI -> Gem           50 gr               5,00 lei
+Line  71 [mic-dejun]: Price 5.0 LEI -> Miere          50 gr.              5,00 lei
+Line  74 [mic-dejun]: Price 7.0 LEI -> Mici 1, 1040gr  7,00 lei
+Line  77 [mic-dejun]: Price 28.0 LEI -> Caşcaval pane 1,3,7180gr. 28,00 lei
+Line  80 [mic-dejun]: Price 35.0 LEI -> Mămăligă cu brânză şi smântână 7250/150/70gr.35,00 lei
+Line  84 [mic-dejun]: Price 49.0 LEI -> Burger de vită1, 3, 7, 9, 10                          450gr            49,00 lei
+Line  86 [mic-dejun]: Price 38.0 LEI -> Burger Crispy 1, 3, 7, 9, 10                          350 gr.                                    38,00 lei
+Line  89 [mic-dejun]: Price 38.0 LEI -> Shaorma la farfurie 1, 3, 7, 9            450 gr.                          38,00 lei
+Line  92 [mic-dejun]: Price 49.0 LEI -> Ultra cheeseburger 1, 3, 7, 9, 10450GR 49,00 lei
+Line  96 [mic-dejun]: Price 29.0 LEI -> Ciorbă de burtă 1, 3, 7100gr/300ml            29,00 lei
+Line  99 [mic-dejun]: Price 25.0 LEI -> Ciorbă rădăuțeană1, 3,7_________________60gr/340ml            25,00 lei
+Line 102 [mic-dejun]: Price 35.0 LEI -> Babgulyas 1,3, 7, 9100gr/300ml            35,00 lei
+Line 106 [mic-dejun]: Price 25.0 LEI -> Ciorbă ţărănească de porc 9                50gr/ 350 ml                                     25,00 lei
+Line 110 [mic-dejun]: Price 25.0 LEI -> Ciorbă de fasole cu afumătură 150gr/50gi/300ml  25,00 lei
+Line 113 [mic-dejun]: Price 7.0 LEI -> Smântână 7  80 ml                7,00 lei
+Line 116 [mic-dejun]: Price 2.0 LEI -> Ardei iute1 buc.                  2,00 lei
+Line 117 [mic-dejun]: Price 3.0 LEI -> Pâine/porție 1 150 gr                           3,00 lei
+Line 120 [mic-dejun]: Price 9.0 LEI -> Pâinici rumenite 1 3 buc   9.00 lei
+Line 124 [mic-dejun]: Price 69.0 LEI -> Platou Marissa 3, 7 600 gr.            69,00 lei
+Line 127 [mic-dejun]: Price 135.0 LEI -> Platoul  Gurmandului 1 ,7  1500gr          135,00 lei
+Line 130 [mic-dejun]: Price 110.0 LEI -> Platoul bucătarului 1,71 kg           110,00 lei
+Line 134 [mic-dejun]: Price 28.0 LEI -> Piept de pui la grătar 7150gr.28,00 lei
+Line 137 [mic-dejun]: Price 27.0 LEI -> Pulpe de pui dezosate la grătar180 gr.27,00 lei
+Line 140 [mic-dejun]: Price 65.0 LEI -> Piept de rață / Pulpă de rață, cu varză roșie și sos de portocale1,7   170/200/60gr65,00 lei
+Line 143 [mic-dejun]: Price 45.0 LEI -> Escalop din piept de pui cu cartofi piure și sos de ciuperci7150 gr./150gr.45,00 lei
+Line 146 [mic-dejun]: Price 42.0 LEI -> Piept de pui cu legume și sos de cașcaval7,8     150 gr./150/100gr.     42,00 lei
+Line 149 [mic-dejun]: Price 38.0 LEI -> Piept de pui crispy cu cartofi prajiti și sos roșu 1,3150/150/50 gr.38,00 lei
+Line 152 [mic-dejun]: Price 28.0 LEI -> Aripioare Crispy1,3250gr.28,00 lei
+Line 155 [mic-dejun]: Price 24.0 LEI -> Şniţel din piept de pui1, 3180gr.24,00 lei
+Line 159 [mic-dejun]: Price 89.0 LEI -> Muşchi de vită la grill cu sos de hribi și cartofi cu rozmarin 7 150/200/50     89,00 lei
+Line 162 [mic-dejun]: Price 125.0 LEI -> T-Bone de vită cu sos dijon și cartofi copți  7  _380/200/ 80gr__    125,00 lei
+Line 165 [mic-dejun]: Price 98.0 LEI -> Obrăjori de vită și piure cu aromă de trufe, sos de merișoare 1    280gr/300gr      98,00 lei
+Line 168 [mic-dejun]: Price 80.0 LEI -> Ossobuco de vită, piure de cartofi cu trufe 1 150/50/20gr    80,00 lei
+Line 172 [mic-dejun]: Price 55.0 LEI -> Mușchiulet de porc, sos de hribi și cartofi cu aromă de trufe 7  150/350gr.    55,00 lei
+Line 175 [mic-dejun]: Price 32.0 LEI -> Cotlet de porc Marissa 7250gr.32,00 lei
+Line 178 [mic-dejun]: Price 30.0 LEI -> Șnitel de porc uriaș cu sos picant 1,3 7,11200/50gr.30,00 lei
+Line 181 [mic-dejun]: Price 52.0 LEI -> Ceafă  ţigănească și cartofi prăjiți 1,3180/150gr.52,00 lei
+Line 184 [mic-dejun]: Price 30.0 LEI -> Ceafă de porc la grătar180gr.30,00 lei
+Line 187 [mic-dejun]: Price 55.0 LEI -> Scariță gigant cu catofi wedges 7400/150gr.55,00 lei
+Line 190 [mic-dejun]: Price 12.0 LEI -> Ciolan de porc100gr.12,00 lei
+Line 193 [mic-dejun]: Price 10.0 LEI -> Ciolan de porc cu os domnesc 100gr.10,00 lei
+Line 196 [mic-dejun]: Price 45.0 LEI -> Tochitură de porc cu mămăliguță150/200gr.45.00 lei
+Line 199 [mic-dejun]: Price 65.0 LEI -> Obrăjori de porc cu cartofi piure și sos de portocale 1           200/200/50gr.65.00 lei
+Line 202 [mic-dejun]: Price 65.0 LEI -> Cotlet de porc cu os la grătar, cartofi copți și sos dijon 10   150/200/50gr              65,00 lei
+Line 206 [mic-dejun]: Price 59.0 LEI -> File de somon cu sos teriaki garnisit cu legume 4, 6, 7, 8, 10, 11150/150gr.59,00 lei
+Line 209 [mic-dejun]: Price 55.0 LEI -> Păstrăv/Doradă la grătar cu legume 4       200./150gr55,00 lei
+Line 212 [mic-dejun]: Price 55.0 LEI -> Păstrăv în crustă de mălâi cu mămăliguță 4       250/200 gr55,00 lei
+Line 215 [mic-dejun]: Price 48.0 LEI -> Tigaie cu fructe de mare 1,2,7       250/80gr48,00 lei
+Line 219 [mic-dejun]: Price 5.0 LEI -> Sos roşu 9(ketchup)                             70gr.       5,00 lei
+Line 221 [mic-dejun]: Price 5.0 LEI -> Sos alb 3, 7    70gr.       5,00 lei
+Line 224 [mic-dejun]: Price 5.0 LEI -> Sos chilli 9                                     100gr.       5,00 lei
+Line 227 [mic-dejun]: Price 5.0 LEI -> Ulei picant (ulei și ardei iute) 30ml       5,00 lei
+Line 228 [mic-dejun]: Price 5.0 LEI -> Mujdei de usturoi    50gr.      5,00 lei
+Line 231 [mic-dejun]: Price 3.0 LEI -> Muştar/maioneză/ketchup10                                            70ml     3,00 lei
+Line 232 [mic-dejun]: Price 12.0 LEI -> Sos alb, cu ciuperci 3, 7          100gr.     12,00 lei
+Line 236 [mic-dejun]: Price 12.0 LEI -> Cartofi prăjiţi180gr.12,00 lei
+Line 239 [mic-dejun]: Price 10.0 LEI -> Cartofi piure 7200gr.10,00 lei
+Line 242 [mic-dejun]: Price 10.0 LEI -> Cartofi natur 7200gr.  10,00 lei
+Line 245 [mic-dejun]: Price 12.0 LEI -> Cartofi aurii180gr.12,00 lei
+Line 248 [mic-dejun]: Price 10.0 LEI -> Pilaf de orez200gr.10,00 lei
+Line 251 [mic-dejun]: Price 12.0 LEI -> Legume înăbuşite7200gr.12,00 lei
+Line 254 [mic-dejun]: Price 9.0 LEI -> Mămăligă200 gr.9,00 lei
+Line 257 [mic-dejun]: Price 12.0 LEI -> Iahnie de fasole 1200gr.12,00 lei
+Line 260 [mic-dejun]: Price 15.0 LEI -> Ciuperci sote200gr.15,00 lei
+Line 263 [mic-dejun]: Price 18.0 LEI -> Legume asortate la grătar_____________________200gr.18,00 lei
+Line 267 [mic-dejun]: Price 32.0 LEI -> Spaghete Milanese 1,7             400 gr.      32,00 lei
+Line 270 [mic-dejun]: Price 32.0 LEI -> Spaghete Carbonara1, 3, 7______________________             400 gr.                32,00 lei
+Line 273 [mic-dejun]: Price 35.0 LEI -> Paste Quattro Formaggi 1, 3, 7            400 gr.                35,00 lei
+Line 276 [mic-dejun]: Price 28.0 LEI -> Paste all`arrabbiata 1 400gr  28,00 lei
+Line 279 [mic-dejun]: Price 42.0 LEI -> Tagliatelle cu creveti/ 1, 2, 7 400 gr.    42,00 lei
+Line 282 [mic-dejun]: Price 42.0 LEI -> Paste cu fructe de mare 1, 2,7                                                       400 gr.                      42,00 lei
+Line 285 [mic-dejun]: Price 42.0 LEI -> Tagliatelli cu somon 1, 7 400gr  42.00 lei
+Line 288 [mic-dejun]: Price 42.0 LEI -> Risotto al funghi porcini350gr  42,00 lei
+Line 291 [mic-dejun]: Price 49.0 LEI -> Risotto alla pescadora 350 gr.  49,00 lei
+Line 295 [mic-dejun]: Price 28.0 LEI -> Salată grecească3, 7300/70gr 28,00 lei
+Line 298 [mic-dejun]: Price 28.0 LEI -> Salata cu ton  3, 4, 7,11300/70gr.                       28,00 lei
+Line 301 [mic-dejun]: Price 35.0 LEI -> Salată Cezar 3, 7             300/70gr 35,00 lei
+Line 304 [mic-dejun]: Price 28.0 LEI -> Salată Capresse 7100/100/50 gr.28,00 lei
+Line 307 [mic-dejun]: Price 38.0 LEI -> Salată cu avocado, pui sau creveti 3,7, 11300/70 gr38,00 lei
+Line 311 [mic-dejun]: Price 8.0 LEI -> Salată varză albă      150gr.  8,00 lei
+Line 313 [mic-dejun]: Price 10.0 LEI -> Salată  de roşii                 150gr.            10,00 lei
+Line 315 [mic-dejun]: Price 12.0 LEI -> Ardei copţi              150gr.12,00lei
+Line 317 [mic-dejun]: Price 10.0 LEI -> Salată murături1, 10               150gr.10,00 lei
+Line 319 [mic-dejun]: Price 12.0 LEI -> Salată de sfeclă roşie             150 gr.12,00 lei
+Line 321 [mic-dejun]: Price 8.0 LEI -> Salată de ceapă    150gr.  8,00 lei
+Line 324 [mic-dejun]: Price 22.0 LEI -> Îngheţată la cupă  6,7                                                                100 gr.               22,00 lei
+Line 327 [mic-dejun]: Price 28.0 LEI -> Vulcan de ciocolată cu îngheţată și fructe 1, 3, 6, 7, 8       200 gr.                          28,00 lei
+Line 330 [mic-dejun]: Price 28.0 LEI -> Clătite cu banană, finetti și înghețată 1, 3, 7 200 gr._                          28,00 lei
+Line 333 [mic-dejun]: Price 20.0 LEI -> Clătite cu gem  1,3,7_____________________                        250 gr.                             20,00 lei
+Line 336 [mic-dejun]: Price 32.0 LEI -> Papanaşi cu brânză şi gem 1, 3, 7___ 300 gr.    __ _        32,00 lei
+Line 339 [mic-dejun]: Price 22.0 LEI -> Felie desert 1, 3, 7_____________________________150 gr. _______________22,00 lei
+Line 342 [mic-dejun]: Price 22.0 LEI -> Ecler 3,7     __                  180gr___________  ___22,00lei
+Line 345 [mic-dejun]: Price 22.0 LEI -> Cheesecake 3,7       __            180 gr __ 22,00 lei
+Line 348 [mic-dejun]: Price 22.0 LEI -> Tiramisu 3,7 150 gr 22 lei
+Line 350 [mic-dejun]: Price 12.0 LEI -> FOCACCIA  1200gr               12,00 lei
+Line 353 [mic-dejun]: Price 15.0 LEI -> FOCACCIA CASEI 1,7_          230gr15,00 lei
+Line 356 [mic-dejun]: Price 30.0 LEI -> 1. PIZZA MARGHERITA 1,7 385 gr.   30,00 lei
+Line 359 [mic-dejun]: Price 35.0 LEI -> 2.PIZZA MARISSA 1,7, 9520 gr.35,00 lei
+Line 362 [mic-dejun]: Price 30.0 LEI -> 3.PIZZA PROSCIUTTO 1,7455 gr.30,00 lei
+Line 365 [mic-dejun]: Price 32.0 LEI -> 4.PIZZA PROSCIUTTO PORUMB1,7455 gr.32,00 lei
+Line 368 [mic-dejun]: Price 32.0 LEI -> 5.PIZZA PROSCIUTTO FUNGHI 1,7455 gr.32,00 lei
+Line 371 [mic-dejun]: Price 35.0 LEI -> 6.PIZZA PROSCIUTTO CRUDO  1,7455 gr.35,00 lei
+Line 374 [mic-dejun]: Price 36.0 LEI -> 7.PIZZA PROSCIUTTO CRUDO RUCOLA 1,7455 gr.36,00 lei
+Line 377 [mic-dejun]: Price 32.0 LEI -> 8.PIZZA DIAVOLLA 1,7425 gr.32,00 lei
+Line 380 [mic-dejun]: Price 32.0 LEI -> 9.PIZZA FUNGHI 1,7430 gr.32,00 lei
+Line 383 [mic-dejun]: Price 32.0 LEI -> 10.PIZZA CALIFORNIA 1,7480 gr.      32,00 lei
+Line 386 [mic-dejun]: Price 32.0 LEI -> 11.PIZZA QUATTRO STAGIONE 1,7450 gr.       32,00lei
+Line 389 [mic-dejun]: Price 35.0 LEI -> 12.PIZZA QUATTRO FORMAGGI 1,7            450 gr.                   35,00 lei
+Line 391 [mic-dejun]: Price 32.0 LEI -> 13.PIZZA TONNO E CIPOLLA 1, 4, 7450 gr.        32,00 lei
+Line 394 [mic-dejun]: Price 38.0 LEI -> 14.PIZZA QUATRO CARNI 1,7            450 gr.        38,00 lei
+Line 397 [mic-dejun]: Price 32.0 LEI -> 15.PIZZA VEGETARIANĂ 1,7            450 gr.        32,00 lei
+Line 399 [mic-dejun]: Price 35.0 LEI -> 16.PIZZA TOSCANA 1, 3, 7     450 gr.       35,00 lei
+Line 402 [mic-dejun]: Price 38.0 LEI -> 17.PIZZA SPECIALE  1, 7550 gr.      38,00 lei
+Line 405 [mic-dejun]: Price 32.0 LEI -> 18. PIZZA CAPRICCIOSA 1,7                        500gr.                32,00lei
+Line 408 [mic-dejun]: Price 32.0 LEI -> 19. PIZZA HAWAI 1,7           500gr.           32,00lei
+Line 411 [mic-dejun]: Price 38.0 LEI -> 20. PIZZA KEBAB 1,7           500gr.38,00lei
+Line 414 [mic-dejun]: Price 72.0 LEI -> 21.PIZZA MARISSA FAMILY1,71400 gr.72,00lei
+Line 418 [mic-dejun]: Price 3.0 LEI -> Ambalaj pizza mică buc.3,00lei
+Line 419 [mic-dejun]: Price 4.0 LEI -> Ambalaj pizza mare buc.4,00lei
+Line 420 [mic-dejun]: Price 0.5 LEI -> Pungă                                      buc.0,50lei
+Line 421 [mic-dejun]: Price 1.5 LEI -> Caserolă              buc.1,50lei
+Line 422 [mic-dejun]: Price 1.0 LEI -> Tacâm            buc.1,00 lei
+
+=== CATEGORY SWITCH: [garnituri] (EXTRA-TOPPINGS) ===
+Line 424 [garnituri]: Price 5.0 LEI -> Salam 750 gr.5,00 lei
+Line 426 [garnituri]: Price 5.0 LEI -> Șuncă 750 gr.5,00 lei
+Line 428 [garnituri]: Price 5.0 LEI -> Cârnat 750 gr.5,00 lei
+Line 430 [garnituri]: Price 5.0 LEI -> Bacon50gr.5,00 lei
+Line 432 [garnituri]: Price 5.0 LEI -> Sos alb 3, 770gr.5,00 lei
+Line 435 [garnituri]: Price 3.0 LEI -> Sos roşu970gr.3,00 lei
+Line 438 [garnituri]: Price 5.0 LEI -> Sos roşu picant 970 gr.5,00 lei
+Line 442 [garnituri]: Price 5.0 LEI -> Sos roşu / Ketchup 9                  70gr.       5,00 lei
+Line 444 [garnituri]: Price 5.0 LEI -> Sos alb 3, 7                                                 70gr.       5,00 lei
+Line 447 [garnituri]: Price 5.0 LEI -> Sos chili 9                                    100gr.                     5,00 lei  (ketchup ardei iute)
+Line 449 [garnituri]: Price 5.0 LEI -> Mujdei de usturoi    50gr.      5,00 lei
+Line 452 [garnituri]: Price 3.0 LEI -> Muştar/maioneza/ketchup 10                                      70ml     3,00 lei
+Line 455 [garnituri]: Price 15.0 LEI -> Fresh de portocale150ml.15,00lei
+Line 458 [garnituri]: Price 15.0 LEI -> Fresh de grapefruit150ml.15,00lei
+Line 461 [garnituri]: Price 14.0 LEI -> Limonadă400 ml.14,00 lei
+Line 464 [garnituri]: Price 15.0 LEI -> Limonadă cu arome________________________________ 400ml.15,00lei
+Line 467 [garnituri]: Price 15.0 LEI -> Socată______________________________________________400 ml 15,00lei
+Line 470 [garnituri]: Price 12.0 LEI -> Suc (250 ml l)Coca-Cola , Fanta , Sprite ,Schweppes_______________250ml __________12,00lei
+Line 471 [garnituri]: Price 15.0 LEI -> Suc (500 ml)Coca-Cola , Fanta , Sprite , Schweppes                          500ml_________  15,00lei
+Line 472 [garnituri]: Price 15.0 LEI -> Nectar Cappy             250 ml/330 ml           15,00 lei
+Line 473 [garnituri]: Price 15.0 LEI -> Fuzetea500 ml.         15,00 lei
+Line 474 [garnituri]: Price 25.0 LEI -> Milkshake  Marissa5, 6, 7300 ml.         25,00 lei
+Line 477 [garnituri]: Price 12.0 LEI -> Suc Almdudler (mere)330 ml./500ml 12,00 lei
+Line 478 [garnituri]: Price 15.0 LEI -> Energizant Red bull1buc.15,00lei
+Line 479 [garnituri]: Price 12.0 LEI -> Energizant Coca-Cola1buc.12,00lei
+Line 481 [garnituri]: Price 10.0 LEI -> Apă minerală/plată500 ml             10,00 lei
+Line 482 [garnituri]: Price 10.0 LEI -> Apă minerală/plată st.330 m l10,00 lei
+Line 483 [garnituri]: Price 15.0 LEI -> Apă minerală/plată st.750 ml15,00lei
+Line 486 [garnituri]: Price 15.0 LEI -> Ceai natural200 ml.  15,00 lei
+Line 489 [garnituri]: Price 0.5 LEI -> Zahăr la plic2 buc.0,50 lei
+Line 490 [garnituri]: Price 3.0 LEI -> Miere 1 buc.3,00 lei
+Line 492 [garnituri]: Price 9.0 LEI -> Espresso30ml    9,00 lei
+Line 495 [garnituri]: Price 18.0 LEI -> Espresso dublu100ml.18,00 lei
+Line 498 [garnituri]: Price 10.0 LEI -> Espresso cu lapte770 ml.  10,00 lei
+Line 501 [garnituri]: Price 20.0 LEI -> Caffe Latte cu arome 7            200 ml.  20,00 lei
+Line 504 [garnituri]: Price 16.0 LEI -> Baby Latte 7___________________________________  _170 ml 16,00lei
+Line 507 [garnituri]: Price 20.0 LEI -> Gingerbread  Latte7 200ml. 20,00lei
+Line 510 [garnituri]: Price 20.0 LEI -> Salted caramel  Latte 7200 ml.20,00 lei
+Line 513 [garnituri]: Price 20.0 LEI -> Frappe espresso7200 ml.20,00lei
+Line 516 [garnituri]: Price 16.0 LEI -> Cappuccino vienez 7                                    170 ml16,00lei
+Line 519 [garnituri]: Price 16.0 LEI -> Capucino cu Arome 7170ml.16,00lei
+Line 522 [garnituri]: Price 20.0 LEI -> Turmenic Latte 7___________________________________  _170 ml.20,00lei
+Line 525 [garnituri]: Price 16.0 LEI -> Ciocolată caldă7                                                            120 ml.16,00 lei
+Line 528 [garnituri]: Price 20.0 LEI -> Lavanda Latte 7_____________________________________ 200 ml. 20,00lei
+Line 531 [garnituri]: Price 3.0 LEI -> Frişcă7 20 ml.3,00 lei
+Line 534 [garnituri]: Price 25.0 LEI -> Bora Bora__________________________________________________200ml.___ 25,00lei
+Line 536 [garnituri]: Price 22.0 LEI -> Boni bon300ml22.00 lei
+Line 538 [garnituri]: Price 22.0 LEI -> Cooler300ml22,00 lei
+Line 540 [garnituri]: Price 18.0 LEI -> Foke Mojito300ml18,00 lei
+Line 543 [garnituri]: Price 24.0 LEI -> Aperol spit400ml  24,00lei
+Line 545 [garnituri]: Price 24.0 LEI -> Hugo  400ml  24,00lei
+Line 547 [garnituri]: Price 24.0 LEI -> Campari spit  400ml 24,00lei
+Line 549 [garnituri]: Price 24.0 LEI -> Campari tonic 400ml  24,00lei
+Line 551 [garnituri]: Price 24.0 LEI -> Negroni 400ml 24,00lei
+Line 553 [garnituri]: Price 24.0 LEI -> Americano  400ml  24,00lei
+Line 555 [garnituri]: Price 24.0 LEI -> Vermuth tonic 400ml  24,00lei
+Line 557 [garnituri]: Price 25.0 LEI -> Pina Colada________________________________________200ml.25,00lei
+Line 560 [garnituri]: Price 25.0 LEI -> Mojito_____________________________________________200ml.25,00lei
+Line 563 [garnituri]: Price 28.0 LEI -> Long Island_______________________________________________200ml.28,00lei
+Line 567 [garnituri]: Price 9.0 LEI -> Alexander 50ml. – 28%alcool/volum  9,00 lei
+Line 568 [garnituri]: Price 9.0 LEI -> Stalinskaya50ml. – 40%alcool/volum  9,00 lei
+Line 569 [garnituri]: Price 12.0 LEI -> Absolut50ml. – 40%alcool/volum12,00 lei
+Line 570 [garnituri]: Price 12.0 LEI -> Finlandia50ml. – 40% alcool/volum12,00 lei
+Line 571 [garnituri]: Price 10.0 LEI -> Tequila Camino50ml. – 40% alcool/volum10,00 lei
+Line 572 [garnituri]: Price 9.0 LEI -> Tărie de Bihor50ml.– 40% alcool/volum   9,00 lei
+Line 573 [garnituri]: Price 9.0 LEI -> Angeli50ml. – 40%alcool/volum   9,00 lei
+Line 574 [garnituri]: Price 15.0 LEI -> Sheridan’s50ml.– 15,5%alcool/volum15,00 lei
+Line 575 [garnituri]: Price 15.0 LEI -> Jagermaister50ml. – 35%alcool/volum15,00 lei
+Line 576 [garnituri]: Price 18.0 LEI -> Unicum50ml. – 40%alcool/volum18,00 lei
+Line 577 [garnituri]: Price 8.0 LEI -> Triplusec50ml. – 37,5%alcool/volum   8,00 lei
+Line 578 [garnituri]: Price 8.0 LEI -> Martini50ml. – 15%alcool/volum   8,00 lei
+Line 579 [garnituri]: Price 15.0 LEI -> Gin Wemblei_______________________50ml.-40% alcool/volum 15,00lei
+Line 580 [garnituri]: Price 9.0 LEI -> Alexandrion*****50ml. – 40%alcool/volum  9,00 lei
+Line 581 [garnituri]: Price 12.0 LEI -> Alexandrion*******50ml. – 40%alcool/volum12,00 lei
+Line 582 [garnituri]: Price 15.0 LEI -> Metaxa*****50ml. – 38%alcool/volum15,00 lei
+Line 583 [garnituri]: Price 15.0 LEI -> Jidvei50ml. – 42%alcool/volum15,00 lei
+Line 584 [garnituri]: Price 12.0 LEI -> Mioriţa50ml. – 42%alcool/volum12,00 lei
+Line 585 [garnituri]: Price 8.0 LEI -> Triumf50ml. – 36%alcool/volum   8,00 lei
+Line 586 [garnituri]: Price 5.0 LEI -> Unirea50ml. – 28%alcool/volum   5,00 lei
+Line 587 [garnituri]: Price 30.0 LEI -> Brâncoveanu50ml. – 35%alcool/volum30,00 lei
+Line 589 [garnituri]: Price 12.0 LEI -> Grant’s50ml. – 40%alcool/volum12,00 lei
+Line 590 [garnituri]: Price 15.0 LEI -> Jack Daniel’s50ml. – 40%alcool/volum15,00 lei
+Line 591 [garnituri]: Price 12.0 LEI -> Johnnie Walker50ml. – 40%alcool/volum12,00 lei
+Line 594 [garnituri]: Price 120.0 LEI -> Sauvignon Blanc(sec)1 sticlă – 13,0%alcool/volum120,00 lei
+Line 595 [garnituri]: Price 120.0 LEI -> Fetească Albă(sec)1 sticlă -  11,5% alcool/volum120,00 lei
+Line 596 [garnituri]: Price 120.0 LEI -> Tamaioasă Romanească(sec)1 sticlă – 11,5%alcool/volum120,00 lei
+Line 597 [garnituri]: Price 120.0 LEI -> Merlot (sec)1 sticlă – 12,5%alcool/volum120,00 lei
+Line 598 [garnituri]: Price 120.0 LEI -> Cabernet(sec)1 sticlă – 13,0%alcool/volum120,00 lei
+Line 599 [garnituri]: Price 120.0 LEI -> Pinot Noir (demisec)1 sticlă – 13,5%alcool/volum120,00 lei
+Line 600 [garnituri]: Price 60.0 LEI -> Rose Verite(demisec)1 sticla-13,5% alcool volum_  60,00 lei
+Line 601 [garnituri]: Price 60.0 LEI -> Sceptrus _________________1sticla -   14,0% alcool volum  60,00 lei
+Line 603 [garnituri]: Price 50.0 LEI -> Fetească Neagră(demidulce) (12)1 sticlă – 13%alcool/volum50,00 lei
+Line 604 [garnituri]: Price 50.0 LEI -> Pinot Noir(demisec)12)1 sticlă - 12,5% alcool/volum50,00 lei
+Line 605 [garnituri]: Price 50.0 LEI -> Cabernet Sauvignon(12) (dulce)1 sticlă - 11,5% alcool/volum50,00 lei
+Line 606 [garnituri]: Price 50.0 LEI -> Merlot(12) (sec)1 sticlă - 13,5% alcool/volum50,00 lei
+Line 607 [garnituri]: Price 50.0 LEI -> Sauvignon Blanc(12) (demisec)1 sticlă – 13,5%alcool/volum50,00 lei
+Line 608 [garnituri]: Price 50.0 LEI -> Chardonnay(12) (sec)1 sticlă - 13,5% alcool/volum50,00 lei
+Line 609 [garnituri]: Price 50.0 LEI -> Muscat Ottonel(12) (demidulce)1 sticlă - 12,5% alcool/volum50,00 lei
+Line 610 [garnituri]: Price 50.0 LEI -> Fetească Albă(12) (sec)1 sticlă - 12,5% alcool/volum50,00 lei
+Line 611 [garnituri]: Price 50.0 LEI -> Roze(12) (demisec)1 sticlă - 12,5% alcool/volum50,00 lei
+Line 613 [garnituri]: Price 50.0 LEI -> Fetească Regală(12) ( demisec) 1sticla – 12%alcool/volum50,00 lei
+Line 614 [garnituri]: Price 50.0 LEI -> Riesling(12) (sec)_________________1sticlă -  12%alcool/volum______50,00 lei
+Line 616 [garnituri]: Price 50.0 LEI -> Grasă de Cotnari(12) (demisec)1 sticlă – 12%alcool/volum50,00 lei
+Line 617 [garnituri]: Price 50.0 LEI -> Sampanie Angeli___________1 sticla – 12% alcool volum_50,00 lei
+Line 619 [garnituri]: Price 60.0 LEI -> Dry Muscat(12) (demisec)1 sticlă - 12,0% alcool/volum60,00 lei
+Line 620 [garnituri]: Price 60.0 LEI -> Pinot Grigio(12) (demisec)1 sticlă – 12,5%alcool/volum60,00 lei
+Line 621 [garnituri]: Price 60.0 LEI -> Gewurztraminer(12) (demisec)1 sticlă – 12%alcool/volum60,00 lei
+Line 622 [garnituri]: Price 60.0 LEI -> Sauvignon Blanc(12) (demisec)1 sticlă – 12%alcool/volum60,00 lei
+Line 623 [garnituri]: Price 60.0 LEI -> Rose(12)(demisec)1 sticlă – 14%alcool/volum60,00 lei
+Line 626 [garnituri]: Price 10.0 LEI -> Pilsner Urquell0,33 l_______10,00 lei
+Line 627 [garnituri]: Price 12.0 LEI -> Peroni Capri0,33 l_______12,00 lei
+Line 628 [garnituri]: Price 12.0 LEI -> Peroni0,33 l12,00 lei
+Line 629 [garnituri]: Price 12.0 LEI -> Peroni fa0,33 l12,00 lei
+Line 630 [garnituri]: Price 12.0 LEI -> Peroni0,50 l12,00 lei
+Line 631 [garnituri]: Price 15.0 LEI -> Azuga nefiltrata0,50 l 15,00 lei
+Line 632 [garnituri]: Price 15.0 LEI -> Azuga nepasteurizata 0,50 l 15,00 lei
+Line 633 [garnituri]: Price 10.0 LEI -> Ursus Cooler________    0,33 l_______10,00 lei
+Line 634 [garnituri]: Price 10.0 LEI -> Ursus Black________    0,33l_______10,00 lei
+Line 635 [garnituri]: Price 10.0 LEI -> Ursus  fara alcool____  0,50l______ 10,00 lei
+Line 636 [garnituri]: Price 10.0 LEI -> Ursus ,50 l10,00 lei
+Line 637 [garnituri]: Price 10.0 LEI -> Ursus Pilsner_______    0,33l_____   10,00 lei
+Line 638 [garnituri]: Price 10.0 LEI -> Ursus Premium0,33 l 10,00 lei
+Line 639 [garnituri]: Price 10.0 LEI -> Ursus Retro_________     0,50 l ______ 10,00 lei
+Line 640 [garnituri]: Price 10.0 LEI -> Timişoreana0,50 l             10,00 lei
+Line 641 [garnituri]: Price 10.0 LEI -> Timisireana FA________0,50 l  ____  10,00 lei
+Line 642 [garnituri]: Price 12.0 LEI -> Kozel Premium________0,33 l_____ _ 12,00 lei
+Line 643 [garnituri]: Price 12.0 LEI -> Kozel Dark__________ 0,33 l_____  12,00 lei
+Line 645 [garnituri]: Price 12.0 LEI -> Peroni doză0,50 l12.00 lei
+Line 646 [garnituri]: Price 10.0 LEI -> Ursus doză0,50 l 10,00 lei
+Line 647 [garnituri]: Price 10.0 LEI -> Timişoreana doză0,50 l 10,00 lei
+Line 648 [garnituri]: Price 10.0 LEI -> Cooler doză_____0.50l10,00 lei
+Line 650 [garnituri]: Price 12.0 LEI -> Peroni 0,40 l12,00 lei
+Line 651 [garnituri]: Price 12.0 LEI -> Kozel Dark_______0,50 l12,00 lei
+Line 652 [garnituri]: Price 12.0 LEI -> Kozel Premium__0,50l___________12,00 lei
+Line 653 [garnituri]: Price 9.0 LEI -> Kozel Premium__0,30l_________       9,00 lei
+Line 654 [garnituri]: Price 9.0 LEI -> Kozel Dark_______0,30 l   9,00 lei
+Line 655 [garnituri]: Price 10.0 LEI -> Ursus0,40 l10,00 lei
+Line 656 [garnituri]: Price 10.0 LEI -> Timişoreana0,40 l10,00 lei
+
+=== CATEGORY SWITCH: [traditionale] (PRODUSE TRADIȚIONALE DE SĂRBĂTORI) ===
+Line 658 [traditionale]: Price 45.0 LEI -> PLATOU TRADIȚIONAL 1,3,5,7,11                400gr 45,00 lei
+Line 662 [traditionale]: Price 38.0 LEI -> SARMALE CU CIOLAN ȘI MĂMĂLIGUȚĂ 1,3 200/200/50gr  38,00 lei
+Line 666 [traditionale]: Price 25.0 LEI -> SALATĂ DE BOEUF 1,3,7  250gr  25,00 lei
+Line 670 [traditionale]: Price 18.0 LEI -> PRĂJITURI ASORTATE 1,3,5,8  200gr  18,00 lei
