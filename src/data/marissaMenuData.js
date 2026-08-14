@@ -113,9 +113,9 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Mic dejun",
-      "en": "Classic Breakfast"
+      "en": "Mic Dejun"
     },
-    "weight": "300g",
+    "weight": "300 g",
     "price": 25.0,
     "ingredients": {
       "ro": "ou  prăjit, cremvurști, roșie, cașcaval, ulei de floarea soarelui, condimente",
@@ -142,9 +142,9 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Mic dejun, cartofi prăjiți cu ouă și slănină",
-      "en": "Pan-Fried Potatoes & Bacon Breakfast"
+      "en": "Mic Dejun, Cartofi Fried With Ouă & Slănină"
     },
-    "weight": "250g",
+    "weight": "250 g",
     "price": 28.0,
     "ingredients": {
       "ro": "ou prăjit, ceapă, slănină de porc, cartofi prăjiti, condimente",
@@ -171,9 +171,9 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Omletă cu şuncă și caşcaval",
-      "en": "Ham & Cheese Omelette"
+      "en": "Omletă With Şuncă & Caşcaval"
     },
-    "weight": "225g",
+    "weight": "225 g",
     "price": 28.0,
     "ingredients": {
       "ro": "ou, șuncă, cașcaval, ulei de floarea soarelui, condimente",
@@ -200,9 +200,9 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Omletă ţărănească cu slănină și ceapă",
-      "en": "Farmer's Omelette"
+      "en": "Omletă Ţărănească With Slănină & Ceapă"
     },
-    "weight": "300g",
+    "weight": "300 g",
     "price": 30.0,
     "ingredients": {
       "ro": "ou, ceapă, slănină de porc, condimente",
@@ -228,9 +228,9 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Marissa breakfast",
-      "en": "Marissa Special Gourmet Breakfast"
+      "en": "Marissa Breakfast"
     },
-    "weight": "370g",
+    "weight": "370 g",
     "price": 35.0,
     "ingredients": {
       "ro": "chiflă, cremă de brânză, ou poșat, bacon, sos olandez, roșii, cherry, salată mixtă,  mix de semințe, condimente",
@@ -259,9 +259,9 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Platou mic dejun",
-      "en": "Assorted Breakfast Platter"
+      "en": "Platou Mic Dejun"
     },
-    "weight": "25/80/100/25g",
+    "weight": "25/80/100/25 g",
     "price": 25.0,
     "ingredients": {
       "ro": "Unt, gem, mezel, telemea",
@@ -288,15 +288,16 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Bruschete cu roșii",
-      "en": "Tomato & Garlic Bruschetta"
+      "en": "Bruschete With Roșii"
     },
-    "weight": "300g",
+    "weight": "300 g",
     "price": 25.0,
     "ingredients": {
       "ro": "pâine, roșii, pătrunjel verde, ulei de măsline, condimente",
       "en": "bread, tomatoes, parsley verof, oil of olives, condimente"
     },
     "allergens": [
+      1,
       7
     ],
     "isFrozen": false,
@@ -316,9 +317,9 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Bacon prăjit/slănină prăjită",
-      "en": "Crispy Bacon / Fried Pork Fatback"
+      "en": "Bacon Fried/Slănină Prăjită"
     },
-    "weight": "100g",
+    "weight": "100 g",
     "price": 18.0,
     "ingredients": {
       "ro": "bacon/slănină",
@@ -342,9 +343,9 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Cremvurşti",
-      "en": "Boiled Frankfurters"
+      "en": "Cremvurşti"
     },
-    "weight": "100g",
+    "weight": "100 g",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -370,9 +371,9 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Telemea",
-      "en": "Romanian Salted Feta Cheese (Telemea)"
+      "en": "Telemea"
     },
-    "weight": "100g",
+    "weight": "100 g",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -398,9 +399,9 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Caşcaval",
-      "en": "Traditional Romanian Yellow Cheese"
+      "en": "Caşcaval"
     },
-    "weight": "100g",
+    "weight": "100 g",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -426,15 +427,17 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Lapte",
-      "en": "Fresh Whole Milk"
+      "en": "Lapte"
     },
-    "weight": "7200ml",
+    "weight": "7200 ml",
     "price": 8.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 44.0,
@@ -452,15 +455,17 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Iaurt",
-      "en": "Natural Creamy Yogurt"
+      "en": "Iaurt"
     },
-    "weight": "71 pahar",
+    "weight": "71  pahar",
     "price": 8.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 60.0,
@@ -478,9 +483,9 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Unt porţionat",
-      "en": "Butter Portion"
+      "en": "Unt Porţionat"
     },
-    "weight": "25g",
+    "weight": "25 g",
     "price": 5.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -506,15 +511,17 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Cacao cu lapte",
-      "en": "Hot Cocoa with Milk"
+      "en": "Cacao With Lapte"
     },
-    "weight": "7200ml",
+    "weight": "7200 ml",
     "price": 12.0,
     "ingredients": {
       "ro": "lapte, zahăr, pudră de cacao",
       "en": "milk, sugar, pudră of cocoa"
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 61.9,
@@ -532,15 +539,16 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Cereale cu lapte",
-      "en": "Cereal Bowl with Milk"
+      "en": "Cereale With Lapte"
     },
-    "weight": "200g",
+    "weight": "200 g",
     "price": 15.0,
     "ingredients": {
       "ro": "lapte, cereale pentru micul dejun",
       "en": "milk, cereale pentru miwithl ofjun"
     },
     "allergens": [
+      1,
       7,
       8
     ],
@@ -561,9 +569,9 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Gem",
-      "en": "Fruit Jam Portion"
+      "en": "Gem"
     },
-    "weight": "50g",
+    "weight": "50 g",
     "price": 5.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -587,9 +595,9 @@ export const MENU_ITEMS = [
     "category": "mic-dejun",
     "name": {
       "ro": "Miere",
-      "en": "Pure Honey Portion"
+      "en": "Miere"
     },
-    "weight": "50g",
+    "weight": "50 g",
     "price": 5.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -613,9 +621,9 @@ export const MENU_ITEMS = [
     "category": "gustari",
     "name": {
       "ro": "Mici",
-      "en": "Traditional Romanian Mici (Minced Rolls)"
+      "en": "Mici"
     },
-    "weight": "40g",
+    "weight": "40 g",
     "price": 7.0,
     "ingredients": {
       "ro": "mici, pâine, muştar, ulei de floarea soarelui, condimente",
@@ -642,9 +650,9 @@ export const MENU_ITEMS = [
     "category": "gustari",
     "name": {
       "ro": "Caşcaval pane",
-      "en": "Fried Breaded Yellow Cheese"
+      "en": "Caşcaval Pane"
     },
-    "weight": "180g",
+    "weight": "180 g",
     "price": 28.0,
     "ingredients": {
       "ro": "mozzarella, ou, pesmet, făină de grâu",
@@ -672,15 +680,16 @@ export const MENU_ITEMS = [
     "category": "gustari",
     "name": {
       "ro": "Mămăligă cu brânză şi smântână",
-      "en": "Polenta with Cottage Cheese & Sour Cream"
+      "en": "Mămăligă With Cheese & Smântână"
     },
-    "weight": "250/150/70g",
+    "weight": "250/150/70 g",
     "price": 35.0,
     "ingredients": {
       "ro": "brânză de vaci, apă, făină de mălai, ulei, sare",
       "en": "cheese of vaci, apă, flour of cornmeal, oil, salt"
     },
     "allergens": [
+      1,
       7
     ],
     "isFrozen": false,
@@ -700,9 +709,9 @@ export const MENU_ITEMS = [
     "category": "fast-food",
     "name": {
       "ro": "Burger de vită",
-      "en": "Black Angus Beef Burger"
+      "en": "Burger Of Beef"
     },
-    "weight": "450g",
+    "weight": "450 g",
     "price": 49.0,
     "ingredients": {
       "ro": "chiflă, cartofi prăjiti, carne vită, brânză chedar, roșie, ceapă, salată mixtă, castraveți  murați, sos cheddar, condimente) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 767 / 183.6, Grăsimi (g):11.3 din care: Acizi grași saturați (g) 3.7, Glucide (g): 14.4 din care: Zaharuri (g): 1.5, Proteine (g): 6.9, Sare (g): 0.9",
@@ -732,9 +741,9 @@ export const MENU_ITEMS = [
     "category": "fast-food",
     "name": {
       "ro": "Burger Crispy",
-      "en": "Crispy Chicken Burger"
+      "en": "Burger Crispy"
     },
-    "weight": "350g",
+    "weight": "350 g",
     "price": 38.0,
     "ingredients": {
       "ro": "chiflă, cartofi prăjiți, piept de pui, roșie, salată sezon, iaurt, maioneză, condimente",
@@ -766,7 +775,7 @@ export const MENU_ITEMS = [
       "ro": "Shaorma la farfurie",
       "en": "Shaorma La Farfurie"
     },
-    "weight": "450g",
+    "weight": "450 g",
     "price": 38.0,
     "ingredients": {
       "ro": "cartofi prăjiți, carne de pui, lipie, varză, roșie, ceapă, castraveți murați, maioneză, ketchup, condimente",
@@ -795,9 +804,9 @@ export const MENU_ITEMS = [
     "category": "fast-food",
     "name": {
       "ro": "Ultra cheeseburger",
-      "en": "Double Cheeseburger Special"
+      "en": "Ultra Cheeseburger"
     },
-    "weight": "450g",
+    "weight": "450 g",
     "price": 49.0,
     "ingredients": {
       "ro": "chiflă, carne de vită, roșii, castraveți, brânză cheddar, sos cheddar, cartofi prăjiți, condimente",
@@ -826,16 +835,21 @@ export const MENU_ITEMS = [
     "id": "item-26",
     "category": "ciorbe",
     "name": {
-      "ro": "Ciorbă de burtă 1, 3, 7100gr/",
-      "en": "Ciorbă Of Burtă 1, 3, 7100Gr/"
+      "ro": "Ciorbă de burtă",
+      "en": "Traditional Romanian Tripe Soup"
     },
-    "weight": "300ml",
+    "weight": "100g / 300ml",
     "price": 29.0,
     "ingredients": {
       "ro": "burtă de vită, legume asortate, smântână, ou, usturoi, ulei, oțet, făină de grâu, condimente",
       "en": "tripe of beef, legume asortate, sour cream, egg, garlic, oil, oțet, flour of grâu, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      1,
+      3,
+      7,
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 113.8,
@@ -852,16 +866,21 @@ export const MENU_ITEMS = [
     "id": "item-27",
     "category": "ciorbe",
     "name": {
-      "ro": "Ciorbă rădăuțeană1, 3,7 60gr/",
-      "en": "Ciorbă Rădăuțeană1, 3,7 60Gr/"
+      "ro": "Ciorbă Rădăuțeană de pui",
+      "en": "Garlic Chicken Soup (Rădăuțeană)"
     },
-    "weight": "340ml",
+    "weight": "60g / 340ml",
     "price": 25.0,
     "ingredients": {
       "ro": "legume asortate, piept de pui, ou, ulei, oțet, usturoi, făină, smântână, condimente",
       "en": "legume asortate, piept of chicken, egg, oil, oțet, garlic, flour, sour cream, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      1,
+      3,
+      7,
+      12
+    ],
     "isFrozen": true,
     "nutrition": {
       "energyKcal": 108.6,
@@ -878,16 +897,21 @@ export const MENU_ITEMS = [
     "id": "item-28",
     "category": "ciorbe",
     "name": {
-      "ro": "Babgulyas 1,3, 7, 9100gr/",
-      "en": "Babgulyas 1,3, 7, 9100Gr/"
+      "ro": "Babgulyas (Gulaș ardelean de fasole cu ciolan)",
+      "en": "Traditional Transylvanian Bean Goulash with Pork Knuckle"
     },
-    "weight": "300ml",
+    "weight": "100g / 300ml",
     "price": 35.0,
     "ingredients": {
       "ro": "ciolan de porc,  cârnați,  fasole, ou, legume asortate, ceapă, făină, pastă de ardei iute, condimente",
       "en": "pork knuckle of pork,  sausages,  beans, egg, legume asortate, onion, flour, pastă of pepper iute, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      1,
+      3,
+      7,
+      9
+    ],
     "isFrozen": true,
     "nutrition": {
       "energyKcal": 96.5,
@@ -904,16 +928,18 @@ export const MENU_ITEMS = [
     "id": "item-29",
     "category": "ciorbe",
     "name": {
-      "ro": "Ciorbă ţărănească de porc 9                50gr/",
-      "en": "Ciorbă Ţărănească Of Pork 9                50Gr/"
+      "ro": "Ciorbă ţărănească de porc",
+      "en": "Ciorbă Ţărănească Of Pork"
     },
-    "weight": "350ml",
+    "weight": "50g/350ml",
     "price": 25.0,
     "ingredients": {
       "ro": "legume asortate, cartofi, pulpă de porc, roșii, condimente",
       "en": "legume asortate, potatoes, pulpă of pork, tomatoes, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      9
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 81.8,
@@ -930,16 +956,19 @@ export const MENU_ITEMS = [
     "id": "item-30",
     "category": "ciorbe",
     "name": {
-      "ro": "Ciorbă de fasole cu afumătură 150gr/50gi/",
-      "en": "Ciorbă Of Fasole With Afumătură 150Gr/50Gi/"
+      "ro": "Ciorbă de fasole cu afumătură",
+      "en": "Bean Soup with Smoked Pork Knuckle"
     },
-    "weight": "300ml",
+    "weight": "150g / 300ml",
     "price": 25.0,
     "ingredients": {
       "ro": "legume asortate, fasole, ciolan de porc, smântână, ulei, pasta de ardei, ceapă, făină de grâu, ulei, condimente",
       "en": "legume asortate, beans, pork knuckle of pork, sour cream, oil, pasta of pepper, onion, flour of grâu, oil, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      1,
+      7
+    ],
     "isFrozen": true,
     "nutrition": {
       "energyKcal": 180.0,
@@ -957,9 +986,9 @@ export const MENU_ITEMS = [
     "category": "ciorbe",
     "name": {
       "ro": "Smântână",
-      "en": "Fresh Sour Cream"
+      "en": "Fresh Sour Cream Portion"
     },
-    "weight": "80ml",
+    "weight": "80 ml",
     "price": 7.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -987,7 +1016,7 @@ export const MENU_ITEMS = [
       "ro": "Ardei iute",
       "en": "Fresh / Pickled Hot Pepper"
     },
-    "weight": "1buc",
+    "weight": "1 buc",
     "price": 2.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -1010,16 +1039,18 @@ export const MENU_ITEMS = [
     "id": "item-33",
     "category": "ciorbe",
     "name": {
-      "ro": "Pâine",
-      "en": "Homemade Bread"
+      "ro": "Pâine de casă (porție)",
+      "en": "Homemade Bread Portion"
     },
-    "weight": "/porție",
+    "weight": "150g",
     "price": 3.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      1
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 211.0,
@@ -1036,16 +1067,18 @@ export const MENU_ITEMS = [
     "id": "item-34",
     "category": "ciorbe",
     "name": {
-      "ro": "Pâinici rumenite",
-      "en": "Pâinici Rumenite"
+      "ro": "Pâinici rumenite (crutoane)",
+      "en": "Garlic & Herb Croutons"
     },
-    "weight": "13buc",
+    "weight": "3 buc",
     "price": 9.0,
     "ingredients": {
       "ro": "pâine, ulei de măsline, usturoi, busuioc",
       "en": "bread, oil of olives, garlic, basil"
     },
-    "allergens": [],
+    "allergens": [
+      1
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 211.0,
@@ -1063,9 +1096,9 @@ export const MENU_ITEMS = [
     "category": "platouri",
     "name": {
       "ro": "Platou Marissa",
-      "en": "Marissa Platter (2 Persons)"
+      "en": "Platou Marissa"
     },
-    "weight": "600g",
+    "weight": "600 g",
     "price": 69.0,
     "ingredients": {
       "ro": "piept de pui, ceafă de porc, ciolan de porc, cartofi prăjiți, mix de legume, iaurt, maioneză, condimente",
@@ -1100,7 +1133,9 @@ export const MENU_ITEMS = [
       "ro": "ceafă de porc, piept de pui, aripioare crispy, cartofi wedges, murături, sos chilli, condimente",
       "en": "ceafă of pork, piept of chicken, wings crispy, potatoes wedges, murături, sauce chilli, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      3
+    ],
     "isFrozen": true,
     "nutrition": {
       "energyKcal": 128.8,
@@ -1118,15 +1153,18 @@ export const MENU_ITEMS = [
     "category": "platouri",
     "name": {
       "ro": "Platoul bucătarului",
-      "en": "Chef's Special Platter"
+      "en": "Platoul Bucătarului"
     },
-    "weight": "1.71kg",
+    "weight": "1.71 kg",
     "price": 110.0,
     "ingredients": {
       "ro": "ceafă de porc, mici, scăriță de porc, legume la grătar, cartofi prăjiți, salată mixtă, sos muștar, sare",
       "en": "ceafă of pork, mici skinless sausages, scăriță of pork, legume la grilled, potatoes prăjiți, salad mixtă, sauce mustard, salt"
     },
-    "allergens": [],
+    "allergens": [
+      3,
+      10
+    ],
     "isFrozen": true,
     "nutrition": {
       "energyKcal": 128.8,
@@ -1152,7 +1190,9 @@ export const MENU_ITEMS = [
       "ro": "piept de pui, unt, sare, condimente",
       "en": "piept of chicken, butter, salt, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": true,
     "nutrition": {
       "energyKcal": 183.0,
@@ -1198,7 +1238,7 @@ export const MENU_ITEMS = [
       "ro": "Piept de rață / Pulpă de rață, cu varză roșie și sos de portocale",
       "en": "Piept Of Duck / Pulpă Of Duck, With Varză Roșie & Sauce Of Portocale"
     },
-    "weight": "60g",
+    "weight": "60 g",
     "price": 65.0,
     "ingredients": {
       "ro": "piept de rață, legume asortate, portocală, amidon de grâu, unt",
@@ -1227,7 +1267,7 @@ export const MENU_ITEMS = [
       "ro": "Escalop din piept de pui cu cartofi piure și sos de ciuperci",
       "en": "Escalop Din Piept Of Chicken With Cartofi Piure & Sauce Of Ciuperci"
     },
-    "weight": "150g",
+    "weight": "150 g",
     "price": 45.0,
     "ingredients": {
       "ro": "piept de pui, cartofi, unt, ciuperci, smântână lichidă, pătrunjel verde, ulei de floarea soarelui, condimente",
@@ -1255,13 +1295,14 @@ export const MENU_ITEMS = [
       "ro": "Piept de pui cu legume și sos de cașcaval",
       "en": "Piept Of Chicken With Legume & Sauce Of Yellow Cheese"
     },
-    "weight": "150g",
+    "weight": "150 g",
     "price": 42.0,
     "ingredients": {
       "ro": "piept de pui, legume, unt, smântână lichidă, unt de arahide, ulei de floarea soarelui, condimente",
       "en": "piept of chicken, legume, butter, sour cream lichidă, butter of arahiof, oil of floarea soarelui, condimente"
     },
     "allergens": [
+      5,
       7,
       8
     ],
@@ -1284,14 +1325,15 @@ export const MENU_ITEMS = [
       "ro": "Piept de pui crispy cu cartofi prajiti și sos roșu",
       "en": "Piept Of Chicken Crispy With Cartofi Prajiti & Sauce Roșu"
     },
-    "weight": "50g",
+    "weight": "50 g",
     "price": 38.0,
     "ingredients": {
       "ro": "piept de pui, ou, făină de grâu, cartofi, sos din roșii, ulei de palmier,  condimente",
       "en": "piept of chicken, egg, flour of grâu, potatoes, sauce din tomatoes, oil of palmier,  condimente"
     },
     "allergens": [
-      1
+      1,
+      3
     ],
     "isFrozen": true,
     "nutrition": {
@@ -1312,7 +1354,7 @@ export const MENU_ITEMS = [
       "ro": "Aripioare Crispy",
       "en": "Aripioare Crispy"
     },
-    "weight": "250g",
+    "weight": "250 g",
     "price": 28.0,
     "ingredients": {
       "ro": "aripioare, făină de grâu, ou, ulei de palmier, condimente",
@@ -1341,7 +1383,7 @@ export const MENU_ITEMS = [
       "ro": "Şniţel din piept de pui",
       "en": "Şniţel Din Piept Of Chicken"
     },
-    "weight": "180g",
+    "weight": "180 g",
     "price": 24.0,
     "ingredients": {
       "ro": "piept de pui, ou, făină, pesmet, condimente",
@@ -1376,7 +1418,9 @@ export const MENU_ITEMS = [
       "ro": "mușchiuleț de vită, unt, cartofi, rozmarin, ciuperci, smântână lichidă, ulei, condimente",
       "en": "mușchiuleț of beef, butter, potatoes, rozmarin, mushrooms, sour cream lichidă, oil, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 291.9,
@@ -1396,14 +1440,15 @@ export const MENU_ITEMS = [
       "ro": "T-Bone de vită cu sos dijon și cartofi copți",
       "en": "T-Bone Of Beef With Sauce Dijon & Cartofi Copți"
     },
-    "weight": "80g",
+    "weight": "80 g",
     "price": 125.0,
     "ingredients": {
       "ro": "T-bone, cartofi copți, muștar Dijon, unt, ulei, condiment",
       "en": "T-bone, potatoes copți, mustard Dijon, butter, oil, condiment"
     },
     "allergens": [
-      7
+      7,
+      10
     ],
     "isFrozen": true,
     "nutrition": {
@@ -1424,14 +1469,15 @@ export const MENU_ITEMS = [
       "ro": "Obrăjori de vită și piure cu aromă de trufe, sos de merișoare",
       "en": "Obrăjori Of Beef & Piure With Aromă Of Trufe, Sauce Of Merișoare"
     },
-    "weight": "280g",
+    "weight": "280 g",
     "price": 98.0,
     "ingredients": {
       "ro": "carne de vită, ulei de măsline, unt , cartofi, fructe, trufe, amidon, condimente",
       "en": "carne of beef, oil of olives, butter , potatoes, fructe, truffles, amidon, condimente"
     },
     "allergens": [
-      1
+      1,
+      7
     ],
     "isFrozen": true,
     "nutrition": {
@@ -1452,14 +1498,16 @@ export const MENU_ITEMS = [
       "ro": "Ossobuco de vită, piure de cartofi cu trufe",
       "en": "Ossobuco Of Beef, Piure Of Cartofi With Trufe"
     },
-    "weight": "150/50/20g",
+    "weight": "150/50/20 g",
     "price": 80.0,
     "ingredients": {
       "ro": "carne de vită, unt, rucola , ulei, sare, otet balsamic, condimente",
       "en": "carne of beef, butter, rucola , oil, salt, otet balsamic, condimente"
     },
     "allergens": [
-      1
+      1,
+      7,
+      12
     ],
     "isFrozen": false,
     "nutrition": {
@@ -1480,7 +1528,7 @@ export const MENU_ITEMS = [
       "ro": "Mușchiulet de porc, sos de hribi și cartofi cu aromă de trufe",
       "en": "Mușchiulet Of Pork, Sauce Of Hribi & Cartofi With Aromă Of Trufe"
     },
-    "weight": "150/350g",
+    "weight": "150/350 g",
     "price": 55.0,
     "ingredients": {
       "ro": "mușchiulet de porc, cartofi, pastă de trufe, hribi, crustă de verdețuri, ulei, condimente",
@@ -1508,7 +1556,7 @@ export const MENU_ITEMS = [
       "ro": "Cotlet de porc Marissa",
       "en": "Cotlet Of Pork Marissa"
     },
-    "weight": "250g",
+    "weight": "250 g",
     "price": 32.0,
     "ingredients": {
       "ro": "cotlet de porc, ciuperci amestecate, bacon, roșii, mozzarella, smântână lichidă, ulei de floarea soarelui, condimente",
@@ -1536,7 +1584,7 @@ export const MENU_ITEMS = [
       "ro": "Șnitel de porc uriaș cu sos picant",
       "en": "Șnitel Of Pork Uriaș With Sauce Picant"
     },
-    "weight": "200/50g",
+    "weight": "200/50 g",
     "price": 30.0,
     "ingredients": {
       "ro": "cotlet de porc, sos picant, cașcaval, ulei de floarea soarelui, ou, făină de grâu, condimente",
@@ -1567,7 +1615,7 @@ export const MENU_ITEMS = [
       "ro": "Ceafă  ţigănească și cartofi prăjiți",
       "en": "Ceafă  Ţigănească & Cartofi Fried"
     },
-    "weight": "180/150g",
+    "weight": "180/150 g",
     "price": 52.0,
     "ingredients": {
       "ro": "ceafă de porc, slănină afumată, ou, sos picant, cartofi, condimente",
@@ -1648,7 +1696,7 @@ export const MENU_ITEMS = [
       "ro": "Ciolan de porc",
       "en": "Ciolan Of Pork"
     },
-    "weight": "100g",
+    "weight": "100 g",
     "price": 12.0,
     "ingredients": {
       "ro": "ciolan de porc",
@@ -1674,7 +1722,7 @@ export const MENU_ITEMS = [
       "ro": "Ciolan de porc cu os domnesc",
       "en": "Ciolan Of Pork With Os Domnesc"
     },
-    "weight": "100g",
+    "weight": "100 g",
     "price": 10.0,
     "ingredients": {
       "ro": "ciolan de porc, ulei de floarea soarelui, usturoi, condimente",
@@ -1700,13 +1748,16 @@ export const MENU_ITEMS = [
       "ro": "Tochitură de porc cu mămăliguță",
       "en": "Tochitură Of Pork With Mămăliguță"
     },
-    "weight": "200g",
+    "weight": "200 g",
     "price": 45.0,
     "ingredients": {
       "ro": "carne de porc, usturoi, sos roșu, ou, telemea, burduf, ulei de floarea soarelui, condimente",
       "en": "carne of pork, garlic, sauce roșu, egg, telemea, burduf, oil of floarea soarelui, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      3,
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 154.6,
@@ -1726,14 +1777,15 @@ export const MENU_ITEMS = [
       "ro": "Obrăjori de porc cu cartofi piure și sos de portocale",
       "en": "Obrăjori Of Pork With Cartofi Piure & Sauce Of Portocale"
     },
-    "weight": "200/200/50g",
+    "weight": "200/200/50 g",
     "price": 65.0,
     "ingredients": {
       "ro": "obrăjori de porc, cartofi, unt, portocale,verdeață, amidon de porumb, ulei de floarea soarelui, condimente",
       "en": "obrăjori of pork, potatoes, butter, oranges,verofață, amidon of porumb, oil of floarea soarelui, condimente"
     },
     "allergens": [
-      1
+      1,
+      7
     ],
     "isFrozen": true,
     "nutrition": {
@@ -1760,7 +1812,10 @@ export const MENU_ITEMS = [
       "ro": "cotlet de porc, cartofi, praz, muștar, ulei, pătrunjel, ardei, roșii, lămâie, ierburi, unt, condiment",
       "en": "cotlet of pork, potatoes, praz, mustard, oil, parsley, pepper, tomatoes, lemon, ierburi, butter, condiment"
     },
-    "allergens": [],
+    "allergens": [
+      7,
+      10
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 291.9,
@@ -1786,7 +1841,10 @@ export const MENU_ITEMS = [
       "ro": "file de somon, morcov, conopidă, broccoli, unt, ulei, lămâie, sos teriaki, condimente",
       "en": "file of salmon, carrots, cauliflower, broccoli, butter, oil, lemon, sauce teriaki, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      4,
+      7
+    ],
     "isFrozen": true,
     "nutrition": {
       "energyKcal": 179.7,
@@ -1812,7 +1870,9 @@ export const MENU_ITEMS = [
       "ro": "păstrăv/doradă, legume asortate, condimente",
       "en": "trout/sea bream, legume asortate, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      4
+    ],
     "isFrozen": true,
     "nutrition": {
       "energyKcal": 147.3,
@@ -1832,13 +1892,14 @@ export const MENU_ITEMS = [
       "ro": "Păstrăv în crustă de mălâi cu mămăliguță",
       "en": "Păstrăv În Crustă Of Mălâi With Mămăliguță"
     },
-    "weight": "200g",
+    "weight": "200 g",
     "price": 55.0,
     "ingredients": {
       "ro": "păstrăv, făină de mălai, lămâie, usturoi, ulei de floarea soarelui, condimente",
       "en": "trout, flour of cornmeal, lemon, garlic, oil of floarea soarelui, condimente"
     },
     "allergens": [
+      1,
       4
     ],
     "isFrozen": true,
@@ -1860,7 +1921,7 @@ export const MENU_ITEMS = [
       "ro": "Tigaie cu fructe de mare",
       "en": "Tigaie With Fructe Of Mare"
     },
-    "weight": "80g",
+    "weight": "80 g",
     "price": 48.0,
     "ingredients": {
       "ro": "fructe de mare, ardei iute, roșii, usturoi, pătrunjel verde, unt, lămâie, ulei de măsline, pâine prăjită, condimente",
@@ -1869,7 +1930,8 @@ export const MENU_ITEMS = [
     "allergens": [
       1,
       2,
-      7
+      7,
+      14
     ],
     "isFrozen": true,
     "nutrition": {
@@ -1887,16 +1949,18 @@ export const MENU_ITEMS = [
     "id": "item-65",
     "category": "porc",
     "name": {
-      "ro": "Sos roşu 9(ketchup)",
-      "en": "Sauce Roşu 9(Ketchup)"
+      "ro": "Sos roşu",
+      "en": "Sauce Roşu"
     },
-    "weight": "70g",
+    "weight": "70 g",
     "price": 5.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      9
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 102.0,
@@ -1916,7 +1980,7 @@ export const MENU_ITEMS = [
       "ro": "Sos alb",
       "en": "Sauce Alb"
     },
-    "weight": "70g",
+    "weight": "70 g",
     "price": 5.0,
     "ingredients": {
       "ro": "iaurt, maioneză, usturoi, oregano, condimente",
@@ -1945,7 +2009,7 @@ export const MENU_ITEMS = [
       "ro": "Sos chilli",
       "en": "Sauce Chilli"
     },
-    "weight": "100g",
+    "weight": "100 g",
     "price": 5.0,
     "ingredients": {
       "ro": "ketchup, ardei iute",
@@ -1999,7 +2063,7 @@ export const MENU_ITEMS = [
       "ro": "Mujdei de usturoi",
       "en": "Mujdei Of Usturoi"
     },
-    "weight": "50g",
+    "weight": "50 g",
     "price": 5.0,
     "ingredients": {
       "ro": "usturoi, lămâie, ulei de floarea soarelui, sare",
@@ -2022,8 +2086,8 @@ export const MENU_ITEMS = [
     "id": "item-70",
     "category": "porc",
     "name": {
-      "ro": "Muştar/maioneză/ketchup10",
-      "en": "Muştar/Maioneză/Ketchup10"
+      "ro": "Muştar/maioneză/ketchup",
+      "en": "Muştar/Maioneză/Ketchup"
     },
     "weight": "70ml",
     "price": 3.0,
@@ -2031,7 +2095,10 @@ export const MENU_ITEMS = [
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      3,
+      10
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -2051,7 +2118,7 @@ export const MENU_ITEMS = [
       "ro": "Sos alb, cu ciuperci",
       "en": "Sauce Alb, With Ciuperci"
     },
-    "weight": "100g",
+    "weight": "100 g",
     "price": 12.0,
     "ingredients": {
       "ro": "smântână lichidă, ciuperci, ceapă, ardei, pătrunjel verde, condimente",
@@ -2080,7 +2147,7 @@ export const MENU_ITEMS = [
       "ro": "Cartofi prăjiţi",
       "en": "Cartofi Prăjiţi"
     },
-    "weight": "180g",
+    "weight": "180 g",
     "price": 12.0,
     "ingredients": {
       "ro": "cartofi, ulei de palmier, condimente",
@@ -2106,7 +2173,7 @@ export const MENU_ITEMS = [
       "ro": "Cartofi piure",
       "en": "Cartofi Piure"
     },
-    "weight": "200g",
+    "weight": "200 g",
     "price": 10.0,
     "ingredients": {
       "ro": "cartofi, lapte, unt, condimente",
@@ -2132,9 +2199,9 @@ export const MENU_ITEMS = [
     "category": "garnituri",
     "name": {
       "ro": "Cartofi natur",
-      "en": "Boiled Potatoes with Butter & Parsley"
+      "en": "Cartofi Natur"
     },
-    "weight": "200g",
+    "weight": "200 g",
     "price": 10.0,
     "ingredients": {
       "ro": "cartofi, ulei de floarea soarelui, condimente",
@@ -2160,9 +2227,9 @@ export const MENU_ITEMS = [
     "category": "garnituri",
     "name": {
       "ro": "Cartofi aurii",
-      "en": "Golden Oven-Roasted Potato Wedges"
+      "en": "Cartofi Aurii"
     },
-    "weight": "180g",
+    "weight": "180 g",
     "price": 12.0,
     "ingredients": {
       "ro": "cartofi, ulei de palmier, condimente",
@@ -2186,9 +2253,9 @@ export const MENU_ITEMS = [
     "category": "garnituri",
     "name": {
       "ro": "Pilaf de orez",
-      "en": "Rice Pilaf with Vegetables"
+      "en": "Pilaf Of Orez"
     },
-    "weight": "200g",
+    "weight": "200 g",
     "price": 10.0,
     "ingredients": {
       "ro": "orez, legume asortate, ceapă, ardei, ulei de floarea soarelui, condimente",
@@ -2214,7 +2281,7 @@ export const MENU_ITEMS = [
       "ro": "Legume înăbuşite",
       "en": "Legume Înăbuşite"
     },
-    "weight": "200g",
+    "weight": "200 g",
     "price": 12.0,
     "ingredients": {
       "ro": "brocoli, morcov, conopidă, ceapă, unt, condimente",
@@ -2242,13 +2309,15 @@ export const MENU_ITEMS = [
       "ro": "Mămăligă",
       "en": "Mămăligă"
     },
-    "weight": "200g",
+    "weight": "200 g",
     "price": 9.0,
     "ingredients": {
       "ro": "făină de mălai, ulei de floarea soarelui, sare",
       "en": "flour of cornmeal, oil of floarea soarelui, salt"
     },
-    "allergens": [],
+    "allergens": [
+      1
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 218.5,
@@ -2268,7 +2337,7 @@ export const MENU_ITEMS = [
       "ro": "Iahnie de fasole",
       "en": "Iahnie Of Fasole"
     },
-    "weight": "200g",
+    "weight": "200 g",
     "price": 12.0,
     "ingredients": {
       "ro": "fasole, ceapă, ardei, roșie, ulei de floarea soarelui, făină de grâu, usturoi, sare, condimente",
@@ -2296,7 +2365,7 @@ export const MENU_ITEMS = [
       "ro": "Ciuperci sote",
       "en": "Ciuperci Sote"
     },
-    "weight": "200g",
+    "weight": "200 g",
     "price": 15.0,
     "ingredients": {
       "ro": "ciuperci, ardei, roșii, ceapă, ulei de floarea soarelui, condimente",
@@ -2346,9 +2415,9 @@ export const MENU_ITEMS = [
     "category": "paste-risotto",
     "name": {
       "ro": "Spaghete Milanese",
-      "en": "Spaghetti Milanese"
+      "en": "Spaghete Milanese"
     },
-    "weight": "400g",
+    "weight": "400 g",
     "price": 32.0,
     "ingredients": {
       "ro": "paste, șuncă, sos de roșii, ciuperci, parmezan, ulei de floarea soarelui, condimente",
@@ -2375,9 +2444,9 @@ export const MENU_ITEMS = [
     "category": "paste-risotto",
     "name": {
       "ro": "Spaghete Carbonara",
-      "en": "Authentic Spaghetti Carbonara"
+      "en": "Spaghete Carbonara"
     },
-    "weight": "400g",
+    "weight": "400 g",
     "price": 32.0,
     "ingredients": {
       "ro": "spaghete, bacon, smântână lichidă, parmezan, ou, ulei de floarea soarelui, condimente",
@@ -2405,9 +2474,9 @@ export const MENU_ITEMS = [
     "category": "paste-risotto",
     "name": {
       "ro": "Paste Quattro Formaggi",
-      "en": "Pasta Quattro Formaggi"
+      "en": "Paste Quattro Formaggi"
     },
-    "weight": "400g",
+    "weight": "400 g",
     "price": 35.0,
     "ingredients": {
       "ro": "paste, smântână lichidă, parmezan, ou, gorgonzola, brânză de burduf, unt, ulei de floarea soarelui, condimente",
@@ -2437,7 +2506,7 @@ export const MENU_ITEMS = [
       "ro": "Paste all`arrabbiata",
       "en": "Paste All`Arrabbiata"
     },
-    "weight": "400g",
+    "weight": "400 g",
     "price": 28.0,
     "ingredients": {
       "ro": "paste, roșii, sos de roșii, pesto, ulei de măsline, condimente",
@@ -2465,7 +2534,7 @@ export const MENU_ITEMS = [
       "ro": "Tagliatelle cu creveti",
       "en": "Tagliatelle With Creveti"
     },
-    "weight": "400g",
+    "weight": "400 g",
     "price": 42.0,
     "ingredients": {
       "ro": "paste,  creveți, mix de legume, unt, smântână, condimente",
@@ -2493,9 +2562,9 @@ export const MENU_ITEMS = [
     "category": "paste-risotto",
     "name": {
       "ro": "Paste cu fructe de mare",
-      "en": "Seafood Pasta"
+      "en": "Paste With Fructe Of Mare"
     },
-    "weight": "400g",
+    "weight": "400 g",
     "price": 42.0,
     "ingredients": {
       "ro": "paste, fructe de mare, roșii, lămâie, unt, usturoi, ulei de masline",
@@ -2504,7 +2573,8 @@ export const MENU_ITEMS = [
     "allergens": [
       1,
       2,
-      7
+      7,
+      14
     ],
     "isFrozen": true,
     "nutrition": {
@@ -2525,7 +2595,7 @@ export const MENU_ITEMS = [
       "ro": "Tagliatelli cu somon",
       "en": "Tagliatelli With Somon"
     },
-    "weight": "400g",
+    "weight": "400 g",
     "price": 42.0,
     "ingredients": {
       "ro": "somon, paste, smântână, usturoi, pătrunjel, unt, condimente",
@@ -2533,6 +2603,7 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       1,
+      4,
       7
     ],
     "isFrozen": true,
@@ -2552,9 +2623,9 @@ export const MENU_ITEMS = [
     "category": "paste-risotto",
     "name": {
       "ro": "Risotto al funghi porcini",
-      "en": "Porcini Mushroom Risotto"
+      "en": "Risotto Al Funghi Porcini"
     },
-    "weight": "350g",
+    "weight": "350 g",
     "price": 42.0,
     "ingredients": {
       "ro": "orez, hribi, usturoi, parmezan, condimente",
@@ -2580,13 +2651,16 @@ export const MENU_ITEMS = [
       "ro": "Risotto alla pescadora",
       "en": "Risotto Alla Pescadora"
     },
-    "weight": "350g",
+    "weight": "350 g",
     "price": 49.0,
     "ingredients": {
       "ro": "orez,  fructe de mare, lămâie, unt, condimente",
       "en": "rice,  fructe of mare, lemon, butter, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      7,
+      14
+    ],
     "isFrozen": true,
     "nutrition": {
       "energyKcal": 145.8,
@@ -2612,7 +2686,9 @@ export const MENU_ITEMS = [
       "ro": "salată iceberg, telemea, roșie, castraveți, măsline, ardei, lămâie, ulei de măsline, condimente",
       "en": "salad iceberg, telemea, tomato, withwithmbers, olives, pepper, lemon, oil of olives, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 115.4,
@@ -2632,7 +2708,7 @@ export const MENU_ITEMS = [
       "ro": "Salata cu ton",
       "en": "Salata With Ton"
     },
-    "weight": "70g",
+    "weight": "70 g",
     "price": 28.0,
     "ingredients": {
       "ro": "salata iceberg, ton, salată, roșie, castraveți, măsline, iaurt, ardei, lămâie, ulei de măsline, condimente",
@@ -2662,7 +2738,7 @@ export const MENU_ITEMS = [
       "ro": "Salată Cezar",
       "en": "Salată Cezar"
     },
-    "weight": "70g",
+    "weight": "70 g",
     "price": 35.0,
     "ingredients": {
       "ro": "piept de pui, salată iceberg, parmezan, ou, lămâie, muștar,  file de anșoa, capere, castraveți murați, ulei de măsline, condimente",
@@ -2670,7 +2746,9 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       3,
-      7
+      4,
+      7,
+      10
     ],
     "isFrozen": true,
     "nutrition": {
@@ -2691,13 +2769,15 @@ export const MENU_ITEMS = [
       "ro": "Salată Capresse",
       "en": "Salată Capresse"
     },
-    "weight": "50g",
+    "weight": "50 g",
     "price": 28.0,
     "ingredients": {
       "ro": "mozzarela, roșii, rucola/salata sezon, ulei de măsline, pesto, iaurt, condimente",
       "en": "mozzarela, tomatoes, rucola/salata sezon, oil of olives, pesto, yogurt, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 334.0,
@@ -2717,15 +2797,18 @@ export const MENU_ITEMS = [
       "ro": "Salată cu avocado, pui sau creveti",
       "en": "Salată With Avocado, Chicken Sau Creveti"
     },
-    "weight": "70g",
+    "weight": "70 g",
     "price": 38.0,
     "ingredients": {
       "ro": "piept de pui/creveți, parmezan, avocado, salată iceberg și de sezon, susan, castraveți, roșii, lămâie, muștar, ulei de măsline, condimente",
       "en": "piept of chicken/prawns, parmezan, avocado, salad iceberg & of sezon, sesame, withwithmbers, tomatoes, lemon, mustard, oil of olives, condimente"
     },
     "allergens": [
+      2,
       3,
-      7
+      7,
+      10,
+      11
     ],
     "isFrozen": true,
     "nutrition": {
@@ -2746,13 +2829,15 @@ export const MENU_ITEMS = [
       "ro": "Salată varză albă",
       "en": "Salată Varză Albă"
     },
-    "weight": "150g",
+    "weight": "150 g",
     "price": 8.0,
     "ingredients": {
       "ro": "varză, oțet balsamic, ulei de floarea soarelui, lămâie)    Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 239.7 / 57.6, Grăsimi (g): 3.5 din care: Acizi grași saturați (g) 0.3, Glucide (g): 6.3 din care: Zaharuri (g): 4.3, Proteine (g): 1.1, Sare (g): 0",
       "en": "cabbage, oțet balsamic, oil of floarea soarelui, lemon)    Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 239.7 / 57.6, Grăsimi (g): 3.5 din care: Acizi gra& saturați (g) 0.3, Gluciof (g): 6.3 din care: Zaharuri (g): 4.3, Proteine (g): 1.1, salt (g): 0"
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -2772,7 +2857,7 @@ export const MENU_ITEMS = [
       "ro": "Salată  de roşii",
       "en": "Salată  Of Roşii"
     },
-    "weight": "150g",
+    "weight": "150 g",
     "price": 10.0,
     "ingredients": {
       "ro": "roșie, ulei de floarea soarelui, sare)     Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 283.2 / 68.4, Grăsimi (g): 5.6 din care: Acizi grași saturați (g) 0.6, Glucide (g): 4.6 din care: Zaharuri (g): 3.2, Proteine (g): 0.6, Sare (g): 1.3",
@@ -2798,13 +2883,15 @@ export const MENU_ITEMS = [
       "ro": "Ardei copţi",
       "en": "Ardei Copţi"
     },
-    "weight": "150g",
+    "weight": "150 g",
     "price": 12.0,
     "ingredients": {
       "ro": "ardei copți, oțet)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 117.2 / 28, Grăsimi (g): 0.1 din care: Acizi grași saturați (g) 0, Glucide (g): 0.1 din care: Zaharuri (g): 0.1, Proteine (g): 0.6, Sare (g): 1.8",
       "en": "pepper copți, oțet)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 117.2 / 28, Grăsimi (g): 0.1 din care: Acizi gra& saturați (g) 0, Gluciof (g): 0.1 din care: Zaharuri (g): 0.1, Proteine (g): 0.6, salt (g): 1.8"
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -2824,7 +2911,7 @@ export const MENU_ITEMS = [
       "ro": "Salată murături",
       "en": "Salată Murături"
     },
-    "weight": "150g",
+    "weight": "150 g",
     "price": 10.0,
     "ingredients": {
       "ro": "salată de murături mix)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 113.2 / 27.1, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0, Glucide (g): 4 din care: Zaharuri (g): 5, Proteine (g): 0.5, Sare (g): 0.8",
@@ -2853,13 +2940,15 @@ export const MENU_ITEMS = [
       "ro": "Salată de sfeclă roşie",
       "en": "Salată Of Sfeclă Roşie"
     },
-    "weight": "150g",
+    "weight": "150 g",
     "price": 12.0,
     "ingredients": {
       "ro": "sfeclă roșie, oțet balsamic)   Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 175.1 / 41.5, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0, Glucide (g): 9.7 din care: Zaharuri (g): 7.1, Proteine (g): 1.6, Sare (g): 0.1",
       "en": "beetroot tomato, oțet balsamic)   Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 175.1 / 41.5, Grăsimi (g): 0.2 din care: Acizi gra& saturați (g) 0, Gluciof (g): 9.7 din care: Zaharuri (g): 7.1, Proteine (g): 1.6, salt (g): 0.1"
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -2879,7 +2968,7 @@ export const MENU_ITEMS = [
       "ro": "Salată de ceapă",
       "en": "Salată Of Ceapă"
     },
-    "weight": "150g",
+    "weight": "150 g",
     "price": 8.0,
     "ingredients": {
       "ro": "ceapă, ulei de floarea soarelui, sare)  Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 193.9 / 46.6, Grăsimi (g): 2.2 din care: Acizi grași saturați (g) 0.2, Glucide (g): 6.5 din care: Zaharuri (g): 4.6, Proteine (g): 1.2, Sare (g): 1.3.",
@@ -2905,7 +2994,7 @@ export const MENU_ITEMS = [
       "ro": "Îngheţată la cupă",
       "en": "Îngheţată La Cupă"
     },
-    "weight": "100g",
+    "weight": "100 g",
     "price": 22.0,
     "ingredients": {
       "ro": "înghețată,  lapte,  frișcă, topping fructe, ciocolată",
@@ -2934,7 +3023,7 @@ export const MENU_ITEMS = [
       "ro": "Vulcan de ciocolată cu îngheţată și fructe",
       "en": "Vulcan Of Ciocolată With Îngheţată & Fructe"
     },
-    "weight": "200g",
+    "weight": "200 g",
     "price": 28.0,
     "ingredients": {
       "ro": "înghețată lapte, fructe asortate, lava cake, topping ciocolată,  frișcă",
@@ -2964,9 +3053,9 @@ export const MENU_ITEMS = [
     "category": "desert",
     "name": {
       "ro": "Clătite cu banană, finetti și înghețată",
-      "en": "Pancakes with Banana, Nutella & Ice Cream"
+      "en": "Clătite With Banană, Finetti & Înghețată"
     },
-    "weight": "200g",
+    "weight": "200 g",
     "price": 28.0,
     "ingredients": {
       "ro": "banane, finetti , frișcă, înghețată, lapte, făină de grâu, ou, ulei de floarea soarelui, zahăr",
@@ -2975,7 +3064,8 @@ export const MENU_ITEMS = [
     "allergens": [
       1,
       3,
-      7
+      7,
+      8
     ],
     "isFrozen": false,
     "nutrition": {
@@ -3002,7 +3092,11 @@ export const MENU_ITEMS = [
       "ro": "ou, lapte, făină de grâu, frișcă, zahăr, gem fructe, ulei de floarea soarelui",
       "en": "egg, milk, flour of grâu, whipped cream, sugar, jam fructe, oil of floarea soarelui"
     },
-    "allergens": [],
+    "allergens": [
+      1,
+      3,
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 271.1,
@@ -3028,7 +3122,11 @@ export const MENU_ITEMS = [
       "ro": "smântână, făină de grâu, ou, brânză dulce, gem, ulei de floarea soarelui, zahăr, griș sare, lămâie",
       "en": "sour cream, flour of grâu, egg, cheese dulce, jam, oil of floarea soarelui, sugar, griș salt, lemon"
     },
-    "allergens": [],
+    "allergens": [
+      1,
+      3,
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 336.9,
@@ -3048,7 +3146,7 @@ export const MENU_ITEMS = [
       "ro": "Felie desert",
       "en": "Felie Desert"
     },
-    "weight": "150g",
+    "weight": "150 g",
     "price": 22.0,
     "ingredients": {
       "ro": "făină, frișcă, pișcoturi, ouă,  mascarpone,  zahăr  pudră, cafea, esență de rom, vanilie, cacao",
@@ -3078,13 +3176,14 @@ export const MENU_ITEMS = [
       "ro": "Ecler",
       "en": "Ecler"
     },
-    "weight": "180g",
+    "weight": "180 g",
     "price": 22.0,
     "ingredients": {
       "ro": "făină de grâu, ou, lapte, gem de fructe, zahăr, griș, lămâie esență vanilie",
       "en": "flour of grâu, egg, milk, jam of fructe, sugar, griș, lemon esență vanilla"
     },
     "allergens": [
+      1,
       3,
       7
     ],
@@ -3105,15 +3204,16 @@ export const MENU_ITEMS = [
     "category": "desert",
     "name": {
       "ro": "Cheesecake",
-      "en": "Berry Cheesecake"
+      "en": "Cheesecake"
     },
-    "weight": "180g",
+    "weight": "180 g",
     "price": 22.0,
     "ingredients": {
       "ro": "făină de grâu, ou, lapte, gem de fructe, zahăr, brânză dulce, philadelphia, lămâie, esența vanilie",
       "en": "flour of grâu, egg, milk, jam of fructe, sugar, cheese dulce, philaoflphia, lemon, esența vanilla"
     },
     "allergens": [
+      1,
       3,
       7
     ],
@@ -3134,9 +3234,9 @@ export const MENU_ITEMS = [
     "category": "desert",
     "name": {
       "ro": "Tiramisu",
-      "en": "Classic Italian Tiramisu"
+      "en": "Tiramisu"
     },
-    "weight": "150g",
+    "weight": "150 g",
     "price": 22.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -3165,7 +3265,7 @@ export const MENU_ITEMS = [
       "ro": "FOCACCIA",
       "en": "Focaccia"
     },
-    "weight": "250g",
+    "weight": "200 g",
     "price": 12.0,
     "ingredients": {
       "ro": "făină de grâu, ulei de măsline, sare, oregano, drojdie",
@@ -3193,7 +3293,7 @@ export const MENU_ITEMS = [
       "ro": "FOCACCIA CASEI",
       "en": "Focaccia Casei"
     },
-    "weight": "30g",
+    "weight": "30 g",
     "price": 15.0,
     "ingredients": {
       "ro": "făină de grâu, parmesan, ulei de măsline, sare, oregano, drojdie",
@@ -3220,10 +3320,10 @@ export const MENU_ITEMS = [
     "id": "item-113",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA MARGHERITA",
-      "en": "Pizza Margherita"
+      "ro": "",
+      "en": ""
     },
-    "weight": "385g",
+    "weight": "385 g",
     "price": 30.0,
     "ingredients": {
       "ro": "făină de grâu, sos roșii, drojdie, mozzarella, sare, oregano",
@@ -3249,10 +3349,10 @@ export const MENU_ITEMS = [
     "id": "item-114",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA MARISSA",
-      "en": "Marissa House Special Pizza"
+      "ro": "",
+      "en": ""
     },
-    "weight": "520g",
+    "weight": "520 g",
     "price": 35.0,
     "ingredients": {
       "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, șuncă, salam, porumb, ciuperci, prosciutto, măsline, oregano",
@@ -3260,6 +3360,7 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       1,
+      2,
       7,
       9
     ],
@@ -3279,10 +3380,10 @@ export const MENU_ITEMS = [
     "id": "item-115",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA PROSCIUTTO",
-      "en": "Pizza Prosciutto"
+      "ro": "",
+      "en": ""
     },
-    "weight": "455g",
+    "weight": "455 g",
     "price": 30.0,
     "ingredients": {
       "ro": "făină de grâu, sos de roșii, drojdie, mozzarella, șuncă, sare, oregano",
@@ -3290,6 +3391,7 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       1,
+      3,
       7
     ],
     "isFrozen": false,
@@ -3308,10 +3410,10 @@ export const MENU_ITEMS = [
     "id": "item-116",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA PROSCIUTTO PORUMB",
-      "en": "Pizza Prosciutto Porumb"
+      "ro": "",
+      "en": ""
     },
-    "weight": "455g",
+    "weight": "455 g",
     "price": 32.0,
     "ingredients": {
       "ro": "făină de grâu, sos de roșii, drojdie, mozzarella, șuncă, porumb, sare, oregano",
@@ -3319,6 +3421,7 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       1,
+      4,
       7
     ],
     "isFrozen": true,
@@ -3337,10 +3440,10 @@ export const MENU_ITEMS = [
     "id": "item-117",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA PROSCIUTTO FUNGHI",
-      "en": "Pizza Prosciutto Funghi"
+      "ro": "",
+      "en": ""
     },
-    "weight": "455g",
+    "weight": "455 g",
     "price": 32.0,
     "ingredients": {
       "ro": "făină de grâu, sos de roșii, drojdie, mozzarella, șuncă, ciuperci, sare, oregano",
@@ -3348,6 +3451,7 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       1,
+      5,
       7
     ],
     "isFrozen": false,
@@ -3366,10 +3470,10 @@ export const MENU_ITEMS = [
     "id": "item-118",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA PROSCIUTTO CRUDO",
-      "en": "Pizza Prosciutto Crudo"
+      "ro": "",
+      "en": ""
     },
-    "weight": "455g",
+    "weight": "455 g",
     "price": 35.0,
     "ingredients": {
       "ro": "făină de grâu, sos de roșii, drojdie, mozzarella, prosciutto crudo, oregano",
@@ -3377,6 +3481,7 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       1,
+      6,
       7
     ],
     "isFrozen": false,
@@ -3395,10 +3500,10 @@ export const MENU_ITEMS = [
     "id": "item-119",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA PROSCIUTTO CRUDO RUCOLA",
-      "en": "Pizza Prosciutto Crudo Rucola"
+      "ro": "",
+      "en": ""
     },
-    "weight": "455g",
+    "weight": "455 g",
     "price": 36.0,
     "ingredients": {
       "ro": "făină de grâu, sos de roșii, drojdie, mozzarella, prosciutto crudo, rucola, sare, oregano",
@@ -3424,10 +3529,10 @@ export const MENU_ITEMS = [
     "id": "item-120",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA DIAVOLLA",
-      "en": "Pizza Diavolla"
+      "ro": "",
+      "en": ""
     },
-    "weight": "425g",
+    "weight": "425 g",
     "price": 32.0,
     "ingredients": {
       "ro": "făină de grâu, drojdie, salam  picant, mozzarella, sos de roșii, sare, oregano",
@@ -3435,7 +3540,8 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       1,
-      7
+      7,
+      8
     ],
     "isFrozen": false,
     "nutrition": {
@@ -3453,10 +3559,10 @@ export const MENU_ITEMS = [
     "id": "item-121",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA FUNGHI",
-      "en": "Pizza Funghi"
+      "ro": "",
+      "en": ""
     },
-    "weight": "430g",
+    "weight": "430 g",
     "price": 32.0,
     "ingredients": {
       "ro": "făină de grâu, drojdie, mozzarella, sos de roșii, ciuperci, sare, oregano",
@@ -3464,7 +3570,8 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       1,
-      7
+      7,
+      9
     ],
     "isFrozen": false,
     "nutrition": {
@@ -3482,10 +3589,10 @@ export const MENU_ITEMS = [
     "id": "item-122",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA CALIFORNIA",
-      "en": "Pizza California"
+      "ro": "",
+      "en": ""
     },
-    "weight": "480g",
+    "weight": "480 g",
     "price": 32.0,
     "ingredients": {
       "ro": "făină degrâu, sare, drojdie, sos de roșii, ciuperci, șuncă, salam, porumb, mozzarella, oregano",
@@ -3493,7 +3600,8 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       1,
-      7
+      7,
+      10
     ],
     "isFrozen": true,
     "nutrition": {
@@ -3511,10 +3619,10 @@ export const MENU_ITEMS = [
     "id": "item-123",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA QUATTRO STAGIONE",
-      "en": "Pizza Quattro Stagione"
+      "ro": "",
+      "en": ""
     },
-    "weight": "450g",
+    "weight": "450 g",
     "price": 32.0,
     "ingredients": {
       "ro": "făină de grâu, sare, drojdie,sos de roșii, mozzarella, ciuperci, șuncă, porumb, măsline, oregano",
@@ -3522,7 +3630,8 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       1,
-      7
+      7,
+      11
     ],
     "isFrozen": true,
     "nutrition": {
@@ -3540,10 +3649,10 @@ export const MENU_ITEMS = [
     "id": "item-124",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA QUATTRO FORMAGGI",
-      "en": "Pizza Quattro Formaggi"
+      "ro": "",
+      "en": ""
     },
-    "weight": "450g",
+    "weight": "450 g",
     "price": 35.0,
     "ingredients": {
       "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, brânză de burduf, gorgonzola, parmezan, oregano) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1257.9 / 298.2, Grăsimi (g): 10.8 din care: Acizi grași saturați (g) 5.5, Glucide (g): 38.2 din care: Zaharuri (g): 2, Proteine (g): 13.5, Sare (g): 2.1",
@@ -3551,7 +3660,8 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       1,
-      7
+      7,
+      12
     ],
     "isFrozen": false,
     "nutrition": {
@@ -3569,10 +3679,10 @@ export const MENU_ITEMS = [
     "id": "item-125",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA TONNO E CIPOLLA",
-      "en": "Pizza Tonno E Cipolla"
+      "ro": "",
+      "en": ""
     },
-    "weight": "450g",
+    "weight": "450 g",
     "price": 32.0,
     "ingredients": {
       "ro": "făină de grâu, ton, mozzarella, roșii cuburi, ceapă, drojdie, sare, oregano",
@@ -3581,7 +3691,8 @@ export const MENU_ITEMS = [
     "allergens": [
       1,
       4,
-      7
+      7,
+      13
     ],
     "isFrozen": false,
     "nutrition": {
@@ -3599,10 +3710,10 @@ export const MENU_ITEMS = [
     "id": "item-126",
     "category": "pizza",
     "name": {
-      "ro": "PIZZA QUATRO CARNI",
-      "en": "Pizza Quatro Carni"
+      "ro": "",
+      "en": ""
     },
-    "weight": "450g",
+    "weight": "450 g",
     "price": 38.0,
     "ingredients": {
       "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, salam, șuncă, cârnat, bacon, oregano",
@@ -3610,7 +3721,8 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       1,
-      7
+      7,
+      14
     ],
     "isFrozen": false,
     "nutrition": {
@@ -3631,7 +3743,7 @@ export const MENU_ITEMS = [
       "ro": "PIZZA VEGETARIANĂ",
       "en": "Pizza Vegetariană"
     },
-    "weight": "450g",
+    "weight": "450 g",
     "price": 32.0,
     "ingredients": {
       "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, cartofi prăjiți, ciuperci, porumb,  măsline, ceapă, ardei) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 2315.7 / 552.1, Grăsimi (g): 27.3 din care: Acizi grași saturați (g) 10.3, Glucide (g): 69.1 din care: Zaharuri (g): 8, Proteine (g): 14.2, Sare (g): 3.1",
@@ -3660,7 +3772,7 @@ export const MENU_ITEMS = [
       "ro": "PIZZA TOSCANA",
       "en": "Pizza Toscana"
     },
-    "weight": "450g",
+    "weight": "450 g",
     "price": 35.0,
     "ingredients": {
       "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, ou,șuncă, bacon, oregano",
@@ -3690,7 +3802,7 @@ export const MENU_ITEMS = [
       "ro": "PIZZA SPECIALE",
       "en": "Pizza Speciale"
     },
-    "weight": "550g",
+    "weight": "550 g",
     "price": 38.0,
     "ingredients": {
       "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, cartofi prăjiți,  piept de pui",
@@ -3719,7 +3831,7 @@ export const MENU_ITEMS = [
       "ro": "PIZZA CAPRICCIOSA",
       "en": "Pizza Capricciosa"
     },
-    "weight": "500g",
+    "weight": "500 g",
     "price": 32.0,
     "ingredients": {
       "ro": "făină de grâu,  sare, drojdie, sos de roșii, mozzarella, anghinare, măsline, șuncă, ciuperci, porumb, oregano",
@@ -3748,7 +3860,7 @@ export const MENU_ITEMS = [
       "ro": "PIZZA HAWAI",
       "en": "Pizza Hawai"
     },
-    "weight": "500g",
+    "weight": "500 g",
     "price": 32.0,
     "ingredients": {
       "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, șuncă, ananas, oregano",
@@ -3777,7 +3889,7 @@ export const MENU_ITEMS = [
       "ro": "PIZZA KEBAB",
       "en": "Pizza Kebab"
     },
-    "weight": "500g",
+    "weight": "500 g",
     "price": 38.0,
     "ingredients": {
       "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, carne de pui, cartofi prăjiți, roșii cuburi, castraveți murați, ceapă, sos alb, oregano",
@@ -3806,7 +3918,7 @@ export const MENU_ITEMS = [
       "ro": "PIZZA MARISSA FAMILY",
       "en": "Pizza Marissa Family"
     },
-    "weight": "1400g",
+    "weight": "1400 g",
     "price": 72.0,
     "ingredients": {
       "ro": "făină de grâu, mozzarella, porumb, măsline, ciuperci, șuncă, salam, prosciutto crudo, roșii cuburi, ulei de floarea soarelui, ceapă, zahăr, sare, drojdie",
@@ -3965,7 +4077,7 @@ export const MENU_ITEMS = [
       "ro": "Salam",
       "en": "Salam"
     },
-    "weight": "50g",
+    "weight": "50 g",
     "price": 5.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -3993,7 +4105,7 @@ export const MENU_ITEMS = [
       "ro": "Șuncă",
       "en": "Șuncă"
     },
-    "weight": "50g",
+    "weight": "50 g",
     "price": 5.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4021,7 +4133,7 @@ export const MENU_ITEMS = [
       "ro": "Cârnat",
       "en": "Cârnat"
     },
-    "weight": "50g",
+    "weight": "50 g",
     "price": 5.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4049,7 +4161,7 @@ export const MENU_ITEMS = [
       "ro": "Bacon",
       "en": "Bacon"
     },
-    "weight": "50g",
+    "weight": "50 g",
     "price": 5.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4075,7 +4187,7 @@ export const MENU_ITEMS = [
       "ro": "Sos alb",
       "en": "Sauce Alb"
     },
-    "weight": "70g",
+    "weight": "70 g",
     "price": 5.0,
     "ingredients": {
       "ro": "iaurt, smântână, maioneză, usturoi, condimente, oregano",
@@ -4104,7 +4216,7 @@ export const MENU_ITEMS = [
       "ro": "Sos roşu",
       "en": "Sauce Roşu"
     },
-    "weight": "70g",
+    "weight": "70 g",
     "price": 3.0,
     "ingredients": {
       "ro": "roșii, ceapă, oregano, ulei de măsline, sare, piper",
@@ -4132,7 +4244,7 @@ export const MENU_ITEMS = [
       "ro": "Sos roşu picant",
       "en": "Sauce Roşu Picant"
     },
-    "weight": "70g",
+    "weight": "70 g",
     "price": 5.0,
     "ingredients": {
       "ro": "roșii, ceapă, oregano, ulei de măsline ,sare, piper",
@@ -4160,7 +4272,7 @@ export const MENU_ITEMS = [
       "ro": "Sos roşu / Ketchup",
       "en": "Sauce Roşu / Ketchup"
     },
-    "weight": "70g",
+    "weight": "70 g",
     "price": 5.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4188,7 +4300,7 @@ export const MENU_ITEMS = [
       "ro": "Sos alb",
       "en": "Sauce Alb"
     },
-    "weight": "70g",
+    "weight": "70 g",
     "price": 5.0,
     "ingredients": {
       "ro": "iaurt, maioneză, usturoi, oregano, condimente",
@@ -4217,7 +4329,7 @@ export const MENU_ITEMS = [
       "ro": "Sos chili",
       "en": "Sauce Chili"
     },
-    "weight": "100g",
+    "weight": "100 g",
     "price": 5.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4245,7 +4357,7 @@ export const MENU_ITEMS = [
       "ro": "Mujdei de usturoi",
       "en": "Mujdei Of Usturoi"
     },
-    "weight": "50g",
+    "weight": "50 g",
     "price": 5.0,
     "ingredients": {
       "ro": "usturoi, lămâie, ulei de floarea soarelui, sare",
@@ -4278,6 +4390,7 @@ export const MENU_ITEMS = [
       "en": "mustard dulce)/"
     },
     "allergens": [
+      3,
       10
     ],
     "isFrozen": false,
@@ -4351,7 +4464,7 @@ export const MENU_ITEMS = [
       "ro": "Limonadă",
       "en": "Limonadă"
     },
-    "weight": "400ml",
+    "weight": "400 ml",
     "price": 14.0,
     "ingredients": {
       "ro": "apă, lămâie, zahăr",
@@ -4403,7 +4516,7 @@ export const MENU_ITEMS = [
       "ro": "Socată",
       "en": "Socată"
     },
-    "weight": "400ml",
+    "weight": "400 ml",
     "price": 15.0,
     "ingredients": {
       "ro": "apă, suc de lămâie, lămâie, sirop de soc, ghimbir",
@@ -4429,7 +4542,7 @@ export const MENU_ITEMS = [
       "ro": "Suc răcoritor (Coca-Cola / Fanta / Sprite / Schweppes)",
       "en": "Suc Răcoritor (Coca-Cola / Fanta / Sprite / Schweppes)"
     },
-    "weight": "250ml",
+    "weight": "250 ml",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4455,7 +4568,7 @@ export const MENU_ITEMS = [
       "ro": "Suc răcoritor (Coca-Cola / Fanta / Sprite / Schweppes)",
       "en": "Suc Răcoritor (Coca-Cola / Fanta / Sprite / Schweppes)"
     },
-    "weight": "500ml",
+    "weight": "500 ml",
     "price": 15.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4481,7 +4594,7 @@ export const MENU_ITEMS = [
       "ro": "Nectar Cappy",
       "en": "Nectar Cappy"
     },
-    "weight": "250ml",
+    "weight": "250 ml",
     "price": 15.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4507,7 +4620,7 @@ export const MENU_ITEMS = [
       "ro": "Fuzetea",
       "en": "Fuzetea"
     },
-    "weight": "500ml",
+    "weight": "500 ml",
     "price": 15.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4530,16 +4643,20 @@ export const MENU_ITEMS = [
     "id": "item-160",
     "category": "racoritoare",
     "name": {
-      "ro": "Milkshake  Marissa5, 6",
-      "en": "Milkshake  Marissa5, 6"
+      "ro": "Milkshake  Marissa",
+      "en": "Milkshake  Marissa"
     },
-    "weight": "7300ml",
+    "weight": "7300 ml",
     "price": 25.0,
     "ingredients": {
       "ro": "lapte, frișcă, banană, topping cu aromă ciocolată, unt d e arahide",
       "en": "milk, whipped cream, banana, topping with aromă chocolate, butter d e arahiof"
     },
-    "allergens": [],
+    "allergens": [
+      5,
+      6,
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 177.1,
@@ -4559,7 +4676,7 @@ export const MENU_ITEMS = [
       "ro": "Suc Almdudler (mere)",
       "en": "Suc Almdudler (Mere)"
     },
-    "weight": "330ml",
+    "weight": "330 ml",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4585,7 +4702,7 @@ export const MENU_ITEMS = [
       "ro": "Energizant Red bull",
       "en": "Energizant Red Bull"
     },
-    "weight": "1buc",
+    "weight": "1 buc",
     "price": 15.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4611,7 +4728,7 @@ export const MENU_ITEMS = [
       "ro": "Suc răcoritor (Coca-Cola / Fanta / Sprite / Schweppes)",
       "en": "Suc Răcoritor (Coca-Cola / Fanta / Sprite / Schweppes)"
     },
-    "weight": "1buc",
+    "weight": "1 buc",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4637,7 +4754,7 @@ export const MENU_ITEMS = [
       "ro": "Apă minerală/plată",
       "en": "Apă Minerală/Plată"
     },
-    "weight": "500ml",
+    "weight": "500 ml",
     "price": 10.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4663,7 +4780,7 @@ export const MENU_ITEMS = [
       "ro": "Apă minerală/plată st",
       "en": "Apă Minerală/Plată St"
     },
-    "weight": "330ml",
+    "weight": "330 ml",
     "price": 10.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4689,7 +4806,7 @@ export const MENU_ITEMS = [
       "ro": "Apă minerală/plată st",
       "en": "Apă Minerală/Plată St"
     },
-    "weight": "750ml",
+    "weight": "750 ml",
     "price": 15.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4715,7 +4832,7 @@ export const MENU_ITEMS = [
       "ro": "Ceai natural",
       "en": "Ceai Natural"
     },
-    "weight": "200ml",
+    "weight": "200 ml",
     "price": 15.0,
     "ingredients": {
       "ro": "Ceai de plante/fructe",
@@ -4741,7 +4858,7 @@ export const MENU_ITEMS = [
       "ro": "Zahăr la plic",
       "en": "Zahăr La Plic"
     },
-    "weight": "2buc",
+    "weight": "2 buc",
     "price": 0.5,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4765,9 +4882,9 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Miere",
-      "en": "Pure Honey Portion"
+      "en": "Miere"
     },
-    "weight": "1buc",
+    "weight": "1 buc",
     "price": 3.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -4845,13 +4962,15 @@ export const MENU_ITEMS = [
       "ro": "Espresso cu lapte",
       "en": "Espresso With Lapte"
     },
-    "weight": "770ml",
+    "weight": "770 ml",
     "price": 10.0,
     "ingredients": {
       "ro": "espresso 20 ml, lapte, zahăr la plic",
       "en": "espresso 20 ml, milk, sugar la plic"
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 60.1,
@@ -4871,7 +4990,7 @@ export const MENU_ITEMS = [
       "ro": "Caffe Latte cu arome",
       "en": "Caffe Latte With Arome"
     },
-    "weight": "200ml",
+    "weight": "200 ml",
     "price": 20.0,
     "ingredients": {
       "ro": "espresso 20 ml, sirop caramel, lapte",
@@ -4899,7 +5018,7 @@ export const MENU_ITEMS = [
       "ro": "Baby Latte",
       "en": "Baby Latte"
     },
-    "weight": "170ml",
+    "weight": "170 ml",
     "price": 16.0,
     "ingredients": {
       "ro": "lapte, pudră de cacao, sirop de agave",
@@ -4924,8 +5043,8 @@ export const MENU_ITEMS = [
     "id": "item-175",
     "category": "racoritoare",
     "name": {
-      "ro": "Gingerbread  Latte7",
-      "en": "Gingerbread  Latte7"
+      "ro": "Gingerbread  Latte",
+      "en": "Gingerbread  Latte"
     },
     "weight": "200ml",
     "price": 20.0,
@@ -4933,7 +5052,9 @@ export const MENU_ITEMS = [
       "ro": "espresso 20ml, sirop turtă dulce, lapte",
       "en": "espresso 20ml, sirop turtă dulce, milk"
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 98.7,
@@ -4953,13 +5074,15 @@ export const MENU_ITEMS = [
       "ro": "Salted caramel  Latte",
       "en": "Salted Caramel  Latte"
     },
-    "weight": "7200ml",
+    "weight": "7200 ml",
     "price": 20.0,
     "ingredients": {
       "ro": "espresso 20ml, sirop caramel sărat, lapte",
       "en": "espresso 20ml, sirop caramel sărat, milk"
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 67.1,
@@ -4979,13 +5102,15 @@ export const MENU_ITEMS = [
       "ro": "Frappe espresso",
       "en": "Frappe Espresso"
     },
-    "weight": "7200ml",
+    "weight": "7200 ml",
     "price": 20.0,
     "ingredients": {
       "ro": "espresso 20 ml, lapte, frișcă, gheață",
       "en": "espresso 20 ml, milk, whipped cream, gheață"
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 71.6,
@@ -5005,7 +5130,7 @@ export const MENU_ITEMS = [
       "ro": "Cappuccino vienez",
       "en": "Cappuccino Vienez"
     },
-    "weight": "170ml",
+    "weight": "170 ml",
     "price": 16.0,
     "ingredients": {
       "ro": "espreso 20ml, lapte, frișcă",
@@ -5039,7 +5164,9 @@ export const MENU_ITEMS = [
       "ro": "cafea, lapte, frișcă, sirop, zahăr",
       "en": "cafea, milk, whipped cream, sirop, sugar"
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 164.4,
@@ -5059,7 +5186,7 @@ export const MENU_ITEMS = [
       "ro": "Turmenic Latte",
       "en": "Turmenic Latte"
     },
-    "weight": "170ml",
+    "weight": "170 ml",
     "price": 20.0,
     "ingredients": {
       "ro": "lapte, pudră de turmenic, ghimbir, scorțișoară, sirop de agave",
@@ -5084,16 +5211,18 @@ export const MENU_ITEMS = [
     "id": "item-181",
     "category": "racoritoare",
     "name": {
-      "ro": "Ciocolată caldă7",
-      "en": "Ciocolată Caldă7"
+      "ro": "Ciocolată caldă",
+      "en": "Ciocolată Caldă"
     },
-    "weight": "120ml",
+    "weight": "120 ml",
     "price": 16.0,
     "ingredients": {
       "ro": "frișcă, lapte, ciocolată caldă, zahăr pudră",
       "en": "whipped cream, milk, chocolate caldă, sugar pudră"
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 137.9,
@@ -5113,7 +5242,7 @@ export const MENU_ITEMS = [
       "ro": "Lavanda Latte",
       "en": "Lavanda Latte"
     },
-    "weight": "200ml",
+    "weight": "200 ml",
     "price": 20.0,
     "ingredients": {
       "ro": "espresso 20ml, lapte, gheață, sirop lavandă, zahăr",
@@ -5138,16 +5267,18 @@ export const MENU_ITEMS = [
     "id": "item-183",
     "category": "racoritoare",
     "name": {
-      "ro": "Frişcă7",
-      "en": "Frişcă7"
+      "ro": "Frişcă",
+      "en": "Frişcă"
     },
-    "weight": "20ml",
+    "weight": "20 ml",
     "price": 3.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 262.6,
@@ -5199,7 +5330,9 @@ export const MENU_ITEMS = [
       "ro": "suc ananas,suc merisoare,fresh lamaie,sirop Coton Candy gheata,felie lamaie ,marshmallov",
       "en": "suc pineapple,suc merisoare,fresh lamaie,sirop Coton Candy gheata,felie lamaie ,marshmallov"
     },
-    "allergens": [],
+    "allergens": [
+      4
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -5355,7 +5488,9 @@ export const MENU_ITEMS = [
       "ro": "campari, tinic,felie portocala,gheata",
       "en": "campari, tinic,felie portocala,gheata"
     },
-    "allergens": [],
+    "allergens": [
+      4
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -5433,7 +5568,9 @@ export const MENU_ITEMS = [
       "ro": "suc tonic,vermut,gheata,felii lamaie",
       "en": "suc tonic,vermut,gheata,felii lamaie"
     },
-    "allergens": [],
+    "allergens": [
+      4
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6155,7 +6292,7 @@ export const MENU_ITEMS = [
       "ro": "Sauvignon Blanc(sec)",
       "en": "Sauvignon Blanc(Sec)"
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 120.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6181,7 +6318,7 @@ export const MENU_ITEMS = [
       "ro": "Fetească Albă(sec)",
       "en": "Fetească Albă(Sec)"
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 120.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6207,7 +6344,7 @@ export const MENU_ITEMS = [
       "ro": "Tamaioasă Romanească(sec)",
       "en": "Tamaioasă Romanească(Sec)"
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 120.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6233,7 +6370,7 @@ export const MENU_ITEMS = [
       "ro": "Merlot (sec)",
       "en": "Merlot (Sec)"
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 120.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6259,7 +6396,7 @@ export const MENU_ITEMS = [
       "ro": "Cabernet(sec)",
       "en": "Cabernet(Sec)"
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 120.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6285,7 +6422,7 @@ export const MENU_ITEMS = [
       "ro": "Pinot Noir (demisec)",
       "en": "Pinot Noir (Demisec)"
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 120.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6311,7 +6448,7 @@ export const MENU_ITEMS = [
       "ro": "Rose Verite(demisec)",
       "en": "Rose Verite(Demisec)"
     },
-    "weight": "1 sticlă",
+    "weight": "1  sticlă",
     "price": 60.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6360,16 +6497,18 @@ export const MENU_ITEMS = [
     "id": "item-230",
     "category": "racoritoare",
     "name": {
-      "ro": "Fetească Neagră(demidulce) (12)",
-      "en": "Fetească Neagră(Demidulce) (12)"
+      "ro": "Fetească Neagră(demidulce) (",
+      "en": "Fetească Neagră(Demidulce) ("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6386,16 +6525,18 @@ export const MENU_ITEMS = [
     "id": "item-231",
     "category": "racoritoare",
     "name": {
-      "ro": "Pinot Noir(demisec)12)",
-      "en": "Pinot Noir(Demisec)12)"
+      "ro": "Pinot Noir(demisec)",
+      "en": "Pinot Noir(Demisec)"
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6412,16 +6553,18 @@ export const MENU_ITEMS = [
     "id": "item-232",
     "category": "racoritoare",
     "name": {
-      "ro": "Cabernet Sauvignon(12) (dulce)",
-      "en": "Cabernet Sauvignon(12) (Dulce)"
+      "ro": "Cabernet Sauvignon(",
+      "en": "Cabernet Sauvignon("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6438,16 +6581,18 @@ export const MENU_ITEMS = [
     "id": "item-233",
     "category": "racoritoare",
     "name": {
-      "ro": "Merlot(12) (sec)",
-      "en": "Merlot(12) (Sec)"
+      "ro": "Merlot(",
+      "en": "Merlot("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6464,16 +6609,18 @@ export const MENU_ITEMS = [
     "id": "item-234",
     "category": "racoritoare",
     "name": {
-      "ro": "Sauvignon Blanc(12) (demisec)",
-      "en": "Sauvignon Blanc(12) (Demisec)"
+      "ro": "Sauvignon Blanc(",
+      "en": "Sauvignon Blanc("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6490,16 +6637,18 @@ export const MENU_ITEMS = [
     "id": "item-235",
     "category": "racoritoare",
     "name": {
-      "ro": "Chardonnay(12) (sec)",
-      "en": "Chardonnay(12) (Sec)"
+      "ro": "Chardonnay(",
+      "en": "Chardonnay("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6516,16 +6665,19 @@ export const MENU_ITEMS = [
     "id": "item-236",
     "category": "racoritoare",
     "name": {
-      "ro": "Muscat Ottonel(12) (demidulce)",
-      "en": "Muscat Ottonel(12) (Demidulce)"
+      "ro": "Muscat Ottonel(",
+      "en": "Muscat Ottonel("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      4,
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6542,16 +6694,18 @@ export const MENU_ITEMS = [
     "id": "item-237",
     "category": "racoritoare",
     "name": {
-      "ro": "Fetească Albă(12) (sec)",
-      "en": "Fetească Albă(12) (Sec)"
+      "ro": "Fetească Albă(",
+      "en": "Fetească Albă("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6568,16 +6722,18 @@ export const MENU_ITEMS = [
     "id": "item-238",
     "category": "racoritoare",
     "name": {
-      "ro": "Roze(12) (demisec)",
-      "en": "Roze(12) (Demisec)"
+      "ro": "Roze(",
+      "en": "Roze("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6594,8 +6750,8 @@ export const MENU_ITEMS = [
     "id": "item-239",
     "category": "racoritoare",
     "name": {
-      "ro": "Fetească Regală(12) ( demisec)",
-      "en": "Fetească Regală(12) ( Demisec)"
+      "ro": "Fetească Regală(",
+      "en": "Fetească Regală("
     },
     "weight": "1 sticlă",
     "price": 50.0,
@@ -6603,7 +6759,9 @@ export const MENU_ITEMS = [
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6620,8 +6778,8 @@ export const MENU_ITEMS = [
     "id": "item-240",
     "category": "racoritoare",
     "name": {
-      "ro": "Riesling(12) (sec)",
-      "en": "Riesling(12) (Sec)"
+      "ro": "Riesling(",
+      "en": "Riesling("
     },
     "weight": "1sticlă",
     "price": 50.0,
@@ -6629,7 +6787,9 @@ export const MENU_ITEMS = [
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6646,16 +6806,18 @@ export const MENU_ITEMS = [
     "id": "item-241",
     "category": "racoritoare",
     "name": {
-      "ro": "Grasă de Cotnari(12) (demisec)",
-      "en": "Grasă Of Cotnari(12) (Demisec)"
+      "ro": "Grasă de Cotnari(",
+      "en": "Grasă Of Cotnari("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6675,7 +6837,7 @@ export const MENU_ITEMS = [
       "ro": "Sampanie Angeli",
       "en": "Sampanie Angeli"
     },
-    "weight": "1 sticlă",
+    "weight": "1  sticlă",
     "price": 50.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6698,16 +6860,18 @@ export const MENU_ITEMS = [
     "id": "item-243",
     "category": "racoritoare",
     "name": {
-      "ro": "Dry Muscat(12) (demisec)",
-      "en": "Dry Muscat(12) (Demisec)"
+      "ro": "Dry Muscat(",
+      "en": "Dry Muscat("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 60.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6724,16 +6888,18 @@ export const MENU_ITEMS = [
     "id": "item-244",
     "category": "racoritoare",
     "name": {
-      "ro": "Pinot Grigio(12) (demisec)",
-      "en": "Pinot Grigio(12) (Demisec)"
+      "ro": "Pinot Grigio(",
+      "en": "Pinot Grigio("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 60.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6750,16 +6916,18 @@ export const MENU_ITEMS = [
     "id": "item-245",
     "category": "racoritoare",
     "name": {
-      "ro": "Gewurztraminer(12) (demisec)",
-      "en": "Gewurztraminer(12) (Demisec)"
+      "ro": "Gewurztraminer(",
+      "en": "Gewurztraminer("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 60.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6776,16 +6944,18 @@ export const MENU_ITEMS = [
     "id": "item-246",
     "category": "racoritoare",
     "name": {
-      "ro": "Sauvignon Blanc(12) (demisec)",
-      "en": "Sauvignon Blanc(12) (Demisec)"
+      "ro": "Sauvignon Blanc(",
+      "en": "Sauvignon Blanc("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 60.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6802,16 +6972,18 @@ export const MENU_ITEMS = [
     "id": "item-247",
     "category": "racoritoare",
     "name": {
-      "ro": "Rose(12)(demisec)",
-      "en": "Rose(12)(Demisec)"
+      "ro": "Rose(",
+      "en": "Rose("
     },
-    "weight": "1sticlă",
+    "weight": "1 sticlă",
     "price": 60.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
       "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      12
+    ],
     "isFrozen": false,
     "nutrition": {
       "energyKcal": 180.0,
@@ -6831,7 +7003,7 @@ export const MENU_ITEMS = [
       "ro": "Pilsner Urquell0",
       "en": "Pilsner Urquell0"
     },
-    "weight": "33l",
+    "weight": "33 l",
     "price": 10.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6857,7 +7029,7 @@ export const MENU_ITEMS = [
       "ro": "Peroni Capri0",
       "en": "Peroni Capri0"
     },
-    "weight": "33l",
+    "weight": "33 l",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6883,7 +7055,7 @@ export const MENU_ITEMS = [
       "ro": "Peroni0",
       "en": "Peroni0"
     },
-    "weight": "33l",
+    "weight": "33 l",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6909,7 +7081,7 @@ export const MENU_ITEMS = [
       "ro": "Peroni fa0",
       "en": "Peroni Fa0"
     },
-    "weight": "33l",
+    "weight": "33 l",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6935,7 +7107,7 @@ export const MENU_ITEMS = [
       "ro": "Peroni0",
       "en": "Peroni0"
     },
-    "weight": "50l",
+    "weight": "50 l",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6961,7 +7133,7 @@ export const MENU_ITEMS = [
       "ro": "Azuga nefiltrata0",
       "en": "Azuga Nefiltrata0"
     },
-    "weight": "50l",
+    "weight": "50 l",
     "price": 15.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -6987,7 +7159,7 @@ export const MENU_ITEMS = [
       "ro": "Azuga nepasteurizata 0",
       "en": "Azuga Nepasteurizata 0"
     },
-    "weight": "50l",
+    "weight": "50 l",
     "price": 15.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7013,7 +7185,7 @@ export const MENU_ITEMS = [
       "ro": "Ursus Cooler     0",
       "en": "Ursus Cooler     0"
     },
-    "weight": "33l",
+    "weight": "33 l",
     "price": 10.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7091,7 +7263,7 @@ export const MENU_ITEMS = [
       "ro": "Ursus",
       "en": "Ursus"
     },
-    "weight": "50l",
+    "weight": "50 l",
     "price": 10.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7143,7 +7315,7 @@ export const MENU_ITEMS = [
       "ro": "Ursus Premium0",
       "en": "Ursus Premium0"
     },
-    "weight": "33l",
+    "weight": "33 l",
     "price": 10.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7169,7 +7341,7 @@ export const MENU_ITEMS = [
       "ro": "Ursus Retro      0",
       "en": "Ursus Retro      0"
     },
-    "weight": "50l",
+    "weight": "50 l",
     "price": 10.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7195,7 +7367,7 @@ export const MENU_ITEMS = [
       "ro": "Timişoreana0",
       "en": "Timişoreana0"
     },
-    "weight": "50l",
+    "weight": "50 l",
     "price": 10.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7221,7 +7393,7 @@ export const MENU_ITEMS = [
       "ro": "Timisireana FA 0",
       "en": "Timisireana Fa 0"
     },
-    "weight": "50l",
+    "weight": "50 l",
     "price": 10.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7247,7 +7419,7 @@ export const MENU_ITEMS = [
       "ro": "Kozel Premium 0",
       "en": "Kozel Premium 0"
     },
-    "weight": "33l",
+    "weight": "33 l",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7273,7 +7445,7 @@ export const MENU_ITEMS = [
       "ro": "Kozel Dark  0",
       "en": "Kozel Dark  0"
     },
-    "weight": "33l",
+    "weight": "33 l",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7299,7 +7471,7 @@ export const MENU_ITEMS = [
       "ro": "Peroni doză0",
       "en": "Peroni Doză0"
     },
-    "weight": "50l",
+    "weight": "50 l",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7325,7 +7497,7 @@ export const MENU_ITEMS = [
       "ro": "Ursus doză0",
       "en": "Ursus Doză0"
     },
-    "weight": "50l",
+    "weight": "50 l",
     "price": 10.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7351,7 +7523,7 @@ export const MENU_ITEMS = [
       "ro": "Timişoreana doză0",
       "en": "Timişoreana Doză0"
     },
-    "weight": "50l",
+    "weight": "50 l",
     "price": 10.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7403,7 +7575,7 @@ export const MENU_ITEMS = [
       "ro": "Peroni 0",
       "en": "Peroni 0"
     },
-    "weight": "40l",
+    "weight": "40 l",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7429,7 +7601,7 @@ export const MENU_ITEMS = [
       "ro": "Kozel Dark 0",
       "en": "Kozel Dark 0"
     },
-    "weight": "50l",
+    "weight": "50 l",
     "price": 12.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7507,7 +7679,7 @@ export const MENU_ITEMS = [
       "ro": "Kozel Dark 0",
       "en": "Kozel Dark 0"
     },
-    "weight": "30l",
+    "weight": "30 l",
     "price": 9.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7533,7 +7705,7 @@ export const MENU_ITEMS = [
       "ro": "Ursus0",
       "en": "Ursus0"
     },
-    "weight": "40l",
+    "weight": "40 l",
     "price": 10.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7559,7 +7731,7 @@ export const MENU_ITEMS = [
       "ro": "Timişoreana0",
       "en": "Timişoreana0"
     },
-    "weight": "40l",
+    "weight": "40 l",
     "price": 10.0,
     "ingredients": {
       "ro": "Preparat proaspăt pregătit din ingrediente alese.",
@@ -7585,7 +7757,7 @@ export const MENU_ITEMS = [
       "ro": "PLATOU TRADIȚIONAL",
       "en": "Platou Tradițional"
     },
-    "weight": "400g",
+    "weight": "400 g",
     "price": 45.0,
     "ingredients": {
       "ro": "costiță,cărnați, cardaboș, murături",
@@ -7617,7 +7789,7 @@ export const MENU_ITEMS = [
       "ro": "SARMALE CU CIOLAN ȘI MĂMĂLIGUȚĂ",
       "en": "Sarmale With Ciolan & Mămăliguță"
     },
-    "weight": "200/200/50g",
+    "weight": "200/200/50 g",
     "price": 38.0,
     "ingredients": {
       "ro": "carne porc, ciolan, orez,condimente, făină porumb, smântână",
@@ -7625,7 +7797,8 @@ export const MENU_ITEMS = [
     },
     "allergens": [
       1,
-      3
+      3,
+      7
     ],
     "isFrozen": true,
     "nutrition": {
@@ -7646,7 +7819,7 @@ export const MENU_ITEMS = [
       "ro": "SALATĂ DE BOEUF",
       "en": "Salată Of Boeuf"
     },
-    "weight": "250g",
+    "weight": "250 g",
     "price": 25.0,
     "ingredients": {
       "ro": "piept de pui, ouă, morcovi, cartofi, ulei, muștar,condimente",
@@ -7655,7 +7828,8 @@ export const MENU_ITEMS = [
     "allergens": [
       1,
       3,
-      7
+      7,
+      10
     ],
     "isFrozen": true,
     "nutrition": {
@@ -7676,7 +7850,7 @@ export const MENU_ITEMS = [
       "ro": "PRĂJITURI ASORTATE",
       "en": "Prăjituri Asortate"
     },
-    "weight": "200g",
+    "weight": "200 g",
     "price": 18.0,
     "ingredients": {
       "ro": "ouă, lapte, cacao, unt, zahăr, nucă, untură, fructe",
@@ -7686,6 +7860,7 @@ export const MENU_ITEMS = [
       1,
       3,
       5,
+      7,
       8
     ],
     "isFrozen": false,
