@@ -1,0 +1,21 @@
+{
+  "name": "Hotel & Restaurant Marissa Digital Menu",
+  "short_name": "Marissa Menu",
+  "description": "Smart Digital QR Restaurant Menu for Hotel Marissa (Tășnad, Romania). Offline capable with 100g ANPC Order 201/2022 nutritional values.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F6F2",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://hotelmarissa.ro/wp-content/uploads/2024/05/cropped-Logo_2024_transparent-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "https://hotelmarissa.ro/wp-content/uploads/2024/05/cropped-Logo_2024_transparent-180x180.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -3,17 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="https://hotelmarissa.ro/wp-content/uploads/2024/05/cropped-Logo_2024_transparent-180x180.png" />
+    <link rel="manifest" href="/manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-    <meta name="description" content="Hotel & Restaurant Marissa // Smart Digital QR Menu. Meniu culinar interactiv, valori nutriționale per 100g, alergeni EU 2000/13/CE și conformitate ANPC 183/2016." />
     <meta name="theme-color" content="#ffffff" />
-    <title>Hotel & Restaurant Marissa // Smart Digital QR Menu</title>
-    <!-- Ultra Clean Modern Fonts: Plus Jakarta Sans & Inter -->
+    <meta name="description" content="Hotel & Restaurant Marissa (Tășnad, Romania) Smart Digital QR Menu. Conform Ordinului ANPC 201/2022 & 183/2016: valori nutriționale per 100g, alergeni EU 2000/13/CE și ingrediente decongelate." />
+
+    <!-- Open Graph / Meta Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Hotel & Restaurant Marissa // Smart Digital QR Menu" />
+    <meta property="og:description" content="Meniu digital interactiv cu valori nutriționale per 100g, alergeni EU 2000/13/CE și conformitate ANPC Order 201/2022." />
+    <meta property="og:image" content="https://hotelmarissa.ro/wp-content/uploads/2024/05/Logo_2024_transparent2.webp" />
+    <meta property="og:url" content="https://hotelmarissa.ro" />
+
+    <title>Hotel & Restaurant Marissa // Smart Digital QR Menu (ANPC 201/2022)</title>
+
+    <!-- Ultra Clean Modern Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Structured Data Schema (schema.org/Restaurant and schema.org/Menu) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Hotel & Restaurant Marissa",
+      "image": "https://hotelmarissa.ro/wp-content/uploads/2024/05/Logo_2024_transparent2.webp",
+      "@id": "https://hotelmarissa.ro",
+      "url": "https://hotelmarissa.ro",
+      "telephone": "+40744627830",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Str. Stefan cel Mare nr. 104",
+        "addressLocality": "Tășnad",
+        "addressRegion": "Satu Mare",
+        "postalCode": "445300",
+        "addressCountry": "RO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 47.4772,
+        "longitude": 22.5855
+      },
+      "servesCuisine": ["Romanian", "European", "International"],
+      "hasMenu": {
+        "@type": "Menu",
+        "name": "Meniu Restaurant Marissa 2025",
+        "description": "Smart Digital QR Menu compliant with ANPC Order 201/2022"
+      }
+    }
+    </script>
   </head>
   <body class="bg-[#F8F6F2] text-[#111827] antialiased selection:bg-[#C19B77] selection:text-white">
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Service Worker Registration for PWA Offline Caching -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
   </body>
 </html>
