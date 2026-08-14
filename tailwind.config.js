@@ -11,17 +11,16 @@ export default {
           gold: '#C19B77',
           goldDark: '#A8805B',
           goldLight: '#D4B494',
-          goldBg: '#FDFBF7',
-          dark: '#1C1C1C',
-          slate: '#373737',
+          dark: '#111827',
+          slate: '#374151',
           cream: '#F8F6F2',
-          border: '#E8E2D9',
+          border: '#E5E7EB',
         }
       },
       fontFamily: {
-        playfair: ['"Playfair Display"', 'serif'],
-        roboto: ['Roboto', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
+        sans: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', 'sans-serif'],
+        jakarta: ['"Plus Jakarta Sans"', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
       }
     },
   },
