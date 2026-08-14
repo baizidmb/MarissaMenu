@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useRef } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import Header from './components/Header';
 import CategoryNav from './components/CategoryNav';
 import SearchBar from './components/SearchBar';
@@ -9,7 +9,7 @@ import HotelInfoModal from './components/HotelInfoModal';
 import QrTableStandView from './components/QrTableStandView';
 import MobileBottomNav from './components/MobileBottomNav';
 import { MENU_CATEGORIES, MENU_ITEMS, FISCAL_NOTICE, HOTEL_INFO } from './data/marissaMenuData';
-import { ShieldCheck, Utensils, Phone, Globe, Mail, Hotel } from 'lucide-react';
+import { ShieldCheck, Utensils, Phone, Globe, Mail, Hotel, QrCode } from 'lucide-react';
 
 export default function App() {
   const [lang, setLang] = useState('ro'); // 'ro' or 'en'
@@ -26,7 +26,18 @@ export default function App() {
   const [isAllergenModalOpen, setIsAllergenModalOpen] = useState(false);
   const [isHotelModalOpen, setIsHotelModalOpen] = useState(false);
   const [selectedAllergenId, setSelectedAllergenId] = useState(null);
+  
+  // Staff Admin QR Stand Mode (Default hidden for customers, triggered by Staff link or ?admin=true)
   const [isQrViewActive, setIsQrViewActive] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('admin') === 'true') {
+        setIsQrViewActive(true);
+      }
+    }
+  }, []);
 
   // Toggle Language between Romanian (RO) and English (EN)
   const handleToggleLang = () => {
@@ -44,6 +55,11 @@ export default function App() {
     if (searchRef.current) {
       searchRef.current.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  // Scroll smoothly to top
+  const handleScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   // Filter & Sort Items
@@ -120,7 +136,7 @@ export default function App() {
   const sloganText = typeof HOTEL_INFO.slogan === 'object' ? (HOTEL_INFO.slogan[lang] || HOTEL_INFO.slogan.ro) : HOTEL_INFO.slogan;
 
   return (
-    <div className="min-h-screen bg-[#F8F6F2] text-[#1C1C1C] flex flex-col font-['Roboto'] pb-16 sm:pb-0">
+    <div className="min-h-screen bg-[#F8F6F2] text-[#1C1C1C] flex flex-col font-['Roboto'] pb-20 sm:pb-0">
       {/* Header & Fiscal Banner */}
       <Header
         lang={lang}
@@ -128,17 +144,15 @@ export default function App() {
         onOpenFiscalModal={() => setIsFiscalModalOpen(true)}
         onOpenAllergenModal={() => handleOpenAllergenModal(null)}
         onOpenHotelModal={() => setIsHotelModalOpen(true)}
-        onToggleQrView={() => setIsQrViewActive(!isQrViewActive)}
-        isQrViewActive={isQrViewActive}
       />
 
-      {/* QR Table Stand View or Main Digital Menu View */}
+      {/* Staff QR Table Stand Generator View or Main Digital Menu View */}
       {isQrViewActive ? (
         <main className="flex-1">
           <QrTableStandView onClose={() => setIsQrViewActive(false)} lang={lang} />
         </main>
       ) : (
-        <main className="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-6 py-6 space-y-6">
+        <main className="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6">
           {/* Sticky Category Scroll Bar */}
           <CategoryNav
             activeCategory={activeCategory}
@@ -165,7 +179,7 @@ export default function App() {
 
           {/* Menu Items Grid */}
           {filteredItems.length === 0 ? (
-            <div className="bg-white border border-[#E8E2D9] rounded-2xl p-12 text-center space-y-4 my-8 shadow-xs">
+            <div className="bg-white border border-[#E8E2D9] rounded-2xl p-8 sm:p-12 text-center space-y-4 my-8 shadow-xs">
               <div className="w-16 h-16 mx-auto rounded-full bg-[#F8F6F2] border border-[#E8E2D9] flex items-center justify-center">
                 <Utensils className="w-8 h-8 text-[#C19B77]" />
               </div>
@@ -184,14 +198,14 @@ export default function App() {
                   setActiveCategory('all');
                   setSortBy('default');
                 }}
-                className="px-5 py-2 bg-[#C19B77] hover:bg-[#A8805B] text-white font-bold rounded-xl text-xs transition-all shadow-sm"
+                className="px-5 py-2.5 bg-[#C19B77] hover:bg-[#A8805B] text-white font-bold rounded-xl text-xs transition-all shadow-sm"
               >
                 {lang === 'ro' ? 'Resetare Filtre' : 'Reset Filters'}
               </button>
             </div>
           ) : groupedCategories ? (
             /* Grouped by Categories */
-            <div className="space-y-10">
+            <div className="space-y-8 sm:space-y-10">
               {groupedCategories.map(({ category, items }) => {
                 const catName = typeof category.name === 'object' ? (category.name[lang] || category.name.ro) : category.name;
                 const catDesc = typeof category.description === 'object' ? (category.description[lang] || category.description.ro) : category.description;
@@ -200,11 +214,11 @@ export default function App() {
                   <section key={category.id} id={category.id} className="space-y-4 scroll-mt-36">
                     {/* Category Header */}
                     <div className="flex items-center gap-3 border-b border-[#E8E2D9] pb-3">
-                      <span className="text-2xl p-2 rounded-xl bg-white border border-[#E8E2D9] shadow-xs">
+                      <span className="text-2xl p-2 rounded-xl bg-white border border-[#E8E2D9] shadow-xs shrink-0">
                         {category.icon}
                       </span>
                       <div>
-                        <h2 className="font-['Playfair_Display'] font-bold text-lg md:text-xl text-[#1C1C1C] tracking-wide">
+                        <h2 className="font-['Playfair_Display'] font-bold text-lg sm:text-xl text-[#1C1C1C] tracking-wide">
                           {catName}
                         </h2>
                         <p className="text-xs text-[#7A7A7A] font-medium">
@@ -213,8 +227,8 @@ export default function App() {
                       </div>
                     </div>
 
-                    {/* Category Items Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {/* Category Items Grid - Responsive 1 col on mobile, 2 col on tablet, 3 col on desktop */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                       {items.map((item) => (
                         <MenuItemCard
                           key={item.id}
@@ -230,7 +244,7 @@ export default function App() {
             </div>
           ) : (
             /* Flat Filtered Grid */
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {filteredItems.map((item) => (
                 <MenuItemCard
                   key={item.id}
@@ -254,7 +268,7 @@ export default function App() {
                 <img
                   src={HOTEL_INFO.logoUrl}
                   alt="Hotel Marissa Logo"
-                  className="h-8 w-auto object-contain"
+                  className="h-10 w-auto object-contain"
                 />
                 <span className="font-['Playfair_Display'] font-bold text-[#1C1C1C] text-sm">
                   {HOTEL_INFO.name}
@@ -263,7 +277,7 @@ export default function App() {
               <p className="text-[#7A7A7A] leading-relaxed text-[11px]">
                 {sloganText}
               </p>
-              <div className="flex items-center gap-3 text-[11px]">
+              <div className="flex items-center gap-3 text-[11px] flex-wrap">
                 <a href={HOTEL_INFO.website} target="_blank" rel="noopener noreferrer" className="text-[#C19B77] hover:underline font-semibold flex items-center gap-1">
                   <Globe className="w-3.5 h-3.5" />
                   <span>hotelmarissa.ro</span>
@@ -311,7 +325,7 @@ export default function App() {
             <div>
               © {new Date().getFullYear()} Hotel & Restaurant Marissa. Toate drepturile rezervate.
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3 flex-wrap justify-center">
               <button
                 onClick={() => setIsHotelModalOpen(true)}
                 className="hover:text-[#C19B77] transition-colors flex items-center gap-1"
@@ -334,26 +348,28 @@ export default function App() {
                 {lang === 'ro' ? 'Notă OUG 28/1999' : 'Fiscal Notice'}
               </button>
               <span>•</span>
+              {/* Staff QR Stand Generator Link */}
               <button
                 onClick={() => setIsQrViewActive(true)}
-                className="hover:text-[#C19B77] transition-colors"
+                className="hover:text-[#C19B77] transition-colors flex items-center gap-1 text-[10px] text-[#8C8C8C]"
+                title="Generare Stand QR (Numai pentru Personal)"
               >
-                QR Masă
+                <QrCode className="w-3 h-3 text-[#C19B77]" />
+                <span>{lang === 'ro' ? '🔑 Personal QR Stand' : '🔑 Staff QR Stand'}</span>
               </button>
             </div>
           </div>
         </div>
       </footer>
 
-      {/* Mobile Sticky Quick Access Bottom Bar */}
+      {/* Mobile Sticky Quick Access Bottom Bar for Customers */}
       <MobileBottomNav
         lang={lang}
         onToggleLang={handleToggleLang}
         onOpenAllergenModal={() => handleOpenAllergenModal(null)}
         onOpenHotelModal={() => setIsHotelModalOpen(true)}
-        onToggleQrView={() => setIsQrViewActive(!isQrViewActive)}
-        isQrViewActive={isQrViewActive}
         onScrollToSearch={handleScrollToSearch}
+        onScrollToTop={handleScrollToTop}
       />
 
       {/* Modals */}

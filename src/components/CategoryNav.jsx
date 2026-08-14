@@ -7,18 +7,18 @@ export default function CategoryNav({ activeCategory, onSelectCategory, lang = '
 
   const scroll = (direction) => {
     if (navRef.current) {
-      const scrollAmount = direction === 'left' ? -250 : 250;
+      const scrollAmount = direction === 'left' ? -280 : 280;
       navRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
     }
   };
 
   return (
     <div className="relative z-30 no-print">
-      <div className="flex items-center justify-between gap-2 bg-white/90 backdrop-blur-md p-2 rounded-2xl border border-[#E8E2D9] shadow-sm">
+      <div className="flex items-center justify-between gap-1.5 bg-white/90 backdrop-blur-md p-1.5 sm:p-2 rounded-2xl border border-[#E8E2D9] shadow-sm">
         {/* Scroll Left Button */}
         <button
           onClick={() => scroll('left')}
-          className="p-2 rounded-xl hover:bg-[#F8F6F2] text-[#7A7A7A] hover:text-[#C19B77] transition-all shrink-0 hidden sm:flex items-center justify-center"
+          className="p-2.5 rounded-xl hover:bg-[#F8F6F2] text-[#7A7A7A] hover:text-[#C19B77] transition-all shrink-0 hidden sm:flex items-center justify-center"
           title="Scroll stânga"
         >
           <ChevronLeft className="w-5 h-5" />
@@ -33,7 +33,7 @@ export default function CategoryNav({ activeCategory, onSelectCategory, lang = '
           {/* "All" Category Pill */}
           <button
             onClick={() => onSelectCategory('all')}
-            className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all duration-200 shrink-0 ${
+            className={`flex items-center gap-1.5 px-4 py-2.5 sm:py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all duration-200 shrink-0 ${
               activeCategory === 'all'
                 ? 'bg-[#C19B77] text-white shadow-md shadow-[#C19B77]/25 font-bold scale-[1.02]'
                 : 'bg-[#F8F6F2] text-[#373737] hover:bg-[#EFEBE4] border border-[#E8E2D9]'
@@ -52,13 +52,13 @@ export default function CategoryNav({ activeCategory, onSelectCategory, lang = '
               <button
                 key={cat.id}
                 onClick={() => onSelectCategory(cat.id)}
-                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all duration-200 shrink-0 ${
+                className={`flex items-center gap-2 px-4 py-2.5 sm:py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all duration-200 shrink-0 ${
                   isActive
                     ? 'bg-[#C19B77] text-white shadow-md shadow-[#C19B77]/25 font-bold scale-[1.02]'
                     : 'bg-[#F8F6F2] text-[#373737] hover:bg-[#EFEBE4] border border-[#E8E2D9]'
                 }`}
               >
-                <span className="text-sm">{cat.icon}</span>
+                <span className="text-base">{cat.icon}</span>
                 <span>{categoryName}</span>
               </button>
             );
@@ -68,7 +68,7 @@ export default function CategoryNav({ activeCategory, onSelectCategory, lang = '
         {/* Scroll Right Button */}
         <button
           onClick={() => scroll('right')}
-          className="p-2 rounded-xl hover:bg-[#F8F6F2] text-[#7A7A7A] hover:text-[#C19B77] transition-all shrink-0 hidden sm:flex items-center justify-center"
+          className="p-2.5 rounded-xl hover:bg-[#F8F6F2] text-[#7A7A7A] hover:text-[#C19B77] transition-all shrink-0 hidden sm:flex items-center justify-center"
           title="Scroll dreapta"
         >
           <ChevronRight className="w-5 h-5" />
