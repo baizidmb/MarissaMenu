@@ -1,0 +1,880 @@
+=== TESTING PARSER ===
+NAME: 'Mic dejun 3,' | WEIGHT: '7300gr.' | PRICE: 25.0 LEI | ALGS: []
+  ING: 'ou  prăjit, cremvurști, roșie, cașcaval, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații  nutriționale 100g: Valoare Energetică (kJ/kcal):...'
+--------------------------------------------------
+NAME: 'Mic dejun, cartofi prăjiți cu ouă și slănină' | WEIGHT: '250gr' | PRICE: 28.0 LEI | ALGS: [3, 7]
+  ING: 'ou prăjit, ceapă, slănină de porc, cartofi prăjiti, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Omletă cu şuncă și caşcaval 3,' | WEIGHT: '7225 gr.' | PRICE: 28.0 LEI | ALGS: []
+  ING: 'ou, șuncă, cașcaval, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Omletă ţărănească cu slănină și ceapă' | WEIGHT: '3300 gr.' | PRICE: 30.0 LEI | ALGS: []
+  ING: 'ou, ceapă, slănină de porc, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Marissa breakfast' | WEIGHT: '370gr' | PRICE: 35.0 LEI | ALGS: [1, 3, 7, 11]
+  ING: 'chiflă, cremă de brânză, ou poșat, bacon, sos olandez, roșii, cherry, salată mixtă,  mix de semințe, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Platou mic dejun 3,' | WEIGHT: '725/80/100/25 gr.' | PRICE: 25.0 LEI | ALGS: []
+  ING: 'Unt, gem, mezel, telemea'
+  NUTR: 'Informații nutriționale 100g Valoare Energetică (kJ/kcal): 1...'
+--------------------------------------------------
+NAME: 'Bruschete cu roșii' | WEIGHT: '7300 gr' | PRICE: 25.0 LEI | ALGS: []
+  ING: 'pâine, roșii, pătrunjel verde, ulei de măsline, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Bacon prăjit/slănină prăjită' | WEIGHT: '100 gr.' | PRICE: 18.0 LEI | ALGS: []
+  ING: 'bacon/slănină'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Cremvurşti' | WEIGHT: '100 gr.' | PRICE: 12.0 LEI | ALGS: [7]
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Telemea' | WEIGHT: '7100 gr.' | PRICE: 12.0 LEI | ALGS: []
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Caşcaval' | WEIGHT: '7100 gr.' | PRICE: 12.0 LEI | ALGS: []
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Lapte' | WEIGHT: '7200 ml.' | PRICE: 8.0 LEI | ALGS: []
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Iaurt' | WEIGHT: '71 pahar' | PRICE: 8.0 LEI | ALGS: []
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Unt porţionat' | WEIGHT: '725 gr.' | PRICE: 5.0 LEI | ALGS: []
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Cacao cu lapte' | WEIGHT: '7200 ml.' | PRICE: 12.0 LEI | ALGS: []
+  ING: 'lapte, zahăr, pudră de cacao'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Cereale cu lapte' | WEIGHT: '200gr' | PRICE: 15.0 LEI | ALGS: [7, 8]
+  ING: 'lapte, cereale pentru micul dejun'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Gem' | WEIGHT: '50 gr' | PRICE: 5.0 LEI | ALGS: []
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Miere' | WEIGHT: '50 gr.' | PRICE: 5.0 LEI | ALGS: []
+  NUTR: 'Informații nutriționale100g:Valoare energetică (kJ/kcal):138...'
+--------------------------------------------------
+NAME: 'Mici 1,' | WEIGHT: '1040gr' | PRICE: 7.0 LEI | ALGS: []
+  ING: 'mici, pâine, muştar, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Caşcaval pane 1,3,' | WEIGHT: '7180gr.' | PRICE: 28.0 LEI | ALGS: []
+  ING: 'mozzarella, ou, pesmet, făină de grâu'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Mămăligă cu brânză şi smântână' | WEIGHT: '7250/150/70gr.' | PRICE: 35.0 LEI | ALGS: []
+  ING: 'brânză de vaci, apă, făină de mălai, ulei, sare'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Burger de vită1,' | WEIGHT: '450gr' | PRICE: 49.0 LEI | ALGS: [3, 7, 9, 10]
+  ING: 'chiflă, cartofi prăjiti, carne vită, brânză chedar, roșie, ceapă, salată mixtă, castraveți  murați, sos cheddar, condimente) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 767 / 183.6, Grăsimi (g):11.3 din care: Acizi grași saturați (g) 3.7, Glucide (g): 14.4 din care: Zaharuri (g): 1.5, Proteine (g): 6.9, Sare (g): 0.9'
+--------------------------------------------------
+NAME: 'Burger Crispy' | WEIGHT: '350 gr.' | PRICE: 38.0 LEI | ALGS: [1, 3, 7, 9, 10]
+  ING: 'chiflă, cartofi prăjiți, piept de pui, roșie, salată sezon, iaurt, maioneză, condimente'
+  NUTR: 'Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 7...'
+--------------------------------------------------
+NAME: 'Shaorma la farfurie' | WEIGHT: '450 gr.' | PRICE: 38.0 LEI | ALGS: [1, 3, 7, 9]
+  ING: 'cartofi prăjiți, carne de pui, lipie, varză, roșie, ceapă, castraveți murați, maioneză, ketchup, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ultra cheeseburger 1, 3, 7, 9,' | WEIGHT: '10450GR' | PRICE: 49.0 LEI | ALGS: []
+  ING: 'chiflă, carne de vită, roșii, castraveți, brânză cheddar, sos cheddar, cartofi prăjiți, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ciorbă de burtă 1, 3,' | WEIGHT: '7100gr' | PRICE: 29.0 LEI | ALGS: []
+  ING: 'burtă de vită, legume asortate, smântână, ou, usturoi, ulei, oțet, făină de grâu, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ciorbă rădăuțeană1, 3,7_________________' | WEIGHT: '60gr' | PRICE: 25.0 LEI | ALGS: []
+  ING: 'legume asortate, piept de pui, ou, ulei, oțet, usturoi, făină, smântână, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Babgulyas 1,3, 7,' | WEIGHT: '9100gr' | PRICE: 35.0 LEI | ALGS: []
+  ING: 'ciolan de porc,  cârnați,  fasole, ou, legume asortate, ceapă, făină, pastă de ardei iute, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ciorbă ţărănească de porc' | WEIGHT: '50gr' | PRICE: 25.0 LEI | ALGS: [9]
+  ING: 'legume asortate, cartofi, pulpă de porc, roșii, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ciorbă de fasole cu afumătură' | WEIGHT: '150gr' | PRICE: 25.0 LEI | ALGS: []
+  ING: 'legume asortate, fasole, ciolan de porc, smântână, ulei, pasta de ardei, ceapă, făină de grâu, ulei, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoarea Energetica.(kJ/kcal) ...'
+--------------------------------------------------
+NAME: 'Smântână' | WEIGHT: '80 ml' | PRICE: 7.0 LEI | ALGS: [7]
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ardei iute' | WEIGHT: '1 buc.' | PRICE: 2.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Pâine/porție' | WEIGHT: '150 gr' | PRICE: 3.0 LEI | ALGS: [1]
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Pâinici rumenite' | WEIGHT: '3 buc' | PRICE: 9.0 LEI | ALGS: [1]
+  ING: 'pâine, ulei de măsline, usturoi, busuioc'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Platou Marissa' | WEIGHT: '600 gr.' | PRICE: 69.0 LEI | ALGS: [3, 7]
+  ING: 'piept de pui, ceafă de porc, ciolan de porc, cartofi prăjiți, mix de legume, iaurt, maioneză, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Platoul  Gurmandului' | WEIGHT: '1500gr' | PRICE: 135.0 LEI | ALGS: [1, 7]
+  ING: 'ceafă de porc, piept de pui, aripioare crispy, cartofi wedges, murături, sos chilli, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Platoul bucătarului 1,71 kg' | WEIGHT: '' | PRICE: 110.0 LEI | ALGS: []
+  ING: 'ceafă de porc, mici, scăriță de porc, legume la grătar, cartofi prăjiți, salată mixtă, sos muștar, sare'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Piept de pui la grătar' | WEIGHT: '7150gr.' | PRICE: 28.0 LEI | ALGS: []
+  ING: 'piept de pui, unt, sare, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Pulpe de pui dezosate la grătar' | WEIGHT: '180 gr.' | PRICE: 27.0 LEI | ALGS: []
+  ING: 'pulpe de pui , condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Piept de rață / Pulpă de rață, cu varză roșie și sos de portocale' | WEIGHT: '170/200/60gr' | PRICE: 65.0 LEI | ALGS: [1, 7]
+  ING: 'piept de rață, legume asortate, portocală, amidon de grâu, unt'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Escalop din piept de pui cu cartofi piure și sos de ciuperci' | WEIGHT: '7150 gr.' | PRICE: 45.0 LEI | ALGS: []
+  ING: 'piept de pui, cartofi, unt, ciuperci, smântână lichidă, pătrunjel verde, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Piept de pui cu legume și sos de cașcaval' | WEIGHT: '150 gr.' | PRICE: 42.0 LEI | ALGS: [7, 8]
+  ING: 'piept de pui, legume, unt, smântână lichidă, unt de arahide, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Piept de pui crispy cu cartofi prajiti și sos roșu 1,' | WEIGHT: '3150/150/50 gr.' | PRICE: 38.0 LEI | ALGS: []
+  ING: 'piept de pui, ou, făină de grâu, cartofi, sos din roșii, ulei de palmier,  condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Aripioare Crispy1,' | WEIGHT: '3250gr.' | PRICE: 28.0 LEI | ALGS: []
+  ING: 'aripioare, făină de grâu, ou, ulei de palmier, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Şniţel din piept de pui1,' | WEIGHT: '3180gr.' | PRICE: 24.0 LEI | ALGS: []
+  ING: 'piept de pui, ou, făină, pesmet, condimente'
+  NUTR: 'Informații nutriționale 100g:Valoare Energetică (kJ/kcal): 6...'
+--------------------------------------------------
+NAME: 'Muşchi de vită la grill cu sos de hribi și cartofi cu rozmarin 7 150/200/50' | WEIGHT: '' | PRICE: 89.0 LEI | ALGS: []
+  ING: 'mușchiuleț de vită, unt, cartofi, rozmarin, ciuperci, smântână lichidă, ulei, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'T-Bone de vită cu sos dijon și cartofi copți  7  _380/200/' | WEIGHT: '80gr' | PRICE: 125.0 LEI | ALGS: []
+  ING: 'T-bone, cartofi copți, muștar Dijon, unt, ulei, condiment'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Obrăjori de vită și piure cu aromă de trufe, sos de merișoare' | WEIGHT: '280gr' | PRICE: 98.0 LEI | ALGS: [1]
+  ING: 'carne de vită, ulei de măsline, unt , cartofi, fructe, trufe, amidon, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ossobuco de vită, piure de cartofi cu trufe' | WEIGHT: '150/50/20gr' | PRICE: 80.0 LEI | ALGS: [1]
+  ING: 'carne de vită, unt, rucola , ulei, sare, otet balsamic, condimente'
+  NUTR: 'Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 1...'
+--------------------------------------------------
+NAME: 'Mușchiulet de porc, sos de hribi și cartofi cu aromă de trufe' | WEIGHT: '150/350gr.' | PRICE: 55.0 LEI | ALGS: [7]
+  ING: 'mușchiulet de porc, cartofi, pastă de trufe, hribi, crustă de verdețuri, ulei, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Cotlet de porc Marissa' | WEIGHT: '7250gr.' | PRICE: 32.0 LEI | ALGS: []
+  ING: 'cotlet de porc, ciuperci amestecate, bacon, roșii, mozzarella, smântână lichidă, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Șnitel de porc uriaș cu sos picant 1,3 7,' | WEIGHT: '11200/50gr.' | PRICE: 30.0 LEI | ALGS: []
+  ING: 'cotlet de porc, sos picant, cașcaval, ulei de floarea soarelui, ou, făină de grâu, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ceafă  ţigănească și cartofi prăjiți 1,' | WEIGHT: '3180/150gr.' | PRICE: 52.0 LEI | ALGS: []
+  ING: 'ceafă de porc, slănină afumată, ou, sos picant, cartofi, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ceafă de porc la grătar' | WEIGHT: '180gr.' | PRICE: 30.0 LEI | ALGS: []
+  ING: 'ceafă de porc, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Scariță gigant cu catofi wedges' | WEIGHT: '7400/150gr.' | PRICE: 55.0 LEI | ALGS: []
+  ING: 'costiță de porc, cartofi wedges, sos barbeque, usturoi, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ciolan de porc' | WEIGHT: '100gr.' | PRICE: 12.0 LEI | ALGS: []
+  ING: 'ciolan de porc'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ciolan de porc cu os domnesc' | WEIGHT: '100gr.' | PRICE: 10.0 LEI | ALGS: []
+  ING: 'ciolan de porc, ulei de floarea soarelui, usturoi, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Tochitură de porc cu mămăliguță' | WEIGHT: '150/200gr.' | PRICE: 45.0 LEI | ALGS: []
+  ING: 'carne de porc, usturoi, sos roșu, ou, telemea, burduf, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Obrăjori de porc cu cartofi piure și sos de portocale' | WEIGHT: '200/200/50gr.' | PRICE: 65.0 LEI | ALGS: [1]
+  ING: 'obrăjori de porc, cartofi, unt, portocale,verdeață, amidon de porumb, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Cotlet de porc cu os la grătar, cartofi copți și sos dijon' | WEIGHT: '150/200/50gr' | PRICE: 65.0 LEI | ALGS: [10]
+  ING: 'cotlet de porc, cartofi, praz, muștar, ulei, pătrunjel, ardei, roșii, lămâie, ierburi, unt, condiment'
+  NUTR: 'Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 12...'
+--------------------------------------------------
+NAME: 'File de somon cu sos teriaki garnisit cu legume 4, 6, 7, 8, 10,' | WEIGHT: '11150/150gr.' | PRICE: 59.0 LEI | ALGS: []
+  ING: 'file de somon, morcov, conopidă, broccoli, unt, ulei, lămâie, sos teriaki, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Păstrăv/Doradă la grătar cu legume 4       200./' | WEIGHT: '150gr' | PRICE: 55.0 LEI | ALGS: []
+  ING: 'păstrăv/doradă, legume asortate, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Păstrăv în crustă de mălâi cu mămăliguță' | WEIGHT: '250/200 gr' | PRICE: 55.0 LEI | ALGS: [4]
+  ING: 'păstrăv, făină de mălai, lămâie, usturoi, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Tigaie cu fructe de mare' | WEIGHT: '250/80gr' | PRICE: 48.0 LEI | ALGS: [1, 2, 7]
+  ING: 'fructe de mare, ardei iute, roșii, usturoi, pătrunjel verde, unt, lămâie, ulei de măsline, pâine prăjită, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Sos roşu 9(ketchup)' | WEIGHT: '70gr.' | PRICE: 5.0 LEI | ALGS: []
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Sos alb' | WEIGHT: '70gr.' | PRICE: 5.0 LEI | ALGS: [3, 7]
+  ING: 'iaurt, maioneză, usturoi, oregano, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Sos chilli' | WEIGHT: '100gr.' | PRICE: 5.0 LEI | ALGS: [9]
+  ING: 'ketchup, ardei iute'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ulei picant (ulei și ardei iute)' | WEIGHT: '30ml' | PRICE: 5.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Mujdei de usturoi' | WEIGHT: '50gr.' | PRICE: 5.0 LEI | ALGS: []
+  ING: 'usturoi, lămâie, ulei de floarea soarelui, sare'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Muştar/maioneză/ketchup' | WEIGHT: '70ml' | PRICE: 3.0 LEI | ALGS: [10]
+--------------------------------------------------
+NAME: 'Sos alb, cu ciuperci' | WEIGHT: '100gr.' | PRICE: 12.0 LEI | ALGS: [3, 7]
+  ING: 'smântână lichidă, ciuperci, ceapă, ardei, pătrunjel verde, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Cartofi prăjiţi' | WEIGHT: '180gr.' | PRICE: 12.0 LEI | ALGS: []
+  ING: 'cartofi, ulei de palmier, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Cartofi piure' | WEIGHT: '7200gr.' | PRICE: 10.0 LEI | ALGS: []
+  ING: 'cartofi, lapte, unt, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Cartofi natur' | WEIGHT: '7200gr.' | PRICE: 10.0 LEI | ALGS: []
+  ING: 'cartofi, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Cartofi aurii' | WEIGHT: '180gr.' | PRICE: 12.0 LEI | ALGS: []
+  ING: 'cartofi, ulei de palmier, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Pilaf de orez' | WEIGHT: '200gr.' | PRICE: 10.0 LEI | ALGS: []
+  ING: 'orez, legume asortate, ceapă, ardei, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Legume înăbuşite' | WEIGHT: '7200gr.' | PRICE: 12.0 LEI | ALGS: []
+  ING: 'brocoli, morcov, conopidă, ceapă, unt, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Mămăligă' | WEIGHT: '200 gr.' | PRICE: 9.0 LEI | ALGS: []
+  ING: 'făină de mălai, ulei de floarea soarelui, sare'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Iahnie de fasole' | WEIGHT: '1200gr.' | PRICE: 12.0 LEI | ALGS: []
+  ING: 'fasole, ceapă, ardei, roșie, ulei de floarea soarelui, făină de grâu, usturoi, sare, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ciuperci sote' | WEIGHT: '200gr.' | PRICE: 15.0 LEI | ALGS: []
+  ING: 'ciuperci, ardei, roșii, ceapă, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Legume asortate la grătar_____________________' | WEIGHT: '200gr.' | PRICE: 18.0 LEI | ALGS: []
+  ING: 'ciuperci, ardei, roșii, ceapă, dovlecel, vânătă, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Spaghete Milanese' | WEIGHT: '400 gr.' | PRICE: 32.0 LEI | ALGS: [1, 7]
+  ING: 'paste, șuncă, sos de roșii, ciuperci, parmezan, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Spaghete Carbonara1, 3, 7______________________' | WEIGHT: '400 gr.' | PRICE: 32.0 LEI | ALGS: []
+  ING: 'spaghete, bacon, smântână lichidă, parmezan, ou, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Paste Quattro Formaggi' | WEIGHT: '400 gr.' | PRICE: 35.0 LEI | ALGS: [1, 3, 7]
+  ING: 'paste, smântână lichidă, parmezan, ou, gorgonzola, brânză de burduf, unt, ulei de floarea soarelui, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Paste all`arrabbiata' | WEIGHT: '400gr' | PRICE: 28.0 LEI | ALGS: [1]
+  ING: 'paste, roșii, sos de roșii, pesto, ulei de măsline, condimente'
+  NUTR: 'Informații nutriționale 100g Valoare Energetică (kJ/kcal): 5...'
+--------------------------------------------------
+NAME: 'Tagliatelle cu creveti/' | WEIGHT: '400 gr.' | PRICE: 42.0 LEI | ALGS: [1, 2, 7]
+  ING: 'paste,  creveți, mix de legume, unt, smântână, condimente'
+  NUTR: 'Informații nutriționale 100g Valoare Energetică (kJ/kcal): 5...'
+--------------------------------------------------
+NAME: 'Paste cu fructe de mare' | WEIGHT: '400 gr.' | PRICE: 42.0 LEI | ALGS: [1, 2, 7]
+  ING: 'paste, fructe de mare, roșii, lămâie, unt, usturoi, ulei de masline'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Tagliatelli cu somon' | WEIGHT: '400gr' | PRICE: 42.0 LEI | ALGS: [1, 7]
+  ING: 'somon, paste, smântână, usturoi, pătrunjel, unt, condimente'
+  NUTR: 'Informații nutriționale 100g Valoare Energetică (kJ/kcal): 5...'
+--------------------------------------------------
+NAME: 'Risotto al funghi porcini' | WEIGHT: '350gr' | PRICE: 42.0 LEI | ALGS: []
+  ING: 'orez, hribi, usturoi, parmezan, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Risotto alla pescadora' | WEIGHT: '350 gr.' | PRICE: 49.0 LEI | ALGS: []
+  ING: 'orez,  fructe de mare, lămâie, unt, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Salată grecească3,' | WEIGHT: '7300/70gr' | PRICE: 28.0 LEI | ALGS: []
+  ING: 'salată iceberg, telemea, roșie, castraveți, măsline, ardei, lămâie, ulei de măsline, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Salata cu ton  3, 4, 7,' | WEIGHT: '11300/70gr.' | PRICE: 28.0 LEI | ALGS: []
+  ING: 'salata iceberg, ton, salată, roșie, castraveți, măsline, iaurt, ardei, lămâie, ulei de măsline, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Salată Cezar' | WEIGHT: '300/70gr' | PRICE: 35.0 LEI | ALGS: [3, 7]
+  ING: 'piept de pui, salată iceberg, parmezan, ou, lămâie, muștar,  file de anșoa, capere, castraveți murați, ulei de măsline, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Salată Capresse' | WEIGHT: '7100/100/50 gr.' | PRICE: 28.0 LEI | ALGS: []
+  ING: 'mozzarela, roșii, rucola/salata sezon, ulei de măsline, pesto, iaurt, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Salată cu avocado, pui sau creveti 3,7,' | WEIGHT: '11300/70 gr' | PRICE: 38.0 LEI | ALGS: []
+  ING: 'piept de pui/creveți, parmezan, avocado, salată iceberg și de sezon, susan, castraveți, roșii, lămâie, muștar, ulei de măsline, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Salată varză albă' | WEIGHT: '150gr.' | PRICE: 8.0 LEI | ALGS: []
+  ING: 'varză, oțet balsamic, ulei de floarea soarelui, lămâie)    Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 239.7 / 57.6, Grăsimi (g): 3.5 din care: Acizi grași saturați (g) 0.3, Glucide (g): 6.3 din care: Zaharuri (g): 4.3, Proteine (g): 1.1, Sare (g): 0'
+--------------------------------------------------
+NAME: 'Salată  de roşii' | WEIGHT: '150gr.' | PRICE: 10.0 LEI | ALGS: []
+  ING: 'roșie, ulei de floarea soarelui, sare)     Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 283.2 / 68.4, Grăsimi (g): 5.6 din care: Acizi grași saturați (g) 0.6, Glucide (g): 4.6 din care: Zaharuri (g): 3.2, Proteine (g): 0.6, Sare (g): 1.3'
+--------------------------------------------------
+NAME: 'Ardei copţi' | WEIGHT: '150gr.' | PRICE: 12.0 LEI | ALGS: []
+  ING: 'ardei copți, oțet)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 117.2 / 28, Grăsimi (g): 0.1 din care: Acizi grași saturați (g) 0, Glucide (g): 0.1 din care: Zaharuri (g): 0.1, Proteine (g): 0.6, Sare (g): 1.8'
+--------------------------------------------------
+NAME: 'Salată murături1,' | WEIGHT: '150gr.' | PRICE: 10.0 LEI | ALGS: [10]
+  ING: 'salată de murături mix)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 113.2 / 27.1, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0, Glucide (g): 4 din care: Zaharuri (g): 5, Proteine (g): 0.5, Sare (g): 0.8'
+--------------------------------------------------
+NAME: 'Salată de sfeclă roşie' | WEIGHT: '150 gr.' | PRICE: 12.0 LEI | ALGS: []
+  ING: 'sfeclă roșie, oțet balsamic)   Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 175.1 / 41.5, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0, Glucide (g): 9.7 din care: Zaharuri (g): 7.1, Proteine (g): 1.6, Sare (g): 0.1'
+--------------------------------------------------
+NAME: 'Salată de ceapă' | WEIGHT: '150gr.' | PRICE: 8.0 LEI | ALGS: []
+  ING: 'ceapă, ulei de floarea soarelui, sare)  Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 193.9 / 46.6, Grăsimi (g): 2.2 din care: Acizi grași saturați (g) 0.2, Glucide (g): 6.5 din care: Zaharuri (g): 4.6, Proteine (g): 1.2, Sare (g): 1.3.'
+--------------------------------------------------
+NAME: 'Îngheţată la cupă' | WEIGHT: '100 gr.' | PRICE: 22.0 LEI | ALGS: [6, 7]
+  ING: 'înghețată,  lapte,  frișcă, topping fructe, ciocolată'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Vulcan de ciocolată cu îngheţată și fructe' | WEIGHT: '200 gr.' | PRICE: 28.0 LEI | ALGS: [1, 3, 6, 7, 8]
+  ING: 'înghețată lapte, fructe asortate, lava cake, topping ciocolată,  frișcă'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Clătite cu banană, finetti și înghețată' | WEIGHT: '200 gr.' | PRICE: 28.0 LEI | ALGS: [1, 3, 7]
+  ING: 'banane, finetti , frișcă, înghețată, lapte, făină de grâu, ou, ulei de floarea soarelui, zahăr'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Clătite cu gem  1,3,7_____________________' | WEIGHT: '250 gr.' | PRICE: 20.0 LEI | ALGS: []
+  ING: 'ou, lapte, făină de grâu, frișcă, zahăr, gem fructe, ulei de floarea soarelui'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Papanaşi cu brânză şi gem 1, 3, 7___' | WEIGHT: '300 gr.' | PRICE: 32.0 LEI | ALGS: []
+  ING: 'smântână, făină de grâu, ou, brânză dulce, gem, ulei de floarea soarelui, zahăr, griș sare, lămâie'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Felie desert 1, 3, 7_____________________________' | WEIGHT: '150 gr.' | PRICE: 22.0 LEI | ALGS: []
+  ING: 'făină, frișcă, pișcoturi, ouă,  mascarpone,  zahăr  pudră, cafea, esență de rom, vanilie, cacao'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Ecler 3,7     __' | WEIGHT: '180gr' | PRICE: 22.0 LEI | ALGS: []
+  ING: 'făină de grâu, ou, lapte, gem de fructe, zahăr, griș, lămâie esență vanilie'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Cheesecake 3,7       __' | WEIGHT: '180 gr' | PRICE: 22.0 LEI | ALGS: []
+  ING: 'făină de grâu, ou, lapte, gem de fructe, zahăr, brânză dulce, philadelphia, lămâie, esența vanilie'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Tiramisu' | WEIGHT: '150 gr' | PRICE: 22.0 LEI | ALGS: [3, 7]
+--------------------------------------------------
+NAME: 'FOCACCIA' | WEIGHT: '1200gr' | PRICE: 12.0 LEI | ALGS: []
+  ING: 'făină de grâu, ulei de măsline, sare, oregano, drojdie'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'FOCACCIA CASEI 1,7_' | WEIGHT: '230gr' | PRICE: 15.0 LEI | ALGS: []
+  ING: 'făină de grâu, parmesan, ulei de măsline, sare, oregano, drojdie'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '1. PIZZA MARGHERITA' | WEIGHT: '385 gr.' | PRICE: 30.0 LEI | ALGS: [1, 7]
+  ING: 'făină de grâu, sos roșii, drojdie, mozzarella, sare, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '2.PIZZA MARISSA 1,7,' | WEIGHT: '9520 gr.' | PRICE: 35.0 LEI | ALGS: []
+  ING: 'făină de grâu, sare, drojdie, sos de roșii, mozzarella, șuncă, salam, porumb, ciuperci, prosciutto, măsline, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '3.PIZZA PROSCIUTTO 1,' | WEIGHT: '7455 gr.' | PRICE: 30.0 LEI | ALGS: []
+  ING: 'făină de grâu, sos de roșii, drojdie, mozzarella, șuncă, sare, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '4.PIZZA PROSCIUTTO PORUMB1,' | WEIGHT: '7455 gr.' | PRICE: 32.0 LEI | ALGS: []
+  ING: 'făină de grâu, sos de roșii, drojdie, mozzarella, șuncă, porumb, sare, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '5.PIZZA PROSCIUTTO FUNGHI 1,' | WEIGHT: '7455 gr.' | PRICE: 32.0 LEI | ALGS: []
+  ING: 'făină de grâu, sos de roșii, drojdie, mozzarella, șuncă, ciuperci, sare, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '6.PIZZA PROSCIUTTO CRUDO  1,' | WEIGHT: '7455 gr.' | PRICE: 35.0 LEI | ALGS: []
+  ING: 'făină de grâu, sos de roșii, drojdie, mozzarella, prosciutto crudo, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '7.PIZZA PROSCIUTTO CRUDO RUCOLA 1,' | WEIGHT: '7455 gr.' | PRICE: 36.0 LEI | ALGS: []
+  ING: 'făină de grâu, sos de roșii, drojdie, mozzarella, prosciutto crudo, rucola, sare, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '8.PIZZA DIAVOLLA 1,' | WEIGHT: '7425 gr.' | PRICE: 32.0 LEI | ALGS: []
+  ING: 'făină de grâu, drojdie, salam  picant, mozzarella, sos de roșii, sare, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '9.PIZZA FUNGHI 1,' | WEIGHT: '7430 gr.' | PRICE: 32.0 LEI | ALGS: []
+  ING: 'făină de grâu, drojdie, mozzarella, sos de roșii, ciuperci, sare, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '10.PIZZA CALIFORNIA 1,' | WEIGHT: '7480 gr.' | PRICE: 32.0 LEI | ALGS: []
+  ING: 'făină degrâu, sare, drojdie, sos de roșii, ciuperci, șuncă, salam, porumb, mozzarella, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '11.PIZZA QUATTRO STAGIONE 1,' | WEIGHT: '7450 gr.' | PRICE: 32.0 LEI | ALGS: []
+  ING: 'făină de grâu, sare, drojdie,sos de roșii, mozzarella, ciuperci, șuncă, porumb, măsline, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '12.PIZZA QUATTRO FORMAGGI' | WEIGHT: '450 gr.' | PRICE: 35.0 LEI | ALGS: [1, 7]
+  ING: 'făină de grâu, sare, drojdie, sos de roșii, mozzarella, brânză de burduf, gorgonzola, parmezan, oregano) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1257.9 / 298.2, Grăsimi (g): 10.8 din care: Acizi grași saturați (g) 5.5, Glucide (g): 38.2 din care: Zaharuri (g): 2, Proteine (g): 13.5, Sare (g): 2.1'
+--------------------------------------------------
+NAME: '13.PIZZA TONNO E CIPOLLA 1, 4,' | WEIGHT: '7450 gr.' | PRICE: 32.0 LEI | ALGS: []
+  ING: 'făină de grâu, ton, mozzarella, roșii cuburi, ceapă, drojdie, sare, oregano'
+  NUTR: 'Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 9...'
+--------------------------------------------------
+NAME: '14.PIZZA QUATRO CARNI' | WEIGHT: '450 gr.' | PRICE: 38.0 LEI | ALGS: [1, 7]
+  ING: 'făină de grâu, sare, drojdie, sos de roșii, mozzarella, salam, șuncă, cârnat, bacon, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '15.PIZZA VEGETARIANĂ' | WEIGHT: '450 gr.' | PRICE: 32.0 LEI | ALGS: [1, 7]
+  ING: 'făină de grâu, sare, drojdie, sos de roșii, mozzarella, cartofi prăjiți, ciuperci, porumb,  măsline, ceapă, ardei) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 2315.7 / 552.1, Grăsimi (g): 27.3 din care: Acizi grași saturați (g) 10.3, Glucide (g): 69.1 din care: Zaharuri (g): 8, Proteine (g): 14.2, Sare (g): 3.1'
+--------------------------------------------------
+NAME: '16.PIZZA TOSCANA' | WEIGHT: '450 gr.' | PRICE: 35.0 LEI | ALGS: [1, 3, 7]
+  ING: 'făină de grâu, sare, drojdie, sos de roșii, mozzarella, ou,șuncă, bacon, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '17.PIZZA SPECIALE  1,' | WEIGHT: '7550 gr.' | PRICE: 38.0 LEI | ALGS: []
+  ING: 'făină de grâu, sare, drojdie, sos de roșii, mozzarella, cartofi prăjiți,  piept de pui'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '18. PIZZA CAPRICCIOSA' | WEIGHT: '500gr.' | PRICE: 32.0 LEI | ALGS: [1, 7]
+  ING: 'făină de grâu,  sare, drojdie, sos de roșii, mozzarella, anghinare, măsline, șuncă, ciuperci, porumb, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '19. PIZZA HAWAI' | WEIGHT: '500gr.' | PRICE: 32.0 LEI | ALGS: [1, 7]
+  ING: 'făină de grâu, sare, drojdie, sos de roșii, mozzarella, șuncă, ananas, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '20. PIZZA KEBAB' | WEIGHT: '500gr.' | PRICE: 38.0 LEI | ALGS: [1, 7]
+  ING: 'făină de grâu, sare, drojdie, sos de roșii, mozzarella, carne de pui, cartofi prăjiți, roșii cuburi, castraveți murați, ceapă, sos alb, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: '21.PIZZA MARISSA FAMILY1,' | WEIGHT: '71400 gr.' | PRICE: 72.0 LEI | ALGS: []
+  ING: 'făină de grâu, mozzarella, porumb, măsline, ciuperci, șuncă, salam, prosciutto crudo, roșii cuburi, ulei de floarea soarelui, ceapă, zahăr, sare, drojdie'
+  NUTR: 'Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 1...'
+--------------------------------------------------
+NAME: 'Ambalaj pizza mică buc.' | WEIGHT: '' | PRICE: 3.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Ambalaj pizza mare buc.' | WEIGHT: '' | PRICE: 4.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Pungă                                      buc.' | WEIGHT: '' | PRICE: 0.5 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Caserolă              buc.' | WEIGHT: '' | PRICE: 1.5 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Tacâm            buc.' | WEIGHT: '' | PRICE: 1.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Salam' | WEIGHT: '750 gr.' | PRICE: 5.0 LEI | ALGS: []
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Șuncă' | WEIGHT: '750 gr.' | PRICE: 5.0 LEI | ALGS: []
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Cârnat' | WEIGHT: '750 gr.' | PRICE: 5.0 LEI | ALGS: []
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Bacon' | WEIGHT: '50gr.' | PRICE: 5.0 LEI | ALGS: []
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Sos alb 3,' | WEIGHT: '770gr.' | PRICE: 5.0 LEI | ALGS: []
+  ING: 'iaurt, smântână, maioneză, usturoi, condimente, oregano'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Sos roşu' | WEIGHT: '970gr.' | PRICE: 3.0 LEI | ALGS: []
+  ING: 'roșii, ceapă, oregano, ulei de măsline, sare, piper'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Sos roşu picant' | WEIGHT: '970 gr.' | PRICE: 5.0 LEI | ALGS: []
+  ING: 'roșii, ceapă, oregano, ulei de măsline ,sare, piper'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Sos roşu / Ketchup' | WEIGHT: '70gr.' | PRICE: 5.0 LEI | ALGS: [9]
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Sos alb' | WEIGHT: '70gr.' | PRICE: 5.0 LEI | ALGS: [3, 7]
+  ING: 'iaurt, maioneză, usturoi, oregano, condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Sos chili' | WEIGHT: '100gr.' | PRICE: 5.0 LEI | ALGS: [9]
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Mujdei de usturoi' | WEIGHT: '50gr.' | PRICE: 5.0 LEI | ALGS: []
+  ING: 'usturoi, lămâie, ulei de floarea soarelui, sare'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Muştar/maioneza/ketchup' | WEIGHT: '70ml' | PRICE: 3.0 LEI | ALGS: [10]
+  ING: 'muștar dulce)/'
+--------------------------------------------------
+NAME: 'Fresh de portocale' | WEIGHT: '150ml.' | PRICE: 15.0 LEI | ALGS: []
+  ING: 'Portocale'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Fresh de grapefruit' | WEIGHT: '150ml.' | PRICE: 15.0 LEI | ALGS: []
+  ING: 'Grapefruit'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Limonadă' | WEIGHT: '400 ml.' | PRICE: 14.0 LEI | ALGS: []
+  ING: 'apă, lămâie, zahăr'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Limonadă cu arome________________________________' | WEIGHT: '400ml.' | PRICE: 15.0 LEI | ALGS: []
+  ING: 'limonadă, gheață, sirop trandafir'
+  NUTR: 'Informații nutriționale 100g:Valoare Energetică (kJ/kcal):18...'
+--------------------------------------------------
+NAME: 'Socată______________________________________________' | WEIGHT: '400 ml' | PRICE: 15.0 LEI | ALGS: []
+  ING: 'apă, suc de lămâie, lămâie, sirop de soc, ghimbir'
+  NUTR: 'Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 8...'
+--------------------------------------------------
+NAME: 'Suc (' | WEIGHT: '250 ml' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Suc (' | WEIGHT: '500 ml' | PRICE: 15.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Nectar Cappy' | WEIGHT: '250 ml' | PRICE: 15.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Fuzetea' | WEIGHT: '500 ml.' | PRICE: 15.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Milkshake  Marissa5, 6,' | WEIGHT: '7300 ml.' | PRICE: 25.0 LEI | ALGS: []
+  ING: 'lapte, frișcă, banană, topping cu aromă ciocolată, unt d e arahide'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Suc Almdudler (mere)' | WEIGHT: '330 ml.' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Energizant Red bull' | WEIGHT: '1buc.' | PRICE: 15.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Energizant Coca-Cola' | WEIGHT: '1buc.' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Apă minerală/plată' | WEIGHT: '500 ml' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Apă minerală/plată st.330 m l' | WEIGHT: '' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Apă minerală/plată st.' | WEIGHT: '750 ml' | PRICE: 15.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Ceai natural' | WEIGHT: '200 ml.' | PRICE: 15.0 LEI | ALGS: []
+  ING: 'Ceai de plante/fructe'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Zahăr la plic' | WEIGHT: '2 buc.' | PRICE: 0.5 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Miere' | WEIGHT: '1 buc.' | PRICE: 3.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Espresso' | WEIGHT: '30ml' | PRICE: 9.0 LEI | ALGS: []
+  ING: 'espresso, zahăr la plic'
+--------------------------------------------------
+NAME: 'Espresso dublu' | WEIGHT: '100ml.' | PRICE: 18.0 LEI | ALGS: []
+  ING: 'espresso dublu, zahăr la plic'
+--------------------------------------------------
+NAME: 'Espresso cu lapte' | WEIGHT: '770 ml.' | PRICE: 10.0 LEI | ALGS: []
+  ING: 'espresso 20 ml, lapte, zahăr la plic'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Caffe Latte cu arome' | WEIGHT: '200 ml.' | PRICE: 20.0 LEI | ALGS: [7]
+  ING: 'espresso 20 ml, sirop caramel, lapte'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Baby Latte 7___________________________________  _' | WEIGHT: '170 ml' | PRICE: 16.0 LEI | ALGS: []
+  ING: 'lapte, pudră de cacao, sirop de agave'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Gingerbread  Latte' | WEIGHT: '200ml.' | PRICE: 20.0 LEI | ALGS: [7]
+  ING: 'espresso 20ml, sirop turtă dulce, lapte'
+  NUTR: 'Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 4...'
+--------------------------------------------------
+NAME: 'Salted caramel  Latte' | WEIGHT: '7200 ml.' | PRICE: 20.0 LEI | ALGS: []
+  ING: 'espresso 20ml, sirop caramel sărat, lapte'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Frappe espresso' | WEIGHT: '7200 ml.' | PRICE: 20.0 LEI | ALGS: []
+  ING: 'espresso 20 ml, lapte, frișcă, gheață'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Cappuccino vienez' | WEIGHT: '170 ml' | PRICE: 16.0 LEI | ALGS: [7]
+  ING: 'espreso 20ml, lapte, frișcă'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Capucino cu Arome' | WEIGHT: '7170ml.' | PRICE: 16.0 LEI | ALGS: []
+  ING: 'cafea, lapte, frișcă, sirop, zahăr'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Turmenic Latte 7___________________________________  _' | WEIGHT: '170 ml.' | PRICE: 20.0 LEI | ALGS: []
+  ING: 'lapte, pudră de turmenic, ghimbir, scorțișoară, sirop de agave'
+  NUTR: 'Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 3...'
+--------------------------------------------------
+NAME: 'Ciocolată caldă' | WEIGHT: '120 ml.' | PRICE: 16.0 LEI | ALGS: [7]
+  ING: 'frișcă, lapte, ciocolată caldă, zahăr pudră'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Lavanda Latte 7_____________________________________' | WEIGHT: '200 ml.' | PRICE: 20.0 LEI | ALGS: []
+  ING: 'espresso 20ml, lapte, gheață, sirop lavandă, zahăr'
+  NUTR: 'Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 28...'
+--------------------------------------------------
+NAME: 'Frişcă' | WEIGHT: '20 ml.' | PRICE: 3.0 LEI | ALGS: [7]
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'Bora Bora__________________________________________________' | WEIGHT: '200ml.' | PRICE: 25.0 LEI | ALGS: []
+  ING: 'Suc de ananas, Suc de lamaie, Gheață, Sirop fructul pasiunii, Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 247.1 / 58.3, Grăsimi (g):0.1 din care: Acizigrașisaturați (g) 0, Glucide (g): 13.7 din care: Zaharuri (g): 13.7,Proteine (g): 0.3, Sare (g): 0'
+--------------------------------------------------
+NAME: 'Boni bon' | WEIGHT: '300ml' | PRICE: 22.0 LEI | ALGS: []
+  ING: 'suc ananas,suc merisoare,fresh lamaie,sirop Coton Candy gheata,felie lamaie ,marshmallov'
+--------------------------------------------------
+NAME: 'Cooler' | WEIGHT: '300ml' | PRICE: 22.0 LEI | ALGS: []
+  ING: 'fresh lamaie,sirop grenadine,suc cranberry,gheata,felie lamaie,portocala,fruste padure'
+--------------------------------------------------
+NAME: 'Foke Mojito' | WEIGHT: '300ml' | PRICE: 18.0 LEI | ALGS: []
+  ING: 'fresh lamaie,sirop zahar,apa minerala,menta,lamaie,gheata'
+--------------------------------------------------
+NAME: 'Aperol spit' | WEIGHT: '400ml' | PRICE: 24.0 LEI | ALGS: []
+  ING: 'aperol,proseco,felii portocale,gheata'
+--------------------------------------------------
+NAME: 'Hugo' | WEIGHT: '400ml' | PRICE: 24.0 LEI | ALGS: []
+  ING: 'sirop soc, proseco,sirop zahar,fres de lamaie,menta,gheata'
+--------------------------------------------------
+NAME: 'Campari spit' | WEIGHT: '400ml' | PRICE: 24.0 LEI | ALGS: []
+  ING: 'campari,proseco,felii portocale,gheata'
+--------------------------------------------------
+NAME: 'Campari tonic' | WEIGHT: '400ml' | PRICE: 24.0 LEI | ALGS: []
+  ING: 'campari, tinic,felie portocala,gheata'
+--------------------------------------------------
+NAME: 'Negroni' | WEIGHT: '400ml' | PRICE: 24.0 LEI | ALGS: []
+  ING: 'campari,gin,martini,felie portocala,gheata'
+--------------------------------------------------
+NAME: 'Americano' | WEIGHT: '400ml' | PRICE: 24.0 LEI | ALGS: []
+  ING: 'campari,vermuth,felie portocala,gheata'
+--------------------------------------------------
+NAME: 'Vermuth tonic' | WEIGHT: '400ml' | PRICE: 24.0 LEI | ALGS: []
+  ING: 'suc tonic,vermut,gheata,felii lamaie'
+--------------------------------------------------
+NAME: 'Pina Colada________________________________________' | WEIGHT: '200ml.' | PRICE: 25.0 LEI | ALGS: []
+  ING: 'Suc de ananas, Gheață, Sirop de glucoză-fructoză, Rom'
+  NUTR: 'Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 24...'
+--------------------------------------------------
+NAME: 'Mojito_____________________________________________' | WEIGHT: '200ml.' | PRICE: 25.0 LEI | ALGS: []
+  ING: 'Apa minerala, Gheață, Lime, Sirop de glucoză-fructoză, Rom'
+  NUTR: 'Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 12...'
+--------------------------------------------------
+NAME: 'Long Island_______________________________________________' | WEIGHT: '200ml.' | PRICE: 28.0 LEI | ALGS: []
+  ING: 'Cola, Gheață, Lime, Gin, Vodcă, Rom'
+  NUTR: 'Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 37...'
+--------------------------------------------------
+NAME: 'Alexander' | WEIGHT: '50ml.' | PRICE: 9.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Stalinskaya' | WEIGHT: '50ml.' | PRICE: 9.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Absolut' | WEIGHT: '50ml.' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Finlandia' | WEIGHT: '50ml.' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Tequila Camino' | WEIGHT: '50ml.' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Tărie de Bihor' | WEIGHT: '50ml.' | PRICE: 9.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Angeli' | WEIGHT: '50ml.' | PRICE: 9.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Sheridan’s' | WEIGHT: '50ml.' | PRICE: 15.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Jagermaister' | WEIGHT: '50ml.' | PRICE: 15.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Unicum' | WEIGHT: '50ml.' | PRICE: 18.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Triplusec' | WEIGHT: '50ml.' | PRICE: 8.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Martini' | WEIGHT: '50ml.' | PRICE: 8.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Gin Wemblei_______________________' | WEIGHT: '50ml.' | PRICE: 15.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Alexandrion*****' | WEIGHT: '50ml.' | PRICE: 9.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Alexandrion*******' | WEIGHT: '50ml.' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Metaxa*****' | WEIGHT: '50ml.' | PRICE: 15.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Jidvei' | WEIGHT: '50ml.' | PRICE: 15.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Mioriţa' | WEIGHT: '50ml.' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Triumf' | WEIGHT: '50ml.' | PRICE: 8.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Unirea' | WEIGHT: '50ml.' | PRICE: 5.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Brâncoveanu' | WEIGHT: '50ml.' | PRICE: 30.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Grant’s' | WEIGHT: '50ml.' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Jack Daniel’s' | WEIGHT: '50ml.' | PRICE: 15.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Johnnie Walker' | WEIGHT: '50ml.' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Sauvignon Blanc(sec)' | WEIGHT: '1 sticlă' | PRICE: 120.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Fetească Albă(sec)' | WEIGHT: '1 sticlă' | PRICE: 120.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Tamaioasă Romanească(sec)' | WEIGHT: '1 sticlă' | PRICE: 120.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Merlot (sec)' | WEIGHT: '1 sticlă' | PRICE: 120.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Cabernet(sec)' | WEIGHT: '1 sticlă' | PRICE: 120.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Pinot Noir (demisec)' | WEIGHT: '1 sticlă' | PRICE: 120.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Rose Verite(demisec)1 sticla-13,5% alcool volum_' | WEIGHT: '' | PRICE: 60.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Sceptrus _________________1sticla -   14,0% alcool volum' | WEIGHT: '' | PRICE: 60.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Fetească Neagră(demidulce) (12)' | WEIGHT: '1 sticlă' | PRICE: 50.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Pinot Noir(demisec)12)' | WEIGHT: '1 sticlă' | PRICE: 50.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Cabernet Sauvignon(12) (dulce)' | WEIGHT: '1 sticlă' | PRICE: 50.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Merlot(12) (sec)' | WEIGHT: '1 sticlă' | PRICE: 50.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Sauvignon Blanc(12) (demisec)' | WEIGHT: '1 sticlă' | PRICE: 50.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Chardonnay(12) (sec)' | WEIGHT: '1 sticlă' | PRICE: 50.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Muscat Ottonel(12) (demidulce)' | WEIGHT: '1 sticlă' | PRICE: 50.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Fetească Albă(12) (sec)' | WEIGHT: '1 sticlă' | PRICE: 50.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Roze(12) (demisec)' | WEIGHT: '1 sticlă' | PRICE: 50.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Fetească Regală(12) ( demisec) 1sticla – 12%alcool/volum' | WEIGHT: '' | PRICE: 50.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Riesling(12) (sec)_________________' | WEIGHT: '1sticlă' | PRICE: 50.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Grasă de Cotnari(12) (demisec)' | WEIGHT: '1 sticlă' | PRICE: 50.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Sampanie Angeli___________1 sticla – 12% alcool volum_' | WEIGHT: '' | PRICE: 50.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Dry Muscat(12) (demisec)' | WEIGHT: '1 sticlă' | PRICE: 60.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Pinot Grigio(12) (demisec)' | WEIGHT: '1 sticlă' | PRICE: 60.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Gewurztraminer(12) (demisec)' | WEIGHT: '1 sticlă' | PRICE: 60.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Sauvignon Blanc(12) (demisec)' | WEIGHT: '1 sticlă' | PRICE: 60.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Rose(12)(demisec)' | WEIGHT: '1 sticlă' | PRICE: 60.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Pilsner Urquell0,' | WEIGHT: '33 l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Peroni Capri0,' | WEIGHT: '33 l' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Peroni0,' | WEIGHT: '33 l' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Peroni fa0,' | WEIGHT: '33 l' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Peroni0,' | WEIGHT: '50 l' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Azuga nefiltrata0,' | WEIGHT: '50 l' | PRICE: 15.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Azuga nepasteurizata 0,' | WEIGHT: '50 l' | PRICE: 15.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Ursus Cooler________    0,' | WEIGHT: '33 l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Ursus Black________    0,' | WEIGHT: '33l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Ursus  fara alcool____  0,' | WEIGHT: '50l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Ursus ,' | WEIGHT: '50 l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Ursus Pilsner_______    0,' | WEIGHT: '33l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Ursus Premium0,' | WEIGHT: '33 l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Ursus Retro_________     0,' | WEIGHT: '50 l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Timişoreana0,' | WEIGHT: '50 l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Timisireana FA________0,' | WEIGHT: '50 l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Kozel Premium________0,' | WEIGHT: '33 l' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Kozel Dark__________ 0,' | WEIGHT: '33 l' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Peroni doză0,' | WEIGHT: '50 l' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Ursus doză0,' | WEIGHT: '50 l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Timişoreana doză0,' | WEIGHT: '50 l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Cooler doză_____0.' | WEIGHT: '50l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Peroni 0,' | WEIGHT: '40 l' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Kozel Dark_______0,' | WEIGHT: '50 l' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Kozel Premium__0,' | WEIGHT: '50l' | PRICE: 12.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Kozel Premium__0,' | WEIGHT: '30l' | PRICE: 9.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Kozel Dark_______0,' | WEIGHT: '30 l' | PRICE: 9.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Ursus0,' | WEIGHT: '40 l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'Timişoreana0,' | WEIGHT: '40 l' | PRICE: 10.0 LEI | ALGS: []
+--------------------------------------------------
+NAME: 'PLATOU TRADIȚIONAL' | WEIGHT: '400gr' | PRICE: 45.0 LEI | ALGS: [1, 3, 5, 7, 11]
+  ING: 'costiță,cărnați, cardaboș, murături'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'SARMALE CU CIOLAN ȘI MĂMĂLIGUȚĂ' | WEIGHT: '200/200/50gr' | PRICE: 38.0 LEI | ALGS: [1, 3]
+  ING: 'carne porc, ciolan, orez,condimente, făină porumb, smântână'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'SALATĂ DE BOEUF' | WEIGHT: '250gr' | PRICE: 25.0 LEI | ALGS: [1, 3, 7]
+  ING: 'piept de pui, ouă, morcovi, cartofi, ulei, muștar,condimente'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------
+NAME: 'PRĂJITURI ASORTATE' | WEIGHT: '200gr' | PRICE: 18.0 LEI | ALGS: [1, 3, 5, 8]
+  ING: 'ouă, lapte, cacao, unt, zahăr, nucă, untură, fructe'
+  NUTR: 'Informații nutriționale 100g: Valoare Energetică (kJ/kcal): ...'
+--------------------------------------------------

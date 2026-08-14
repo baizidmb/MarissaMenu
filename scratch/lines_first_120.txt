@@ -1,0 +1,120 @@
+Total non-empty lines: 673
+
+1: Alergenii din produsele finite
+2: Conform Directivei 2000/13/CE  a  Parlamentului European și a Consiliului din 20 martie 2000 alergenii din alimente se pot încadra în următoarele grupe:
+3: Gluten (grâu, secară, ovăz, grâu spelt, grâu mare sau hibrizi ai acestora) și produse derivate
+4: Crustacee și produse derivate
+5: Ouă și produse derivate
+6: Pește și produse derivate
+7: Arahide și produse derivate
+8: Soia și produse derivate
+9: Lapte și produse derivate ( inclusiv lactoză)
+10: Fructe cu coajă ( migdale, alune de pădure, nuci, anacarde, nuci Pecan, nuci de Brazilia, fistic, nuci de macadamia și nuci de Queensland și produse derivate
+11: Țelină și produse derivate
+12: Muștar și produse derivate
+13: Semințe de susan și produse derivate
+14: Dioxid de sulf și sulfiți în concentrații de peste 10 mg/kg sau 10 mg/litru
+15: Lupin și produse derivate
+16: Moluște și produse derivate
+17: Cei 14 alergeni alimentari îi veți regăsi în dreptul fiecărui preparat din meniu sub forma de indice. Ne bazăm pe responsabilitatea și atenția cu care clienții noștri vor parcurge acest meniu înainte de a lansa o comandă.
+18: Conform Ordinului 183/2016 vă informăm că anumite preparate din meniul restaurantului sunt provenite din produse congelate, după cum urmează:
+19: Carne de pasăre (pui, curcan și rață)              -   Carne de porc
+20: Carne de vită                                                      -    Pește
+21: Fructe de mare                                                   -    Fructe (fructe de pădure)
+22: Legume (brocoli, spanac, mazăre, fasole verde, ceapă, hribi, cartofi)
+23: Desert (piure de castane, vulcan de ciocolată cu înghețată)
+24: Mic dejun
+25: Mic dejun 3,7300gr.  25,00 lei
+26: (ou  prăjit, cremvurști, roșie, cașcaval, ulei de floarea soarelui, condimente)
+27: Informații  nutriționale 100g: Valoare Energetică (kJ/kcal): 810.1 / 194.7, Grăsimi (g): 15.3 din care: Acizi grași saturați (g) 5.4, Glucide (g): 1.9 din care: Zaharuri (g): 1.1, Proteine (g): 12.3, Sare (g): 1
+28: Mic dejun, cartofi prăjiți cu ouă și slănină 3,7 250gr  28,00lei
+29: (ou prăjit, ceapă, slănină de porc, cartofi prăjiti, condimente)
+30: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 765.7 / 184.2, Grăsimi (g):14.8 din care: Acizi grași saturați (g) 3.7, Glucide (g): 1.3 din care: Zaharuri (g): 1, Proteine (g): 11.5, Sare (g): 2
+31: Omletă cu şuncă și caşcaval 3,7225 gr.28,00 lei
+32: (ou, șuncă, cașcaval, ulei de floarea soarelui, condimente)
+33: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 807.1 / 194.5, Grăsimi (g):13.9 din care: Acizi grași saturați (g) 5.6, Glucide (g): 0.8 din care: Zaharuri (g): 0.3, Proteine (g): 16.7, Sare (g): 2
+34: Omletă ţărănească cu slănină și ceapă 3300 gr.30,00 lei
+35: (ou, ceapă, slănină de porc, condimente)
+36: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 765.7 / 184.2, Grăsimi (g):14.8 din care: Acizi grași saturați (g) 3.7, Glucide (g): 1.3 din care: Zaharuri (g): 1, Proteine (g): 11.5, Sare (g): 2
+37: Marissa breakfast 1,3, 7, 11  370gr  35,00 lei
+38: (chiflă, cremă de brânză, ou poșat, bacon, sos olandez, roșii, cherry, salată mixtă,  mix de semințe, condimente)
+39: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 810.1 / 194.7, Grăsimi (g):15.3 din care: Acizi grași saturați (g) 5.4, Glucide (g): 1.9 din care: Zaharuri (g): 1.1, Proteine (g): 12.3, Sare (g): 1
+40: Platou mic dejun 3,725/80/100/25 gr.25,00 lei
+41: (Unt, gem, mezel, telemea)
+42: Informații nutriționale 100g Valoare Energetică (kJ/kcal): 1229.1 / 293.9, Grăsimi (g): 14.9 din care: Acizi grași saturați (g) 11.2, Glucide (g): 22 din care: Zaharuri (g): 19.9,  Proteine (g): 7.8, Sare (g): 1.3
+43: Bruschete cu roșii 7300 gr25,00 lei
+44: (pâine, roșii, pătrunjel verde, ulei de măsline, condimente)
+45: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1369.4 / 334, Grăsimi g: 25 din care: Acizi grași saturați (g) 18.3, Glucide (g) 1 din care: Zaharuri (g): 1, Proteine (g): 26, Sare (g): 2.1
+46: Bacon prăjit/slănină prăjită100 gr. 18,00 lei
+47: (bacon/slănină)
+48: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1740 / 419, Grăsimi (g):35.4 din care: Acizi grași
+49: saturați (g) 13.9, Glucide (g): 0 din care: Zaharuri (g): 0,Proteine (g): 25.2, Sare (g): 4.1
+50: Cremvurşti 7             100 gr.             12,00 lei
+51: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1005.2 / 240.3, Grăsimi(g): 19.9 din care: Acizi grași saturați (g) 6.9, Glucide (g): 2.7 din care: Zaharuri (g):0.8, Proteine (g): 12.3, Sare (g): 1.8
+52: Telemea 7100 gr.12,00 lei
+53: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1167 /279, Grăsimi (g):24 din care: Acizi grași saturați (g)16, Glucide (g):0.7 din care: Zaharuri (g): 0.2,Proteine (g):15, Sare (g):3
+54: Caşcaval 7100 gr.12,00 lei
+55: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1369.4 / 334, Grăsimi (g):25 din care: Acizi grași saturați (g) 18.3, Glucide (g): 1 din care: Zaharuri (g): 1, Proteine (g): 26, Sare (g): 2.1
+56: Lapte 7200 ml.8,00 lei
+57: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 184.1 / 44, Grăsimi (g):1.5 din care: Acizi grași saturați (g) 1, Glucide (g): 4.5 din care: Zaharuri (g): 4.5, Proteine (g): 3.1, Sare (g): 0.1
+58: Iaurt 71 pahar8,00 lei
+59: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 251 / 60, Grăsimi (g): 3.5din care: Acizi grași saturați (g) 2.3, Glucide (g): 3.9 din care: Zaharuri (g): 3.9, Proteine (g): 3.1, Sare (g): 0.1
+60: Unt porţionat 725 gr.5,00 lei
+61: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 3108.7 / 743, Grăsimi (g):82 din care: Acizi grași saturați (g) 53, Glucide (g): 0.6 din care: Zaharuri (g): 0, Proteine (g): 0.7, Sare (g): 0
+62: Cacao cu lapte7200 ml. 12,00 lei
+63: (lapte, zahăr, pudră de cacao)
+64: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 259.1 / 61.9, Grăsimi (g):2 din care: Acizi grași saturați (g) 1.3, Glucide (g): 7.8 din care: Zaharuri (g): 6.8, Proteine (g): 3.4, Sare (g): 0.1
+65: Cereale cu lapte7,8 200gr/50 gr.  15,00 lei
+66: (lapte, cereale pentru micul dejun)
+67: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 782.5 / 185.6, Grăsimi (g):2.7 din care: Acizi grași saturați (g) 0.9, Glucide (g): 36.5 din care: Zaharuri (g): 16.7, Proteine (g): 4.3, Sare (g): 0.4
+68: Gem           50 gr               5,00 lei
+69: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1040 / 245, Grăsimi (g):0.1 din care: Acizi grași saturați (g) 0, Glucide (g): 61.1 din care: Zaharuri (g): 56.8, Proteine (g): 0.6, Sare (g): 0.1
+70: Miere          50 gr.              5,00 lei
+71: Informații nutriționale100g:Valoare energetică (kJ/kcal):1380/325, Glucide(g):80.8 :Zaharuri(g):80.8, Proteine (g) 0.5, Sare (g): 0
+72: Gustări Reci/Calde
+73: Mici 1, 1040gr  7,00 lei
+74: (mici, pâine, muştar, ulei de floarea soarelui, condimente)
+75: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1146.7 / 275.6, Grăsimi(g): 18.1 din care: Acizi grași saturați (g) 4.7, Glucide (g): 20.6 din care: Zaharuri (g):3.6, Proteine (g): 9.2, Sare (g): 1.7
+76: Caşcaval pane 1,3,7180gr. 28,00 lei
+77: (mozzarella, ou, pesmet, făină de grâu)
+78: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1286.6 / 308.3, Grăsimi(g) 14 din care Acizi grași saturați (g) 8,Glucide(g): 29.4 din care: Zaharuri (g): 1.3, Proteine (g): 17.4, Sare (g): 1.1
+79: Mămăligă cu brânză şi smântână 7250/150/70gr.35,00 lei
+80: (brânză de vaci, apă, făină de mălai, ulei, sare)
+81: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 643.3 / 152.9, Grăsimi (g):5 din care:Acizi grași saturați (g) 1.6, Glucide (g):18.1din care:Zaharuri (g): 1, Proteine (g): 8.2, Sare (g): 0.8
+82: Fast Food
+83: Burger de vită1, 3, 7, 9, 10                          450gr            49,00 lei
+84: (chiflă, cartofi prăjiti, carne vită, brânză chedar, roșie, ceapă, salată mixtă, castraveți  murați, sos cheddar, condimente) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 767 / 183.6, Grăsimi (g):11.3 din care: Acizi grași saturați (g) 3.7, Glucide (g): 14.4 din care: Zaharuri (g): 1.5, Proteine (g): 6.9, Sare (g): 0.9
+85: Burger Crispy 1, 3, 7, 9, 10                          350 gr.                                    38,00 lei
+86: (chiflă, cartofi prăjiți, piept de pui, roșie, salată sezon, iaurt, maioneză, condimente)
+87: Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 767 / 183.6, Grăsimi (g):11.3 din care: Acizi grași saturați (g) 3.7, Glucide (g): 14.4 din care: Zaharuri (g): 1.5, Proteine (g): 6.9, Sare (g): 0.9
+88: Shaorma la farfurie 1, 3, 7, 9            450 gr.                          38,00 lei
+89: (cartofi prăjiți, carne de pui, lipie, varză, roșie, ceapă, castraveți murați, maioneză, ketchup, condimente)
+90: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 883.3 / 210.5, Grăsimi (g): 8.2 din care: Acizigrașisaturați (g) 1.7, Glucide (g): 25.2 din care: Zaharuri (g): 4.7, Proteine (g): 10.3, Sare (g): 0.4
+91: Ultra cheeseburger 1, 3, 7, 9, 10450GR 49,00 lei
+92: (chiflă, carne de vită, roșii, castraveți, brânză cheddar, sos cheddar, cartofi prăjiți, condimente)
+93: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 767 / 183.6, Grăsimi (g):11.3 din care: Acizi grași saturați (g) 3.7, Glucide (g): 14.4 din care: Zaharuri (g): 1.5,  Proteine (g): 6.9, Sare (g): 0.9
+94: Ciorbe/supe
+95: Ciorbă de burtă 1, 3, 7100gr/300ml            29,00 lei
+96: (burtă de vită, legume asortate, smântână, ou, usturoi, ulei, oțet, făină de grâu, condimente)
+97: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 474.3 / 113.8, Grăsimi (g): 6.: Acizi grași saturați (g) 2.2, Glucide (g): 6.7 din care: Zaharuri (g): 2.4, Proteine (g): 6.5, Sare (g): 0.6
+98: Ciorbă rădăuțeană1, 3,7_________________60gr/340ml            25,00 lei
+99: (legume asortate, piept de pui, ou, ulei, oțet, usturoi, făină, smântână, condimente)
+100: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 452 / 108.6, Grăsimi (g): 6.8 din care: Acizi grași saturați (g) 2.4,  Glucide (g): 4.2 din care: Zaharuri (g): 1.7, Proteine (g): 7.8, Sare (g): 0.7
+101: Babgulyas 1,3, 7, 9100gr/300ml            35,00 lei
+102: (ciolan de porc,  cârnați,  fasole, ou, legume asortate, ceapă, făină, pastă de ardei iute, condimente)
+103: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 365.9 / 96.5, Grăsimi (g): 16.8 din care:
+104: Acizi grași saturați (g) 1.3, Glucide (g): 67.7 din care: Zaharuri (g): 17.9, Proteine (g): 17.6, Sare (g): 1
+105: Ciorbă ţărănească de porc 9                50gr/ 350 ml                                     25,00 lei
+106: (legume asortate, cartofi, pulpă de porc, roșii, condimente)
+107: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 340 / 81.8, Grăsimi (g): 3.9 din care:
+108: Acizi grași saturați (g) 0.8, Glucide (g): 7.3 din care: Zaharuri (g): 1.7, Proteine (g): 5.4, Sare (g): 0.6
+109: Ciorbă de fasole cu afumătură 150gr/50gi/300ml  25,00 lei
+110: (legume asortate, fasole, ciolan de porc, smântână, ulei, pasta de ardei, ceapă, făină de grâu, ulei, condimente)
+111: Informații nutriționale 100g: Valoarea Energetica.(kJ/kcal) 337.5 / 99, Grăsimi (g): 29.5 din care: Acizi grași saturați (g) 1.3, Glucide (g): 127.4 din care: Zaharuri (g): 34.9, Proteine (g): 27.8, Sare (g): 0.9
+112: Smântână 7  80 ml                7,00 lei
+113: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 491 / 118, Grăsimi (g): 10 din care:
+114: Acizi grași saturați (g) 6.6, Glucide (g): 4.1 din care: Zaharuri (g): 4.1, Proteine (g): 3, Sare (g): 0.1
+115: Ardei iute1 buc.                  2,00 lei
+116: Pâine/porție 1 150 gr                           3,00 lei
+117: Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 888 / 211, Grăsimi (g): 1.2 din care:
+118: Acizi grași saturați (g) 0.2, Glucide (g): 48.3 din care: Zaharuri (g): 1.6,  Proteine (g): 7, Sare (g): 1.5

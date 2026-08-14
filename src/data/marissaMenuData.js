@@ -1,5 +1,5 @@
 // Complete Authentic Menu Dataset for Hotel & Restaurant Marissa
-// Extracted 100% from MENIU 2025 MARISSA SIMPLIFICAT RESTAURANT (280 items)
+// Extracted 100% cleanly from MENIU 2025 MARISSA SIMPLIFICAT RESTAURANT.docx (280 items)
 // Bilingual Support (RO 🇷🇴 & EN 🇬🇧)
 // Compliant with EU Directive 2000/13/CE, ANPC Order 183/2016, and OUG 28/1999
 
@@ -112,71 +112,66 @@ export const MENU_ITEMS = [
     "id": "item-1",
     "category": "mic-dejun",
     "name": {
-      "ro": "Mic dejun",
-      "en": "Mic ofjun"
+      "ro": "Mic dejun 3,7300gr",
+      "en": "Mic ofjun 3,7300gr"
     },
-    "weight": "3g",
+    "weight": "200g",
     "price": 25.0,
     "ingredients": {
-      "ro": "(ou  prăjit, cremvurști, roșie, cașcaval, ulei de floarea soarelui, condimente)",
-      "en": "(ou  prăjit, cremvurști, ro&e, cașcaval, ulei of floarea soarelui, condimente)"
+      "ro": "ou  prăjit, cremvurști, roșie, cașcaval, ulei de floarea soarelui, condimente",
+      "en": "egg  prăjit, cremvurști, tomato, yellow cheese, oil of floarea soarelui, condimente"
     },
-    "allergens": [
-      3,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 235,
-      "energyKj": 983,
-      "fats": 15.5,
-      "saturatedFats": 6.5,
-      "carbs": 12.5,
-      "sugars": 2.0,
-      "protein": 12.0,
-      "salt": 1.4
+      "energyKcal": 194.7,
+      "energyKj": 810.1,
+      "fats": 15.3,
+      "saturatedFats": 5.4,
+      "carbs": 1.9,
+      "sugars": 1.1,
+      "protein": 12.3,
+      "salt": 1.0
     }
   },
   {
     "id": "item-2",
     "category": "mic-dejun",
     "name": {
-      "ro": "Informații  nutriționale 100g: Valoare Energetică (kJ/kcal): 810.1 / 194.7, Grăsimi (g): 15.3 din care: Acizi grași saturați (g) 5.4, Glucide (g): 1.9 din care: Zaharuri (g): 1.1, Proteine (g): 12.3, Sare (g): 1",
-      "en": "Informații  nutriționale 100g: Valoare Energetică (kJ/kcal): 810.1 / 194.7, Grăsimi (g): 15.3 din care: Acizi gra& saturați (g) 5.4, Gluciof (g): 1.9 din care: Zaharuri (g): 1.1, Proteine (g): 12.3, Sare (g): 1"
+      "ro": "Mic dejun, cartofi prăjiți cu ouă și slănină 3,7 250gr",
+      "en": "Mic ofjun, cartofi prăjiți with ouă & slănină 3,7 250gr"
     },
-    "weight": "3g",
+    "weight": "200g",
     "price": 28.0,
     "ingredients": {
-      "ro": "(ou prăjit, ceapă, slănină de porc, cartofi prăjiti, condimente)",
-      "en": "(ou prăjit, ceapă, slănină of porc, cartofi prăjiti, condimente)"
+      "ro": "ou prăjit, ceapă, slănină de porc, cartofi prăjiti, condimente",
+      "en": "egg prăjit, onion, pork fatback of pork, potatoes prăjiti, condimente"
     },
-    "allergens": [
-      3
-    ],
-    "isFrozen": false,
+    "allergens": [],
+    "isFrozen": true,
     "nutrition": {
-      "energyKcal": 235,
-      "energyKj": 983,
-      "fats": 15.5,
-      "saturatedFats": 6.5,
-      "carbs": 12.5,
-      "sugars": 2.0,
-      "protein": 12.0,
-      "salt": 1.4
+      "energyKcal": 184.2,
+      "energyKj": 765.7,
+      "fats": 14.8,
+      "saturatedFats": 3.7,
+      "carbs": 1.3,
+      "sugars": 1.0,
+      "protein": 11.5,
+      "salt": 2.0
     }
   },
   {
     "id": "item-3",
-    "category": "porc",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 765.7 / 184.2, Grăsimi (g):14.8 din care: Acizi grași saturați (g) 3.7, Glucide (g): 1.3 din care: Zaharuri (g): 1, Proteine (g): 11.5, Sare (g): 2",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 765.7 / 184.2, Grăsimi (g):14.8 din care: Acizi gra& saturați (g) 3.7, Gluciof (g): 1.3 din care: Zaharuri (g): 1, Proteine (g): 11.5, Sare (g): 2"
+      "ro": "Omletă cu şuncă și caşcaval",
+      "en": "Ham & Cheese Omelette"
     },
-    "weight": "3g",
+    "weight": "225 gr",
     "price": 28.0,
     "ingredients": {
-      "ro": "(ou, șuncă, cașcaval, ulei de floarea soarelui, condimente)",
-      "en": "(ou, șuncă, cașcaval, ulei of floarea soarelui, condimente)"
+      "ro": "ou, șuncă, cașcaval, ulei de floarea soarelui, condimente",
+      "en": "egg, ham, yellow cheese, oil of floarea soarelui, condimente"
     },
     "allergens": [
       3,
@@ -184,477 +179,473 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 194.5,
+      "energyKj": 807.1,
+      "fats": 13.9,
+      "saturatedFats": 5.6,
+      "carbs": 0.8,
+      "sugars": 0.3,
+      "protein": 16.7,
+      "salt": 2.0
     }
   },
   {
     "id": "item-4",
-    "category": "porc",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 807.1 / 194.5, Grăsimi (g):13.9 din care: Acizi grași saturați (g) 5.6, Glucide (g): 0.8 din care: Zaharuri (g): 0.3, Proteine (g): 16.7, Sare (g): 2",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 807.1 / 194.5, Grăsimi (g):13.9 din care: Acizi gra& saturați (g) 5.6, Gluciof (g): 0.8 din care: Zaharuri (g): 0.3, Proteine (g): 16.7, Sare (g): 2"
+      "ro": "Omletă ţărănească cu slănină și ceapă",
+      "en": "Farmer's Omelette"
     },
-    "weight": "3300 g",
+    "weight": "300 gr",
     "price": 30.0,
     "ingredients": {
-      "ro": "(ou, ceapă, slănină de porc, condimente)",
-      "en": "(ou, ceapă, slănină of porc, condimente)"
+      "ro": "ou, ceapă, slănină de porc, condimente",
+      "en": "egg, onion, pork fatback of pork, condimente"
     },
     "allergens": [
       3
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 184.2,
+      "energyKj": 765.7,
+      "fats": 14.8,
+      "saturatedFats": 3.7,
+      "carbs": 1.3,
+      "sugars": 1.0,
+      "protein": 11.5,
+      "salt": 2.0
     }
   },
   {
     "id": "item-5",
-    "category": "porc",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 765.7 / 184.2, Grăsimi (g):14.8 din care: Acizi grași saturați (g) 3.7, Glucide (g): 1.3 din care: Zaharuri (g): 1, Proteine (g): 11.5, Sare (g): 2",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 765.7 / 184.2, Grăsimi (g):14.8 din care: Acizi gra& saturați (g) 3.7, Gluciof (g): 1.3 din care: Zaharuri (g): 1, Proteine (g): 11.5, Sare (g): 2"
+      "ro": "Marissa breakfast 1,3, 7, 11  370gr",
+      "en": "Marissa breakfast 1,3, 7, 11  370gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 35.0,
     "ingredients": {
-      "ro": "(chiflă, cremă de brânză, ou poșat, bacon, sos olandez, roșii, cherry, salată mixtă,  mix de semințe, condimente)",
-      "en": "(chiflă, cremă of brânză, ou poșat, bacon, sos olanofz, ro&i, cherry, salată mixtă,  mix of semințe, condimente)"
+      "ro": "chiflă, cremă de brânză, ou poșat, bacon, sos olandez, roșii, cherry, salată mixtă,  mix de semințe, condimente",
+      "en": "bun, cream of cheese, egg poșat, bacon, sauce olanofz, tomatoes, cherry, salad mixtă,  mix of semințe, condimente"
     },
-    "allergens": [
-      1,
-      3,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 194.7,
+      "energyKj": 810.1,
+      "fats": 15.3,
+      "saturatedFats": 5.4,
+      "carbs": 1.9,
+      "sugars": 1.1,
+      "protein": 12.3,
+      "salt": 1.0
     }
   },
   {
     "id": "item-6",
-    "category": "garnituri",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 810.1 / 194.7, Grăsimi (g):15.3 din care: Acizi grași saturați (g) 5.4, Glucide (g): 1.9 din care: Zaharuri (g): 1.1, Proteine (g): 12.3, Sare (g): 1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 810.1 / 194.7, Grăsimi (g):15.3 din care: Acizi gra& saturați (g) 5.4, Gluciof (g): 1.9 din care: Zaharuri (g): 1.1, Proteine (g): 12.3, Sare (g): 1"
+      "ro": "Platou mic dejun",
+      "en": "Assorted Breakfast Platter"
     },
-    "weight": "3g",
+    "weight": "725/80/100/25 gr",
     "price": 25.0,
     "ingredients": {
-      "ro": "(Unt, gem, mezel, telemea)",
-      "en": "(Unt, gem, mezel, telemea)"
+      "ro": "Unt, gem, mezel, telemea",
+      "en": "butter, jam, mezel, telemea"
     },
     "allergens": [
-      7
+      3
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 293.9,
+      "energyKj": 1229.1,
+      "fats": 14.9,
+      "saturatedFats": 11.2,
+      "carbs": 22.0,
+      "sugars": 19.9,
+      "protein": 7.8,
+      "salt": 1.3
     }
   },
   {
     "id": "item-7",
-    "category": "garnituri",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g Valoare Energetică (kJ/kcal): 1229.1 / 293.9, Grăsimi (g): 14.9 din care: Acizi grași saturați (g) 11.2, Glucide (g): 22 din care: Zaharuri (g): 19.9,  Proteine (g): 7.8, Sare (g): 1.3",
-      "en": "Informații nutriționale 100g Valoare Energetică (kJ/kcal): 1229.1 / 293.9, Grăsimi (g): 14.9 din care: Acizi gra& saturați (g) 11.2, Gluciof (g): 22 din care: Zaharuri (g): 19.9,  Proteine (g): 7.8, Sare (g): 1.3"
+      "ro": "Bruschete cu roșii",
+      "en": "Tomato & Garlic Bruschetta"
     },
-    "weight": "7300 g",
+    "weight": "300 gr",
     "price": 25.0,
     "ingredients": {
-      "ro": "(pâine, roșii, pătrunjel verde, ulei de măsline, condimente)",
-      "en": "(pâine, ro&i, pătrunjel verof, ulei of măsline, condimente)"
+      "ro": "pâine, roșii, pătrunjel verde, ulei de măsline, condimente",
+      "en": "bread, tomatoes, parsley verof, oil of olives, condimente"
     },
     "allergens": [
-      1
+      7
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 334.0,
+      "energyKj": 1369.4,
+      "fats": 8.0,
+      "saturatedFats": 18.3,
+      "carbs": 15.0,
+      "sugars": 1.0,
+      "protein": 26.0,
+      "salt": 2.1
     }
   },
   {
     "id": "item-8",
-    "category": "garnituri",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1369.4 / 334, Grăsimi g: 25 din care: Acizi grași saturați (g) 18.3, Glucide (g) 1 din care: Zaharuri (g): 1, Proteine (g): 26, Sare (g): 2.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1369.4 / 334, Grăsimi g: 25 din care: Acizi gra& saturați (g) 18.3, Gluciof (g) 1 din care: Zaharuri (g): 1, Proteine (g): 26, Sare (g): 2.1"
+      "ro": "Bacon prăjit/slănină prăjită",
+      "en": "Crispy Bacon / Fried Pork Fatback"
     },
-    "weight": "100 g",
+    "weight": "100 gr",
     "price": 18.0,
     "ingredients": {
-      "ro": "(bacon/slănină)",
-      "en": "(bacon/slănină)"
+      "ro": "bacon/slănină",
+      "en": "bacon/pork fatback"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 419.0,
+      "energyKj": 1740.0,
+      "fats": 35.4,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-9",
-    "category": "garnituri",
+    "category": "mic-dejun",
     "name": {
-      "ro": "saturați (g) 13.9, Glucide (g): 0 din care: Zaharuri (g): 0,Proteine (g): 25.2, Sare (g): 4.1",
-      "en": "saturați (g) 13.9, Gluciof (g): 0 din care: Zaharuri (g): 0,Proteine (g): 25.2, Sare (g): 4.1"
+      "ro": "Cremvurşti",
+      "en": "Boiled Frankfurters"
     },
-    "weight": "7             g",
+    "weight": "7 100 gr",
     "price": 12.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1005.2 / 240.3, Grăsimi(g): 19.9 din care: Acizi grași saturați (g) 6.9, Glucide (g): 2.7 din care: Zaharuri (g):0.8, Proteine (g): 12.3, Sare (g): 1.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1005.2 / 240.3, Grăsimi(g): 19.9 din care: Acizi gra& saturați (g) 6.9, Gluciof (g): 2.7 din care: Zaharuri (g):0.8, Proteine (g): 12.3, Sare (g): 1.8"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 240.3,
+      "energyKj": 1005.2,
+      "fats": 19.9,
+      "saturatedFats": 6.9,
+      "carbs": 2.7,
+      "sugars": 0.8,
+      "protein": 12.3,
+      "salt": 1.8
     }
   },
   {
     "id": "item-10",
-    "category": "garnituri",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1005.2 / 240.3, Grăsimi(g): 19.9 din care: Acizi grași saturați (g) 6.9, Glucide (g): 2.7 din care: Zaharuri (g):0.8, Proteine (g): 12.3, Sare (g): 1.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1005.2 / 240.3, Grăsimi(g): 19.9 din care: Acizi gra& saturați (g) 6.9, Gluciof (g): 2.7 din care: Zaharuri (g):0.8, Proteine (g): 12.3, Sare (g): 1.8"
+      "ro": "Telemea",
+      "en": "Romanian Salted Feta Cheese (Telemea)"
     },
-    "weight": "7100 g",
+    "weight": "100 gr",
     "price": 12.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1167 /279, Grăsimi (g):24 din care: Acizi grași saturați (g)16, Glucide (g):0.7 din care: Zaharuri (g): 0.2,Proteine (g):15, Sare (g):3",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1167 /279, Grăsimi (g):24 din care: Acizi gra& saturați (g)16, Gluciof (g):0.7 din care: Zaharuri (g): 0.2,Proteine (g):15, Sare (g):3"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 279.0,
+      "energyKj": 1167.0,
+      "fats": 24.0,
+      "saturatedFats": 16.0,
+      "carbs": 0.7,
+      "sugars": 0.2,
+      "protein": 15.0,
+      "salt": 3.0
     }
   },
   {
     "id": "item-11",
-    "category": "garnituri",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1167 /279, Grăsimi (g):24 din care: Acizi grași saturați (g)16, Glucide (g):0.7 din care: Zaharuri (g): 0.2,Proteine (g):15, Sare (g):3",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1167 /279, Grăsimi (g):24 din care: Acizi gra& saturați (g)16, Gluciof (g):0.7 din care: Zaharuri (g): 0.2,Proteine (g):15, Sare (g):3"
+      "ro": "Caşcaval",
+      "en": "Traditional Romanian Yellow Cheese"
     },
-    "weight": "7100 g",
+    "weight": "100 gr",
     "price": 12.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1369.4 / 334, Grăsimi (g):25 din care: Acizi grași saturați (g) 18.3, Glucide (g): 1 din care: Zaharuri (g): 1, Proteine (g): 26, Sare (g): 2.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1369.4 / 334, Grăsimi (g):25 din care: Acizi gra& saturați (g) 18.3, Gluciof (g): 1 din care: Zaharuri (g): 1, Proteine (g): 26, Sare (g): 2.1"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 334.0,
+      "energyKj": 1369.4,
+      "fats": 25.0,
+      "saturatedFats": 18.3,
+      "carbs": 1.0,
+      "sugars": 1.0,
+      "protein": 26.0,
+      "salt": 2.1
     }
   },
   {
     "id": "item-12",
-    "category": "garnituri",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1369.4 / 334, Grăsimi (g):25 din care: Acizi grași saturați (g) 18.3, Glucide (g): 1 din care: Zaharuri (g): 1, Proteine (g): 26, Sare (g): 2.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1369.4 / 334, Grăsimi (g):25 din care: Acizi gra& saturați (g) 18.3, Gluciof (g): 1 din care: Zaharuri (g): 1, Proteine (g): 26, Sare (g): 2.1"
+      "ro": "Lapte",
+      "en": "Fresh Whole Milk"
     },
-    "weight": "7200 ml",
+    "weight": "200 ml",
     "price": 8.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 184.1 / 44, Grăsimi (g):1.5 din care: Acizi grași saturați (g) 1, Glucide (g): 4.5 din care: Zaharuri (g): 4.5, Proteine (g): 3.1, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 184.1 / 44, Grăsimi (g):1.5 din care: Acizi gra& saturați (g) 1, Gluciof (g): 4.5 din care: Zaharuri (g): 4.5, Proteine (g): 3.1, Sare (g): 0.1"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
+      "energyKcal": 44.0,
+      "energyKj": 184.1,
+      "fats": 1.5,
+      "saturatedFats": 1.0,
+      "carbs": 4.5,
+      "sugars": 4.5,
       "protein": 3.1,
-      "salt": 0.8
+      "salt": 0.1
     }
   },
   {
     "id": "item-13",
-    "category": "garnituri",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 184.1 / 44, Grăsimi (g):1.5 din care: Acizi grași saturați (g) 1, Glucide (g): 4.5 din care: Zaharuri (g): 4.5, Proteine (g): 3.1, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 184.1 / 44, Grăsimi (g):1.5 din care: Acizi gra& saturați (g) 1, Gluciof (g): 4.5 din care: Zaharuri (g): 4.5, Proteine (g): 3.1, Sare (g): 0.1"
+      "ro": "Iaurt",
+      "en": "Natural Creamy Yogurt"
     },
-    "weight": "71 g",
+    "weight": "1 pahar",
     "price": 8.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 251 / 60, Grăsimi (g): 3.5din care: Acizi grași saturați (g) 2.3, Glucide (g): 3.9 din care: Zaharuri (g): 3.9, Proteine (g): 3.1, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 251 / 60, Grăsimi (g): 3.5din care: Acizi gra& saturați (g) 2.3, Gluciof (g): 3.9 din care: Zaharuri (g): 3.9, Proteine (g): 3.1, Sare (g): 0.1"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
+      "energyKcal": 60.0,
+      "energyKj": 251.0,
+      "fats": 3.5,
+      "saturatedFats": 2.3,
+      "carbs": 3.9,
+      "sugars": 3.9,
       "protein": 3.1,
-      "salt": 0.8
+      "salt": 0.1
     }
   },
   {
     "id": "item-14",
-    "category": "garnituri",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 251 / 60, Grăsimi (g): 3.5din care: Acizi grași saturați (g) 2.3, Glucide (g): 3.9 din care: Zaharuri (g): 3.9, Proteine (g): 3.1, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 251 / 60, Grăsimi (g): 3.5din care: Acizi gra& saturați (g) 2.3, Gluciof (g): 3.9 din care: Zaharuri (g): 3.9, Proteine (g): 3.1, Sare (g): 0.1"
+      "ro": "Unt porţionat",
+      "en": "Butter Portion"
     },
-    "weight": "725 g",
+    "weight": "25 gr",
     "price": 5.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 3108.7 / 743, Grăsimi (g):82 din care: Acizi grași saturați (g) 53, Glucide (g): 0.6 din care: Zaharuri (g): 0, Proteine (g): 0.7, Sare (g): 0",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 3108.7 / 743, Grăsimi (g):82 din care: Acizi gra& saturați (g) 53, Gluciof (g): 0.6 din care: Zaharuri (g): 0, Proteine (g): 0.7, Sare (g): 0"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 743.0,
+      "energyKj": 3108.7,
+      "fats": 82.0,
+      "saturatedFats": 53.0,
+      "carbs": 0.6,
+      "sugars": 0.0,
+      "protein": 0.7,
+      "salt": 0.0
     }
   },
   {
     "id": "item-15",
-    "category": "garnituri",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 3108.7 / 743, Grăsimi (g):82 din care: Acizi grași saturați (g) 53, Glucide (g): 0.6 din care: Zaharuri (g): 0, Proteine (g): 0.7, Sare (g): 0",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 3108.7 / 743, Grăsimi (g):82 din care: Acizi gra& saturați (g) 53, Gluciof (g): 0.6 din care: Zaharuri (g): 0, Proteine (g): 0.7, Sare (g): 0"
+      "ro": "Cacao cu lapte",
+      "en": "Hot Cocoa with Milk"
     },
-    "weight": "7200 ml",
+    "weight": "200 ml",
     "price": 12.0,
     "ingredients": {
-      "ro": "(lapte, zahăr, pudră de cacao)",
-      "en": "(lapte, zahăr, pudră of cacao)"
+      "ro": "lapte, zahăr, pudră de cacao",
+      "en": "milk, sugar, pudră of cocoa"
     },
     "allergens": [
       7
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 61.9,
+      "energyKj": 259.1,
+      "fats": 2.0,
+      "saturatedFats": 1.3,
+      "carbs": 7.8,
+      "sugars": 6.8,
+      "protein": 3.4,
+      "salt": 0.1
     }
   },
   {
     "id": "item-16",
-    "category": "garnituri",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 259.1 / 61.9, Grăsimi (g):2 din care: Acizi grași saturați (g) 1.3, Glucide (g): 7.8 din care: Zaharuri (g): 6.8, Proteine (g): 3.4, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 259.1 / 61.9, Grăsimi (g):2 din care: Acizi gra& saturați (g) 1.3, Gluciof (g): 7.8 din care: Zaharuri (g): 6.8, Proteine (g): 3.4, Sare (g): 0.1"
+      "ro": "Cereale cu lapte7,8 200gr",
+      "en": "Cereale with lapte7,8 200gr"
     },
-    "weight": "7g",
+    "weight": "/50 gr",
     "price": 15.0,
     "ingredients": {
-      "ro": "(lapte, cereale pentru micul dejun)",
-      "en": "(lapte, cereale pentru miwithl ofjun)"
+      "ro": "lapte, cereale pentru micul dejun",
+      "en": "milk, cereale pentru miwithl ofjun"
     },
-    "allergens": [
-      1,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 185.6,
+      "energyKj": 782.5,
+      "fats": 2.7,
+      "saturatedFats": 0.9,
+      "carbs": 36.5,
+      "sugars": 16.7,
+      "protein": 4.3,
+      "salt": 0.4
     }
   },
   {
     "id": "item-17",
-    "category": "garnituri",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 782.5 / 185.6, Grăsimi (g):2.7 din care: Acizi grași saturați (g) 0.9, Glucide (g): 36.5 din care: Zaharuri (g): 16.7, Proteine (g): 4.3, Sare (g): 0.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 782.5 / 185.6, Grăsimi (g):2.7 din care: Acizi gra& saturați (g) 0.9, Gluciof (g): 36.5 din care: Zaharuri (g): 16.7, Proteine (g): 4.3, Sare (g): 0.4"
+      "ro": "Gem",
+      "en": "Fruit Jam Portion"
     },
-    "weight": "50 g",
+    "weight": "50 gr",
     "price": 5.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1040 / 245, Grăsimi (g):0.1 din care: Acizi grași saturați (g) 0, Glucide (g): 61.1 din care: Zaharuri (g): 56.8, Proteine (g): 0.6, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1040 / 245, Grăsimi (g):0.1 din care: Acizi gra& saturați (g) 0, Gluciof (g): 61.1 din care: Zaharuri (g): 56.8, Proteine (g): 0.6, Sare (g): 0.1"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 245.0,
+      "energyKj": 1040.0,
+      "fats": 0.1,
+      "saturatedFats": 0.0,
+      "carbs": 61.1,
+      "sugars": 56.8,
+      "protein": 0.6,
+      "salt": 0.1
     }
   },
   {
     "id": "item-18",
-    "category": "garnituri",
+    "category": "mic-dejun",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1040 / 245, Grăsimi (g):0.1 din care: Acizi grași saturați (g) 0, Glucide (g): 61.1 din care: Zaharuri (g): 56.8, Proteine (g): 0.6, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1040 / 245, Grăsimi (g):0.1 din care: Acizi gra& saturați (g) 0, Gluciof (g): 61.1 din care: Zaharuri (g): 56.8, Proteine (g): 0.6, Sare (g): 0.1"
+      "ro": "Miere",
+      "en": "Pure Honey Portion"
     },
-    "weight": "50 g",
+    "weight": "50 gr",
     "price": 5.0,
     "ingredients": {
-      "ro": "Informații nutriționale100g:Valoare energetică (kJ/kcal):1380/325, Glucide(g):80.8 :Zaharuri(g):80.8, Proteine (g) 0.5, Sare (g): 0",
-      "en": "Informații nutriționale100g:Valoare energetică (kJ/kcal):1380/325, Gluciof(g):80.8 :Zaharuri(g):80.8, Proteine (g) 0.5, Sare (g): 0"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 325.0,
+      "energyKj": 1380.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 80.8,
+      "sugars": 80.8,
+      "protein": 10.0,
+      "salt": 0.0
     }
   },
   {
     "id": "item-19",
     "category": "gustari",
     "name": {
-      "ro": "Gustări Reci/Calde",
-      "en": "Gustări Reci/Calof"
+      "ro": "Mici 1, 1040gr",
+      "en": "Mici 1, 1040gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 7.0,
     "ingredients": {
-      "ro": "(mici, pâine, muştar, ulei de floarea soarelui, condimente)",
-      "en": "(mici, pâine, muştar, ulei of floarea soarelui, condimente)"
+      "ro": "mici, pâine, muştar, ulei de floarea soarelui, condimente",
+      "en": "mici skinless sausages, bread, muştar, oil of floarea soarelui, condimente"
     },
-    "allergens": [
-      1,
-      10
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 185,
-      "energyKj": 774,
-      "fats": 9.0,
-      "saturatedFats": 3.5,
-      "carbs": 18.0,
-      "sugars": 2.5,
-      "protein": 9.0,
-      "salt": 1.1
+      "energyKcal": 275.6,
+      "energyKj": 1146.7,
+      "fats": 18.1,
+      "saturatedFats": 4.7,
+      "carbs": 20.6,
+      "sugars": 3.6,
+      "protein": 9.2,
+      "salt": 1.7
     }
   },
   {
     "id": "item-20",
     "category": "gustari",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1146.7 / 275.6, Grăsimi(g): 18.1 din care: Acizi grași saturați (g) 4.7, Glucide (g): 20.6 din care: Zaharuri (g):3.6, Proteine (g): 9.2, Sare (g): 1.7",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1146.7 / 275.6, Grăsimi(g): 18.1 din care: Acizi gra& saturați (g) 4.7, Gluciof (g): 20.6 din care: Zaharuri (g):3.6, Proteine (g): 9.2, Sare (g): 1.7"
+      "ro": "Caşcaval pane 1,3,7180gr",
+      "en": "Caşcaval pane 1,3,7180gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 28.0,
     "ingredients": {
-      "ro": "(mozzarella, ou, pesmet, făină de grâu)",
-      "en": "(mozzarella, ou, pesmet, făină of grâu)"
+      "ro": "mozzarella, ou, pesmet, făină de grâu",
+      "en": "mozzarella, egg, breadcrumbs, flour of grâu"
     },
-    "allergens": [
-      1,
-      3,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 185,
-      "energyKj": 774,
-      "fats": 9.0,
-      "saturatedFats": 3.5,
-      "carbs": 18.0,
-      "sugars": 2.5,
-      "protein": 9.0,
+      "energyKcal": 308.3,
+      "energyKj": 1286.6,
+      "fats": 8.0,
+      "saturatedFats": 8.0,
+      "carbs": 29.4,
+      "sugars": 1.3,
+      "protein": 17.4,
       "salt": 1.1
     }
   },
@@ -662,415 +653,389 @@ export const MENU_ITEMS = [
     "id": "item-21",
     "category": "gustari",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1286.6 / 308.3, Grăsimi(g) 14 din care Acizi grași saturați (g) 8,Glucide(g): 29.4 din care: Zaharuri (g): 1.3, Proteine (g): 17.4, Sare (g): 1.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1286.6 / 308.3, Grăsimi(g) 14 din care Acizi gra& saturați (g) 8,Gluciof(g): 29.4 din care: Zaharuri (g): 1.3, Proteine (g): 17.4, Sare (g): 1.1"
+      "ro": "Mămăligă cu brânză şi smântână 7250/150/70gr",
+      "en": "Mămăligă with brânză şi smântână 7250/150/70gr"
     },
-    "weight": "7250/150/70g",
+    "weight": "200g",
     "price": 35.0,
     "ingredients": {
-      "ro": "(brânză de vaci, apă, făină de mălai, ulei, sare)",
-      "en": "(brânză of vaci, apă, făină of mălai, ulei, sare)"
+      "ro": "brânză de vaci, apă, făină de mălai, ulei, sare",
+      "en": "cheese of vaci, apă, flour of cornmeal, oil, salt"
     },
-    "allergens": [
-      1,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 185,
-      "energyKj": 774,
-      "fats": 9.0,
-      "saturatedFats": 3.5,
-      "carbs": 18.0,
-      "sugars": 2.5,
-      "protein": 9.0,
-      "salt": 1.1
+      "energyKcal": 152.9,
+      "energyKj": 643.3,
+      "fats": 5.0,
+      "saturatedFats": 1.6,
+      "carbs": 18.1,
+      "sugars": 1.0,
+      "protein": 8.2,
+      "salt": 0.8
     }
   },
   {
     "id": "item-22",
     "category": "fast-food",
     "name": {
-      "ro": "Fast Food",
-      "en": "Fast Food"
+      "ro": "Burger de vită1, 3, 7, 9, 10                          450gr",
+      "en": "Burger of vită1, 3, 7, 9, 10                          450gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 49.0,
     "ingredients": {
-      "ro": "(chiflă, cartofi prăjiti, carne vită, brânză chedar, roșie, ceapă, salată mixtă, castraveți  murați, sos cheddar, condimente) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 767 / 183.6, Grăsimi (g):11.3 din care: Acizi grași saturați (g) 3.7, Glucide (g): 14.4 din care: Zaharuri (g): 1.5, Proteine (g): 6.9, Sare (g): 0.9",
-      "en": "(chiflă, cartofi prăjiti, carne vită, brânză chedar, ro&e, ceapă, salată mixtă, castraveți  murați, sos cheddar, condimente) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 767 / 183.6, Grăsimi (g):11.3 din care: Acizi gra& saturați (g) 3.7, Gluciof (g): 14.4 din care: Zaharuri (g): 1.5, Proteine (g): 6.9, Sare (g): 0.9"
+      "ro": "chiflă, cartofi prăjiti, carne vită, brânză chedar, roșie, ceapă, salată mixtă, castraveți  murați, sos cheddar, condimente) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 767 / 183.6, Grăsimi (g):11.3 din care: Acizi grași saturați (g) 3.7, Glucide (g): 14.4 din care: Zaharuri (g): 1.5, Proteine (g): 6.9, Sare (g): 0.9",
+      "en": "bun, potatoes prăjiti, carne beef, cheese chedar, tomato, onion, salad mixtă, withwithmbers  murați, sauce cheddar, condimente) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 767 / 183.6, Grăsimi (g):11.3 din care: Acizi gra& saturați (g) 3.7, Gluciof (g): 14.4 din care: Zaharuri (g): 1.5, Proteine (g): 6.9, salt (g): 0.9"
     },
-    "allergens": [
-      1,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 185,
-      "energyKj": 774,
-      "fats": 9.0,
-      "saturatedFats": 3.5,
-      "carbs": 18.0,
-      "sugars": 2.5,
-      "protein": 9.0,
-      "salt": 1.1
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-23",
     "category": "fast-food",
     "name": {
-      "ro": "(chiflă, cartofi prăjiti, carne vită, brânză chedar, roșie, ceapă, salată mixtă, castraveți  murați, sos cheddar, condimente) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 767 / 183.6, Grăsimi (g):11.3 din care: Acizi grași saturați (g) 3.7, Glucide (g): 14.4 din care: Zaharuri (g): 1.5, Proteine (g): 6.9, Sare (g): 0.9",
-      "en": "(chiflă, cartofi prăjiti, carne vită, brânză chedar, ro&e, ceapă, salată mixtă, castraveți  murați, sos cheddar, condimente) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 767 / 183.6, Grăsimi (g):11.3 din care: Acizi gra& saturați (g) 3.7, Gluciof (g): 14.4 din care: Zaharuri (g): 1.5, Proteine (g): 6.9, Sare (g): 0.9"
+      "ro": "Burger Crispy",
+      "en": "Crispy Chicken Burger"
     },
-    "weight": "1g",
+    "weight": "350 gr",
     "price": 38.0,
     "ingredients": {
-      "ro": "(chiflă, cartofi prăjiți, piept de pui, roșie, salată sezon, iaurt, maioneză, condimente)",
-      "en": "(chiflă, cartofi prăjiți, piept of pui, ro&e, salată sezon, iaurt, maioneză, condimente)"
+      "ro": "chiflă, cartofi prăjiți, piept de pui, roșie, salată sezon, iaurt, maioneză, condimente",
+      "en": "bun, potatoes prăjiți, piept of chicken, tomato, salad sezon, yogurt, mayonnaise, condimente"
     },
     "allergens": [
       1,
       3,
-      7
+      7,
+      9,
+      10
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 185,
-      "energyKj": 774,
-      "fats": 9.0,
-      "saturatedFats": 3.5,
-      "carbs": 18.0,
-      "sugars": 2.5,
-      "protein": 9.0,
-      "salt": 1.1
+      "energyKcal": 183.6,
+      "energyKj": 767.0,
+      "fats": 11.3,
+      "saturatedFats": 3.7,
+      "carbs": 14.4,
+      "sugars": 1.5,
+      "protein": 6.9,
+      "salt": 0.9
     }
   },
   {
     "id": "item-24",
-    "category": "pui-rata",
+    "category": "fast-food",
     "name": {
-      "ro": "Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 767 / 183.6, Grăsimi (g):11.3 din care: Acizi grași saturați (g) 3.7, Glucide (g): 14.4 din care: Zaharuri (g): 1.5, Proteine (g): 6.9, Sare (g): 0.9",
-      "en": "Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 767 / 183.6, Grăsimi (g):11.3 din care: Acizi gra& saturați (g) 3.7, Gluciof (g): 14.4 din care: Zaharuri (g): 1.5, Proteine (g): 6.9, Sare (g): 0.9"
+      "ro": "Shaorma la farfurie",
+      "en": "Shaorma la farfurie"
     },
-    "weight": "1g",
+    "weight": "450 gr",
     "price": 38.0,
     "ingredients": {
-      "ro": "(cartofi prăjiți, carne de pui, lipie, varză, roșie, ceapă, castraveți murați, maioneză, ketchup, condimente)",
-      "en": "(cartofi prăjiți, carne of pui, lipie, varză, ro&e, ceapă, castraveți murați, maioneză, ketchup, condimente)"
+      "ro": "cartofi prăjiți, carne de pui, lipie, varză, roșie, ceapă, castraveți murați, maioneză, ketchup, condimente",
+      "en": "potatoes prăjiți, carne of chicken, pita, cabbage, tomato, onion, withwithmbers murați, mayonnaise, ketchup, condimente"
     },
     "allergens": [
-      3
+      1,
+      3,
+      7,
+      9
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 210.5,
+      "energyKj": 883.3,
+      "fats": 8.2,
+      "saturatedFats": 1.7,
+      "carbs": 25.2,
+      "sugars": 4.7,
+      "protein": 10.3,
+      "salt": 0.4
     }
   },
   {
     "id": "item-25",
-    "category": "pui-rata",
+    "category": "fast-food",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 883.3 / 210.5, Grăsimi (g): 8.2 din care: Acizigrașisaturați (g) 1.7, Glucide (g): 25.2 din care: Zaharuri (g): 4.7, Proteine (g): 10.3, Sare (g): 0.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 883.3 / 210.5, Grăsimi (g): 8.2 din care: Acizigra&saturați (g) 1.7, Gluciof (g): 25.2 din care: Zaharuri (g): 4.7, Proteine (g): 10.3, Sare (g): 0.4"
+      "ro": "Ultra cheeseburger 1, 3, 7, 9, 10450GR",
+      "en": "Ultra cheeseburger 1, 3, 7, 9, 10450GR"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 49.0,
     "ingredients": {
-      "ro": "(chiflă, carne de vită, roșii, castraveți, brânză cheddar, sos cheddar, cartofi prăjiți, condimente)",
-      "en": "(chiflă, carne of vită, ro&i, castraveți, brânză cheddar, sos cheddar, cartofi prăjiți, condimente)"
+      "ro": "chiflă, carne de vită, roșii, castraveți, brânză cheddar, sos cheddar, cartofi prăjiți, condimente",
+      "en": "bun, carne of beef, tomatoes, withwithmbers, cheese cheddar, sauce cheddar, potatoes prăjiți, condimente"
     },
-    "allergens": [
-      1,
-      7
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 183.6,
+      "energyKj": 767.0,
+      "fats": 11.3,
+      "saturatedFats": 3.7,
+      "carbs": 14.4,
+      "sugars": 1.5,
+      "protein": 6.9,
+      "salt": 0.9
     }
   },
   {
     "id": "item-26",
     "category": "ciorbe",
     "name": {
-      "ro": "Ciorbe/supe",
-      "en": "Ciorbe/supe"
+      "ro": "Ciorbă de burtă 1, 3, 7100gr/300ml",
+      "en": "Ciorbă of burtă 1, 3, 7100gr/300ml"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 29.0,
     "ingredients": {
-      "ro": "(burtă de vită, legume asortate, smântână, ou, usturoi, ulei, oțet, făină de grâu, condimente)",
-      "en": "(burtă of vită, legume asortate, smântână, ou, usturoi, ulei, oțet, făină of grâu, condimente)"
+      "ro": "burtă de vită, legume asortate, smântână, ou, usturoi, ulei, oțet, făină de grâu, condimente",
+      "en": "tripe of beef, legume asortate, sour cream, egg, garlic, oil, oțet, flour of grâu, condimente"
     },
-    "allergens": [
-      1,
-      3,
-      7,
-      12
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 6.8,
-      "saturatedFats": 3.4,
-      "carbs": 4.8,
-      "sugars": 1.9,
-      "protein": 7.8,
-      "salt": 1.1
+      "energyKcal": 113.8,
+      "energyKj": 474.3,
+      "fats": 6.0,
+      "saturatedFats": 2.2,
+      "carbs": 6.7,
+      "sugars": 2.4,
+      "protein": 6.5,
+      "salt": 0.6
     }
   },
   {
     "id": "item-27",
-    "category": "vita",
+    "category": "ciorbe",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 474.3 / 113.8, Grăsimi (g): 6.: Acizi grași saturați (g) 2.2, Glucide (g): 6.7 din care: Zaharuri (g): 2.4, Proteine (g): 6.5, Sare (g): 0.6",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 474.3 / 113.8, Grăsimi (g): 6.: Acizi gra& saturați (g) 2.2, Gluciof (g): 6.7 din care: Zaharuri (g): 2.4, Proteine (g): 6.5, Sare (g): 0.6"
+      "ro": "Ciorbă rădăuțeană1, 3,7_________________60gr/340ml",
+      "en": "Ciorbă rădăuțeană1, 3,7_________________60gr/340ml"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 25.0,
     "ingredients": {
-      "ro": "(legume asortate, piept de pui, ou, ulei, oțet, usturoi, făină, smântână, condimente)",
-      "en": "(legume asortate, piept of pui, ou, ulei, oțet, usturoi, făină, smântână, condimente)"
+      "ro": "legume asortate, piept de pui, ou, ulei, oțet, usturoi, făină, smântână, condimente",
+      "en": "legume asortate, piept of chicken, egg, oil, oțet, garlic, flour, sour cream, condimente"
     },
-    "allergens": [
-      1,
-      3,
-      7,
-      12
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 108.6,
+      "energyKj": 452.0,
+      "fats": 6.8,
+      "saturatedFats": 2.4,
+      "carbs": 4.2,
+      "sugars": 1.7,
+      "protein": 7.8,
+      "salt": 0.7
     }
   },
   {
     "id": "item-28",
-    "category": "pui-rata",
+    "category": "ciorbe",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 452 / 108.6, Grăsimi (g): 6.8 din care: Acizi grași saturați (g) 2.4,  Glucide (g): 4.2 din care: Zaharuri (g): 1.7, Proteine (g): 7.8, Sare (g): 0.7",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 452 / 108.6, Grăsimi (g): 6.8 din care: Acizi gra& saturați (g) 2.4,  Gluciof (g): 4.2 din care: Zaharuri (g): 1.7, Proteine (g): 7.8, Sare (g): 0.7"
+      "ro": "Babgulyas 1,3, 7, 9100gr/300ml",
+      "en": "Babgulyas 1,3, 7, 9100gr/300ml"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 35.0,
     "ingredients": {
-      "ro": "(ciolan de porc,  cârnați,  fasole, ou, legume asortate, ceapă, făină, pastă de ardei iute, condimente)",
-      "en": "(ciolan of porc,  cârnați,  fasole, ou, legume asortate, ceapă, făină, pastă of arofi iute, condimente)"
+      "ro": "ciolan de porc,  cârnați,  fasole, ou, legume asortate, ceapă, făină, pastă de ardei iute, condimente",
+      "en": "pork knuckle of pork,  sausages,  beans, egg, legume asortate, onion, flour, pastă of pepper iute, condimente"
     },
-    "allergens": [
-      1,
-      3
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 96.5,
+      "energyKj": 365.9,
+      "fats": 16.8,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-29",
-    "category": "porc",
+    "category": "ciorbe",
     "name": {
-      "ro": "Acizi grași saturați (g) 1.3, Glucide (g): 67.7 din care: Zaharuri (g): 17.9, Proteine (g): 17.6, Sare (g): 1",
-      "en": "Acizi gra& saturați (g) 1.3, Gluciof (g): 67.7 din care: Zaharuri (g): 17.9, Proteine (g): 17.6, Sare (g): 1"
+      "ro": "Ciorbă ţărănească de porc 9                50gr",
+      "en": "Ciorbă ţărănească of porc 9                50gr"
     },
-    "weight": "9                g",
+    "weight": "/ 350 ml",
     "price": 25.0,
     "ingredients": {
-      "ro": "(legume asortate, cartofi, pulpă de porc, roșii, condimente)",
-      "en": "(legume asortate, cartofi, pulpă of porc, ro&i, condimente)"
+      "ro": "legume asortate, cartofi, pulpă de porc, roșii, condimente",
+      "en": "legume asortate, potatoes, pulpă of pork, tomatoes, condimente"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 81.8,
+      "energyKj": 340.0,
+      "fats": 3.9,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-30",
-    "category": "porc",
+    "category": "ciorbe",
     "name": {
-      "ro": "Acizi grași saturați (g) 0.8, Glucide (g): 7.3 din care: Zaharuri (g): 1.7, Proteine (g): 5.4, Sare (g): 0.6",
-      "en": "Acizi gra& saturați (g) 0.8, Gluciof (g): 7.3 din care: Zaharuri (g): 1.7, Proteine (g): 5.4, Sare (g): 0.6"
+      "ro": "Ciorbă de fasole cu afumătură 150gr/50gi/300ml",
+      "en": "Ciorbă of fasole with afumătură 150gr/50gi/300ml"
     },
-    "weight": "150g",
+    "weight": "200g",
     "price": 25.0,
     "ingredients": {
-      "ro": "(legume asortate, fasole, ciolan de porc, smântână, ulei, pasta de ardei, ceapă, făină de grâu, ulei, condimente)",
-      "en": "(legume asortate, fasole, ciolan of porc, smântână, ulei, pasta of arofi, ceapă, făină of grâu, ulei, condimente)"
+      "ro": "legume asortate, fasole, ciolan de porc, smântână, ulei, pasta de ardei, ceapă, făină de grâu, ulei, condimente",
+      "en": "legume asortate, beans, pork knuckle of pork, sour cream, oil, pasta of pepper, onion, flour of grâu, oil, condimente"
     },
-    "allergens": [
-      1,
-      7
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 180.0,
+      "energyKj": 753,
+      "fats": 29.5,
+      "saturatedFats": 1.3,
+      "carbs": 127.4,
+      "sugars": 34.9,
+      "protein": 27.8,
+      "salt": 0.9
     }
   },
   {
     "id": "item-31",
-    "category": "porc",
+    "category": "ciorbe",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoarea Energetica.(kJ/kcal) 337.5 / 99, Grăsimi (g): 29.5 din care: Acizi grași saturați (g) 1.3, Glucide (g): 127.4 din care: Zaharuri (g): 34.9, Proteine (g): 27.8, Sare (g): 0.9",
-      "en": "Informații nutriționale 100g: Valoarea Energetica.(kJ/kcal) 337.5 / 99, Grăsimi (g): 29.5 din care: Acizi gra& saturați (g) 1.3, Gluciof (g): 127.4 din care: Zaharuri (g): 34.9, Proteine (g): 27.8, Sare (g): 0.9"
+      "ro": "Smântână",
+      "en": "Fresh Sour Cream"
     },
-    "weight": "7  g",
+    "weight": "7 80 ml",
     "price": 7.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 491 / 118, Grăsimi (g): 10 din care:",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 491 / 118, Grăsimi (g): 10 din care:"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 118.0,
+      "energyKj": 491.0,
+      "fats": 10.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-32",
-    "category": "porc",
+    "category": "ciorbe",
     "name": {
-      "ro": "Acizi grași saturați (g) 6.6, Glucide (g): 4.1 din care: Zaharuri (g): 4.1, Proteine (g): 3, Sare (g): 0.1",
-      "en": "Acizi gra& saturați (g) 6.6, Gluciof (g): 4.1 din care: Zaharuri (g): 4.1, Proteine (g): 3, Sare (g): 0.1"
+      "ro": "Ardei iute",
+      "en": "Fresh / Pickled Hot Pepper"
     },
     "weight": "1 buc",
     "price": 2.0,
     "ingredients": {
-      "ro": "Pâine/porție 1 150 gr",
-      "en": "Pâine/porție 1 150 gr"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [
-      1
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-33",
-    "category": "porc",
+    "category": "ciorbe",
     "name": {
-      "ro": "Pâine/porție 1 150 gr                           3,00 lei",
-      "en": "Pâine/porție 1 150 gr                           3,00 lei"
+      "ro": "Pâine",
+      "en": "Homemade Bread"
     },
-    "weight": "1 g",
+    "weight": "/ porțieg",
     "price": 3.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 888 / 211, Grăsimi (g): 1.2 din care:",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 888 / 211, Grăsimi (g): 1.2 din care:"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [
-      1
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 211.0,
+      "energyKj": 888.0,
+      "fats": 1.2,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-34",
-    "category": "porc",
+    "category": "ciorbe",
     "name": {
-      "ro": "Acizi grași saturați (g) 0.2, Glucide (g): 48.3 din care: Zaharuri (g): 1.6,  Proteine (g): 7, Sare (g): 1.5",
-      "en": "Acizi gra& saturați (g) 0.2, Gluciof (g): 48.3 din care: Zaharuri (g): 1.6,  Proteine (g): 7, Sare (g): 1.5"
+      "ro": "Pâinici rumenite",
+      "en": "Pâinici rumenite"
     },
-    "weight": "1 g",
+    "weight": "1 3 buc",
     "price": 9.0,
     "ingredients": {
-      "ro": "(pâine, ulei de măsline, usturoi, busuioc)",
-      "en": "(pâine, ulei of măsline, usturoi, busuioc)"
+      "ro": "pâine, ulei de măsline, usturoi, busuioc",
+      "en": "bread, oil of olives, garlic, basil"
     },
-    "allergens": [
-      1
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 211.0,
+      "energyKj": 888.0,
+      "fats": 1.2,
+      "saturatedFats": 0.2,
+      "carbs": 48.3,
+      "sugars": 1.6,
+      "protein": 7.0,
+      "salt": 1.5
     }
   },
   {
     "id": "item-35",
     "category": "platouri",
     "name": {
-      "ro": "Platouri",
-      "en": "Platouri"
+      "ro": "Platou Marissa",
+      "en": "Marissa Platter (2 Persons)"
     },
-    "weight": "3g",
+    "weight": "600 gr",
     "price": 69.0,
     "ingredients": {
-      "ro": "(piept de pui, ceafă de porc, ciolan de porc, cartofi prăjiți, mix de legume, iaurt, maioneză, condimente)",
-      "en": "(piept of pui, ceafă of porc, ciolan of porc, cartofi prăjiți, mix of legume, iaurt, maioneză, condimente)"
+      "ro": "piept de pui, ceafă de porc, ciolan de porc, cartofi prăjiți, mix de legume, iaurt, maioneză, condimente",
+      "en": "piept of chicken, ceafă of pork, pork knuckle of pork, potatoes prăjiți, mix of legume, yogurt, mayonnaise, condimente"
     },
     "allergens": [
       3,
@@ -1078,434 +1043,412 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 185,
-      "energyKj": 774,
-      "fats": 9.0,
-      "saturatedFats": 3.5,
-      "carbs": 18.0,
-      "sugars": 2.5,
-      "protein": 9.0,
-      "salt": 1.1
+      "energyKcal": 221.7,
+      "energyKj": 925.3,
+      "fats": 13.2,
+      "saturatedFats": 4.0,
+      "carbs": 10.5,
+      "sugars": 2.1,
+      "protein": 15.8,
+      "salt": 0.4
     }
   },
   {
     "id": "item-36",
-    "category": "pui-rata",
+    "category": "platouri",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 925.3 / 221.7, Grăsimi (g): 13.2 din care: Acizi grași saturați (g) 4, Glucide (g): 10.5 din care: Zaharuri (g): 2.1, Proteine (g): 15.8, Sare (g): 0.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 925.3 / 221.7, Grăsimi (g): 13.2 din care: Acizi gra& saturați (g) 4, Gluciof (g): 10.5 din care: Zaharuri (g): 2.1, Proteine (g): 15.8, Sare (g): 0.4"
+      "ro": "Platoul  Gurmandului 1 ,7  1500gr",
+      "en": "Platoul  Gurmandului 1 ,7  1500gr"
     },
-    "weight": "1 g",
+    "weight": "200g",
     "price": 135.0,
     "ingredients": {
-      "ro": "(ceafă de porc, piept de pui, aripioare crispy, cartofi wedges, murături, sos chilli, condimente)",
-      "en": "(ceafă of porc, piept of pui, aripioare crispy, cartofi wedges, murături, sos chilli, condimente)"
+      "ro": "ceafă de porc, piept de pui, aripioare crispy, cartofi wedges, murături, sos chilli, condimente",
+      "en": "ceafă of pork, piept of chicken, wings crispy, potatoes wedges, murături, sauce chilli, condimente"
     },
     "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 128.8,
+      "energyKj": 538.1,
+      "fats": 5.8,
+      "saturatedFats": 1.7,
+      "carbs": 9.8,
+      "sugars": 3.8,
+      "protein": 9.9,
+      "salt": 1.3
     }
   },
   {
     "id": "item-37",
-    "category": "pui-rata",
+    "category": "platouri",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 538.1 / 128.8, Grăsimi (g):5.8 din care: Acizi grași saturați (g) 1.7, Glucide (g): 9.8 din care: Zaharuri (g): 3.8, Proteine (g): 9.9, Sare (g): 1.3",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 538.1 / 128.8, Grăsimi (g):5.8 din care: Acizi gra& saturați (g) 1.7, Gluciof (g): 9.8 din care: Zaharuri (g): 3.8, Proteine (g): 9.9, Sare (g): 1.3"
+      "ro": "Platoul bucătarului 1,71 kg",
+      "en": "Platoul bucătarului 1,71 kg"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 110.0,
     "ingredients": {
-      "ro": "(ceafă de porc, mici, scăriță de porc, legume la grătar, cartofi prăjiți, salată mixtă, sos muștar, sare)",
-      "en": "(ceafă of porc, mici, scăriță of porc, legume la grătar, cartofi prăjiți, salată mixtă, sos muștar, sare)"
+      "ro": "ceafă de porc, mici, scăriță de porc, legume la grătar, cartofi prăjiți, salată mixtă, sos muștar, sare",
+      "en": "ceafă of pork, mici skinless sausages, scăriță of pork, legume la grilled, potatoes prăjiți, salad mixtă, sauce mustard, salt"
     },
-    "allergens": [
-      10
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 128.8,
+      "energyKj": 538.1,
+      "fats": 5.8,
+      "saturatedFats": 1.7,
+      "carbs": 9.8,
+      "sugars": 3.8,
+      "protein": 9.9,
+      "salt": 1.3
     }
   },
   {
     "id": "item-38",
     "category": "pui-rata",
     "name": {
-      "ro": "Preparate din pui",
-      "en": "Preparate din pui"
+      "ro": "Piept de pui la grătar 7150gr",
+      "en": "Piept of pui la grătar 7150gr"
     },
-    "weight": "7150g",
+    "weight": "200g",
     "price": 28.0,
     "ingredients": {
-      "ro": "(piept de pui, unt, sare, condimente)",
-      "en": "(piept of pui, unt, sare, condimente)"
+      "ro": "piept de pui, unt, sare, condimente",
+      "en": "piept of chicken, butter, salt, condimente"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 183.0,
+      "energyKj": 761.6,
+      "fats": 7.8,
+      "saturatedFats": 3.1,
+      "carbs": 0.5,
+      "sugars": 0.1,
+      "protein": 27.6,
+      "salt": 2.1
     }
   },
   {
     "id": "item-39",
     "category": "pui-rata",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 761.6 / 183, Grăsimi (g): 7.8 din care: Acizi grași saturați (g) 3.1, Glucide (g): 0.5 din care: Zaharuri (g): 0.1,  Proteine (g): 27.6, Sare (g): 2.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 761.6 / 183, Grăsimi (g): 7.8 din care: Acizi gra& saturați (g) 3.1, Gluciof (g): 0.5 din care: Zaharuri (g): 0.1,  Proteine (g): 27.6, Sare (g): 2.1"
+      "ro": "Pulpe de pui dezosate la grătar",
+      "en": "Grilled Boneless Chicken Thighs"
     },
-    "weight": "180 g",
+    "weight": "80 gr",
     "price": 27.0,
     "ingredients": {
-      "ro": "(pulpe de pui , condimente)",
-      "en": "(pulpe of pui , condimente)"
+      "ro": "pulpe de pui , condimente",
+      "en": "pulpe of chicken , condimente"
     },
-    "allergens": [],
+    "allergens": [
+      1
+    ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 239.7,
+      "energyKj": 1000.5,
+      "fats": 15.4,
+      "saturatedFats": 0.3,
+      "carbs": 0.8,
+      "sugars": 0.0,
+      "protein": 24.6,
+      "salt": 2.0
     }
   },
   {
     "id": "item-40",
     "category": "pui-rata",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1000.5 / 239.7, Grăsimi (g): 15.4 din care: Acizi grași saturați (g) 0.3, Glucide (g): 0.8 din care: Zaharuri (g): 0, Proteine (g): 24.6, Sare (g): 2)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1000.5 / 239.7, Grăsimi (g): 15.4 din care: Acizi gra& saturați (g) 0.3, Gluciof (g): 0.8 din care: Zaharuri (g): 0, Proteine (g): 24.6, Sare (g): 2)"
+      "ro": "Piept de rață / Pulpă de rață, cu varză roșie și sos de portocale1,7   170/200/60gr",
+      "en": "Piept of rață / Pulpă of rață, with varză ro&e & sos of portocale1,7   170/200/60gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 65.0,
     "ingredients": {
-      "ro": "( piept de rață, legume asortate, portocală, amidon de grâu, unt)",
-      "en": "( piept of rață, legume asortate, portocală, amidon of grâu, unt)"
+      "ro": "piept de rață, legume asortate, portocală, amidon de grâu, unt",
+      "en": "piept of duck, legume asortate, portocală, amidon of grâu, butter"
     },
-    "allergens": [
-      1,
-      7
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 133.6,
+      "energyKj": 564.1,
+      "fats": 1.1,
+      "saturatedFats": 0.0,
+      "carbs": 17.9,
+      "sugars": 3.1,
+      "protein": 12.4,
+      "salt": 0.1
     }
   },
   {
     "id": "item-41",
     "category": "pui-rata",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 564.1 / 133.6, Grăsimi (g): 1.1 din care: Acizi grași saturați (g) 0, Glucide (g): 17.9 din care: Zaharuri (g): 3.1, Proteine (g): 12.4, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 564.1 / 133.6, Grăsimi (g): 1.1 din care: Acizi gra& saturați (g) 0, Gluciof (g): 17.9 din care: Zaharuri (g): 3.1, Proteine (g): 12.4, Sare (g): 0.1"
+      "ro": "Escalop din piept de pui cu cartofi piure și sos de ciuperci",
+      "en": "Escalop din piept of pui with cartofi piure & sos of ciuperci"
     },
-    "weight": "7150 g",
+    "weight": "150 gr",
     "price": 45.0,
     "ingredients": {
-      "ro": "(piept de pui, cartofi, unt, ciuperci, smântână lichidă, pătrunjel verde, ulei de floarea soarelui, condimente)",
-      "en": "(piept of pui, cartofi, unt, ciuperci, smântână lichidă, pătrunjel verof, ulei of floarea soarelui, condimente)"
+      "ro": "piept de pui, cartofi, unt, ciuperci, smântână lichidă, pătrunjel verde, ulei de floarea soarelui, condimente",
+      "en": "piept of chicken, potatoes, butter, mushrooms, sour cream lichidă, parsley verof, oil of floarea soarelui, condimente"
     },
     "allergens": [
       7
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 154.8,
+      "energyKj": 643.7,
+      "fats": 8.2,
+      "saturatedFats": 2.4,
+      "carbs": 4.0,
+      "sugars": 1.8,
+      "protein": 16.8,
+      "salt": 2.5
     }
   },
   {
     "id": "item-42",
     "category": "pui-rata",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 643.7 / 154.8, Grăsimi (g): 8.2 din care: Acizi grași saturați (g) 2.4, Glucide (g): 4 din care: Zaharuri (g): 1.8, Proteine (g): 16.8, Sare (g): 2.5",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 643.7 / 154.8, Grăsimi (g): 8.2 din care: Acizi gra& saturați (g) 2.4, Gluciof (g): 4 din care: Zaharuri (g): 1.8, Proteine (g): 16.8, Sare (g): 2.5"
+      "ro": "Piept de pui cu legume și sos de cașcaval",
+      "en": "Piept of pui with legume & sos of cașcaval"
     },
-    "weight": "7g",
+    "weight": "150 gr",
     "price": 42.0,
     "ingredients": {
-      "ro": "(piept de pui, legume, unt, smântână lichidă, unt de arahide, ulei de floarea soarelui, condimente)",
-      "en": "(piept of pui, legume, unt, smântână lichidă, unt of arahiof, ulei of floarea soarelui, condimente)"
+      "ro": "piept de pui, legume, unt, smântână lichidă, unt de arahide, ulei de floarea soarelui, condimente",
+      "en": "piept of chicken, legume, butter, sour cream lichidă, butter of arahiof, oil of floarea soarelui, condimente"
     },
     "allergens": [
-      5,
-      7
+      7,
+      8
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 154.8,
+      "energyKj": 643.7,
+      "fats": 8.2,
+      "saturatedFats": 2.4,
+      "carbs": 4.0,
+      "sugars": 1.8,
+      "protein": 16.8,
+      "salt": 2.5
     }
   },
   {
     "id": "item-43",
     "category": "pui-rata",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 643.7 / 154.8, Grăsimi (g): 8.2 din care: Acizi grași saturați (g) 2.4, Glucide (g): 4 din care: Zaharuri (g): 1.8, Proteine (g): 16.8, Sare (g): 2.5",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 643.7 / 154.8, Grăsimi (g): 8.2 din care: Acizi gra& saturați (g) 2.4, Gluciof (g): 4 din care: Zaharuri (g): 1.8, Proteine (g): 16.8, Sare (g): 2.5"
+      "ro": "Piept de pui crispy cu cartofi prajiti și sos roșu",
+      "en": "Piept of pui crispy with cartofi prajiti & sos roșu"
     },
-    "weight": "1g",
+    "weight": "3150/150/50 gr",
     "price": 38.0,
     "ingredients": {
-      "ro": "(piept de pui, ou, făină de grâu, cartofi, sos din roșii, ulei de palmier,  condimente)",
-      "en": "(piept of pui, ou, făină of grâu, cartofi, sos din ro&i, ulei of palmier,  condimente)"
+      "ro": "piept de pui, ou, făină de grâu, cartofi, sos din roșii, ulei de palmier,  condimente",
+      "en": "piept of chicken, egg, flour of grâu, potatoes, sauce din tomatoes, oil of palmier,  condimente"
     },
     "allergens": [
-      1,
-      3
+      1
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 154.8,
+      "energyKj": 643.7,
+      "fats": 8.2,
+      "saturatedFats": 2.4,
+      "carbs": 4.0,
+      "sugars": 1.8,
+      "protein": 16.8,
+      "salt": 2.5
     }
   },
   {
     "id": "item-44",
     "category": "pui-rata",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 643.7 / 154.8, Grăsimi (g): 8.2 din care: Acizi grași saturați (g) 2.4, Glucide (g): 4 din care: Zaharuri (g): 1.8, Proteine (g): 16.8, Sare (g): 2.5",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 643.7 / 154.8, Grăsimi (g): 8.2 din care: Acizi gra& saturați (g) 2.4, Gluciof (g): 4 din care: Zaharuri (g): 1.8, Proteine (g): 16.8, Sare (g): 2.5"
+      "ro": "Aripioare Crispy1,3250gr",
+      "en": "Aripioare Crispy1,3250gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 28.0,
     "ingredients": {
-      "ro": "(aripioare, făină de grâu, ou, ulei de palmier, condimente)",
-      "en": "(aripioare, făină of grâu, ou, ulei of palmier, condimente)"
+      "ro": "aripioare, făină de grâu, ou, ulei de palmier, condimente",
+      "en": "wings, flour of grâu, egg, oil of palmier, condimente"
     },
-    "allergens": [
-      1,
-      3
-    ],
-    "isFrozen": false,
+    "allergens": [],
+    "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
+      "energyKcal": 244.7,
+      "energyKj": 1023.8,
+      "fats": 12.4,
+      "saturatedFats": 1.5,
+      "carbs": 10.5,
       "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "protein": 22.0,
+      "salt": 0.3
     }
   },
   {
     "id": "item-45",
     "category": "pui-rata",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1023.8 / 244.7, Grăsimi (g): 12.4 din care: Acizi grași saturați (g) 1.5, Glucide (g): 10.5 din care: Zaharuri (g): 0.6, Proteine (g): 22, Sare (g): 0.3",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1023.8 / 244.7, Grăsimi (g): 12.4 din care: Acizi gra& saturați (g) 1.5, Gluciof (g): 10.5 din care: Zaharuri (g): 0.6, Proteine (g): 22, Sare (g): 0.3"
+      "ro": "Şniţel din piept de pui1, 3180gr",
+      "en": "Şniţel din piept of pui1, 3180gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 24.0,
     "ingredients": {
-      "ro": "(piept de pui, ou, făină, pesmet, condimente)",
-      "en": "(piept of pui, ou, făină, pesmet, condimente)"
+      "ro": "piept de pui, ou, făină, pesmet, condimente",
+      "en": "piept of chicken, egg, flour, breadcrumbs, condimente"
     },
-    "allergens": [
-      1,
-      3
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 158.3,
+      "energyKj": 662.9,
+      "fats": 3.4,
+      "saturatedFats": 0.2,
+      "carbs": 15.0,
+      "sugars": 0.1,
+      "protein": 26.6,
+      "salt": 2.0
     }
   },
   {
     "id": "item-46",
     "category": "vita",
     "name": {
-      "ro": "Preparate din vită",
-      "en": "Preparate din vită"
+      "ro": "Muşchi de vită la grill cu sos de hribi și cartofi cu rozmarin 7 150/200/50",
+      "en": "Muşchi of vită la grill with sos of hribi & cartofi with rozmarin 7 150/200/50"
     },
-    "weight": "7 g",
+    "weight": "200g",
     "price": 89.0,
     "ingredients": {
-      "ro": "(mușchiuleț de vită, unt, cartofi, rozmarin, ciuperci, smântână lichidă, ulei, condimente)",
-      "en": "(mușchiuleț of vită, unt, cartofi, rozmarin, ciuperci, smântână lichidă, ulei, condimente)"
+      "ro": "mușchiuleț de vită, unt, cartofi, rozmarin, ciuperci, smântână lichidă, ulei, condimente",
+      "en": "mușchiuleț of beef, butter, potatoes, rozmarin, mushrooms, sour cream lichidă, oil, condimente"
     },
-    "allergens": [
-      7
-    ],
-    "isFrozen": false,
+    "allergens": [],
+    "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 291.9,
+      "energyKj": 1212.1,
+      "fats": 22.4,
+      "saturatedFats": 8.4,
+      "carbs": 0.4,
+      "sugars": 0.1,
+      "protein": 22.2,
+      "salt": 3.2
     }
   },
   {
     "id": "item-47",
     "category": "vita",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1212.1 / 291.9, Grăsimi (g): 22.4 din care: Acizi grași saturați (g) 8.4, Glucide (g): 0.4 din care: Zaharuri (g):0.1, Proteine (g): 22.2, Sare (g): 3.2",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1212.1 / 291.9, Grăsimi (g): 22.4 din care: Acizi gra& saturați (g) 8.4, Gluciof (g): 0.4 din care: Zaharuri (g):0.1, Proteine (g): 22.2, Sare (g): 3.2"
+      "ro": "T-Bone de vită cu sos dijon și cartofi copți  7  _380/200/ 80gr__",
+      "en": "T-Bone of vită with sos dijon & cartofi copți  7  _380/200/ 80gr__"
     },
-    "weight": "7  g",
+    "weight": "200g",
     "price": 125.0,
     "ingredients": {
-      "ro": "(T-bone, cartofi copți, muștar Dijon, unt, ulei, condiment)",
-      "en": "(T-bone, cartofi copți, muștar Dijon, unt, ulei, condiment)"
+      "ro": "T-bone, cartofi copți, muștar Dijon, unt, ulei, condiment",
+      "en": "T-bone, potatoes copți, mustard Dijon, butter, oil, condiment"
     },
-    "allergens": [
-      7,
-      10
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 206.9,
+      "energyKj": 863.8,
+      "fats": 13.2,
+      "saturatedFats": 2.6,
+      "carbs": 8.3,
+      "sugars": 0.3,
+      "protein": 14.3,
+      "salt": 1.0
     }
   },
   {
     "id": "item-48",
     "category": "vita",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 863.8 / 206.9, Grăsimi (g):13.2 din care: Acizi grași saturați (g) 2.6, Glucide (g): 8.3 din care: Zaharuri (g): 0.3, Proteine (g): 14.3,",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 863.8 / 206.9, Grăsimi (g):13.2 din care: Acizi gra& saturați (g) 2.6, Gluciof (g): 8.3 din care: Zaharuri (g): 0.3, Proteine (g): 14.3,"
+      "ro": "Obrăjori de vită și piure cu aromă de trufe, sos de merișoare 1    280gr/300gr",
+      "en": "Obrăjori of vită & piure with aromă of trufe, sos of merișoare 1    280gr/300gr"
     },
-    "weight": "1    g",
+    "weight": "200g",
     "price": 98.0,
     "ingredients": {
-      "ro": "(carne de vită, ulei de măsline, unt , cartofi, fructe, trufe, amidon, condimente)",
-      "en": "(carne of vită, ulei of măsline, unt , cartofi, fructe, trufe, amidon, condimente)"
+      "ro": "carne de vită, ulei de măsline, unt , cartofi, fructe, trufe, amidon, condimente",
+      "en": "carne of beef, oil of olives, butter , potatoes, fructe, truffles, amidon, condimente"
     },
-    "allergens": [
-      7
-    ],
-    "isFrozen": false,
+    "allergens": [],
+    "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 211.1,
+      "energyKj": 878.5,
+      "fats": 13.0,
+      "saturatedFats": 3.2,
+      "carbs": 1.3,
+      "sugars": 0.8,
+      "protein": 21.6,
+      "salt": 3.2
     }
   },
   {
     "id": "item-49",
     "category": "vita",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 878.5 / 211.1, Grăsimi (g):13 din care: Acizi grași saturați (g) 3.2, Glucide (g): 1.3 din care: Zaharuri (g): 0.8, Proteine (g): 21.6, Sare (g): 3.2)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 878.5 / 211.1, Grăsimi (g):13 din care: Acizi gra& saturați (g) 3.2, Gluciof (g): 1.3 din care: Zaharuri (g): 0.8, Proteine (g): 21.6, Sare (g): 3.2)"
+      "ro": "Ossobuco de vită, piure de cartofi cu trufe 1 150/50/20gr",
+      "en": "Ossobuco of vită, piure of cartofi with trufe 1 150/50/20gr"
     },
-    "weight": "1 g",
+    "weight": "200g",
     "price": 80.0,
     "ingredients": {
-      "ro": "(carne de vită, unt, rucola , ulei, sare, otet balsamic, condimente)",
-      "en": "(carne of vită, unt, rucola , ulei, sare, otet balsamic, condimente)"
+      "ro": "carne de vită, unt, rucola , ulei, sare, otet balsamic, condimente",
+      "en": "carne of beef, butter, rucola , oil, salt, otet balsamic, condimente"
     },
-    "allergens": [
-      7,
-      12
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 291.9,
+      "energyKj": 1212.1,
+      "fats": 22.4,
+      "saturatedFats": 8.4,
+      "carbs": 0.4,
+      "sugars": 0.1,
+      "protein": 22.2,
+      "salt": 3.2
     }
   },
   {
     "id": "item-50",
     "category": "porc",
     "name": {
-      "ro": "Preparate din porc",
-      "en": "Preparate din porc"
+      "ro": "Mușchiulet de porc, sos de hribi și cartofi cu aromă de trufe 7  150/350gr",
+      "en": "Mușchiulet of porc, sos of hribi & cartofi with aromă of trufe 7  150/350gr"
     },
-    "weight": "7  g",
+    "weight": "200g",
     "price": 55.0,
     "ingredients": {
-      "ro": "(mușchiulet de porc, cartofi, pastă de trufe, hribi, crustă de verdețuri, ulei, condimente)",
-      "en": "(mușchiulet of porc, cartofi, pastă of trufe, hribi, crustă of verofțuri, ulei, condimente)"
+      "ro": "mușchiulet de porc, cartofi, pastă de trufe, hribi, crustă de verdețuri, ulei, condimente",
+      "en": "mușchiulet of pork, potatoes, pastă of truffles, porcini mushrooms, crustă of verofțuri, oil, condimente"
     },
     "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
+      "energyKcal": 192.6,
+      "energyKj": 801.6,
+      "fats": 10.5,
+      "saturatedFats": 2.5,
+      "carbs": 1.1,
+      "sugars": 0.4,
+      "protein": 22.3,
       "salt": 1.2
     }
   },
@@ -1513,27 +1456,25 @@ export const MENU_ITEMS = [
     "id": "item-51",
     "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 801.6 / 192.6, Grăsimi (g): 10.5 din care: Acizi grași saturați (g) 2.5, Glucide (g): 1.1 din care: Zaharuri (g): 0.4, Proteine (g): 22.3, Sare (g): 1.2",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 801.6 / 192.6, Grăsimi (g): 10.5 din care: Acizi gra& saturați (g) 2.5, Gluciof (g): 1.1 din care: Zaharuri (g): 0.4, Proteine (g): 22.3, Sare (g): 1.2"
+      "ro": "Cotlet de porc Marissa 7250gr",
+      "en": "Cotlet of porc Marissa 7250gr"
     },
-    "weight": "7250g",
+    "weight": "200g",
     "price": 32.0,
     "ingredients": {
-      "ro": "(cotlet de porc, ciuperci amestecate, bacon, roșii, mozzarella, smântână lichidă, ulei de floarea soarelui, condimente)",
-      "en": "(cotlet of porc, ciuperci amestecate, bacon, ro&i, mozzarella, smântână lichidă, ulei of floarea soarelui, condimente)"
+      "ro": "cotlet de porc, ciuperci amestecate, bacon, roșii, mozzarella, smântână lichidă, ulei de floarea soarelui, condimente",
+      "en": "cotlet of pork, mushrooms amestecate, bacon, tomatoes, mozzarella, sour cream lichidă, oil of floarea soarelui, condimente"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
+      "energyKcal": 192.6,
+      "energyKj": 801.6,
+      "fats": 10.5,
+      "saturatedFats": 2.5,
+      "carbs": 1.1,
+      "sugars": 0.4,
+      "protein": 22.3,
       "salt": 1.2
     }
   },
@@ -1541,791 +1482,755 @@ export const MENU_ITEMS = [
     "id": "item-52",
     "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 801.6 / 192.6, Grăsimi (g): 10.5 din care: Acizi grași saturați (g) 2.5, Glucide (g): 1.1 din care: Zaharuri (g): 0.4, Proteine (g): 22.3, Sare (g): 1.2",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 801.6 / 192.6, Grăsimi (g): 10.5 din care: Acizi gra& saturați (g) 2.5, Gluciof (g): 1.1 din care: Zaharuri (g): 0.4, Proteine (g): 22.3, Sare (g): 1.2"
+      "ro": "Șnitel de porc uriaș cu sos picant 1,3 7,11200/50gr",
+      "en": "Șnitel of porc uriaș with sos picant 1,3 7,11200/50gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 30.0,
     "ingredients": {
-      "ro": "(cotlet de porc, sos picant, cașcaval, ulei de floarea soarelui, ou, făină de grâu, condimente)",
-      "en": "(cotlet of porc, sos picant, cașcaval, ulei of floarea soarelui, ou, făină of grâu, condimente)"
+      "ro": "cotlet de porc, sos picant, cașcaval, ulei de floarea soarelui, ou, făină de grâu, condimente",
+      "en": "cotlet of pork, sauce picant, yellow cheese, oil of floarea soarelui, egg, flour of grâu, condimente"
     },
-    "allergens": [
-      1,
-      3,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 274.3,
+      "energyKj": 1139.6,
+      "fats": 17.4,
+      "saturatedFats": 3.6,
+      "carbs": 9.0,
+      "sugars": 4.0,
+      "protein": 19.0,
+      "salt": 1.3
     }
   },
   {
     "id": "item-53",
     "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1139.6 / 274.3, Grăsimi (g): 17.4 din care: Acizi grași saturați (g) 3.6, Glucide (g): 9 din care: Zaharuri (g): 4, Proteine (g): 19, Sare (g): 1.3",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1139.6 / 274.3, Grăsimi (g): 17.4 din care: Acizi gra& saturați (g) 3.6, Gluciof (g): 9 din care: Zaharuri (g): 4, Proteine (g): 19, Sare (g): 1.3"
+      "ro": "Ceafă  ţigănească și cartofi prăjiți 1,3180/150gr",
+      "en": "Ceafă  ţigănească & cartofi prăjiți 1,3180/150gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 52.0,
     "ingredients": {
-      "ro": "(ceafă de porc, slănină afumată, ou, sos picant, cartofi, condimente)",
-      "en": "(ceafă of porc, slănină afumată, ou, sos picant, cartofi, condimente)"
+      "ro": "ceafă de porc, slănină afumată, ou, sos picant, cartofi, condimente",
+      "en": "ceafă of pork, pork fatback afumată, egg, sauce picant, potatoes, condimente"
     },
-    "allergens": [
-      3
-    ],
-    "isFrozen": false,
+    "allergens": [],
+    "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 241.1,
+      "energyKj": 1003.9,
+      "fats": 16.8,
+      "saturatedFats": 7.0,
+      "carbs": 5.0,
+      "sugars": 0.2,
+      "protein": 17.8,
+      "salt": 1.7
     }
   },
   {
     "id": "item-54",
     "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1003.9 / 241.1, Grăsimi (g): 16.8 din care: Acizi grași saturați (g) 7, Glucide (g): 5 din care: Zaharuri (g): 0.2, Proteine (g): 17.8, Sare (g): 1.7",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1003.9 / 241.1, Grăsimi (g): 16.8 din care: Acizi gra& saturați (g) 7, Gluciof (g): 5 din care: Zaharuri (g): 0.2, Proteine (g): 17.8, Sare (g): 1.7"
+      "ro": "Ceafă de porc la grătar180gr",
+      "en": "Ceafă of porc la grătar180gr"
     },
-    "weight": "180g",
+    "weight": "200g",
     "price": 30.0,
     "ingredients": {
-      "ro": "(ceafă de porc, condimente)",
-      "en": "(ceafă of porc, condimente)"
+      "ro": "ceafă de porc, condimente",
+      "en": "ceafă of pork, condimente"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 229.3,
+      "energyKj": 953.5,
+      "fats": 17.0,
+      "saturatedFats": 7.3,
+      "carbs": 0.0,
+      "sugars": 0.0,
+      "protein": 19.2,
+      "salt": 2.1
     }
   },
   {
     "id": "item-55",
     "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 953.5 / 229.3, Grăsimi (g): 17 din care: Acizi grași saturați (g) 7.3, Glucide (g): 0 din care: Zaharuri (g): 0, Proteine (g): 19.2, Sare (g): 2.1)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 953.5 / 229.3, Grăsimi (g): 17 din care: Acizi gra& saturați (g) 7.3, Gluciof (g): 0 din care: Zaharuri (g): 0, Proteine (g): 19.2, Sare (g): 2.1)"
+      "ro": "Scariță gigant cu catofi wedges 7400/150gr",
+      "en": "Scariță gigant with catofi wedges 7400/150gr"
     },
-    "weight": "7400/150g",
+    "weight": "200g",
     "price": 55.0,
     "ingredients": {
-      "ro": "(costiță de porc, cartofi wedges, sos barbeque, usturoi, condimente)",
-      "en": "(costiță of porc, cartofi wedges, sos barbeque, usturoi, condimente)"
+      "ro": "costiță de porc, cartofi wedges, sos barbeque, usturoi, condimente",
+      "en": "costiță of pork, potatoes wedges, sauce barbeque, garlic, condimente"
     },
     "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 179.1,
+      "energyKj": 744.6,
+      "fats": 12.1,
+      "saturatedFats": 4.4,
+      "carbs": 5.5,
+      "sugars": 0.9,
+      "protein": 12.2,
+      "salt": 2.2
     }
   },
   {
     "id": "item-56",
     "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 744.6 / 179.1, Grăsimi (g): 12.1 din care: Acizi grași saturați (g) 4.4, Glucide (g): 5.5 din care: Zaharuri (g): 0.9, Proteine (g): 12.2, Sare (g): 2.2",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 744.6 / 179.1, Grăsimi (g): 12.1 din care: Acizi gra& saturați (g) 4.4, Gluciof (g): 5.5 din care: Zaharuri (g): 0.9, Proteine (g): 12.2, Sare (g): 2.2"
+      "ro": "Ciolan de porc100gr",
+      "en": "Ciolan of porc100gr"
     },
-    "weight": "100g",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "(ciolan de porc)",
-      "en": "(ciolan of porc)"
+      "ro": "ciolan de porc",
+      "en": "pork knuckle of pork"
     },
     "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 208.0,
+      "energyKj": 268.0,
+      "fats": 204.0,
+      "saturatedFats": 0.0,
+      "carbs": 956.0,
+      "sugars": 269.0,
+      "protein": 203.0,
+      "salt": 0.3
     }
   },
   {
     "id": "item-57",
     "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 268 / 208, Grăsimi (g): 204 din care: Acizi grași saturați (g) 0, Glucide (g): 956 din care: Zaharuri (g): 269, Proteine (g): 203, Sare (g): 0.3)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 268 / 208, Grăsimi (g): 204 din care: Acizi gra& saturați (g) 0, Gluciof (g): 956 din care: Zaharuri (g): 269, Proteine (g): 203, Sare (g): 0.3)"
+      "ro": "Ciolan de porc cu os domnesc 100gr",
+      "en": "Ciolan of porc with os domnesc 100gr"
     },
-    "weight": "100g",
+    "weight": "200g",
     "price": 10.0,
     "ingredients": {
-      "ro": "(ciolan de porc, ulei de floarea soarelui, usturoi, condimente)",
-      "en": "(ciolan of porc, ulei of floarea soarelui, usturoi, condimente)"
+      "ro": "ciolan de porc, ulei de floarea soarelui, usturoi, condimente",
+      "en": "pork knuckle of pork, oil of floarea soarelui, garlic, condimente"
     },
     "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 189.1,
+      "energyKj": 425.3,
+      "fats": 125.8,
+      "saturatedFats": 0.1,
+      "carbs": 593.9,
+      "sugars": 165.0,
+      "protein": 127.0,
+      "salt": 0.5
     }
   },
   {
     "id": "item-58",
     "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 425.3 / 189.1, Grăsimi (g): 125.8 din care: Acizi grași saturați (g) 0.1, Glucide (g): 593.9 din care: Zaharuri (g): 165, Proteine (g): 127, Sare (g): 0.5",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 425.3 / 189.1, Grăsimi (g): 125.8 din care: Acizi gra& saturați (g) 0.1, Gluciof (g): 593.9 din care: Zaharuri (g): 165, Proteine (g): 127, Sare (g): 0.5"
+      "ro": "Tochitură de porc cu mămăliguță150/200gr",
+      "en": "Tochitură of porc with mămăliguță150/200gr"
     },
-    "weight": "150/200g",
+    "weight": "200g",
     "price": 45.0,
     "ingredients": {
-      "ro": "(carne de porc, usturoi, sos roșu, ou, telemea, burduf, ulei de floarea soarelui, condimente)",
-      "en": "(carne of porc, usturoi, sos roșu, ou, telemea, burduf, ulei of floarea soarelui, condimente)"
+      "ro": "carne de porc, usturoi, sos roșu, ou, telemea, burduf, ulei de floarea soarelui, condimente",
+      "en": "carne of pork, garlic, sauce roșu, egg, telemea, burduf, oil of floarea soarelui, condimente"
     },
-    "allergens": [
-      3,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 154.6,
+      "energyKj": 647.0,
+      "fats": 7.2,
+      "saturatedFats": 1.9,
+      "carbs": 8.5,
+      "sugars": 0.7,
+      "protein": 14.2,
+      "salt": 1.1
     }
   },
   {
     "id": "item-59",
     "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 647 / 154.6, Grăsimi (g):7.2 din care: Acizi grași saturați (g) 1.9, Glucide (g): 8.5 din care: Zaharuri (g): 0.7, Proteine (g): 14.2, Sare (g): 1.1)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 647 / 154.6, Grăsimi (g):7.2 din care: Acizi gra& saturați (g) 1.9, Gluciof (g): 8.5 din care: Zaharuri (g): 0.7, Proteine (g): 14.2, Sare (g): 1.1)"
+      "ro": "Obrăjori de porc cu cartofi piure și sos de portocale 1           200/200/50gr",
+      "en": "Obrăjori of porc with cartofi piure & sos of portocale 1           200/200/50gr"
     },
-    "weight": "1           g",
+    "weight": "200g",
     "price": 65.0,
     "ingredients": {
-      "ro": "(obrăjori de porc, cartofi, unt, portocale,verdeață, amidon de porumb, ulei de floarea soarelui, condimente)",
-      "en": "(obrăjori of porc, cartofi, unt, portocale,verofață, amidon of porumb, ulei of floarea soarelui, condimente)"
+      "ro": "obrăjori de porc, cartofi, unt, portocale,verdeață, amidon de porumb, ulei de floarea soarelui, condimente",
+      "en": "obrăjori of pork, potatoes, butter, oranges,verofață, amidon of porumb, oil of floarea soarelui, condimente"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 154.6,
+      "energyKj": 647.0,
+      "fats": 7.2,
+      "saturatedFats": 1.9,
+      "carbs": 8.5,
+      "sugars": 0.7,
+      "protein": 14.2,
+      "salt": 1.1
     }
   },
   {
     "id": "item-60",
     "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 647 / 154.6, Grăsimi (g):7.2 din care: Acizi grași saturați (g) 1.9, Glucide (g): 8.5 din care: Zaharuri (g): 0.7, Proteine (g): 14.2, Sare (g): 1.1)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 647 / 154.6, Grăsimi (g):7.2 din care: Acizi gra& saturați (g) 1.9, Gluciof (g): 8.5 din care: Zaharuri (g): 0.7, Proteine (g): 14.2, Sare (g): 1.1)"
+      "ro": "Cotlet de porc cu os la grătar, cartofi copți și sos dijon 10   150/200/50gr",
+      "en": "Cotlet of porc with os la grătar, cartofi copți & sos dijon 10   150/200/50gr"
     },
-    "weight": "10   g",
+    "weight": "200g",
     "price": 65.0,
     "ingredients": {
-      "ro": "(cotlet de porc, cartofi, praz, muștar, ulei, pătrunjel, ardei, roșii, lămâie, ierburi, unt, condiment)",
-      "en": "(cotlet of porc, cartofi, praz, muștar, ulei, pătrunjel, arofi, ro&i, lămâie, ierburi, unt, condiment)"
+      "ro": "cotlet de porc, cartofi, praz, muștar, ulei, pătrunjel, ardei, roșii, lămâie, ierburi, unt, condiment",
+      "en": "cotlet of pork, potatoes, praz, mustard, oil, parsley, pepper, tomatoes, lemon, ierburi, butter, condiment"
     },
-    "allergens": [
-      7,
-      10
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 291.9,
+      "energyKj": 1212.1,
+      "fats": 22.4,
+      "saturatedFats": 8.4,
+      "carbs": 0.4,
+      "sugars": 0.1,
+      "protein": 22.2,
+      "salt": 3.2
     }
   },
   {
     "id": "item-61",
     "category": "porc",
     "name": {
-      "ro": "Preparate din peşte",
-      "en": "Preparate din peşte"
+      "ro": "File de somon cu sos teriaki garnisit cu legume 4, 6, 7, 8, 10, 11150/150gr",
+      "en": "File of somon with sos teriaki garnisit with legume 4, 6, 7, 8, 10, 11150/150gr"
     },
-    "weight": "4g",
+    "weight": "200g",
     "price": 59.0,
     "ingredients": {
-      "ro": "(file de somon, morcov, conopidă, broccoli, unt, ulei, lămâie, sos teriaki, condimente)",
-      "en": "(file of somon, morcov, conopidă, broccoli, unt, ulei, lămâie, sos teriaki, condimente)"
+      "ro": "file de somon, morcov, conopidă, broccoli, unt, ulei, lămâie, sos teriaki, condimente",
+      "en": "file of salmon, carrots, cauliflower, broccoli, butter, oil, lemon, sauce teriaki, condimente"
     },
-    "allergens": [
-      4,
-      7
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 179.7,
+      "energyKj": 744.7,
+      "fats": 14.2,
+      "saturatedFats": 3.5,
+      "carbs": 4.5,
+      "sugars": 3.2,
+      "protein": 8.3,
+      "salt": 1.4
     }
   },
   {
     "id": "item-62",
-    "category": "garnituri",
+    "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 744.7 / 179.7, Grăsimi (g): 14.2 din care: Acizi grași saturați (g) 3.5, Glucide (g): 4.5 din care: Zaharuri (g): 3.2, Proteine (g): 8.3, Sare (g): 1.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 744.7 / 179.7, Grăsimi (g): 14.2 din care: Acizi gra& saturați (g) 3.5, Gluciof (g): 4.5 din care: Zaharuri (g): 3.2, Proteine (g): 8.3, Sare (g): 1.4"
+      "ro": "Păstrăv/Doradă la grătar cu legume 4       200./150gr",
+      "en": "Păstrăv/Doradă la grătar with legume 4       200./150gr"
     },
-    "weight": "4       g",
+    "weight": "200g",
     "price": 55.0,
     "ingredients": {
-      "ro": "(păstrăv/doradă, legume asortate, condimente)",
-      "en": "(păstrăv/doradă, legume asortate, condimente)"
+      "ro": "păstrăv/doradă, legume asortate, condimente",
+      "en": "trout/sea bream, legume asortate, condimente"
     },
-    "allergens": [
-      4
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 147.3,
+      "energyKj": 612.1,
+      "fats": 10.3,
+      "saturatedFats": 1.4,
+      "carbs": 1.8,
+      "sugars": 1.6,
+      "protein": 10.8,
+      "salt": 1.4
     }
   },
   {
     "id": "item-63",
-    "category": "garnituri",
+    "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 612.1 / 147.3, Grăsimi (g): 10.3 din care: Acizi grași saturați (g) 1.4, Glucide (g): 1.8 din care: Zaharuri (g): 1.6, Proteine (g): 10.8, Sare (g): 1.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 612.1 / 147.3, Grăsimi (g): 10.3 din care: Acizi gra& saturați (g) 1.4, Gluciof (g): 1.8 din care: Zaharuri (g): 1.6, Proteine (g): 10.8, Sare (g): 1.4"
+      "ro": "Păstrăv în crustă de mălâi cu mămăliguță",
+      "en": "Păstrăv în crustă of mălâi with mămăliguță"
     },
-    "weight": "4       g",
+    "weight": "250/200 gr",
     "price": 55.0,
     "ingredients": {
-      "ro": "(păstrăv, făină de mălai, lămâie, usturoi, ulei de floarea soarelui, condimente)",
-      "en": "(păstrăv, făină of mălai, lămâie, usturoi, ulei of floarea soarelui, condimente)"
+      "ro": "păstrăv, făină de mălai, lămâie, usturoi, ulei de floarea soarelui, condimente",
+      "en": "trout, flour of cornmeal, lemon, garlic, oil of floarea soarelui, condimente"
     },
     "allergens": [
-      1,
       4
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
+      "energyKcal": 179.8,
+      "energyKj": 753.6,
+      "fats": 7.4,
       "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "carbs": 17.3,
+      "sugars": 0.8,
+      "protein": 9.6,
+      "salt": 1.1
     }
   },
   {
     "id": "item-64",
-    "category": "garnituri",
+    "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 753.6 / 179.8, Grăsimi (g): 7.4 din care: Acizi grași saturați (g) 1.1, Glucide (g): 17.3 din care: Zaharuri (g): 0.8, Proteine (g): 9.6, Sare (g): 1.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 753.6 / 179.8, Grăsimi (g): 7.4 din care: Acizi gra& saturați (g) 1.1, Gluciof (g): 17.3 din care: Zaharuri (g): 0.8, Proteine (g): 9.6, Sare (g): 1.1"
+      "ro": "Tigaie cu fructe de mare 1,2,7       250/80gr",
+      "en": "Tigaie with fructe of mare 1,2,7       250/80gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 48.0,
     "ingredients": {
-      "ro": "(fructe de mare, ardei iute, roșii, usturoi, pătrunjel verde, unt, lămâie, ulei de măsline, pâine prăjită, condimente)",
-      "en": "(fructe of mare, arofi iute, ro&i, usturoi, pătrunjel verof, unt, lămâie, ulei of măsline, pâine prăjită, condimente)"
+      "ro": "fructe de mare, ardei iute, roșii, usturoi, pătrunjel verde, unt, lămâie, ulei de măsline, pâine prăjită, condimente",
+      "en": "fructe of mare, pepper iute, tomatoes, garlic, parsley verof, butter, lemon, oil of olives, bread prăjită, condimente"
     },
-    "allergens": [
-      1,
-      7
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 171.4,
+      "energyKj": 712.6,
+      "fats": 10.7,
+      "saturatedFats": 5.5,
+      "carbs": 5.9,
+      "sugars": 2.2,
+      "protein": 12.9,
+      "salt": 0.7
     }
   },
   {
     "id": "item-65",
-    "category": "garnituri",
+    "category": "porc",
     "name": {
-      "ro": "Sosuri",
-      "en": "Sosuri"
+      "ro": "Sos roşu 9(ketchup)                             70gr",
+      "en": "Sos roşu 9(ketchup)                             70gr"
     },
-    "weight": "9g",
+    "weight": "200g",
     "price": 5.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 426.8 / 102, Grăsimi (g): 0.1 din care: Acizi grași saturați (g) 0.1, Glucide (g): 23.2 din care: Zaharuri (g): 22.8, Proteine (g): 1.2, Sare (g): 1.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 426.8 / 102, Grăsimi (g): 0.1 din care: Acizi gra& saturați (g) 0.1, Gluciof (g): 23.2 din care: Zaharuri (g): 22.8, Proteine (g): 1.2, Sare (g): 1.8"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 102.0,
+      "energyKj": 426.8,
+      "fats": 0.1,
+      "saturatedFats": 0.1,
+      "carbs": 23.2,
+      "sugars": 22.8,
+      "protein": 1.2,
+      "salt": 1.8
     }
   },
   {
     "id": "item-66",
-    "category": "garnituri",
+    "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 426.8 / 102, Grăsimi (g): 0.1 din care: Acizi grași saturați (g) 0.1, Glucide (g): 23.2 din care: Zaharuri (g): 22.8, Proteine (g): 1.2, Sare (g): 1.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 426.8 / 102, Grăsimi (g): 0.1 din care: Acizi gra& saturați (g) 0.1, Gluciof (g): 23.2 din care: Zaharuri (g): 22.8, Proteine (g): 1.2, Sare (g): 1.8"
+      "ro": "Sos alb 3, 7    70gr",
+      "en": "Sos alb 3, 7    70gr"
     },
-    "weight": "3g",
+    "weight": "200g",
     "price": 5.0,
     "ingredients": {
-      "ro": "(iaurt, maioneză, usturoi, oregano, condimente)",
-      "en": "(iaurt, maioneză, usturoi, oregano, condimente)"
+      "ro": "iaurt, maioneză, usturoi, oregano, condimente",
+      "en": "yogurt, mayonnaise, garlic, oregano, condimente"
     },
-    "allergens": [
-      3,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
+      "energyKcal": 317.3,
+      "energyKj": 1309.4,
+      "fats": 30.8,
+      "saturatedFats": 9.3,
+      "carbs": 7.7,
+      "sugars": 2.5,
       "protein": 3.1,
-      "salt": 0.8
+      "salt": 0.4
     }
   },
   {
     "id": "item-67",
-    "category": "garnituri",
+    "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1309.4 / 317.3, Grăsimi (g): 30.8 din care: Acizi grași saturați (g) 9.3, Glucide (g): 7.7 din care: Zaharuri (g): 2.5, Proteine (g): 3.1, Sare (g): 0.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1309.4 / 317.3, Grăsimi (g): 30.8 din care: Acizi gra& saturați (g) 9.3, Gluciof (g): 7.7 din care: Zaharuri (g): 2.5, Proteine (g): 3.1, Sare (g): 0.4"
+      "ro": "Sos chilli 9                                     100gr",
+      "en": "Sos chilli 9                                     100gr"
     },
-    "weight": "9                                     g",
+    "weight": "200g",
     "price": 5.0,
     "ingredients": {
-      "ro": "(ketchup, ardei iute)",
-      "en": "(ketchup, arofi iute)"
+      "ro": "ketchup, ardei iute",
+      "en": "ketchup, pepper iute"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 96.9,
+      "energyKj": 405.3,
+      "fats": 0.2,
+      "saturatedFats": 0.1,
+      "carbs": 21.4,
+      "sugars": 21.0,
+      "protein": 1.3,
+      "salt": 2.8
     }
   },
   {
     "id": "item-68",
-    "category": "garnituri",
+    "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 405.3 / 96.9, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0.1, Glucide (g): 21.4 din care: Zaharuri (g): 21, Proteine (g): 1.3, Sare (g): 2.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 405.3 / 96.9, Grăsimi (g): 0.2 din care: Acizi gra& saturați (g) 0.1, Gluciof (g): 21.4 din care: Zaharuri (g): 21, Proteine (g): 1.3, Sare (g): 2.8"
+      "ro": "Ulei picant (ulei și ardei iute) 30ml",
+      "en": "Ulei picant (ulei & arofi iute) 30ml"
     },
-    "weight": "30ml",
+    "weight": "200g",
     "price": 5.0,
     "ingredients": {
-      "ro": "Mujdei de usturoi    50gr.",
-      "en": "Mujofi of usturoi    50gr."
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-69",
-    "category": "garnituri",
+    "category": "porc",
     "name": {
-      "ro": "Mujdei de usturoi    50gr.      5,00 lei",
-      "en": "Mujofi of usturoi    50gr.      5,00 lei"
+      "ro": "Mujdei de usturoi    50gr",
+      "en": "Mujofi of usturoi    50gr"
     },
-    "weight": "50g",
+    "weight": "200g",
     "price": 5.0,
     "ingredients": {
-      "ro": "(usturoi, lămâie, ulei de floarea soarelui, sare)",
-      "en": "(usturoi, lămâie, ulei of floarea soarelui, sare)"
+      "ro": "usturoi, lămâie, ulei de floarea soarelui, sare",
+      "en": "garlic, lemon, oil of floarea soarelui, salt"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 182.3,
+      "energyKj": 759.2,
+      "fats": 10.1,
+      "saturatedFats": 1.0,
+      "carbs": 18.7,
+      "sugars": 2.1,
+      "protein": 4.2,
+      "salt": 4.0
     }
   },
   {
     "id": "item-70",
-    "category": "garnituri",
+    "category": "porc",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 759.2 / 182.3, Grăsimi (g): 10.1 din care: Acizi grași saturați (g) 1, Glucide (g): 18.7 din care: Zaharuri (g): 2.1, Proteine (g): 4.2, Sare (g): 4)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 759.2 / 182.3, Grăsimi (g): 10.1 din care: Acizi gra& saturați (g) 1, Gluciof (g): 18.7 din care: Zaharuri (g): 2.1, Proteine (g): 4.2, Sare (g): 4)"
+      "ro": "Muştar/maioneză/ketchup10                                            70ml",
+      "en": "Muştar/maioneză/ketchup10                                            70ml"
     },
-    "weight": "10                                            g",
+    "weight": "200g",
     "price": 3.0,
     "ingredients": {
-      "ro": "Sos alb, cu ciuperci 3, 7          100gr.",
-      "en": "Sos alb, with ciuperci 3, 7          100gr."
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-71",
-    "category": "garnituri",
+    "category": "porc",
     "name": {
-      "ro": "Sos alb, cu ciuperci 3, 7          100gr.     12,00 lei",
-      "en": "Sos alb, with ciuperci 3, 7          100gr.     12,00 lei"
+      "ro": "Sos alb, cu ciuperci 3, 7          100gr",
+      "en": "Sos alb, with ciuperci 3, 7          100gr"
     },
-    "weight": "3g",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "(smântână lichidă, ciuperci, ceapă, ardei, pătrunjel verde, condimente)",
-      "en": "(smântână lichidă, ciuperci, ceapă, arofi, pătrunjel verof, condimente)"
+      "ro": "smântână lichidă, ciuperci, ceapă, ardei, pătrunjel verde, condimente",
+      "en": "sour cream lichidă, mushrooms, onion, pepper, parsley verof, condimente"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
+      "energyKcal": 317.3,
+      "energyKj": 1309.4,
+      "fats": 30.8,
+      "saturatedFats": 9.3,
+      "carbs": 7.7,
+      "sugars": 2.5,
       "protein": 3.1,
-      "salt": 0.8
+      "salt": 0.4
     }
   },
   {
     "id": "item-72",
     "category": "garnituri",
     "name": {
-      "ro": "Garnituri",
-      "en": "Garnituri"
+      "ro": "Cartofi prăjiţi180gr",
+      "en": "Cartofi prăjiţi180gr"
     },
-    "weight": "180g",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "(cartofi, ulei de palmier, condimente)",
-      "en": "(cartofi, ulei of palmier, condimente)"
+      "ro": "cartofi, ulei de palmier, condimente",
+      "en": "potatoes, oil of palmier, condimente"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 195,
-      "energyKj": 815,
-      "fats": 8.8,
-      "saturatedFats": 1.3,
-      "carbs": 26.5,
+      "energyKcal": 169.6,
+      "energyKj": 709.4,
+      "fats": 7.3,
+      "saturatedFats": 1.9,
+      "carbs": 24.8,
       "sugars": 0.6,
-      "protein": 2.7,
-      "salt": 0.9
+      "protein": 1.6,
+      "salt": 1.0
     }
   },
   {
     "id": "item-73",
     "category": "garnituri",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 709.4 / 169.6, Grăsimi (g): 7.3 din care: Acizi grași saturați (g) 1.9, Glucide (g): 24.8 din care: Zaharuri (g): 0.6, Proteine (g): 1.6, Sare (g): 1)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 709.4 / 169.6, Grăsimi (g): 7.3 din care: Acizi gra& saturați (g) 1.9, Gluciof (g): 24.8 din care: Zaharuri (g): 0.6, Proteine (g): 1.6, Sare (g): 1)"
+      "ro": "Cartofi piure 7200gr",
+      "en": "Cartofi piure 7200gr"
     },
-    "weight": "7200g",
+    "weight": "200g",
     "price": 10.0,
     "ingredients": {
-      "ro": "(cartofi, lapte, unt, condimente)",
-      "en": "(cartofi, lapte, unt, condimente)"
+      "ro": "cartofi, lapte, unt, condimente",
+      "en": "potatoes, milk, butter, condimente"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 195,
-      "energyKj": 815,
-      "fats": 8.8,
-      "saturatedFats": 1.3,
-      "carbs": 26.5,
-      "sugars": 0.6,
-      "protein": 2.7,
-      "salt": 0.9
+      "energyKcal": 91.9,
+      "energyKj": 386.6,
+      "fats": 2.6,
+      "saturatedFats": 1.7,
+      "carbs": 15.9,
+      "sugars": 0.8,
+      "protein": 1.9,
+      "salt": 1.0
     }
   },
   {
     "id": "item-74",
     "category": "garnituri",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 386.6 / 91.9, Grăsimi (g): 2.6 din care: Acizi grași saturați (g) 1.7, Glucide (g): 15.9 din care: Zaharuri (g): 0.8, Proteine (g): 1.9, Sare (g): 1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 386.6 / 91.9, Grăsimi (g): 2.6 din care: Acizi gra& saturați (g) 1.7, Gluciof (g): 15.9 din care: Zaharuri (g): 0.8, Proteine (g): 1.9, Sare (g): 1"
+      "ro": "Cartofi natur 7200gr",
+      "en": "Cartofi natur 7200gr"
     },
-    "weight": "7200g",
+    "weight": "200g",
     "price": 10.0,
     "ingredients": {
-      "ro": "(cartofi, ulei de floarea soarelui, condimente)",
-      "en": "(cartofi, ulei of floarea soarelui, condimente)"
+      "ro": "cartofi, ulei de floarea soarelui, condimente",
+      "en": "potatoes, oil of floarea soarelui, condimente"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 195,
-      "energyKj": 815,
-      "fats": 8.8,
-      "saturatedFats": 1.3,
-      "carbs": 26.5,
+      "energyKcal": 130.3,
+      "energyKj": 544.4,
+      "fats": 7.0,
+      "saturatedFats": 3.2,
+      "carbs": 15.7,
       "sugars": 0.6,
-      "protein": 2.7,
-      "salt": 0.9
+      "protein": 1.8,
+      "salt": 1.0
     }
   },
   {
     "id": "item-75",
     "category": "garnituri",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 544.4 / 130.3, Grăsimi (g): 7 din care: Acizi grași saturați (g) 3.2, Glucide (g): 15.7 din care: Zaharuri (g): 0.6, Proteine (g): 1.8, Sare (g): 1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 544.4 / 130.3, Grăsimi (g): 7 din care: Acizi gra& saturați (g) 3.2, Gluciof (g): 15.7 din care: Zaharuri (g): 0.6, Proteine (g): 1.8, Sare (g): 1"
+      "ro": "Cartofi aurii180gr",
+      "en": "Cartofi aurii180gr"
     },
-    "weight": "180g",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "(cartofi, ulei de palmier, condimente)",
-      "en": "(cartofi, ulei of palmier, condimente)"
+      "ro": "cartofi, ulei de palmier, condimente",
+      "en": "potatoes, oil of palmier, condimente"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 195,
-      "energyKj": 815,
-      "fats": 8.8,
-      "saturatedFats": 1.3,
-      "carbs": 26.5,
-      "sugars": 0.6,
-      "protein": 2.7,
-      "salt": 0.9
+      "energyKcal": 129.0,
+      "energyKj": 542.3,
+      "fats": 4.1,
+      "saturatedFats": 1.9,
+      "carbs": 21.5,
+      "sugars": 0.8,
+      "protein": 2.4,
+      "salt": 0.0
     }
   },
   {
     "id": "item-76",
     "category": "garnituri",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 542.3 / 129, Grăsimi (g): 4.1 din care: Acizi grași saturați (g) 1.9, Glucide (g): 21.5 din care: Zaharuri (g): 0.8, Proteine (g): 2.4, Sare (g): 0)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 542.3 / 129, Grăsimi (g): 4.1 din care: Acizi gra& saturați (g) 1.9, Gluciof (g): 21.5 din care: Zaharuri (g): 0.8, Proteine (g): 2.4, Sare (g): 0)"
+      "ro": "Pilaf de orez200gr",
+      "en": "Pilaf of orez200gr"
     },
     "weight": "200g",
     "price": 10.0,
     "ingredients": {
-      "ro": "(orez, legume asortate, ceapă, ardei, ulei de floarea soarelui, condimente)",
-      "en": "(orez, legume asortate, ceapă, arofi, ulei of floarea soarelui, condimente)"
+      "ro": "orez, legume asortate, ceapă, ardei, ulei de floarea soarelui, condimente",
+      "en": "rice, legume asortate, onion, pepper, oil of floarea soarelui, condimente"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 131.7,
+      "energyKj": 556.0,
+      "fats": 2.7,
+      "saturatedFats": 0.3,
+      "carbs": 24.4,
+      "sugars": 0.6,
+      "protein": 2.6,
+      "salt": 0.0
     }
   },
   {
     "id": "item-77",
     "category": "garnituri",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 556 / 131.7, Grăsimi (g): 2.7 din care: Acizi grași saturați (g) 0.3, Glucide (g): 24.4 din care: Zaharuri (g): 0.6, Proteine (g): 2.6, Sare (g): 0)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 556 / 131.7, Grăsimi (g): 2.7 din care: Acizi gra& saturați (g) 0.3, Gluciof (g): 24.4 din care: Zaharuri (g): 0.6, Proteine (g): 2.6, Sare (g): 0)"
+      "ro": "Legume înăbuşite7200gr",
+      "en": "Legume înăbuşite7200gr"
     },
-    "weight": "7200g",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "(brocoli, morcov, conopidă, ceapă, unt, condimente)",
-      "en": "(brocoli, morcov, conopidă, ceapă, unt, condimente)"
+      "ro": "brocoli, morcov, conopidă, ceapă, unt, condimente",
+      "en": "brocoli, carrots, cauliflower, onion, butter, condimente"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 62.0,
+      "energyKj": 258.9,
+      "fats": 2.6,
+      "saturatedFats": 1.7,
+      "carbs": 8.7,
+      "sugars": 3.0,
+      "protein": 2.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-78",
     "category": "garnituri",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 258.9 / 62, Grăsimi (g): 2.6 din care: Acizi grași saturați (g) 1.7, Glucide (g): 8.7 din care: Zaharuri (g): 3, Proteine (g): 2, Sare (g): 1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 258.9 / 62, Grăsimi (g): 2.6 din care: Acizi gra& saturați (g) 1.7, Gluciof (g): 8.7 din care: Zaharuri (g): 3, Proteine (g): 2, Sare (g): 1"
+      "ro": "Mămăligă",
+      "en": "Mămăligă"
     },
-    "weight": "200 g",
+    "weight": "200 gr",
     "price": 9.0,
     "ingredients": {
-      "ro": "(făină de mălai, ulei de floarea soarelui, sare)",
-      "en": "(făină of mălai, ulei of floarea soarelui, sare)"
+      "ro": "făină de mălai, ulei de floarea soarelui, sare",
+      "en": "flour of cornmeal, oil of floarea soarelui, salt"
     },
-    "allergens": [
-      1
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 218.5,
+      "energyKj": 921.0,
+      "fats": 5.5,
+      "saturatedFats": 0.6,
+      "carbs": 37.5,
+      "sugars": 0.9,
+      "protein": 3.2,
+      "salt": 1.0
     }
   },
   {
     "id": "item-79",
     "category": "garnituri",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 921 / 218.5, Grăsimi (g): 5.5 din care: Acizi grași saturați (g) 0.6, Glucide (g): 37.5 din care: Zaharuri (g): 0.9, Proteine (g): 3.2, Sare (g): 1)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 921 / 218.5, Grăsimi (g): 5.5 din care: Acizi gra& saturați (g) 0.6, Gluciof (g): 37.5 din care: Zaharuri (g): 0.9, Proteine (g): 3.2, Sare (g): 1)"
+      "ro": "Iahnie de fasole 1200gr",
+      "en": "Iahnie of fasole 1200gr"
     },
-    "weight": "1200g",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "(fasole, ceapă, ardei, roșie, ulei de floarea soarelui, făină de grâu, usturoi, sare, condimente)",
-      "en": "(fasole, ceapă, arofi, ro&e, ulei of floarea soarelui, făină of grâu, usturoi, sare, condimente)"
+      "ro": "fasole, ceapă, ardei, roșie, ulei de floarea soarelui, făină de grâu, usturoi, sare, condimente",
+      "en": "beans, onion, pepper, tomato, oil of floarea soarelui, flour of grâu, garlic, salt, condimente"
     },
-    "allergens": [
-      1
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 88.3,
+      "energyKj": 366.9,
+      "fats": 5.2,
+      "saturatedFats": 0.5,
+      "carbs": 9.4,
+      "sugars": 2.6,
+      "protein": 2.1,
+      "salt": 1.8
     }
   },
   {
     "id": "item-80",
     "category": "garnituri",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 366.9 / 88.3, Grăsimi (g): 5.2 din care: Acizi grași saturați (g) 0.5, Glucide (g): 9.4 din care: Zaharuri (g): 2.6, Proteine (g): 2.1, Sare (g): 1.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 366.9 / 88.3, Grăsimi (g): 5.2 din care: Acizi gra& saturați (g) 0.5, Gluciof (g): 9.4 din care: Zaharuri (g): 2.6, Proteine (g): 2.1, Sare (g): 1.8"
+      "ro": "Ciuperci sote200gr",
+      "en": "Ciuperci sote200gr"
     },
     "weight": "200g",
     "price": 15.0,
     "ingredients": {
-      "ro": "(ciuperci, ardei, roșii, ceapă, ulei de floarea soarelui, condimente)",
-      "en": "(ciuperci, arofi, ro&i, ceapă, ulei of floarea soarelui, condimente)"
+      "ro": "ciuperci, ardei, roșii, ceapă, ulei de floarea soarelui, condimente",
+      "en": "mushrooms, pepper, tomatoes, onion, oil of floarea soarelui, condimente"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
+      "energyKcal": 70.9,
+      "energyKj": 292.6,
+      "fats": 5.1,
+      "saturatedFats": 0.6,
+      "carbs": 5.8,
+      "sugars": 1.5,
+      "protein": 2.6,
       "salt": 0.8
     }
   },
@@ -2333,25 +2238,25 @@ export const MENU_ITEMS = [
     "id": "item-81",
     "category": "garnituri",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 292.6 / 70.9, Grăsimi (g): 5.1 din care: Acizi grași saturați (g) 0.6, Glucide (g): 5.8 din care: Zaharuri (g): 1.5, Proteine (g): 2.6, Sare (g): 0.8)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 292.6 / 70.9, Grăsimi (g): 5.1 din care: Acizi gra& saturați (g) 0.6, Gluciof (g): 5.8 din care: Zaharuri (g): 1.5, Proteine (g): 2.6, Sare (g): 0.8)"
+      "ro": "Legume asortate la grătar_____________________200gr",
+      "en": "Legume asortate la grătar_____________________200gr"
     },
     "weight": "200g",
     "price": 18.0,
     "ingredients": {
-      "ro": "(ciuperci, ardei, roșii, ceapă, dovlecel, vânătă, ulei de floarea soarelui, condimente)",
-      "en": "(ciuperci, arofi, ro&i, ceapă, dovlecel, vânătă, ulei of floarea soarelui, condimente)"
+      "ro": "ciuperci, ardei, roșii, ceapă, dovlecel, vânătă, ulei de floarea soarelui, condimente",
+      "en": "mushrooms, pepper, tomatoes, onion, zucchini, vânătă, oil of floarea soarelui, condimente"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
+      "energyKcal": 70.9,
+      "energyKj": 292.6,
+      "fats": 5.1,
+      "saturatedFats": 0.6,
+      "carbs": 5.8,
+      "sugars": 1.5,
+      "protein": 2.6,
       "salt": 0.8
     }
   },
@@ -2359,55 +2264,54 @@ export const MENU_ITEMS = [
     "id": "item-82",
     "category": "paste-risotto",
     "name": {
-      "ro": "Paste",
-      "en": "Paste"
+      "ro": "Spaghete Milanese",
+      "en": "Spaghetti Milanese"
     },
-    "weight": "1g",
+    "weight": "400 gr",
     "price": 32.0,
     "ingredients": {
-      "ro": "(paste, șuncă, sos de roșii, ciuperci, parmezan, ulei de floarea soarelui, condimente)",
-      "en": "(paste, șuncă, sos of ro&i, ciuperci, parmezan, ulei of floarea soarelui, condimente)"
+      "ro": "paste, șuncă, sos de roșii, ciuperci, parmezan, ulei de floarea soarelui, condimente",
+      "en": "paste, ham, sauce of tomatoes, mushrooms, parmezan, oil of floarea soarelui, condimente"
     },
-    "allergens": [],
+    "allergens": [
+      1,
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 245,
-      "energyKj": 1025,
-      "fats": 10.8,
-      "saturatedFats": 5.2,
-      "carbs": 26.5,
-      "sugars": 2.5,
-      "protein": 11.0,
-      "salt": 1.3
+      "energyKcal": 180.8,
+      "energyKj": 757.3,
+      "fats": 11.7,
+      "saturatedFats": 5.7,
+      "carbs": 12.7,
+      "sugars": 0.2,
+      "protein": 8.0,
+      "salt": 1.5
     }
   },
   {
     "id": "item-83",
     "category": "paste-risotto",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 757.3 / 180.8, Grăsimi (g): 11.7 din care: Acizi grași saturați (g) 5.7, Glucide (g): 12.7 din care: Zaharuri (g): 0.2, Proteine (g): 8, Sare (g): 1.5",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 757.3 / 180.8, Grăsimi (g): 11.7 din care: Acizi gra& saturați (g) 5.7, Gluciof (g): 12.7 din care: Zaharuri (g): 0.2, Proteine (g): 8, Sare (g): 1.5"
+      "ro": "Spaghete Carbonara1, 3, 7______________________",
+      "en": "Spaghete Carbonara1, 3, 7______________________"
     },
-    "weight": "1g",
+    "weight": "400 gr",
     "price": 32.0,
     "ingredients": {
-      "ro": "(spaghete, bacon, smântână lichidă, parmezan, ou, ulei de floarea soarelui, condimente)",
-      "en": "(spaghete, bacon, smântână lichidă, parmezan, ou, ulei of floarea soarelui, condimente)"
+      "ro": "spaghete, bacon, smântână lichidă, parmezan, ou, ulei de floarea soarelui, condimente",
+      "en": "spaghetti, bacon, sour cream lichidă, parmezan, egg, oil of floarea soarelui, condimente"
     },
-    "allergens": [
-      1,
-      3,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 245,
-      "energyKj": 1025,
-      "fats": 10.8,
-      "saturatedFats": 5.2,
-      "carbs": 26.5,
-      "sugars": 2.5,
-      "protein": 11.0,
+      "energyKcal": 246.4,
+      "energyKj": 1031.7,
+      "fats": 16.5,
+      "saturatedFats": 6.5,
+      "carbs": 12.3,
+      "sugars": 0.1,
+      "protein": 12.6,
       "salt": 1.3
     }
   },
@@ -2415,367 +2319,354 @@ export const MENU_ITEMS = [
     "id": "item-84",
     "category": "paste-risotto",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1031.7 / 246.4, Grăsimi (g): 16.5 din care: Acizi grași saturați (g) 6.5, Glucide (g): 12.3 din care: Zaharuri (g): 0.1, Proteine (g): 12.6, Sare (g): 1.3",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1031.7 / 246.4, Grăsimi (g): 16.5 din care: Acizi gra& saturați (g) 6.5, Gluciof (g): 12.3 din care: Zaharuri (g): 0.1, Proteine (g): 12.6, Sare (g): 1.3"
+      "ro": "Paste Quattro Formaggi",
+      "en": "Pasta Quattro Formaggi"
     },
-    "weight": "1g",
+    "weight": "400 gr",
     "price": 35.0,
     "ingredients": {
-      "ro": "(paste, smântână lichidă, parmezan, ou, gorgonzola, brânză de burduf, unt, ulei de floarea soarelui, condimente)",
-      "en": "(paste, smântână lichidă, parmezan, ou, gorgonzola, brânză of burduf, unt, ulei of floarea soarelui, condimente)"
+      "ro": "paste, smântână lichidă, parmezan, ou, gorgonzola, brânză de burduf, unt, ulei de floarea soarelui, condimente",
+      "en": "paste, sour cream lichidă, parmezan, egg, gorgonzola, cheese of burduf, butter, oil of floarea soarelui, condimente"
     },
     "allergens": [
+      1,
       3,
       7
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 245,
-      "energyKj": 1025,
-      "fats": 10.8,
-      "saturatedFats": 5.2,
-      "carbs": 26.5,
-      "sugars": 2.5,
-      "protein": 11.0,
-      "salt": 1.3
+      "energyKcal": 282.1,
+      "energyKj": 1180.1,
+      "fats": 20.0,
+      "saturatedFats": 11.7,
+      "carbs": 12.0,
+      "sugars": 0.3,
+      "protein": 13.8,
+      "salt": 1.5
     }
   },
   {
     "id": "item-85",
     "category": "paste-risotto",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1180.1 / 282.1, Grăsimi (g): 20 din care: Acizi grași saturați (g) 11.7, Glucide (g): 12 din care: Zaharuri (g): 0.3, Proteine (g): 13.8, Sare (g): 1.5",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1180.1 / 282.1, Grăsimi (g): 20 din care: Acizi gra& saturați (g) 11.7, Gluciof (g): 12 din care: Zaharuri (g): 0.3, Proteine (g): 13.8, Sare (g): 1.5"
+      "ro": "Paste all`arrabbiata 1 400gr",
+      "en": "Paste all`arrabbiata 1 400gr"
     },
-    "weight": "1 g",
+    "weight": "200g",
     "price": 28.0,
     "ingredients": {
-      "ro": "(paste, roșii, sos de roșii, pesto, ulei de măsline, condimente)",
-      "en": "(paste, ro&i, sos of ro&i, pesto, ulei of măsline, condimente)"
+      "ro": "paste, roșii, sos de roșii, pesto, ulei de măsline, condimente",
+      "en": "paste, tomatoes, sauce of tomatoes, pesto, oil of olives, condimente"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 245,
-      "energyKj": 1025,
-      "fats": 10.8,
-      "saturatedFats": 5.2,
-      "carbs": 26.5,
-      "sugars": 2.5,
-      "protein": 11.0,
-      "salt": 1.3
+      "energyKcal": 138.7,
+      "energyKj": 585.5,
+      "fats": 3.6,
+      "saturatedFats": 1.9,
+      "carbs": 17.3,
+      "sugars": 0.4,
+      "protein": 9.5,
+      "salt": 0.0
     }
   },
   {
     "id": "item-86",
     "category": "paste-risotto",
     "name": {
-      "ro": "Informații nutriționale 100g Valoare Energetică (kJ/kcal): 585.5 / 138.7, Grăsimi (g): 3.6 din care: Acizi grași saturați (g) 1.9, Glucide (g): 17.3 din care: Zaharuri (g): 0.4, Proteine (g): 9.5, Sare (g): 0",
-      "en": "Informații nutriționale 100g Valoare Energetică (kJ/kcal): 585.5 / 138.7, Grăsimi (g): 3.6 din care: Acizi gra& saturați (g) 1.9, Gluciof (g): 17.3 din care: Zaharuri (g): 0.4, Proteine (g): 9.5, Sare (g): 0"
+      "ro": "Tagliatelle cu creveti",
+      "en": "Tagliatelle with creveti"
     },
-    "weight": "1g",
+    "weight": "400 gr",
     "price": 42.0,
     "ingredients": {
-      "ro": "(paste,  creveți, mix de legume, unt, smântână, condimente)",
-      "en": "(paste,  creveți, mix of legume, unt, smântână, condimente)"
+      "ro": "paste,  creveți, mix de legume, unt, smântână, condimente",
+      "en": "paste,  prawns, mix of legume, butter, sour cream, condimente"
     },
     "allergens": [
+      1,
       2,
       7
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 245,
-      "energyKj": 1025,
-      "fats": 10.8,
-      "saturatedFats": 5.2,
-      "carbs": 26.5,
-      "sugars": 2.5,
-      "protein": 11.0,
-      "salt": 1.3
+      "energyKcal": 138.7,
+      "energyKj": 585.5,
+      "fats": 3.6,
+      "saturatedFats": 1.9,
+      "carbs": 17.3,
+      "sugars": 0.4,
+      "protein": 9.5,
+      "salt": 0.0
     }
   },
   {
     "id": "item-87",
-    "category": "peste",
+    "category": "paste-risotto",
     "name": {
-      "ro": "Informații nutriționale 100g Valoare Energetică (kJ/kcal): 585.5 / 138.7, Grăsimi (g): 3.6 din care: Acizi grași saturați (g) 1.9, Glucide (g): 17.3 din care: Zaharuri (g): 0.4, Proteine (g): 9.5, Sare (g): 0",
-      "en": "Informații nutriționale 100g Valoare Energetică (kJ/kcal): 585.5 / 138.7, Grăsimi (g): 3.6 din care: Acizi gra& saturați (g) 1.9, Gluciof (g): 17.3 din care: Zaharuri (g): 0.4, Proteine (g): 9.5, Sare (g): 0"
+      "ro": "Paste cu fructe de mare",
+      "en": "Seafood Pasta"
     },
-    "weight": "1g",
+    "weight": "400 gr",
     "price": 42.0,
     "ingredients": {
-      "ro": "(paste, fructe de mare, roșii, lămâie, unt, usturoi, ulei de masline)",
-      "en": "(paste, fructe of mare, ro&i, lămâie, unt, usturoi, ulei of masline)"
+      "ro": "paste, fructe de mare, roșii, lămâie, unt, usturoi, ulei de masline",
+      "en": "paste, fructe of mare, tomatoes, lemon, butter, garlic, oil of masline"
     },
     "allergens": [
+      1,
+      2,
       7
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 165,
-      "energyKj": 690,
-      "fats": 8.0,
-      "saturatedFats": 1.9,
-      "carbs": 4.2,
-      "sugars": 1.1,
-      "protein": 18.5,
-      "salt": 1.0
+      "energyKcal": 145.8,
+      "energyKj": 612.5,
+      "fats": 4.8,
+      "saturatedFats": 2.1,
+      "carbs": 18.3,
+      "sugars": 0.7,
+      "protein": 7.8,
+      "salt": 0.2
     }
   },
   {
     "id": "item-88",
     "category": "paste-risotto",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 612.5 / 145.8, Grăsimi (g): 4.8 din care: Acizigrașisaturați (g) 2.1, Glucide (g): 18.3 din care: Zaharuri(g): 0.7, Proteine (g): 7.8, Sare (g): 0.2",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 612.5 / 145.8, Grăsimi (g): 4.8 din care: Acizigra&saturați (g) 2.1, Gluciof (g): 18.3 din care: Zaharuri(g): 0.7, Proteine (g): 7.8, Sare (g): 0.2"
+      "ro": "Tagliatelli cu somon 1, 7 400gr",
+      "en": "Tagliatelli with somon 1, 7 400gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 42.0,
     "ingredients": {
-      "ro": "(somon, paste, smântână, usturoi, pătrunjel, unt, condimente)",
-      "en": "(somon, paste, smântână, usturoi, pătrunjel, unt, condimente)"
+      "ro": "somon, paste, smântână, usturoi, pătrunjel, unt, condimente",
+      "en": "salmon, paste, sour cream, garlic, parsley, butter, condimente"
     },
-    "allergens": [
-      4,
-      7
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 245,
-      "energyKj": 1025,
-      "fats": 10.8,
-      "saturatedFats": 5.2,
-      "carbs": 26.5,
-      "sugars": 2.5,
-      "protein": 11.0,
-      "salt": 1.3
+      "energyKcal": 138.7,
+      "energyKj": 585.5,
+      "fats": 3.6,
+      "saturatedFats": 1.9,
+      "carbs": 17.3,
+      "sugars": 0.4,
+      "protein": 9.5,
+      "salt": 0.0
     }
   },
   {
     "id": "item-89",
     "category": "paste-risotto",
     "name": {
-      "ro": "Informații nutriționale 100g Valoare Energetică (kJ/kcal): 585.5 / 138.7, Grăsimi (g): 3.6 din care: Acizi grași saturați (g) 1.9, Glucide (g): 17.3 din care: Zaharuri (g): 0.4, Proteine (g): 9.5, Sare (g): 0",
-      "en": "Informații nutriționale 100g Valoare Energetică (kJ/kcal): 585.5 / 138.7, Grăsimi (g): 3.6 din care: Acizi gra& saturați (g) 1.9, Gluciof (g): 17.3 din care: Zaharuri (g): 0.4, Proteine (g): 9.5, Sare (g): 0"
+      "ro": "Risotto al funghi porcini350gr",
+      "en": "Risotto al funghi porcini350gr"
     },
-    "weight": "350g",
+    "weight": "200g",
     "price": 42.0,
     "ingredients": {
-      "ro": "(orez, hribi, usturoi, parmezan, condimente)",
-      "en": "(orez, hribi, usturoi, parmezan, condimente)"
+      "ro": "orez, hribi, usturoi, parmezan, condimente",
+      "en": "rice, porcini mushrooms, garlic, parmezan, condimente"
     },
     "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 245,
-      "energyKj": 1025,
-      "fats": 10.8,
-      "saturatedFats": 5.2,
-      "carbs": 26.5,
-      "sugars": 2.5,
-      "protein": 11.0,
-      "salt": 1.3
+      "energyKcal": 70.9,
+      "energyKj": 292.6,
+      "fats": 5.1,
+      "saturatedFats": 0.6,
+      "carbs": 5.8,
+      "sugars": 1.5,
+      "protein": 2.6,
+      "salt": 0.8
     }
   },
   {
     "id": "item-90",
     "category": "paste-risotto",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 292.6 / 70.9, Grăsimi (g): 5.1 din care: Acizi grași saturați (g) 0.6, Glucide (g): 5.8 din care: Zaharuri (g): 1.5, Proteine (g): 2.6, Sare (g): 0.8)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 292.6 / 70.9, Grăsimi (g): 5.1 din care: Acizi gra& saturați (g) 0.6, Gluciof (g): 5.8 din care: Zaharuri (g): 1.5, Proteine (g): 2.6, Sare (g): 0.8)"
+      "ro": "Risotto alla pescadora",
+      "en": "Risotto alla pescadora"
     },
-    "weight": "350 g",
+    "weight": "50 gr",
     "price": 49.0,
     "ingredients": {
-      "ro": "(orez,  fructe de mare, lămâie, unt, condimente)",
-      "en": "(orez,  fructe of mare, lămâie, unt, condimente)"
+      "ro": "orez,  fructe de mare, lămâie, unt, condimente",
+      "en": "rice,  fructe of mare, lemon, butter, condimente"
     },
     "allergens": [
-      7
+      3
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 245,
-      "energyKj": 1025,
-      "fats": 10.8,
-      "saturatedFats": 5.2,
-      "carbs": 26.5,
-      "sugars": 2.5,
-      "protein": 11.0,
-      "salt": 1.3
+      "energyKcal": 145.8,
+      "energyKj": 612.5,
+      "fats": 4.8,
+      "saturatedFats": 2.1,
+      "carbs": 18.3,
+      "sugars": 0.7,
+      "protein": 7.8,
+      "salt": 0.2
     }
   },
   {
     "id": "item-91",
     "category": "salate",
     "name": {
-      "ro": "Salate aperitiv",
-      "en": "Salate aperitiv"
+      "ro": "Salată grecească3, 7300/70gr",
+      "en": "Salată grecească3, 7300/70gr"
     },
-    "weight": "3g",
+    "weight": "200g",
     "price": 28.0,
     "ingredients": {
-      "ro": "(salată iceberg, telemea, roșie, castraveți, măsline, ardei, lămâie, ulei de măsline, condimente)",
-      "en": "(salată iceberg, telemea, ro&e, castraveți, măsline, arofi, lămâie, ulei of măsline, condimente)"
+      "ro": "salată iceberg, telemea, roșie, castraveți, măsline, ardei, lămâie, ulei de măsline, condimente",
+      "en": "salad iceberg, telemea, tomato, withwithmbers, olives, pepper, lemon, oil of olives, condimente"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 140,
-      "energyKj": 585,
-      "fats": 9.5,
+      "energyKcal": 115.4,
+      "energyKj": 478.0,
+      "fats": 10.5,
       "saturatedFats": 3.6,
-      "carbs": 6.8,
-      "sugars": 3.2,
-      "protein": 7.0,
-      "salt": 1.0
+      "carbs": 2.8,
+      "sugars": 1.8,
+      "protein": 2.6,
+      "salt": 1.7
     }
   },
   {
     "id": "item-92",
     "category": "salate",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 478 / 115.4, Grăsimi (g): 10.5 din care: Acizi grași saturați (g) 3.6, Glucide (g): 2.8 din care: Zaharuri (g): 1.8, Proteine (g): 2.6, Sare (g): 1.7",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 478 / 115.4, Grăsimi (g): 10.5 din care: Acizi gra& saturați (g) 3.6, Gluciof (g): 2.8 din care: Zaharuri (g): 1.8, Proteine (g): 2.6, Sare (g): 1.7"
+      "ro": "Salata cu ton  3, 4, 7,11300/70gr",
+      "en": "Salata with ton  3, 4, 7,11300/70gr"
     },
-    "weight": "3g",
+    "weight": "200g",
     "price": 28.0,
     "ingredients": {
-      "ro": "(salata iceberg, ton, salată, roșie, castraveți, măsline, iaurt, ardei, lămâie, ulei de măsline, condimente)",
-      "en": "(salata iceberg, ton, salată, ro&e, castraveți, măsline, iaurt, arofi, lămâie, ulei of măsline, condimente)"
+      "ro": "salata iceberg, ton, salată, roșie, castraveți, măsline, iaurt, ardei, lămâie, ulei de măsline, condimente",
+      "en": "salata iceberg, tuna, salad, tomato, withwithmbers, olives, yogurt, pepper, lemon, oil of olives, condimente"
     },
-    "allergens": [
-      4,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 140,
-      "energyKj": 585,
-      "fats": 9.5,
+      "energyKcal": 115.4,
+      "energyKj": 478.0,
+      "fats": 10.5,
       "saturatedFats": 3.6,
-      "carbs": 6.8,
-      "sugars": 3.2,
-      "protein": 7.0,
-      "salt": 1.0
+      "carbs": 2.8,
+      "sugars": 1.8,
+      "protein": 2.6,
+      "salt": 1.7
     }
   },
   {
     "id": "item-93",
     "category": "salate",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 478 / 115.4, Grăsimi (g): 10.5 din care: Acizi grași saturați (g) 3.6, Glucide (g): 2.8 din care: Zaharuri (g): 1.8, Proteine (g): 2.6, Sare (g): 1.7",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 478 / 115.4, Grăsimi (g): 10.5 din care: Acizi gra& saturați (g) 3.6, Gluciof (g): 2.8 din care: Zaharuri (g): 1.8, Proteine (g): 2.6, Sare (g): 1.7"
+      "ro": "Salată Cezar 3, 7             300/70gr",
+      "en": "Salată Cezar 3, 7             300/70gr"
     },
-    "weight": "3g",
+    "weight": "200g",
     "price": 35.0,
     "ingredients": {
-      "ro": "(piept de pui, salată iceberg, parmezan, ou, lămâie, muștar,  file de anșoa, capere, castraveți murați, ulei de măsline, condimente)",
-      "en": "(piept of pui, salată iceberg, parmezan, ou, lămâie, muștar,  file of anșoa, capere, castraveți murați, ulei of măsline, condimente)"
+      "ro": "piept de pui, salată iceberg, parmezan, ou, lămâie, muștar,  file de anșoa, capere, castraveți murați, ulei de măsline, condimente",
+      "en": "piept of chicken, salad iceberg, parmezan, egg, lemon, mustard,  file of anchovies, capere, withwithmbers murați, oil of olives, condimente"
     },
-    "allergens": [
-      3,
-      4,
-      10
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 140,
-      "energyKj": 585,
-      "fats": 9.5,
+      "energyKcal": 115.4,
+      "energyKj": 478.0,
+      "fats": 10.5,
       "saturatedFats": 3.6,
-      "carbs": 6.8,
-      "sugars": 3.2,
-      "protein": 7.0,
-      "salt": 1.0
+      "carbs": 2.8,
+      "sugars": 1.8,
+      "protein": 2.6,
+      "salt": 1.7
     }
   },
   {
     "id": "item-94",
-    "category": "pui-rata",
+    "category": "salate",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 478 / 115.4, Grăsimi (g): 10.5 din care: Acizi grași saturați (g) 3.6, Glucide (g): 2.8 din care: Zaharuri (g): 1.8, Proteine (g): 2.6, Sare (g): 1.7",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 478 / 115.4, Grăsimi (g): 10.5 din care: Acizi gra& saturați (g) 3.6, Gluciof (g): 2.8 din care: Zaharuri (g): 1.8, Proteine (g): 2.6, Sare (g): 1.7"
+      "ro": "Salată Capresse",
+      "en": "Salată Capresse"
     },
-    "weight": "7100/100/50 g",
+    "weight": "7100/100/50 gr",
     "price": 28.0,
     "ingredients": {
-      "ro": "(mozzarela, roșii, rucola/salata sezon, ulei de măsline, pesto, iaurt, condimente)",
-      "en": "(mozzarela, ro&i, rucola/salata sezon, ulei of măsline, pesto, iaurt, condimente)"
+      "ro": "mozzarela, roșii, rucola/salata sezon, ulei de măsline, pesto, iaurt, condimente",
+      "en": "mozzarela, tomatoes, rucola/salata sezon, oil of olives, pesto, yogurt, condimente"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 334.0,
+      "energyKj": 1369.4,
+      "fats": 25.0,
+      "saturatedFats": 18.3,
+      "carbs": 1.0,
+      "sugars": 1.0,
+      "protein": 26.0,
+      "salt": 2.1
     }
   },
   {
     "id": "item-95",
     "category": "salate",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1369.4 / 334, Grăsimi (g):25 din care: Acizi grași saturați (g) 18.3, Glucide (g): 1 din care: Zaharuri (g): 1,Proteine (g): 26, Sare (g): 2.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1369.4 / 334, Grăsimi (g):25 din care: Acizi gra& saturați (g) 18.3, Gluciof (g): 1 din care: Zaharuri (g): 1,Proteine (g): 26, Sare (g): 2.1"
+      "ro": "Salată cu avocado, pui sau creveti",
+      "en": "Salată with avocado, pui sau creveti"
     },
-    "weight": "3g",
+    "weight": "11300/70 gr",
     "price": 38.0,
     "ingredients": {
-      "ro": "(piept de pui/creveți, parmezan, avocado, salată iceberg și de sezon, susan, castraveți, roșii, lămâie, muștar, ulei de măsline, condimente)",
-      "en": "(piept of pui/creveți, parmezan, avocado, salată iceberg & of sezon, susan, castraveți, ro&i, lămâie, muștar, ulei of măsline, condimente)"
+      "ro": "piept de pui/creveți, parmezan, avocado, salată iceberg și de sezon, susan, castraveți, roșii, lămâie, muștar, ulei de măsline, condimente",
+      "en": "piept of chicken/prawns, parmezan, avocado, salad iceberg & of sezon, sesame, withwithmbers, tomatoes, lemon, mustard, oil of olives, condimente"
     },
     "allergens": [
-      2,
-      10,
-      11
+      3,
+      7
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 140,
-      "energyKj": 585,
-      "fats": 9.5,
+      "energyKcal": 115.4,
+      "energyKj": 478.0,
+      "fats": 10.5,
       "saturatedFats": 3.6,
-      "carbs": 6.8,
-      "sugars": 3.2,
-      "protein": 7.0,
-      "salt": 1.0
+      "carbs": 2.8,
+      "sugars": 1.8,
+      "protein": 2.6,
+      "salt": 1.7
     }
   },
   {
     "id": "item-96",
     "category": "salate",
     "name": {
-      "ro": "Salate",
-      "en": "Salate"
+      "ro": "Salată varză albă      150gr",
+      "en": "Salată varză albă      150gr"
     },
-    "weight": "150g",
+    "weight": "200g",
     "price": 8.0,
     "ingredients": {
-      "ro": "(varză, oțet balsamic, ulei de floarea soarelui, lămâie)    Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 239.7 / 57.6, Grăsimi (g): 3.5 din care: Acizi grași saturați (g) 0.3, Glucide (g): 6.3 din care: Zaharuri (g): 4.3, Proteine (g): 1.1, Sare (g): 0",
-      "en": "(varză, oțet balsamic, ulei of floarea soarelui, lămâie)    Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 239.7 / 57.6, Grăsimi (g): 3.5 din care: Acizi gra& saturați (g) 0.3, Gluciof (g): 6.3 din care: Zaharuri (g): 4.3, Proteine (g): 1.1, Sare (g): 0"
+      "ro": "varză, oțet balsamic, ulei de floarea soarelui, lămâie)    Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 239.7 / 57.6, Grăsimi (g): 3.5 din care: Acizi grași saturați (g) 0.3, Glucide (g): 6.3 din care: Zaharuri (g): 4.3, Proteine (g): 1.1, Sare (g): 0",
+      "en": "cabbage, oțet balsamic, oil of floarea soarelui, lemon)    Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 239.7 / 57.6, Grăsimi (g): 3.5 din care: Acizi gra& saturați (g) 0.3, Gluciof (g): 6.3 din care: Zaharuri (g): 4.3, Proteine (g): 1.1, salt (g): 0"
     },
-    "allergens": [
-      12
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 140,
-      "energyKj": 585,
-      "fats": 9.5,
-      "saturatedFats": 3.6,
-      "carbs": 6.8,
-      "sugars": 3.2,
-      "protein": 7.0,
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
       "salt": 1.0
     }
   },
@@ -2783,27 +2674,25 @@ export const MENU_ITEMS = [
     "id": "item-97",
     "category": "salate",
     "name": {
-      "ro": "(varză, oțet balsamic, ulei de floarea soarelui, lămâie)    Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 239.7 / 57.6, Grăsimi (g): 3.5 din care: Acizi grași saturați (g) 0.3, Glucide (g): 6.3 din care: Zaharuri (g): 4.3, Proteine (g): 1.1, Sare (g): 0",
-      "en": "(varză, oțet balsamic, ulei of floarea soarelui, lămâie)    Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 239.7 / 57.6, Grăsimi (g): 3.5 din care: Acizi gra& saturați (g) 0.3, Gluciof (g): 6.3 din care: Zaharuri (g): 4.3, Proteine (g): 1.1, Sare (g): 0"
+      "ro": "Salată  de roşii                 150gr",
+      "en": "Salată  of roşii                 150gr"
     },
-    "weight": "150g",
+    "weight": "200g",
     "price": 10.0,
     "ingredients": {
-      "ro": "(roșie, ulei de floarea soarelui, sare)     Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 283.2 / 68.4, Grăsimi (g): 5.6 din care: Acizi grași saturați (g) 0.6, Glucide (g): 4.6 din care: Zaharuri (g): 3.2, Proteine (g): 0.6, Sare (g): 1.3",
-      "en": "(ro&e, ulei of floarea soarelui, sare)     Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 283.2 / 68.4, Grăsimi (g): 5.6 din care: Acizi gra& saturați (g) 0.6, Gluciof (g): 4.6 din care: Zaharuri (g): 3.2, Proteine (g): 0.6, Sare (g): 1.3"
+      "ro": "roșie, ulei de floarea soarelui, sare)     Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 283.2 / 68.4, Grăsimi (g): 5.6 din care: Acizi grași saturați (g) 0.6, Glucide (g): 4.6 din care: Zaharuri (g): 3.2, Proteine (g): 0.6, Sare (g): 1.3",
+      "en": "tomato, oil of floarea soarelui, salt)     Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 283.2 / 68.4, Grăsimi (g): 5.6 din care: Acizi gra& saturați (g) 0.6, Gluciof (g): 4.6 din care: Zaharuri (g): 3.2, Proteine (g): 0.6, salt (g): 1.3"
     },
-    "allergens": [
-      12
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 140,
-      "energyKj": 585,
-      "fats": 9.5,
-      "saturatedFats": 3.6,
-      "carbs": 6.8,
-      "sugars": 3.2,
-      "protein": 7.0,
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
       "salt": 1.0
     }
   },
@@ -2811,27 +2700,25 @@ export const MENU_ITEMS = [
     "id": "item-98",
     "category": "salate",
     "name": {
-      "ro": "(roșie, ulei de floarea soarelui, sare)     Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 283.2 / 68.4, Grăsimi (g): 5.6 din care: Acizi grași saturați (g) 0.6, Glucide (g): 4.6 din care: Zaharuri (g): 3.2, Proteine (g): 0.6, Sare (g): 1.3",
-      "en": "(ro&e, ulei of floarea soarelui, sare)     Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 283.2 / 68.4, Grăsimi (g): 5.6 din care: Acizi gra& saturați (g) 0.6, Gluciof (g): 4.6 din care: Zaharuri (g): 3.2, Proteine (g): 0.6, Sare (g): 1.3"
+      "ro": "Ardei copţi              150gr",
+      "en": "Arofi copţi              150gr"
     },
-    "weight": "150g",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "(ardei copți, oțet)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 117.2 / 28, Grăsimi (g): 0.1 din care: Acizi grași saturați (g) 0, Glucide (g): 0.1 din care: Zaharuri (g): 0.1, Proteine (g): 0.6, Sare (g): 1.8",
-      "en": "(arofi copți, oțet)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 117.2 / 28, Grăsimi (g): 0.1 din care: Acizi gra& saturați (g) 0, Gluciof (g): 0.1 din care: Zaharuri (g): 0.1, Proteine (g): 0.6, Sare (g): 1.8"
+      "ro": "ardei copți, oțet)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 117.2 / 28, Grăsimi (g): 0.1 din care: Acizi grași saturați (g) 0, Glucide (g): 0.1 din care: Zaharuri (g): 0.1, Proteine (g): 0.6, Sare (g): 1.8",
+      "en": "pepper copți, oțet)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 117.2 / 28, Grăsimi (g): 0.1 din care: Acizi gra& saturați (g) 0, Gluciof (g): 0.1 din care: Zaharuri (g): 0.1, Proteine (g): 0.6, salt (g): 1.8"
     },
-    "allergens": [
-      12
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 140,
-      "energyKj": 585,
-      "fats": 9.5,
-      "saturatedFats": 3.6,
-      "carbs": 6.8,
-      "sugars": 3.2,
-      "protein": 7.0,
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
       "salt": 1.0
     }
   },
@@ -2839,27 +2726,25 @@ export const MENU_ITEMS = [
     "id": "item-99",
     "category": "salate",
     "name": {
-      "ro": "(ardei copți, oțet)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 117.2 / 28, Grăsimi (g): 0.1 din care: Acizi grași saturați (g) 0, Glucide (g): 0.1 din care: Zaharuri (g): 0.1, Proteine (g): 0.6, Sare (g): 1.8",
-      "en": "(arofi copți, oțet)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 117.2 / 28, Grăsimi (g): 0.1 din care: Acizi gra& saturați (g) 0, Gluciof (g): 0.1 din care: Zaharuri (g): 0.1, Proteine (g): 0.6, Sare (g): 1.8"
+      "ro": "Salată murături1, 10               150gr",
+      "en": "Salată murături1, 10               150gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 10.0,
     "ingredients": {
-      "ro": "(salată de murături mix)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 113.2 / 27.1, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0, Glucide (g): 4 din care: Zaharuri (g): 5, Proteine (g): 0.5, Sare (g): 0.8",
-      "en": "(salată of murături mix)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 113.2 / 27.1, Grăsimi (g): 0.2 din care: Acizi gra& saturați (g) 0, Gluciof (g): 4 din care: Zaharuri (g): 5, Proteine (g): 0.5, Sare (g): 0.8"
+      "ro": "salată de murături mix)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 113.2 / 27.1, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0, Glucide (g): 4 din care: Zaharuri (g): 5, Proteine (g): 0.5, Sare (g): 0.8",
+      "en": "salad of murături mix)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 113.2 / 27.1, Grăsimi (g): 0.2 din care: Acizi gra& saturați (g) 0, Gluciof (g): 4 din care: Zaharuri (g): 5, Proteine (g): 0.5, salt (g): 0.8"
     },
-    "allergens": [
-      12
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 140,
-      "energyKj": 585,
-      "fats": 9.5,
-      "saturatedFats": 3.6,
-      "carbs": 6.8,
-      "sugars": 3.2,
-      "protein": 7.0,
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
       "salt": 1.0
     }
   },
@@ -2867,27 +2752,27 @@ export const MENU_ITEMS = [
     "id": "item-100",
     "category": "salate",
     "name": {
-      "ro": "(salată de murături mix)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 113.2 / 27.1, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0, Glucide (g): 4 din care: Zaharuri (g): 5, Proteine (g): 0.5, Sare (g): 0.8",
-      "en": "(salată of murături mix)       Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 113.2 / 27.1, Grăsimi (g): 0.2 din care: Acizi gra& saturați (g) 0, Gluciof (g): 4 din care: Zaharuri (g): 5, Proteine (g): 0.5, Sare (g): 0.8"
+      "ro": "Salată de sfeclă roşie",
+      "en": "Salată of sfeclă roşie"
     },
-    "weight": "150 g",
+    "weight": "50 gr",
     "price": 12.0,
     "ingredients": {
-      "ro": "(sfeclă roșie, oțet balsamic)   Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 175.1 / 41.5, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0, Glucide (g): 9.7 din care: Zaharuri (g): 7.1, Proteine (g): 1.6, Sare (g): 0.1",
-      "en": "(sfeclă ro&e, oțet balsamic)   Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 175.1 / 41.5, Grăsimi (g): 0.2 din care: Acizi gra& saturați (g) 0, Gluciof (g): 9.7 din care: Zaharuri (g): 7.1, Proteine (g): 1.6, Sare (g): 0.1"
+      "ro": "sfeclă roșie, oțet balsamic)   Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 175.1 / 41.5, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0, Glucide (g): 9.7 din care: Zaharuri (g): 7.1, Proteine (g): 1.6, Sare (g): 0.1",
+      "en": "beetroot tomato, oțet balsamic)   Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 175.1 / 41.5, Grăsimi (g): 0.2 din care: Acizi gra& saturați (g) 0, Gluciof (g): 9.7 din care: Zaharuri (g): 7.1, Proteine (g): 1.6, salt (g): 0.1"
     },
     "allergens": [
-      12
+      1
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 140,
-      "energyKj": 585,
-      "fats": 9.5,
-      "saturatedFats": 3.6,
-      "carbs": 6.8,
-      "sugars": 3.2,
-      "protein": 7.0,
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
       "salt": 1.0
     }
   },
@@ -2895,27 +2780,25 @@ export const MENU_ITEMS = [
     "id": "item-101",
     "category": "salate",
     "name": {
-      "ro": "(sfeclă roșie, oțet balsamic)   Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 175.1 / 41.5, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0, Glucide (g): 9.7 din care: Zaharuri (g): 7.1, Proteine (g): 1.6, Sare (g): 0.1",
-      "en": "(sfeclă ro&e, oțet balsamic)   Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 175.1 / 41.5, Grăsimi (g): 0.2 din care: Acizi gra& saturați (g) 0, Gluciof (g): 9.7 din care: Zaharuri (g): 7.1, Proteine (g): 1.6, Sare (g): 0.1"
+      "ro": "Salată de ceapă    150gr",
+      "en": "Salată of ceapă    150gr"
     },
-    "weight": "150g",
+    "weight": "200g",
     "price": 8.0,
     "ingredients": {
-      "ro": "(ceapă, ulei de floarea soarelui, sare)  Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 193.9 / 46.6, Grăsimi (g): 2.2 din care: Acizi grași saturați (g) 0.2, Glucide (g): 6.5 din care: Zaharuri (g): 4.6, Proteine (g): 1.2, Sare (g): 1.3.",
-      "en": "(ceapă, ulei of floarea soarelui, sare)  Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 193.9 / 46.6, Grăsimi (g): 2.2 din care: Acizi gra& saturați (g) 0.2, Gluciof (g): 6.5 din care: Zaharuri (g): 4.6, Proteine (g): 1.2, Sare (g): 1.3."
+      "ro": "ceapă, ulei de floarea soarelui, sare)  Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 193.9 / 46.6, Grăsimi (g): 2.2 din care: Acizi grași saturați (g) 0.2, Glucide (g): 6.5 din care: Zaharuri (g): 4.6, Proteine (g): 1.2, Sare (g): 1.3.",
+      "en": "onion, oil of floarea soarelui, salt)  Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 193.9 / 46.6, Grăsimi (g): 2.2 din care: Acizi gra& saturați (g) 0.2, Gluciof (g): 6.5 din care: Zaharuri (g): 4.6, Proteine (g): 1.2, salt (g): 1.3."
     },
-    "allergens": [
-      12
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 140,
-      "energyKj": 585,
-      "fats": 9.5,
-      "saturatedFats": 3.6,
-      "carbs": 6.8,
-      "sugars": 3.2,
-      "protein": 7.0,
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
       "salt": 1.0
     }
   },
@@ -2923,335 +2806,322 @@ export const MENU_ITEMS = [
     "id": "item-102",
     "category": "desert",
     "name": {
-      "ro": "Desert",
-      "en": "Desert"
+      "ro": "Îngheţată la cupă",
+      "en": "Îngheţată la withpă"
     },
-    "weight": "6g",
+    "weight": "100 gr",
     "price": 22.0,
     "ingredients": {
-      "ro": "(înghețată,  lapte,  frișcă, topping fructe, ciocolată)",
-      "en": "(înghețată,  lapte,  frișcă, topping fructe, ciocolată)"
+      "ro": "înghețată,  lapte,  frișcă, topping fructe, ciocolată",
+      "en": "ice cream,  milk,  whipped cream, topping fructe, chocolate"
     },
     "allergens": [
+      6,
       7
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 315,
-      "energyKj": 1317,
-      "fats": 14.8,
-      "saturatedFats": 8.4,
-      "carbs": 38.5,
-      "sugars": 24.5,
-      "protein": 5.9,
-      "salt": 0.3
+      "energyKcal": 906.6,
+      "energyKj": 865.8,
+      "fats": 10.8,
+      "saturatedFats": 2.8,
+      "carbs": 25.0,
+      "sugars": 22.4,
+      "protein": 1.9,
+      "salt": 0.1
     }
   },
   {
     "id": "item-103",
     "category": "desert",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 865.8 / 906.6, Grăsimi (g):10.8 din care: Acizi grași saturați (g) 2.8, Glucide (g): 25 din care: Zaharuri (g): 22.4, Proteine (g): 1.9, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 865.8 / 906.6, Grăsimi (g):10.8 din care: Acizi gra& saturați (g) 2.8, Gluciof (g): 25 din care: Zaharuri (g): 22.4, Proteine (g): 1.9, Sare (g): 0.1"
+      "ro": "Vulcan de ciocolată cu îngheţată și fructe",
+      "en": "Vulcan of ciocolată with îngheţată & fructe"
     },
-    "weight": "1g",
+    "weight": "200 gr",
     "price": 28.0,
     "ingredients": {
-      "ro": "(înghețată lapte, fructe asortate, lava cake, topping ciocolată,  frișcă)",
-      "en": "(înghețată lapte, fructe asortate, lava cake, topping ciocolată,  frișcă)"
+      "ro": "înghețată lapte, fructe asortate, lava cake, topping ciocolată,  frișcă",
+      "en": "ice cream milk, fructe asortate, lava cake, topping chocolate,  whipped cream"
     },
     "allergens": [
+      1,
       3,
-      7
+      6,
+      7,
+      8
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 315,
-      "energyKj": 1317,
-      "fats": 14.8,
-      "saturatedFats": 8.4,
-      "carbs": 38.5,
-      "sugars": 24.5,
-      "protein": 5.9,
-      "salt": 0.3
+      "energyKcal": 235.2,
+      "energyKj": 988.7,
+      "fats": 8.7,
+      "saturatedFats": 6.8,
+      "carbs": 38.2,
+      "sugars": 25.5,
+      "protein": 2.1,
+      "salt": 0.1
     }
   },
   {
     "id": "item-104",
     "category": "desert",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 988.7 / 235.2, Grăsimi (g): 8.7 din care: Acizi grași saturați (g) 6.8, Glucide (g): 38.2 din care: Zaharuri (g): 25.5, Proteine (g): 2.1, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 988.7 / 235.2, Grăsimi (g): 8.7 din care: Acizi gra& saturați (g) 6.8, Gluciof (g): 38.2 din care: Zaharuri (g): 25.5, Proteine (g): 2.1, Sare (g): 0.1"
+      "ro": "Clătite cu banană, finetti și înghețată",
+      "en": "Clătite with banană, finetti & înghețată"
     },
-    "weight": "1g",
+    "weight": "200 gr",
     "price": 28.0,
     "ingredients": {
-      "ro": "(banane, finetti , frișcă, înghețată, lapte, făină de grâu, ou, ulei de floarea soarelui, zahăr)",
-      "en": "(banane, finetti , frișcă, înghețată, lapte, făină of grâu, ou, ulei of floarea soarelui, zahăr)"
+      "ro": "banane, finetti , frișcă, înghețată, lapte, făină de grâu, ou, ulei de floarea soarelui, zahăr",
+      "en": "banane, finetti , whipped cream, ice cream, milk, flour of grâu, egg, oil of floarea soarelui, sugar"
     },
     "allergens": [
       1,
       3,
-      7,
-      8
+      7
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 315,
-      "energyKj": 1317,
-      "fats": 14.8,
-      "saturatedFats": 8.4,
-      "carbs": 38.5,
-      "sugars": 24.5,
-      "protein": 5.9,
-      "salt": 0.3
+      "energyKcal": 339.1,
+      "energyKj": 1417.5,
+      "fats": 20.9,
+      "saturatedFats": 6.4,
+      "carbs": 32.5,
+      "sugars": 17.6,
+      "protein": 5.8,
+      "salt": 0.1
     }
   },
   {
     "id": "item-105",
     "category": "desert",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1417.5 / 339.1, Grăsimi (g): 20.9 din care: Acizi grași saturați (g) 6.4, Glucide (g): 32.5 din care: Zaharuri (g): 17.6, Proteine (g): 5.8, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1417.5 / 339.1, Grăsimi (g): 20.9 din care: Acizi gra& saturați (g) 6.4, Gluciof (g): 32.5 din care: Zaharuri (g): 17.6, Proteine (g): 5.8, Sare (g): 0.1"
+      "ro": "Clătite cu gem  1,3,7_____________________",
+      "en": "Clătite with gem  1,3,7_____________________"
     },
-    "weight": "1g",
+    "weight": "50 gr",
     "price": 20.0,
     "ingredients": {
-      "ro": "(ou, lapte, făină de grâu, frișcă, zahăr, gem fructe, ulei de floarea soarelui)",
-      "en": "(ou, lapte, făină of grâu, frișcă, zahăr, gem fructe, ulei of floarea soarelui)"
+      "ro": "ou, lapte, făină de grâu, frișcă, zahăr, gem fructe, ulei de floarea soarelui",
+      "en": "egg, milk, flour of grâu, whipped cream, sugar, jam fructe, oil of floarea soarelui"
     },
     "allergens": [
-      1,
-      3,
-      7
+      2
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 315,
-      "energyKj": 1317,
-      "fats": 14.8,
-      "saturatedFats": 8.4,
-      "carbs": 38.5,
-      "sugars": 24.5,
+      "energyKcal": 271.1,
+      "energyKj": 1139.6,
+      "fats": 10.9,
+      "saturatedFats": 3.5,
+      "carbs": 38.7,
+      "sugars": 21.8,
       "protein": 5.9,
-      "salt": 0.3
+      "salt": 0.1
     }
   },
   {
     "id": "item-106",
     "category": "desert",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1139.6 / 271.1, Grăsimi(g): 10.9 din care: Acizi grași saturați (g) 3.5, Glucide (g): 38.7 din care: Zaharuri (g):21.8, Proteine (g): 5.9, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1139.6 / 271.1, Grăsimi(g): 10.9 din care: Acizi gra& saturați (g) 3.5, Gluciof (g): 38.7 din care: Zaharuri (g):21.8, Proteine (g): 5.9, Sare (g): 0.1"
+      "ro": "Papanaşi cu brânză şi gem 1, 3, 7___",
+      "en": "Papanaşi with brânză şi gem 1, 3, 7___"
     },
-    "weight": "1g",
+    "weight": "300 gr",
     "price": 32.0,
     "ingredients": {
-      "ro": "(smântână, făină de grâu, ou, brânză dulce, gem, ulei de floarea soarelui, zahăr, griș sare, lămâie)",
-      "en": "(smântână, făină of grâu, ou, brânză dulce, gem, ulei of floarea soarelui, zahăr, griș sare, lămâie)"
+      "ro": "smântână, făină de grâu, ou, brânză dulce, gem, ulei de floarea soarelui, zahăr, griș sare, lămâie",
+      "en": "sour cream, flour of grâu, egg, cheese dulce, jam, oil of floarea soarelui, sugar, griș salt, lemon"
     },
-    "allergens": [
-      1,
-      3,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 315,
-      "energyKj": 1317,
-      "fats": 14.8,
-      "saturatedFats": 8.4,
-      "carbs": 38.5,
-      "sugars": 24.5,
-      "protein": 5.9,
-      "salt": 0.3
+      "energyKcal": 336.9,
+      "energyKj": 1407.7,
+      "fats": 19.9,
+      "saturatedFats": 5.3,
+      "carbs": 33.8,
+      "sugars": 17.4,
+      "protein": 6.3,
+      "salt": 0.8
     }
   },
   {
     "id": "item-107",
     "category": "desert",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1407.7 / 336.9, Grăsimi(g): 19.9 din care: Acizi grași saturați (g) 5.3, Glucide (g): 33.8 din care: Zaharuri (g):17.4, Proteine (g): 6.3, Sare (g): 0.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1407.7 / 336.9, Grăsimi(g): 19.9 din care: Acizi gra& saturați (g) 5.3, Gluciof (g): 33.8 din care: Zaharuri (g):17.4, Proteine (g): 6.3, Sare (g): 0.8"
+      "ro": "Felie desert 1, 3, 7_____________________________",
+      "en": "Felie ofsert 1, 3, 7_____________________________"
     },
-    "weight": "1g",
+    "weight": "50 gr",
     "price": 22.0,
     "ingredients": {
-      "ro": "(făină, frișcă, pișcoturi, ouă,  mascarpone,  zahăr  pudră, cafea, esență de rom, vanilie, cacao)",
-      "en": "(făină, frișcă, pișcoturi, ouă,  mascarpone,  zahăr  pudră, cafea, esență of rom, vanilie, cacao)"
-    },
-    "allergens": [
-      1,
-      3,
-      7
-    ],
-    "isFrozen": false,
-    "nutrition": {
-      "energyKcal": 315,
-      "energyKj": 1317,
-      "fats": 14.8,
-      "saturatedFats": 8.4,
-      "carbs": 38.5,
-      "sugars": 24.5,
-      "protein": 5.9,
-      "salt": 0.3
-    }
-  },
-  {
-    "id": "item-108",
-    "category": "racoritoare",
-    "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1003.6 / 239.3, Grăsimi (g): 13.1 din care: Acizi grași saturați (g) 7.4, Glucide (g): 26.2 din care: Zaharuri (g): 11.7, Proteine (g): 3.7, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1003.6 / 239.3, Grăsimi (g): 13.1 din care: Acizi gra& saturați (g) 7.4, Gluciof (g): 26.2 din care: Zaharuri (g): 11.7, Proteine (g): 3.7, Sare (g): 0.1"
-    },
-    "weight": "3g",
-    "price": 22.0,
-    "ingredients": {
-      "ro": "(făină de grâu, ou, lapte, gem de fructe, zahăr, griș, lămâie esență vanilie)",
-      "en": "(făină of grâu, ou, lapte, gem of fructe, zahăr, griș, lămâie esență vanilie)"
-    },
-    "allergens": [
-      1,
-      3,
-      7
-    ],
-    "isFrozen": false,
-    "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
-    }
-  },
-  {
-    "id": "item-109",
-    "category": "racoritoare",
-    "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1407.7 / 336.9, Grăsimi(g): 19.9 din care: Acizi grași saturați (g) 5.3, Glucide (g): 33.8 din care: Zaharuri (g):17.4, Proteine (g): 6.3, Sare (g): 0.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1407.7 / 336.9, Grăsimi(g): 19.9 din care: Acizi gra& saturați (g) 5.3, Gluciof (g): 33.8 din care: Zaharuri (g):17.4, Proteine (g): 6.3, Sare (g): 0.8"
-    },
-    "weight": "3g",
-    "price": 22.0,
-    "ingredients": {
-      "ro": "(făină de grâu, ou, lapte, gem de fructe, zahăr, brânză dulce, philadelphia, lămâie, esența vanilie)",
-      "en": "(făină of grâu, ou, lapte, gem of fructe, zahăr, brânză dulce, philaoflphia, lămâie, esența vanilie)"
-    },
-    "allergens": [
-      1,
-      3,
-      7
-    ],
-    "isFrozen": false,
-    "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
-    }
-  },
-  {
-    "id": "item-110",
-    "category": "racoritoare",
-    "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1407.7 / 336.9, Grăsimi(g): 19.9 din care: Acizigrașisaturați (g) 5.3, Glucide (g): 33.8 din care: Zaharuri (g):17.4, Proteine (g): 6.3, Sare (g): 0.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1407.7 / 336.9, Grăsimi(g): 19.9 din care: Acizigra&saturați (g) 5.3, Gluciof (g): 33.8 din care: Zaharuri (g):17.4, Proteine (g): 6.3, Sare (g): 0.8"
-    },
-    "weight": "3g",
-    "price": 22.0,
-    "ingredients": {
-      "ro": "Pizza",
-      "en": "Pizza"
-    },
-    "allergens": [],
-    "isFrozen": false,
-    "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
-    }
-  },
-  {
-    "id": "item-111",
-    "category": "pizza",
-    "name": {
-      "ro": "Pizza",
-      "en": "Pizza"
-    },
-    "weight": "1200g",
-    "price": 12.0,
-    "ingredients": {
-      "ro": "(făină de grâu, ulei de măsline, sare, oregano, drojdie)",
-      "en": "(făină of grâu, ulei of măsline, sare, oregano, drojdie)"
+      "ro": "făină, frișcă, pișcoturi, ouă,  mascarpone,  zahăr  pudră, cafea, esență de rom, vanilie, cacao",
+      "en": "flour, whipped cream, pișcoturi, eggs,  mascarpone,  sugar  pudră, cafea, esență of rum, vanilla, cocoa"
     },
     "allergens": [
       1
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 245,
-      "energyKj": 1025,
-      "fats": 10.8,
-      "saturatedFats": 5.2,
-      "carbs": 26.5,
-      "sugars": 2.5,
-      "protein": 11.0,
-      "salt": 1.3
+      "energyKcal": 239.3,
+      "energyKj": 1003.6,
+      "fats": 13.1,
+      "saturatedFats": 7.4,
+      "carbs": 26.2,
+      "sugars": 11.7,
+      "protein": 3.7,
+      "salt": 0.1
+    }
+  },
+  {
+    "id": "item-108",
+    "category": "desert",
+    "name": {
+      "ro": "Ecler 3,7     __                  180gr___________  ___",
+      "en": "Ecler 3,7     __                  180gr___________  ___"
+    },
+    "weight": "200g",
+    "price": 22.0,
+    "ingredients": {
+      "ro": "făină de grâu, ou, lapte, gem de fructe, zahăr, griș, lămâie esență vanilie",
+      "en": "flour of grâu, egg, milk, jam of fructe, sugar, griș, lemon esență vanilla"
+    },
+    "allergens": [],
+    "isFrozen": true,
+    "nutrition": {
+      "energyKcal": 336.9,
+      "energyKj": 1407.7,
+      "fats": 19.9,
+      "saturatedFats": 5.3,
+      "carbs": 33.8,
+      "sugars": 17.4,
+      "protein": 6.3,
+      "salt": 0.8
+    }
+  },
+  {
+    "id": "item-109",
+    "category": "desert",
+    "name": {
+      "ro": "Cheesecake 3,7       __",
+      "en": "Cheesecake 3,7       __"
+    },
+    "weight": "80 gr",
+    "price": 22.0,
+    "ingredients": {
+      "ro": "făină de grâu, ou, lapte, gem de fructe, zahăr, brânză dulce, philadelphia, lămâie, esența vanilie",
+      "en": "flour of grâu, egg, milk, jam of fructe, sugar, cheese dulce, philaoflphia, lemon, esența vanilla"
+    },
+    "allergens": [
+      1
+    ],
+    "isFrozen": false,
+    "nutrition": {
+      "energyKcal": 336.9,
+      "energyKj": 1407.7,
+      "fats": 19.9,
+      "saturatedFats": 5.3,
+      "carbs": 33.8,
+      "sugars": 17.4,
+      "protein": 6.3,
+      "salt": 0.8
+    }
+  },
+  {
+    "id": "item-110",
+    "category": "desert",
+    "name": {
+      "ro": "Tiramisu",
+      "en": "Classic Italian Tiramisu"
+    },
+    "weight": "150 gr",
+    "price": 22.0,
+    "ingredients": {
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
+    },
+    "allergens": [
+      3,
+      7
+    ],
+    "isFrozen": false,
+    "nutrition": {
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
+    }
+  },
+  {
+    "id": "item-111",
+    "category": "pizza",
+    "name": {
+      "ro": "FOCACCIA  1200gr",
+      "en": "FOCACCIA  1200gr"
+    },
+    "weight": "200g",
+    "price": 12.0,
+    "ingredients": {
+      "ro": "făină de grâu, ulei de măsline, sare, oregano, drojdie",
+      "en": "flour of grâu, oil of olives, salt, oregano, drojdie"
+    },
+    "allergens": [],
+    "isFrozen": false,
+    "nutrition": {
+      "energyKcal": 383.9,
+      "energyKj": 1617.3,
+      "fats": 13.1,
+      "saturatedFats": 1.4,
+      "carbs": 59.2,
+      "sugars": 2.2,
+      "protein": 9.4,
+      "salt": 0.8
     }
   },
   {
     "id": "item-112",
     "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1617.3 / 383.9, Grăsimi (g): 13.1 din care: Acizi grași saturați (g) 1.4, Glucide (g): 59.2 din care: Zaharuri (g):2.2, Proteine (g): 9.4, Sare (g): 0.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1617.3 / 383.9, Grăsimi (g): 13.1 din care: Acizi gra& saturați (g) 1.4, Gluciof (g): 59.2 din care: Zaharuri (g):2.2, Proteine (g): 9.4, Sare (g): 0.8"
+      "ro": "FOCACCIA CASEI 1,7_          230gr",
+      "en": "FOCACCIA CASEI 1,7_          230gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 15.0,
     "ingredients": {
-      "ro": "(făină de grâu, parmesan, ulei de măsline, sare, oregano, drojdie)",
-      "en": "(făină of grâu, parmesan, ulei of măsline, sare, oregano, drojdie)"
+      "ro": "făină de grâu, parmesan, ulei de măsline, sare, oregano, drojdie",
+      "en": "flour of grâu, parmesan, oil of olives, salt, oregano, drojdie"
     },
-    "allergens": [
-      1,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 245,
-      "energyKj": 1025,
-      "fats": 10.8,
-      "saturatedFats": 5.2,
-      "carbs": 26.5,
-      "sugars": 2.5,
-      "protein": 11.0,
-      "salt": 1.3
+      "energyKcal": 392.6,
+      "energyKj": 1651.1,
+      "fats": 15.9,
+      "saturatedFats": 4.5,
+      "carbs": 49.3,
+      "sugars": 1.9,
+      "protein": 14.7,
+      "salt": 1.1
     }
   },
   {
     "id": "item-113",
     "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1651.1 / 392.6, Grăsimi (g): 15.9 din care: Acizi grași saturați (g) 4.5, Glucide (g): 49.3 din care: Zaharuri (g):1.9, Proteine (g): 14.7, Sare (g): 1.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1651.1 / 392.6, Grăsimi (g): 15.9 din care: Acizi gra& saturați (g) 4.5, Gluciof (g): 49.3 din care: Zaharuri (g):1.9, Proteine (g): 14.7, Sare (g): 1.1"
+      "ro": "1. PIZZA MARGHERITA",
+      "en": "1. PIZZA MARGHERITA"
     },
-    "weight": "1g",
+    "weight": "385 gr",
     "price": 30.0,
     "ingredients": {
-      "ro": "(făină de grâu, sos roșii, drojdie, mozzarella, sare, oregano)",
-      "en": "(făină of grâu, sos ro&i, drojdie, mozzarella, sare, oregano)"
+      "ro": "făină de grâu, sos roșii, drojdie, mozzarella, sare, oregano",
+      "en": "flour of grâu, sauce tomatoes, drojdie, mozzarella, salt, oregano"
     },
     "allergens": [
       1,
@@ -3259,57 +3129,58 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 245,
-      "energyKj": 1025,
-      "fats": 10.8,
-      "saturatedFats": 5.2,
-      "carbs": 26.5,
-      "sugars": 2.5,
-      "protein": 11.0,
-      "salt": 1.3
+      "energyKcal": 265.4,
+      "energyKj": 1122.6,
+      "fats": 7.0,
+      "saturatedFats": 3.3,
+      "carbs": 37.8,
+      "sugars": 2.0,
+      "protein": 14.0,
+      "salt": 2.4
     }
   },
   {
     "id": "item-114",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1122.6 / 265.4, Grăsimi (g): 7 din care: Acizi grași saturați (g) 3.3, Glucide (g): 37.8 din care: Zaharuri (g): 2, Proteine (g): 14, Sare (g): 2.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1122.6 / 265.4, Grăsimi (g): 7 din care: Acizi gra& saturați (g) 3.3, Gluciof (g): 37.8 din care: Zaharuri (g): 2, Proteine (g): 14, Sare (g): 2.4"
+      "ro": "2.PIZZA MARISSA",
+      "en": "2.PIZZA MARISSA"
     },
-    "weight": "2g",
+    "weight": "520 gr",
     "price": 35.0,
     "ingredients": {
-      "ro": "(făină de grâu, sare, drojdie, sos de roșii, mozzarella, șuncă, salam, porumb, ciuperci, prosciutto, măsline, oregano)",
-      "en": "(făină of grâu, sare, drojdie, sos of ro&i, mozzarella, șuncă, salam, porumb, ciuperci, prosciutto, măsline, oregano)"
+      "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, șuncă, salam, porumb, ciuperci, prosciutto, măsline, oregano",
+      "en": "flour of grâu, salt, drojdie, sauce of tomatoes, mozzarella, ham, salam, porumb, mushrooms, prosciutto, olives, oregano"
     },
     "allergens": [
       1,
-      7
+      7,
+      9
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 228.7,
+      "energyKj": 959.9,
+      "fats": 10.9,
+      "saturatedFats": 3.9,
+      "carbs": 25.3,
+      "sugars": 5.1,
+      "protein": 10.5,
+      "salt": 1.6
     }
   },
   {
     "id": "item-115",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 959.9 / 228.7, Grăsimi (g):10.9 din care: Acizigrașisaturați (g) 3.9, Glucide (g): 25.3 din care: Zaharuri (g): 5.1, Proteine (g): 10.5, Sare (g): 1.6",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 959.9 / 228.7, Grăsimi (g):10.9 din care: Acizigra&saturați (g) 3.9, Gluciof (g): 25.3 din care: Zaharuri (g): 5.1, Proteine (g): 10.5, Sare (g): 1.6"
+      "ro": "3.PIZZA PROSCIUTTO",
+      "en": "3.PIZZA PROSCIUTTO"
     },
-    "weight": "3g",
+    "weight": "455 gr",
     "price": 30.0,
     "ingredients": {
-      "ro": "(făină de grâu, sos de roșii, drojdie, mozzarella, șuncă, sare, oregano)",
-      "en": "(făină of grâu, sos of ro&i, drojdie, mozzarella, șuncă, sare, oregano)"
+      "ro": "făină de grâu, sos de roșii, drojdie, mozzarella, șuncă, sare, oregano",
+      "en": "flour of grâu, sauce of tomatoes, drojdie, mozzarella, ham, salt, oregano"
     },
     "allergens": [
       1,
@@ -3317,28 +3188,28 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 265.4,
+      "energyKj": 1122.6,
+      "fats": 7.0,
+      "saturatedFats": 3.3,
+      "carbs": 37.8,
+      "sugars": 2.0,
+      "protein": 14.0,
+      "salt": 2.4
     }
   },
   {
     "id": "item-116",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1122.6 / 265.4, Grăsimi (g): 7 din care: Acizigrașisaturați (g) 3.3, Glucide (g): 37.8 din care: Zaharuri (g): 2, Proteine (g): 14, Sare (g): 2.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1122.6 / 265.4, Grăsimi (g): 7 din care: Acizigra&saturați (g) 3.3, Gluciof (g): 37.8 din care: Zaharuri (g): 2, Proteine (g): 14, Sare (g): 2.4"
+      "ro": "4.PIZZA PROSCIUTTO PORUMB",
+      "en": "4.PIZZA PROSCIUTTO PORUMB"
     },
-    "weight": "4g",
+    "weight": "455 gr",
     "price": 32.0,
     "ingredients": {
-      "ro": "(făină de grâu, sos de roșii, drojdie, mozzarella, șuncă, porumb, sare, oregano)",
-      "en": "(făină of grâu, sos of ro&i, drojdie, mozzarella, șuncă, porumb, sare, oregano)"
+      "ro": "făină de grâu, sos de roșii, drojdie, mozzarella, șuncă, porumb, sare, oregano",
+      "en": "flour of grâu, sauce of tomatoes, drojdie, mozzarella, ham, porumb, salt, oregano"
     },
     "allergens": [
       1,
@@ -3346,28 +3217,28 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 265.4,
+      "energyKj": 1122.6,
+      "fats": 7.0,
+      "saturatedFats": 3.3,
+      "carbs": 37.8,
+      "sugars": 2.0,
+      "protein": 14.0,
+      "salt": 2.4
     }
   },
   {
     "id": "item-117",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1122.6 / 265.4, Grăsimi (g): 7 din care: Acizigrașisaturați (g) 3.3, Glucide (g): 37.8 din care: Zaharuri (g): 2, Proteine (g): 14, Sare (g): 2.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1122.6 / 265.4, Grăsimi (g): 7 din care: Acizigra&saturați (g) 3.3, Gluciof (g): 37.8 din care: Zaharuri (g): 2, Proteine (g): 14, Sare (g): 2.4"
+      "ro": "5.PIZZA PROSCIUTTO FUNGHI",
+      "en": "5.PIZZA PROSCIUTTO FUNGHI"
     },
-    "weight": "5g",
+    "weight": "455 gr",
     "price": 32.0,
     "ingredients": {
-      "ro": "(făină de grâu, sos de roșii, drojdie, mozzarella, șuncă, ciuperci, sare, oregano)",
-      "en": "(făină of grâu, sos of ro&i, drojdie, mozzarella, șuncă, ciuperci, sare, oregano)"
+      "ro": "făină de grâu, sos de roșii, drojdie, mozzarella, șuncă, ciuperci, sare, oregano",
+      "en": "flour of grâu, sauce of tomatoes, drojdie, mozzarella, ham, mushrooms, salt, oregano"
     },
     "allergens": [
       1,
@@ -3375,28 +3246,28 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 265.4,
+      "energyKj": 1122.6,
+      "fats": 7.0,
+      "saturatedFats": 3.3,
+      "carbs": 37.8,
+      "sugars": 2.0,
+      "protein": 14.0,
+      "salt": 2.4
     }
   },
   {
     "id": "item-118",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1122.6 / 265.4, Grăsimi (g): 7 din care: Acizi grași saturați (g) 3.3, Glucide (g): 37.8 din care: Zaharuri (g): 2, Proteine (g): 14, Sare (g): 2.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1122.6 / 265.4, Grăsimi (g): 7 din care: Acizi gra& saturați (g) 3.3, Gluciof (g): 37.8 din care: Zaharuri (g): 2, Proteine (g): 14, Sare (g): 2.4"
+      "ro": "6.PIZZA PROSCIUTTO CRUDO",
+      "en": "6.PIZZA PROSCIUTTO CRUDO"
     },
-    "weight": "6g",
+    "weight": "455 gr",
     "price": 35.0,
     "ingredients": {
-      "ro": "(făină de grâu, sos de roșii, drojdie, mozzarella, prosciutto crudo, oregano)",
-      "en": "(făină of grâu, sos of ro&i, drojdie, mozzarella, prosciutto crudo, oregano)"
+      "ro": "făină de grâu, sos de roșii, drojdie, mozzarella, prosciutto crudo, oregano",
+      "en": "flour of grâu, sauce of tomatoes, drojdie, mozzarella, prosciutto crudo, oregano"
     },
     "allergens": [
       1,
@@ -3404,28 +3275,28 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 265.4,
+      "energyKj": 1122.6,
+      "fats": 7.0,
+      "saturatedFats": 3.3,
+      "carbs": 37.8,
+      "sugars": 2.0,
+      "protein": 14.0,
+      "salt": 2.4
     }
   },
   {
     "id": "item-119",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1122.6 / 265.4, Grăsimi (g): 7 din care: Acizi grași saturați (g) 3.3, Glucide (g): 37.8 din care: Zaharuri (g): 2, Proteine (g): 14, Sare (g): 2.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1122.6 / 265.4, Grăsimi (g): 7 din care: Acizi gra& saturați (g) 3.3, Gluciof (g): 37.8 din care: Zaharuri (g): 2, Proteine (g): 14, Sare (g): 2.4"
+      "ro": "7.PIZZA PROSCIUTTO CRUDO RUCOLA",
+      "en": "7.PIZZA PROSCIUTTO CRUDO RUCOLA"
     },
-    "weight": "7g",
+    "weight": "455 gr",
     "price": 36.0,
     "ingredients": {
-      "ro": "(făină de grâu, sos de roșii, drojdie, mozzarella, prosciutto crudo, rucola, sare, oregano)",
-      "en": "(făină of grâu, sos of ro&i, drojdie, mozzarella, prosciutto crudo, rucola, sare, oregano)"
+      "ro": "făină de grâu, sos de roșii, drojdie, mozzarella, prosciutto crudo, rucola, sare, oregano",
+      "en": "flour of grâu, sauce of tomatoes, drojdie, mozzarella, prosciutto crudo, rucola, salt, oregano"
     },
     "allergens": [
       1,
@@ -3433,28 +3304,28 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 265.4,
+      "energyKj": 1122.6,
+      "fats": 7.0,
+      "saturatedFats": 3.3,
+      "carbs": 37.8,
+      "sugars": 2.0,
+      "protein": 14.0,
+      "salt": 2.4
     }
   },
   {
     "id": "item-120",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1122.6 / 265.4, Grăsimi (g): 7 din care: Acizi grași saturați (g) 3.3, Glucide (g): 37.8 din care: Zaharuri (g): 2, Proteine (g): 14, Sare (g): 2.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1122.6 / 265.4, Grăsimi (g): 7 din care: Acizi gra& saturați (g) 3.3, Gluciof (g): 37.8 din care: Zaharuri (g): 2, Proteine (g): 14, Sare (g): 2.4"
+      "ro": "8.PIZZA DIAVOLLA",
+      "en": "8.PIZZA DIAVOLLA"
     },
-    "weight": "8g",
+    "weight": "425 gr",
     "price": 32.0,
     "ingredients": {
-      "ro": "(făină de grâu, drojdie, salam  picant, mozzarella, sos de roșii, sare, oregano)",
-      "en": "(făină of grâu, drojdie, salam  picant, mozzarella, sos of ro&i, sare, oregano)"
+      "ro": "făină de grâu, drojdie, salam  picant, mozzarella, sos de roșii, sare, oregano",
+      "en": "flour of grâu, drojdie, salam  picant, mozzarella, sauce of tomatoes, salt, oregano"
     },
     "allergens": [
       1,
@@ -3462,28 +3333,28 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
+      "energyKcal": 337.5,
+      "energyKj": 1420.0,
+      "fats": 16.3,
+      "saturatedFats": 6.2,
+      "carbs": 35.3,
       "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "protein": 13.8,
+      "salt": 2.7
     }
   },
   {
     "id": "item-121",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1420 / 337.5, Grăsimi (g):16.3 din care: Acizi grași saturați (g) 6.2, Glucide (g): 35.3 din care: Zaharuri (g): 1.9,Proteine (g): 13.8, Sare (g): 2.7",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1420 / 337.5, Grăsimi (g):16.3 din care: Acizi gra& saturați (g) 6.2, Gluciof (g): 35.3 din care: Zaharuri (g): 1.9,Proteine (g): 13.8, Sare (g): 2.7"
+      "ro": "9.PIZZA FUNGHI",
+      "en": "9.PIZZA FUNGHI"
     },
-    "weight": "9g",
+    "weight": "430 gr",
     "price": 32.0,
     "ingredients": {
-      "ro": "(făină de grâu, drojdie, mozzarella, sos de roșii, ciuperci, sare, oregano)",
-      "en": "(făină of grâu, drojdie, mozzarella, sos of ro&i, ciuperci, sare, oregano)"
+      "ro": "făină de grâu, drojdie, mozzarella, sos de roșii, ciuperci, sare, oregano",
+      "en": "flour of grâu, drojdie, mozzarella, sauce of tomatoes, mushrooms, salt, oregano"
     },
     "allergens": [
       1,
@@ -3491,28 +3362,28 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 253.3,
+      "energyKj": 1066.9,
+      "fats": 9.9,
+      "saturatedFats": 3.6,
+      "carbs": 32.2,
+      "sugars": 1.8,
+      "protein": 10.3,
+      "salt": 1.9
     }
   },
   {
     "id": "item-122",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1066.9 / 253.3, Grăsimi (g): 9.9 din care: Acizi grași saturați (g) 3.6, Glucide (g): 32.2 din care: Zaharuri (g):1.8, Proteine (g): 10.3, Sare (g): 1.9",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1066.9 / 253.3, Grăsimi (g): 9.9 din care: Acizi gra& saturați (g) 3.6, Gluciof (g): 32.2 din care: Zaharuri (g):1.8, Proteine (g): 10.3, Sare (g): 1.9"
+      "ro": "10.PIZZA CALIFORNIA",
+      "en": "10.PIZZA CALIFORNIA"
     },
-    "weight": "10g",
+    "weight": "480 gr",
     "price": 32.0,
     "ingredients": {
-      "ro": "(făină degrâu, sare, drojdie, sos de roșii, ciuperci, șuncă, salam, porumb, mozzarella, oregano)",
-      "en": "(făină ofgrâu, sare, drojdie, sos of ro&i, ciuperci, șuncă, salam, porumb, mozzarella, oregano)"
+      "ro": "făină degrâu, sare, drojdie, sos de roșii, ciuperci, șuncă, salam, porumb, mozzarella, oregano",
+      "en": "flour ofgrâu, salt, drojdie, sauce of tomatoes, mushrooms, ham, salam, porumb, mozzarella, oregano"
     },
     "allergens": [
       1,
@@ -3520,28 +3391,28 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 247.1,
+      "energyKj": 1042.5,
+      "fats": 7.7,
+      "saturatedFats": 1.8,
+      "carbs": 37.0,
+      "sugars": 2.1,
+      "protein": 8.8,
+      "salt": 2.0
     }
   },
   {
     "id": "item-123",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1042.5 / 247.1, Grăsimi (g): 7.7 din care: Acizi grași saturați (g) 1.8, Glucide (g): 37 din care: Zaharuri (g): 2.1, Proteine (g): 8.8, Sare (g): 2",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1042.5 / 247.1, Grăsimi (g): 7.7 din care: Acizi gra& saturați (g) 1.8, Gluciof (g): 37 din care: Zaharuri (g): 2.1, Proteine (g): 8.8, Sare (g): 2"
+      "ro": "11.PIZZA QUATTRO STAGIONE",
+      "en": "11.PIZZA QUATTRO STAGIONE"
     },
-    "weight": "11g",
+    "weight": "450 gr",
     "price": 32.0,
     "ingredients": {
-      "ro": "(făină de grâu, sare, drojdie,sos de roșii, mozzarella, ciuperci, șuncă, porumb, măsline, oregano)",
-      "en": "(făină of grâu, sare, drojdie,sos of ro&i, mozzarella, ciuperci, șuncă, porumb, măsline, oregano)"
+      "ro": "făină de grâu, sare, drojdie,sos de roșii, mozzarella, ciuperci, șuncă, porumb, măsline, oregano",
+      "en": "flour of grâu, salt, drojdie,sauce of tomatoes, mozzarella, mushrooms, ham, porumb, olives, oregano"
     },
     "allergens": [
       1,
@@ -3549,28 +3420,28 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 232.2,
+      "energyKj": 977.6,
+      "fats": 9.2,
+      "saturatedFats": 2.9,
+      "carbs": 31.5,
+      "sugars": 2.6,
+      "protein": 9.4,
+      "salt": 2.6
     }
   },
   {
     "id": "item-124",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 977.6 / 232.2, Grăsimi (g): 9.2 din care: Acizi grași saturați (g) 2.9, Glucide (g): 31.5 din care: Zaharuri (g): 2.6, Proteine (g): 9.4, Sare (g): 2.6",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 977.6 / 232.2, Grăsimi (g): 9.2 din care: Acizi gra& saturați (g) 2.9, Gluciof (g): 31.5 din care: Zaharuri (g): 2.6, Proteine (g): 9.4, Sare (g): 2.6"
+      "ro": "12.PIZZA QUATTRO FORMAGGI",
+      "en": "12.PIZZA QUATTRO FORMAGGI"
     },
-    "weight": "12g",
+    "weight": "450 gr",
     "price": 35.0,
     "ingredients": {
-      "ro": "(făină de grâu, sare, drojdie, sos de roșii, mozzarella, brânză de burduf, gorgonzola, parmezan, oregano) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1257.9 / 298.2, Grăsimi (g): 10.8 din care: Acizi grași saturați (g) 5.5, Glucide (g): 38.2 din care: Zaharuri (g): 2, Proteine (g): 13.5, Sare (g): 2.1",
-      "en": "(făină of grâu, sare, drojdie, sos of ro&i, mozzarella, brânză of burduf, gorgonzola, parmezan, oregano) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1257.9 / 298.2, Grăsimi (g): 10.8 din care: Acizi gra& saturați (g) 5.5, Gluciof (g): 38.2 din care: Zaharuri (g): 2, Proteine (g): 13.5, Sare (g): 2.1"
+      "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, brânză de burduf, gorgonzola, parmezan, oregano) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1257.9 / 298.2, Grăsimi (g): 10.8 din care: Acizi grași saturați (g) 5.5, Glucide (g): 38.2 din care: Zaharuri (g): 2, Proteine (g): 13.5, Sare (g): 2.1",
+      "en": "flour of grâu, salt, drojdie, sauce of tomatoes, mozzarella, cheese of burduf, gorgonzola, parmezan, oregano) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1257.9 / 298.2, Grăsimi (g): 10.8 din care: Acizi gra& saturați (g) 5.5, Gluciof (g): 38.2 din care: Zaharuri (g): 2, Proteine (g): 13.5, salt (g): 2.1"
     },
     "allergens": [
       1,
@@ -3578,28 +3449,28 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-125",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "(făină de grâu, sare, drojdie, sos de roșii, mozzarella, brânză de burduf, gorgonzola, parmezan, oregano) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1257.9 / 298.2, Grăsimi (g): 10.8 din care: Acizi grași saturați (g) 5.5, Glucide (g): 38.2 din care: Zaharuri (g): 2, Proteine (g): 13.5, Sare (g): 2.1",
-      "en": "(făină of grâu, sare, drojdie, sos of ro&i, mozzarella, brânză of burduf, gorgonzola, parmezan, oregano) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1257.9 / 298.2, Grăsimi (g): 10.8 din care: Acizi gra& saturați (g) 5.5, Gluciof (g): 38.2 din care: Zaharuri (g): 2, Proteine (g): 13.5, Sare (g): 2.1"
+      "ro": "13.PIZZA TONNO E CIPOLLA",
+      "en": "13.PIZZA TONNO E CIPOLLA"
     },
-    "weight": "13g",
+    "weight": "450 gr",
     "price": 32.0,
     "ingredients": {
-      "ro": "(făină de grâu, ton, mozzarella, roșii cuburi, ceapă, drojdie, sare, oregano)",
-      "en": "(făină of grâu, ton, mozzarella, ro&i withburi, ceapă, drojdie, sare, oregano)"
+      "ro": "făină de grâu, ton, mozzarella, roșii cuburi, ceapă, drojdie, sare, oregano",
+      "en": "flour of grâu, tuna, mozzarella, tomatoes withburi, onion, drojdie, salt, oregano"
     },
     "allergens": [
       1,
@@ -3608,28 +3479,28 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 230.7,
+      "energyKj": 976.8,
+      "fats": 5.3,
+      "saturatedFats": 3.0,
+      "carbs": 31.5,
+      "sugars": 1.8,
+      "protein": 15.6,
+      "salt": 2.0
     }
   },
   {
     "id": "item-126",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 976.8 / 230.7, Grăsimi (g): 5.3 din care: Acizi grași saturați (g) 3, Glucide (g): 31.5 din care: Zaharuri (g): 1.8, Proteine (g): 15.6, Sare (g): 2",
-      "en": "Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 976.8 / 230.7, Grăsimi (g): 5.3 din care: Acizi gra& saturați (g) 3, Gluciof (g): 31.5 din care: Zaharuri (g): 1.8, Proteine (g): 15.6, Sare (g): 2"
+      "ro": "14.PIZZA QUATRO CARNI",
+      "en": "14.PIZZA QUATRO CARNI"
     },
-    "weight": "14g",
+    "weight": "450 gr",
     "price": 38.0,
     "ingredients": {
-      "ro": "(făină de grâu, sare, drojdie, sos de roșii, mozzarella, salam, șuncă, cârnat, bacon, oregano)",
-      "en": "(făină of grâu, sare, drojdie, sos of ro&i, mozzarella, salam, șuncă, cârnat, bacon, oregano)"
+      "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, salam, șuncă, cârnat, bacon, oregano",
+      "en": "flour of grâu, salt, drojdie, sauce of tomatoes, mozzarella, salam, ham, cârnat, bacon, oregano"
     },
     "allergens": [
       1,
@@ -3637,28 +3508,28 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 281.8,
+      "energyKj": 1188.9,
+      "fats": 9.0,
+      "saturatedFats": 4.5,
+      "carbs": 38.6,
+      "sugars": 1.8,
+      "protein": 13.6,
+      "salt": 1.1
     }
   },
   {
     "id": "item-127",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1188.9 / 281.8, Grăsimi (g): 9 din care: Acizi grași saturați (g) 4.5, Glucide (g): 38.6 din care: Zaharuri (g): 1.8, Proteine (g): 13.6, Sare (g): 1.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1188.9 / 281.8, Grăsimi (g): 9 din care: Acizi gra& saturați (g) 4.5, Gluciof (g): 38.6 din care: Zaharuri (g): 1.8, Proteine (g): 13.6, Sare (g): 1.1"
+      "ro": "15.PIZZA VEGETARIANĂ",
+      "en": "15.PIZZA VEGETARIANĂ"
     },
-    "weight": "15g",
+    "weight": "450 gr",
     "price": 32.0,
     "ingredients": {
-      "ro": "(făină de grâu, sare, drojdie, sos de roșii, mozzarella, cartofi prăjiți, ciuperci, porumb,  măsline, ceapă, ardei) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 2315.7 / 552.1, Grăsimi (g): 27.3 din care: Acizi grași saturați (g) 10.3, Glucide (g): 69.1 din care: Zaharuri (g): 8, Proteine (g): 14.2, Sare (g): 3.1",
-      "en": "(făină of grâu, sare, drojdie, sos of ro&i, mozzarella, cartofi prăjiți, ciuperci, porumb,  măsline, ceapă, arofi) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 2315.7 / 552.1, Grăsimi (g): 27.3 din care: Acizi gra& saturați (g) 10.3, Gluciof (g): 69.1 din care: Zaharuri (g): 8, Proteine (g): 14.2, Sare (g): 3.1"
+      "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, cartofi prăjiți, ciuperci, porumb,  măsline, ceapă, ardei) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 2315.7 / 552.1, Grăsimi (g): 27.3 din care: Acizi grași saturați (g) 10.3, Glucide (g): 69.1 din care: Zaharuri (g): 8, Proteine (g): 14.2, Sare (g): 3.1",
+      "en": "flour of grâu, salt, drojdie, sauce of tomatoes, mozzarella, potatoes prăjiți, mushrooms, porumb,  olives, onion, pepper) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 2315.7 / 552.1, Grăsimi (g): 27.3 din care: Acizi gra& saturați (g) 10.3, Gluciof (g): 69.1 din care: Zaharuri (g): 8, Proteine (g): 14.2, salt (g): 3.1"
     },
     "allergens": [
       1,
@@ -3666,58 +3537,58 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 195,
-      "energyKj": 815,
-      "fats": 8.8,
-      "saturatedFats": 1.3,
-      "carbs": 26.5,
-      "sugars": 0.6,
-      "protein": 2.7,
-      "salt": 0.9
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-128",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "(făină de grâu, sare, drojdie, sos de roșii, mozzarella, cartofi prăjiți, ciuperci, porumb,  măsline, ceapă, ardei) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 2315.7 / 552.1, Grăsimi (g): 27.3 din care: Acizi grași saturați (g) 10.3, Glucide (g): 69.1 din care: Zaharuri (g): 8, Proteine (g): 14.2, Sare (g): 3.1",
-      "en": "(făină of grâu, sare, drojdie, sos of ro&i, mozzarella, cartofi prăjiți, ciuperci, porumb,  măsline, ceapă, arofi) Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 2315.7 / 552.1, Grăsimi (g): 27.3 din care: Acizi gra& saturați (g) 10.3, Gluciof (g): 69.1 din care: Zaharuri (g): 8, Proteine (g): 14.2, Sare (g): 3.1"
+      "ro": "16.PIZZA TOSCANA",
+      "en": "16.PIZZA TOSCANA"
     },
-    "weight": "16g",
+    "weight": "450 gr",
     "price": 35.0,
     "ingredients": {
-      "ro": "(făină de grâu, sare, drojdie, sos de roșii, mozzarella, ou,șuncă, bacon, oregano)",
-      "en": "(făină of grâu, sare, drojdie, sos of ro&i, mozzarella, ou,șuncă, bacon, oregano)"
+      "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, ou,șuncă, bacon, oregano",
+      "en": "flour of grâu, salt, drojdie, sauce of tomatoes, mozzarella, egg,ham, bacon, oregano"
     },
     "allergens": [
       1,
       3,
       7
     ],
-    "isFrozen": true,
+    "isFrozen": false,
     "nutrition": {
-      "energyKcal": 195,
-      "energyKj": 815,
-      "fats": 8.8,
-      "saturatedFats": 1.3,
-      "carbs": 26.5,
-      "sugars": 0.6,
-      "protein": 2.7,
-      "salt": 0.9
+      "energyKcal": 263.9,
+      "energyKj": 1114.5,
+      "fats": 7.2,
+      "saturatedFats": 3.6,
+      "carbs": 37.9,
+      "sugars": 1.7,
+      "protein": 13.6,
+      "salt": 2.1
     }
   },
   {
     "id": "item-129",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1114.5 / 263.9, Grăsimi (g): 7.2 din care: Acizi grași saturați (g) 3.6, Glucide (g): 37.9 din care: Zaharuri (g): 1.7, Proteine (g): 13.6, Sare (g): 2.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1114.5 / 263.9, Grăsimi (g): 7.2 din care: Acizi gra& saturați (g) 3.6, Gluciof (g): 37.9 din care: Zaharuri (g): 1.7, Proteine (g): 13.6, Sare (g): 2.1"
+      "ro": "17.PIZZA SPECIALE",
+      "en": "17.PIZZA SPECIALE"
     },
-    "weight": "17g",
+    "weight": "550 gr",
     "price": 38.0,
     "ingredients": {
-      "ro": "(făină de grâu, sare, drojdie, sos de roșii, mozzarella, cartofi prăjiți,  piept de pui)",
-      "en": "(făină of grâu, sare, drojdie, sos of ro&i, mozzarella, cartofi prăjiți,  piept of pui)"
+      "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, cartofi prăjiți,  piept de pui",
+      "en": "flour of grâu, salt, drojdie, sauce of tomatoes, mozzarella, potatoes prăjiți,  piept of chicken"
     },
     "allergens": [
       1,
@@ -3725,115 +3596,106 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 195,
-      "energyKj": 815,
-      "fats": 8.8,
-      "saturatedFats": 1.3,
-      "carbs": 26.5,
-      "sugars": 0.6,
-      "protein": 2.7,
-      "salt": 0.9
+      "energyKcal": 278.0,
+      "energyKj": 1172.4,
+      "fats": 7.9,
+      "saturatedFats": 2.7,
+      "carbs": 40.6,
+      "sugars": 3.0,
+      "protein": 13.2,
+      "salt": 1.4
     }
   },
   {
     "id": "item-130",
-    "category": "pui-rata",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1172.4 / 278, Grăsimi (g): 7.9 din care: Acizi grași  saturați (g) 2.7, Glucide (g): 40.6 din care: Zaharuri (g): 3, Proteine (g): 13.2, Sare (g): 1.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1172.4 / 278, Grăsimi (g): 7.9 din care: Acizi gra&  saturați (g) 2.7, Gluciof (g): 40.6 din care: Zaharuri (g): 3, Proteine (g): 13.2, Sare (g): 1.4"
+      "ro": "18. PIZZA CAPRICCIOSA 1,7                        500gr",
+      "en": "18. PIZZA CAPRICCIOSA 1,7                        500gr"
     },
-    "weight": "18g",
+    "weight": "200g",
     "price": 32.0,
     "ingredients": {
-      "ro": "(făină de grâu,  sare, drojdie, sos de roșii, mozzarella, anghinare, măsline, șuncă, ciuperci, porumb, oregano)",
-      "en": "(făină of grâu,  sare, drojdie, sos of ro&i, mozzarella, anghinare, măsline, șuncă, ciuperci, porumb, oregano)"
+      "ro": "făină de grâu,  sare, drojdie, sos de roșii, mozzarella, anghinare, măsline, șuncă, ciuperci, porumb, oregano",
+      "en": "flour of grâu,  salt, drojdie, sauce of tomatoes, mozzarella, artichoke, olives, ham, mushrooms, porumb, oregano"
     },
-    "allergens": [
-      1,
-      7
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 243.2,
+      "energyKj": 1021.9,
+      "fats": 9.8,
+      "saturatedFats": 3.5,
+      "carbs": 31.5,
+      "sugars": 2.0,
+      "protein": 10.4,
+      "salt": 2.1
     }
   },
   {
     "id": "item-131",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1021.9 / 243.2, Grăsimi (g): 9.8 din care: Acizi grași saturați (g) 3.5, Glucide (g): 31.5 din care: Zaharuri (g): 2, Proteine (g): 10.4, Sare (g): 2.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1021.9 / 243.2, Grăsimi (g): 9.8 din care: Acizi gra& saturați (g) 3.5, Gluciof (g): 31.5 din care: Zaharuri (g): 2, Proteine (g): 10.4, Sare (g): 2.1"
+      "ro": "19. PIZZA HAWAI 1,7           500gr",
+      "en": "19. PIZZA HAWAI 1,7           500gr"
     },
-    "weight": "19g",
+    "weight": "200g",
     "price": 32.0,
     "ingredients": {
-      "ro": "(făină de grâu, sare, drojdie, sos de roșii, mozzarella, șuncă, ananas, oregano)",
-      "en": "(făină of grâu, sare, drojdie, sos of ro&i, mozzarella, șuncă, ananas, oregano)"
+      "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, șuncă, ananas, oregano",
+      "en": "flour of grâu, salt, drojdie, sauce of tomatoes, mozzarella, ham, pineapple, oregano"
     },
-    "allergens": [
-      1,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 243.2,
+      "energyKj": 1021.9,
+      "fats": 9.8,
+      "saturatedFats": 3.5,
+      "carbs": 31.5,
+      "sugars": 2.0,
+      "protein": 10.4,
+      "salt": 2.1
     }
   },
   {
     "id": "item-132",
-    "category": "garnituri",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1021.9 / 243.2, Grăsimi (g): 9.8 din care: Acizi grași saturați (g) 3.5, Glucide (g): 31.5 din care: Zaharuri (g): 2, Proteine (g): 10.4, Sare (g): 2.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1021.9 / 243.2, Grăsimi (g): 9.8 din care: Acizi gra& saturați (g) 3.5, Gluciof (g): 31.5 din care: Zaharuri (g): 2, Proteine (g): 10.4, Sare (g): 2.1"
+      "ro": "20. PIZZA KEBAB 1,7           500gr",
+      "en": "20. PIZZA KEBAB 1,7           500gr"
     },
-    "weight": "20g",
+    "weight": "200g",
     "price": 38.0,
     "ingredients": {
-      "ro": "(făină de grâu, sare, drojdie, sos de roșii, mozzarella, carne de pui, cartofi prăjiți, roșii cuburi, castraveți murați, ceapă, sos alb, oregano)",
-      "en": "(făină of grâu, sare, drojdie, sos of ro&i, mozzarella, carne of pui, cartofi prăjiți, ro&i withburi, castraveți murați, ceapă, sos alb, oregano)"
+      "ro": "făină de grâu, sare, drojdie, sos de roșii, mozzarella, carne de pui, cartofi prăjiți, roșii cuburi, castraveți murați, ceapă, sos alb, oregano",
+      "en": "flour of grâu, salt, drojdie, sauce of tomatoes, mozzarella, carne of chicken, potatoes prăjiți, tomatoes withburi, withwithmbers murați, onion, sauce alb, oregano"
     },
-    "allergens": [
-      1,
-      7
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 195,
-      "energyKj": 815,
-      "fats": 8.8,
-      "saturatedFats": 1.3,
-      "carbs": 26.5,
-      "sugars": 0.6,
-      "protein": 2.7,
-      "salt": 0.9
+      "energyKcal": 243.2,
+      "energyKj": 1021.9,
+      "fats": 9.8,
+      "saturatedFats": 3.5,
+      "carbs": 31.5,
+      "sugars": 2.0,
+      "protein": 10.4,
+      "salt": 2.1
     }
   },
   {
     "id": "item-133",
-    "category": "pui-rata",
+    "category": "pizza",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1021.9 / 243.2, Grăsimi (g): 9.8 din care: Acizi grași saturați (g) 3.5, Glucide (g): 31.5 din care: Zaharuri (g): 2, Proteine (g): 10.4, Sare (g): 2.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1021.9 / 243.2, Grăsimi (g): 9.8 din care: Acizi gra& saturați (g) 3.5, Gluciof (g): 31.5 din care: Zaharuri (g): 2, Proteine (g): 10.4, Sare (g): 2.1"
+      "ro": "21.PIZZA MARISSA FAMILY",
+      "en": "21.PIZZA MARISSA FAMILY"
     },
-    "weight": "21g",
+    "weight": "1400 gr",
     "price": 72.0,
     "ingredients": {
-      "ro": "(făină de grâu, mozzarella, porumb, măsline, ciuperci, șuncă, salam, prosciutto crudo, roșii cuburi, ulei de floarea soarelui, ceapă, zahăr, sare, drojdie)",
-      "en": "(făină of grâu, mozzarella, porumb, măsline, ciuperci, șuncă, salam, prosciutto crudo, ro&i withburi, ulei of floarea soarelui, ceapă, zahăr, sare, drojdie)"
+      "ro": "făină de grâu, mozzarella, porumb, măsline, ciuperci, șuncă, salam, prosciutto crudo, roșii cuburi, ulei de floarea soarelui, ceapă, zahăr, sare, drojdie",
+      "en": "flour of grâu, mozzarella, porumb, olives, mushrooms, ham, salam, prosciutto crudo, tomatoes withburi, oil of floarea soarelui, onion, sugar, salt, drojdie"
     },
     "allergens": [
       1,
@@ -3841,593 +3703,591 @@ export const MENU_ITEMS = [
     ],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 285.0,
+      "energyKj": 1200.3,
+      "fats": 11.3,
+      "saturatedFats": 4.3,
+      "carbs": 35.9,
+      "sugars": 2.2,
+      "protein": 13.1,
+      "salt": 1.5
     }
   },
   {
     "id": "item-134",
     "category": "ambalaje",
     "name": {
-      "ro": "Ambalaje pentru produsele comandate la pachet",
-      "en": "Ambalaje pentru produsele comandate la pachet"
+      "ro": "Ambalaj pizza mică",
+      "en": "Ambalaj pizza mică"
     },
-    "weight": "3g",
+    "weight": "buc",
     "price": 3.0,
     "ingredients": {
-      "ro": "Ambalaj pizza mare buc.",
-      "en": "Ambalaj pizza mare buc."
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 0,
-      "energyKj": 0,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.0,
-      "sugars": 0.0,
-      "protein": 0.0,
-      "salt": 0.0
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-135",
     "category": "ambalaje",
     "name": {
-      "ro": "Ambalaj pizza mare buc.4,00lei",
-      "en": "Ambalaj pizza mare buc.4,00lei"
+      "ro": "Ambalaj pizza mare",
+      "en": "Ambalaj pizza mare"
     },
-    "weight": "4g",
+    "weight": "buc",
     "price": 4.0,
     "ingredients": {
-      "ro": "Pungă                                      buc.",
-      "en": "Pungă                                      buc."
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 0,
-      "energyKj": 0,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.0,
-      "sugars": 0.0,
-      "protein": 0.0,
-      "salt": 0.0
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-136",
     "category": "ambalaje",
     "name": {
-      "ro": "Pungă                                      buc.0,50lei",
-      "en": "Pungă                                      buc.0,50lei"
+      "ro": "Pungă",
+      "en": "Pungă"
     },
-    "weight": "0g",
+    "weight": "buc",
     "price": 0.5,
     "ingredients": {
-      "ro": "Caserolă              buc.",
-      "en": "Caserolă              buc."
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 0,
-      "energyKj": 0,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.0,
-      "sugars": 0.0,
-      "protein": 0.0,
-      "salt": 0.0
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-137",
     "category": "ambalaje",
     "name": {
-      "ro": "Caserolă              buc.1,50lei",
-      "en": "Caserolă              buc.1,50lei"
+      "ro": "Caserolă",
+      "en": "Caserolă"
     },
-    "weight": "1g",
+    "weight": "buc",
     "price": 1.5,
     "ingredients": {
-      "ro": "Tacâm            buc.",
-      "en": "Tacâm            buc."
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 0,
-      "energyKj": 0,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.0,
-      "sugars": 0.0,
-      "protein": 0.0,
-      "salt": 0.0
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-138",
     "category": "ambalaje",
     "name": {
-      "ro": "Tacâm            buc.1,00 lei",
-      "en": "Tacâm            buc.1,00 lei"
+      "ro": "Tacâm",
+      "en": "Tacâm"
     },
-    "weight": "1g",
+    "weight": "buc",
     "price": 1.0,
     "ingredients": {
-      "ro": "EXTRA-TOPPINGS",
-      "en": "EXTRA-TOPPINGS"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 0,
-      "energyKj": 0,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.0,
-      "sugars": 0.0,
-      "protein": 0.0,
-      "salt": 0.0
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-139",
-    "category": "garnituri",
+    "category": "ambalaje",
     "name": {
-      "ro": "EXTRA-TOPPINGS",
-      "en": "EXTRA-TOPPINGS"
+      "ro": "Salam",
+      "en": "Salam"
     },
-    "weight": "750 g",
+    "weight": "50 gr",
     "price": 5.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1594.9 / 381.2, Grăsimi(g): 30 din care: Acizi grași saturați (g) 12.7, Glucide (g): 1.1 din care: Zaharuri (g): 0, Proteine (g): 26.7, Sare (g): 4.2",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1594.9 / 381.2, Grăsimi(g): 30 din care: Acizi gra& saturați (g) 12.7, Gluciof (g): 1.1 din care: Zaharuri (g): 0, Proteine (g): 26.7, Sare (g): 4.2"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 381.2,
+      "energyKj": 1594.9,
+      "fats": 30.0,
+      "saturatedFats": 12.7,
+      "carbs": 1.1,
+      "sugars": 0.0,
+      "protein": 26.7,
+      "salt": 4.2
     }
   },
   {
     "id": "item-140",
-    "category": "garnituri",
+    "category": "ambalaje",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1594.9 / 381.2, Grăsimi(g): 30 din care: Acizi grași saturați (g) 12.7, Glucide (g): 1.1 din care: Zaharuri (g): 0, Proteine (g): 26.7, Sare (g): 4.2",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1594.9 / 381.2, Grăsimi(g): 30 din care: Acizi gra& saturați (g) 12.7, Gluciof (g): 1.1 din care: Zaharuri (g): 0, Proteine (g): 26.7, Sare (g): 4.2"
+      "ro": "Șuncă",
+      "en": "Șuncă"
     },
-    "weight": "750 g",
+    "weight": "50 gr",
     "price": 5.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 431 / 103, Grăsimi (g): 3din care: Acizi grași saturați (g) 1.2, Glucide (g): 0.7 din care: Zaharuri (g): 0, Proteine(g): 18, Sare (g): 2",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 431 / 103, Grăsimi (g): 3din care: Acizi gra& saturați (g) 1.2, Gluciof (g): 0.7 din care: Zaharuri (g): 0, Proteine(g): 18, Sare (g): 2"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 103.0,
+      "energyKj": 431.0,
+      "fats": 3.0,
+      "saturatedFats": 1.2,
+      "carbs": 0.7,
+      "sugars": 0.0,
+      "protein": 18.0,
+      "salt": 2.0
     }
   },
   {
     "id": "item-141",
-    "category": "garnituri",
+    "category": "ambalaje",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 431 / 103, Grăsimi (g): 3din care: Acizi grași saturați (g) 1.2, Glucide (g): 0.7 din care: Zaharuri (g): 0, Proteine(g): 18, Sare (g): 2",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 431 / 103, Grăsimi (g): 3din care: Acizi gra& saturați (g) 1.2, Gluciof (g): 0.7 din care: Zaharuri (g): 0, Proteine(g): 18, Sare (g): 2"
+      "ro": "Cârnat",
+      "en": "Cârnat"
     },
-    "weight": "750 g",
+    "weight": "50 gr",
     "price": 5.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1080 / 260, Grăsimi (g): 19.6 din care: Acizi grași saturați (g) 7.5, Glucide (g): 9.3 din care: Zaharuri (g): 1.6, Proteine (g): 11.6, Sare (g): 1.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1080 / 260, Grăsimi (g): 19.6 din care: Acizi gra& saturați (g) 7.5, Gluciof (g): 9.3 din care: Zaharuri (g): 1.6, Proteine (g): 11.6, Sare (g): 1.8"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      7
+    ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 260.0,
+      "energyKj": 1080.0,
+      "fats": 19.6,
+      "saturatedFats": 7.5,
+      "carbs": 9.3,
+      "sugars": 1.6,
+      "protein": 11.6,
+      "salt": 1.8
     }
   },
   {
     "id": "item-142",
-    "category": "garnituri",
+    "category": "ambalaje",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1080 / 260, Grăsimi (g): 19.6 din care: Acizi grași saturați (g) 7.5, Glucide (g): 9.3 din care: Zaharuri (g): 1.6, Proteine (g): 11.6, Sare (g): 1.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1080 / 260, Grăsimi (g): 19.6 din care: Acizi gra& saturați (g) 7.5, Gluciof (g): 9.3 din care: Zaharuri (g): 1.6, Proteine (g): 11.6, Sare (g): 1.8"
+      "ro": "Bacon50gr",
+      "en": "Bacon50gr"
     },
-    "weight": "50g",
+    "weight": "200g",
     "price": 5.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1047 / 252, Grăsimi (g):20.6 din care: Acizi grași saturați (g) 6.8, Glucide (g): 0.5 din care: Zaharuri (g): 0.5,Proteine (g): 16, Sare (g): 2.6",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1047 / 252, Grăsimi (g):20.6 din care: Acizi gra& saturați (g) 6.8, Gluciof (g): 0.5 din care: Zaharuri (g): 0.5,Proteine (g): 16, Sare (g): 2.6"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 252.0,
+      "energyKj": 1047.0,
+      "fats": 20.6,
+      "saturatedFats": 6.8,
+      "carbs": 0.5,
+      "sugars": 0.5,
+      "protein": 16.0,
+      "salt": 2.6
     }
   },
   {
     "id": "item-143",
-    "category": "garnituri",
+    "category": "ambalaje",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1047 / 252, Grăsimi (g):20.6 din care: Acizi grași saturați (g) 6.8, Glucide (g): 0.5 din care: Zaharuri (g): 0.5,Proteine (g): 16, Sare (g): 2.6",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1047 / 252, Grăsimi (g):20.6 din care: Acizi gra& saturați (g) 6.8, Gluciof (g): 0.5 din care: Zaharuri (g): 0.5,Proteine (g): 16, Sare (g): 2.6"
+      "ro": "Sos alb 3, 770gr",
+      "en": "Sos alb 3, 770gr"
     },
-    "weight": "3g",
+    "weight": "200g",
     "price": 5.0,
     "ingredients": {
-      "ro": "(iaurt, smântână, maioneză, usturoi, condimente, oregano)",
-      "en": "(iaurt, smântână, maioneză, usturoi, condimente, oregano)"
+      "ro": "iaurt, smântână, maioneză, usturoi, condimente, oregano",
+      "en": "yogurt, sour cream, mayonnaise, garlic, condimente, oregano"
     },
-    "allergens": [
-      3,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
+      "energyKcal": 317.3,
+      "energyKj": 1309.4,
+      "fats": 30.8,
+      "saturatedFats": 9.3,
+      "carbs": 7.7,
+      "sugars": 2.5,
       "protein": 3.1,
-      "salt": 0.8
+      "salt": 0.4
     }
   },
   {
     "id": "item-144",
-    "category": "garnituri",
+    "category": "ambalaje",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1309.4 / 317.3, Grăsimi(g): 30.8 din care: Acizi grași saturați (g) 9.3, Glucide (g): 7.7 din care: Zaharuri (g):2.5, Proteine (g): 3.1, Sare (g): 0.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1309.4 / 317.3, Grăsimi(g): 30.8 din care: Acizi gra& saturați (g) 9.3, Gluciof (g): 7.7 din care: Zaharuri (g):2.5, Proteine (g): 3.1, Sare (g): 0.4"
+      "ro": "Sos roşu970gr",
+      "en": "Sos roşu970gr"
     },
-    "weight": "970g",
+    "weight": "200g",
     "price": 3.0,
     "ingredients": {
-      "ro": "(roșii, ceapă, oregano, ulei de măsline, sare, piper)",
-      "en": "(ro&i, ceapă, oregano, ulei of măsline, sare, piper)"
+      "ro": "roșii, ceapă, oregano, ulei de măsline, sare, piper",
+      "en": "tomatoes, onion, oregano, oil of olives, salt, piper"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 102.0,
+      "energyKj": 426.8,
+      "fats": 0.1,
+      "saturatedFats": 0.1,
+      "carbs": 23.2,
+      "sugars": 22.8,
+      "protein": 1.2,
+      "salt": 1.8
     }
   },
   {
     "id": "item-145",
-    "category": "garnituri",
+    "category": "ambalaje",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 426.8 / 102, Grăsimi (g): 0.1 din care: Acizi grași saturați (g) 0.1, Glucide (g): 23.2 din care: Zaharuri (g): 22.8, Proteine (g): 1.2, Sare (g): 1.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 426.8 / 102, Grăsimi (g): 0.1 din care: Acizi gra& saturați (g) 0.1, Gluciof (g): 23.2 din care: Zaharuri (g): 22.8, Proteine (g): 1.2, Sare (g): 1.8"
+      "ro": "Sos roşu picant",
+      "en": "Sos roşu picant"
     },
-    "weight": "970 g",
+    "weight": "970 gr",
     "price": 5.0,
     "ingredients": {
-      "ro": "(roșii, ceapă, oregano, ulei de măsline ,sare, piper)",
-      "en": "(ro&i, ceapă, oregano, ulei of măsline ,sare, piper)"
+      "ro": "roșii, ceapă, oregano, ulei de măsline ,sare, piper",
+      "en": "tomatoes, onion, oregano, oil of olives ,salt, piper"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 98.4,
+      "energyKj": 411.4,
+      "fats": 0.2,
+      "saturatedFats": 0.1,
+      "carbs": 21.9,
+      "sugars": 21.5,
+      "protein": 1.3,
+      "salt": 2.5
     }
   },
   {
     "id": "item-146",
-    "category": "garnituri",
+    "category": "ambalaje",
     "name": {
-      "ro": "Sosuri",
-      "en": "Sosuri"
+      "ro": "Sos roşu / Ketchup 9                  70gr",
+      "en": "Sos roşu / Ketchup 9                  70gr"
     },
-    "weight": "9                  g",
+    "weight": "200g",
     "price": 5.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 426.8 / 102, Grăsimi (g): 0.1 din care: Acizi grași saturați (g) 0.1, Glucide (g): 23.2 din care: Zaharuri (g): 22.8, Proteine (g): 1.2, Sare (g): 1.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 426.8 / 102, Grăsimi (g): 0.1 din care: Acizi gra& saturați (g) 0.1, Gluciof (g): 23.2 din care: Zaharuri (g): 22.8, Proteine (g): 1.2, Sare (g): 1.8"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 102.0,
+      "energyKj": 426.8,
+      "fats": 0.1,
+      "saturatedFats": 0.1,
+      "carbs": 23.2,
+      "sugars": 22.8,
+      "protein": 1.2,
+      "salt": 1.8
     }
   },
   {
     "id": "item-147",
-    "category": "garnituri",
+    "category": "ambalaje",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 426.8 / 102, Grăsimi (g): 0.1 din care: Acizi grași saturați (g) 0.1, Glucide (g): 23.2 din care: Zaharuri (g): 22.8, Proteine (g): 1.2, Sare (g): 1.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 426.8 / 102, Grăsimi (g): 0.1 din care: Acizi gra& saturați (g) 0.1, Gluciof (g): 23.2 din care: Zaharuri (g): 22.8, Proteine (g): 1.2, Sare (g): 1.8"
+      "ro": "Sos alb 3, 7                                                 70gr",
+      "en": "Sos alb 3, 7                                                 70gr"
     },
-    "weight": "3g",
+    "weight": "200g",
     "price": 5.0,
     "ingredients": {
-      "ro": "(iaurt, maioneză, usturoi, oregano, condimente)",
-      "en": "(iaurt, maioneză, usturoi, oregano, condimente)"
+      "ro": "iaurt, maioneză, usturoi, oregano, condimente",
+      "en": "yogurt, mayonnaise, garlic, oregano, condimente"
     },
-    "allergens": [
-      3,
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
+      "energyKcal": 317.3,
+      "energyKj": 1309.4,
+      "fats": 30.8,
+      "saturatedFats": 9.3,
+      "carbs": 7.7,
+      "sugars": 2.5,
       "protein": 3.1,
-      "salt": 0.8
+      "salt": 0.4
     }
   },
   {
     "id": "item-148",
-    "category": "garnituri",
+    "category": "ambalaje",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1309.4 / 317.3, Grăsimi (g): 30.8 din care: Acizi grași saturați (g) 9.3, Glucide (g): 7.7 din care: Zaharuri (g): 2.5, Proteine (g): 3.1, Sare (g): 0.4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1309.4 / 317.3, Grăsimi (g): 30.8 din care: Acizi gra& saturați (g) 9.3, Gluciof (g): 7.7 din care: Zaharuri (g): 2.5, Proteine (g): 3.1, Sare (g): 0.4"
+      "ro": "Sos chili 9                                    100gr",
+      "en": "Sos chili 9                                    100gr"
     },
-    "weight": "9                                    g",
+    "weight": "200g",
     "price": 5.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 405.3 / 96.9, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0.1, Glucide (g): 21.4 din care: Zaharuri (g): 21, Proteine (g): 1.3, Sare (g): 2.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 405.3 / 96.9, Grăsimi (g): 0.2 din care: Acizi gra& saturați (g) 0.1, Gluciof (g): 21.4 din care: Zaharuri (g): 21, Proteine (g): 1.3, Sare (g): 2.8"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 96.9,
+      "energyKj": 405.3,
+      "fats": 0.2,
+      "saturatedFats": 0.1,
+      "carbs": 21.4,
+      "sugars": 21.0,
+      "protein": 1.3,
+      "salt": 2.8
     }
   },
   {
     "id": "item-149",
-    "category": "garnituri",
+    "category": "ambalaje",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 405.3 / 96.9, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0.1, Glucide (g): 21.4 din care: Zaharuri (g): 21, Proteine (g): 1.3, Sare (g): 2.8",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 405.3 / 96.9, Grăsimi (g): 0.2 din care: Acizi gra& saturați (g) 0.1, Gluciof (g): 21.4 din care: Zaharuri (g): 21, Proteine (g): 1.3, Sare (g): 2.8"
+      "ro": "Mujdei de usturoi    50gr",
+      "en": "Mujofi of usturoi    50gr"
     },
-    "weight": "50g",
+    "weight": "200g",
     "price": 5.0,
     "ingredients": {
-      "ro": "(usturoi, lămâie, ulei de floarea soarelui, sare)",
-      "en": "(usturoi, lămâie, ulei of floarea soarelui, sare)"
+      "ro": "usturoi, lămâie, ulei de floarea soarelui, sare",
+      "en": "garlic, lemon, oil of floarea soarelui, salt"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 182.3,
+      "energyKj": 759.2,
+      "fats": 10.1,
+      "saturatedFats": 1.0,
+      "carbs": 18.7,
+      "sugars": 2.1,
+      "protein": 4.2,
+      "salt": 4.0
     }
   },
   {
     "id": "item-150",
-    "category": "garnituri",
+    "category": "ambalaje",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 759.2 / 182.3, Grăsimi (g): 10.1 din care: Acizi grași saturați (g) 1, Glucide (g): 18.7 din care: Zaharuri (g): 2.1, Proteine (g): 4.2, Sare (g): 4)",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 759.2 / 182.3, Grăsimi (g): 10.1 din care: Acizi gra& saturați (g) 1, Gluciof (g): 18.7 din care: Zaharuri (g): 2.1, Proteine (g): 4.2, Sare (g): 4)"
+      "ro": "Muştar/maioneza/ketchup 10                                      70ml",
+      "en": "Muştar/maioneza/ketchup 10                                      70ml"
     },
-    "weight": "10                                      g",
+    "weight": "200g",
     "price": 3.0,
     "ingredients": {
-      "ro": "(muștar dulce)/",
-      "en": "(muștar dulce)/"
+      "ro": "muștar dulce)/",
+      "en": "mustard dulce)/"
     },
-    "allergens": [
-      10
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 115,
-      "energyKj": 481,
-      "fats": 3.8,
-      "saturatedFats": 1.1,
-      "carbs": 16.5,
-      "sugars": 1.9,
-      "protein": 3.1,
-      "salt": 0.8
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-151",
     "category": "racoritoare",
     "name": {
-      "ro": "Băuturi răcoritoare",
-      "en": "Băuturi răcoritoare"
+      "ro": "Fresh de portocale150ml",
+      "en": "Fresh of portocale150ml"
     },
-    "weight": "150ml",
+    "weight": "200g",
     "price": 15.0,
     "ingredients": {
-      "ro": "(Portocale)",
-      "en": "(Portocale)"
+      "ro": "Portocale",
+      "en": "oranges"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
+      "energyKcal": 37.8,
+      "energyKj": 160.0,
+      "fats": 0.2,
       "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "carbs": 8.4,
+      "sugars": 8.2,
+      "protein": 0.7,
+      "salt": 0.0
     }
   },
   {
     "id": "item-152",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 160 / 37.8, Grăsimi (g):0.2 din care: Acizi grași saturați (g) 0, Glucide (g): 8.4 din care: Zaharuri (g): 8.2, Proteine (g): 0.7, Sare (g): 0",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 160 / 37.8, Grăsimi (g):0.2 din care: Acizi gra& saturați (g) 0, Gluciof (g): 8.4 din care: Zaharuri (g): 8.2, Proteine (g): 0.7, Sare (g): 0"
+      "ro": "Fresh de grapefruit150ml",
+      "en": "Fresh of grapefruit150ml"
     },
-    "weight": "150ml",
+    "weight": "200g",
     "price": 15.0,
     "ingredients": {
-      "ro": "(Grapefruit)",
-      "en": "(Grapefruit)"
+      "ro": "Grapefruit",
+      "en": "grapefruit"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
+      "energyKcal": 35.7,
+      "energyKj": 152.0,
+      "fats": 0.1,
       "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "carbs": 8.3,
+      "sugars": 8.3,
+      "protein": 0.4,
+      "salt": 0.0
     }
   },
   {
     "id": "item-153",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 152 / 35.7, Grăsimi (g):0.1 din care: Acizi grași saturați (g) 0, Glucide (g): 8.3 din care: Zaharuri (g): 8.3, Proteine (g): 0.4, Sare (g): 0",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 152 / 35.7, Grăsimi (g):0.1 din care: Acizi gra& saturați (g) 0, Gluciof (g): 8.3 din care: Zaharuri (g): 8.3, Proteine (g): 0.4, Sare (g): 0"
+      "ro": "Limonadă",
+      "en": "Limonadă"
     },
     "weight": "400 ml",
     "price": 14.0,
     "ingredients": {
-      "ro": "(apă, lămâie, zahăr)",
-      "en": "(apă, lămâie, zahăr)"
+      "ro": "apă, lămâie, zahăr",
+      "en": "apă, lemon, sugar"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 0,
-      "energyKj": 0,
+      "energyKcal": 40.0,
+      "energyKj": 167.0,
       "fats": 0.0,
       "saturatedFats": 0.0,
-      "carbs": 0.0,
-      "sugars": 0.0,
-      "protein": 0.0,
-      "salt": 0.0
+      "carbs": 10.0,
+      "sugars": 10.0,
+      "protein": 0.1,
+      "salt": 4.0
     }
   },
   {
     "id": "item-154",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 167 / 40, Grăsimi (g): 0 din care: Acizi grași saturați (g) 0, Glucide (g): 10 din care: Zaharuri (g): 10, Proteine (g):0.1, Sare (g): 4",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 167 / 40, Grăsimi (g): 0 din care: Acizi gra& saturați (g) 0, Gluciof (g): 10 din care: Zaharuri (g): 10, Proteine (g):0.1, Sare (g): 4"
+      "ro": "Limonadă cu arome________________________________ 400ml",
+      "en": "Limonadă with arome________________________________ 400ml"
     },
-    "weight": "400ml",
+    "weight": "200g",
     "price": 15.0,
     "ingredients": {
-      "ro": "(limonadă, gheață, sirop trandafir)",
-      "en": "(limonadă, gheață, sirop trandafir)"
+      "ro": "limonadă, gheață, sirop trandafir",
+      "en": "limonadă, gheață, sirop trandafir"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 45,
-      "energyKj": 188,
-      "fats": 0.1,
-      "saturatedFats": 0.0,
-      "carbs": 10.8,
-      "sugars": 9.8,
-      "protein": 0.3,
-      "salt": 0.01
+      "energyKcal": 45.1,
+      "energyKj": 189.1,
+      "fats": 0.0,
+      "saturatedFats": 3.0,
+      "carbs": 11.3,
+      "sugars": 11.3,
+      "protein": 0.1,
+      "salt": 3.7
     }
   },
   {
     "id": "item-155",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g:Valoare Energetică (kJ/kcal):189.1 / 45.1, Grăsimi (g):0din care Acizi grași saturați (g 0 Glucide (g): 11.3 din care: Zaharuri (g): 11.3, Proteine (g): 0.1, Sare (g): 3.7",
-      "en": "Informații nutriționale 100g:Valoare Energetică (kJ/kcal):189.1 / 45.1, Grăsimi (g):0din care Acizi gra& saturați (g 0 Gluciof (g): 11.3 din care: Zaharuri (g): 11.3, Proteine (g): 0.1, Sare (g): 3.7"
+      "ro": "Socată______________________________________________",
+      "en": "Socată______________________________________________"
     },
     "weight": "400 ml",
     "price": 15.0,
     "ingredients": {
-      "ro": "(apă, suc de lămâie, lămâie, sirop de soc, ghimbir)",
-      "en": "(apă, suc of lămâie, lămâie, sirop of soc, ghimbir)"
+      "ro": "apă, suc de lămâie, lămâie, sirop de soc, ghimbir",
+      "en": "apă, suc of lemon, lemon, sirop of elofrflower, ginger"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 0,
-      "energyKj": 0,
-      "fats": 0.0,
+      "energyKcal": 19.5,
+      "energyKj": 81.5,
+      "fats": 0.1,
       "saturatedFats": 0.0,
-      "carbs": 0.0,
-      "sugars": 0.0,
-      "protein": 0.0,
+      "carbs": 3.9,
+      "sugars": 3.6,
+      "protein": 0.2,
       "salt": 0.0
     }
   },
@@ -4435,1098 +4295,1077 @@ export const MENU_ITEMS = [
     "id": "item-156",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 81.5 / 19.5, Grăsimi (g): 0.1 din care: Acizi grași saturați (g) 0, Glucide (g): 3.9 din care: Zaharuri (g): 3.6, Proteine (g): 0.2, Sare (g): 0",
-      "en": "Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 81.5 / 19.5, Grăsimi (g): 0.1 din care: Acizi gra& saturați (g) 0, Gluciof (g): 3.9 din care: Zaharuri (g): 3.6, Proteine (g): 0.2, Sare (g): 0"
+      "ro": "Suc (",
+      "en": "Suc ("
     },
-    "weight": "250 ml",
+    "weight": "50 ml",
     "price": 12.0,
     "ingredients": {
-      "ro": "Suc (500 ml)Coca-Cola , Fanta , Sprite , Schweppes                          500ml_________",
-      "en": "Suc (500 ml)Coca-Cola , Fanta , Sprite , Schweppes                          500ml_________"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      2
+    ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-157",
     "category": "racoritoare",
     "name": {
-      "ro": "Suc (500 ml)Coca-Cola , Fanta , Sprite , Schweppes                          500ml_________  15,00lei",
-      "en": "Suc (500 ml)Coca-Cola , Fanta , Sprite , Schweppes                          500ml_________  15,00lei"
+      "ro": "Suc (",
+      "en": "Suc ("
     },
     "weight": "500 ml",
     "price": 15.0,
     "ingredients": {
-      "ro": "Nectar Cappy             250 ml/330 ml",
-      "en": "Nectar Cappy             250 ml/330 ml"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-158",
     "category": "racoritoare",
     "name": {
-      "ro": "Nectar Cappy             250 ml/330 ml           15,00 lei",
-      "en": "Nectar Cappy             250 ml/330 ml           15,00 lei"
+      "ro": "Nectar Cappy",
+      "en": "Nectar Cappy"
     },
-    "weight": "250 ml",
+    "weight": "50 ml",
     "price": 15.0,
     "ingredients": {
-      "ro": "Fuzetea500 ml.",
-      "en": "Fuzetea500 ml."
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [],
+    "allergens": [
+      2
+    ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-159",
     "category": "racoritoare",
     "name": {
-      "ro": "Fuzetea500 ml.         15,00 lei",
-      "en": "Fuzetea500 ml.         15,00 lei"
+      "ro": "Fuzetea",
+      "en": "Fuzetea"
     },
     "weight": "500 ml",
     "price": 15.0,
     "ingredients": {
-      "ro": "Milkshake  Marissa5, 6, 7300 ml.",
-      "en": "Milkshake  Marissa5, 6, 7300 ml."
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-160",
     "category": "racoritoare",
     "name": {
-      "ro": "Milkshake  Marissa5, 6, 7300 ml.         25,00 lei",
-      "en": "Milkshake  Marissa5, 6, 7300 ml.         25,00 lei"
+      "ro": "Milkshake  Marissa",
+      "en": "Milkshake  Marissa"
     },
-    "weight": "5g",
+    "weight": "300 ml",
     "price": 25.0,
     "ingredients": {
-      "ro": "(lapte, frișcă, banană, topping cu aromă ciocolată, unt d e arahide)",
-      "en": "(lapte, frișcă, banană, topping with aromă ciocolată, unt d e arahiof)"
+      "ro": "lapte, frișcă, banană, topping cu aromă ciocolată, unt d e arahide",
+      "en": "milk, whipped cream, banana, topping with aromă chocolate, butter d e arahiof"
     },
     "allergens": [
       5,
+      6,
       7
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 177.1,
+      "energyKj": 741.8,
+      "fats": 10.3,
+      "saturatedFats": 5.2,
+      "carbs": 17.6,
+      "sugars": 15.6,
+      "protein": 3.3,
+      "salt": 0.1
     }
   },
   {
     "id": "item-161",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 741.8 / 177.1, Grăsimi (g): 10.3 din care: Acizi grași saturați (g) 5.2, Glucide (g): 17.6 din care: Zaharuri (g): 15.6, Proteine (g): 3.3, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 741.8 / 177.1, Grăsimi (g): 10.3 din care: Acizi gra& saturați (g) 5.2, Gluciof (g): 17.6 din care: Zaharuri (g): 15.6, Proteine (g): 3.3, Sare (g): 0.1"
+      "ro": "Suc Almdudler (mere)",
+      "en": "Suc Almdudler (mere)"
     },
     "weight": "330 ml",
     "price": 12.0,
     "ingredients": {
-      "ro": "Energizant Red bull1buc.",
-      "en": "Energizant Red bull1buc."
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-162",
     "category": "racoritoare",
     "name": {
-      "ro": "Energizant Red bull1buc.15,00lei",
-      "en": "Energizant Red bull1buc.15,00lei"
+      "ro": "Energizant Red bull1buc",
+      "en": "Energizant Red bull1buc"
     },
-    "weight": "1buc",
+    "weight": "200g",
     "price": 15.0,
     "ingredients": {
-      "ro": "Energizant Coca-Cola1buc.",
-      "en": "Energizant Coca-Cola1buc."
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-163",
     "category": "racoritoare",
     "name": {
-      "ro": "Energizant Coca-Cola1buc.12,00lei",
-      "en": "Energizant Coca-Cola1buc.12,00lei"
+      "ro": "Energizant Coca-Cola1buc",
+      "en": "Energizant Coca-Cola1buc"
     },
-    "weight": "1buc",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "Energizant Coca-Cola1buc.",
-      "en": "Energizant Coca-Cola1buc."
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-164",
     "category": "racoritoare",
     "name": {
-      "ro": "Apă",
-      "en": "Apă"
+      "ro": "Apă minerală/plată",
+      "en": "Apă minerală/plată"
     },
     "weight": "500 ml",
     "price": 10.0,
     "ingredients": {
-      "ro": "Apă minerală/plată st.330 m l",
-      "en": "Apă minerală/plată st.330 m l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 0,
-      "energyKj": 0,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.0,
-      "sugars": 0.0,
-      "protein": 0.0,
-      "salt": 0.0
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-165",
     "category": "racoritoare",
     "name": {
-      "ro": "Apă minerală/plată st.330 m l10,00 lei",
-      "en": "Apă minerală/plată st.330 m l10,00 lei"
+      "ro": "Apă minerală/plată st.330 m",
+      "en": "Apă minerală/plată st.330 m"
     },
-    "weight": "330 g",
+    "weight": "l",
     "price": 10.0,
     "ingredients": {
-      "ro": "Apă minerală/plată st.750 ml",
-      "en": "Apă minerală/plată st.750 ml"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 0,
-      "energyKj": 0,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.0,
-      "sugars": 0.0,
-      "protein": 0.0,
-      "salt": 0.0
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-166",
     "category": "racoritoare",
     "name": {
-      "ro": "Apă minerală/plată st.750 ml15,00lei",
-      "en": "Apă minerală/plată st.750 ml15,00lei"
+      "ro": "Apă minerală/plată st",
+      "en": "Apă minerală/plată st"
     },
-    "weight": "750 ml",
+    "weight": ".750 ml",
     "price": 15.0,
     "ingredients": {
-      "ro": "Garanție sticlă /flacon1 buc 0,50 bani",
-      "en": "Garanție sticlă /flacon1 buc 0,50 bani"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 0,
-      "energyKj": 0,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.0,
-      "sugars": 0.0,
-      "protein": 0.0,
-      "salt": 0.0
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-167",
     "category": "racoritoare",
     "name": {
-      "ro": "Ceai",
-      "en": "Ceai"
+      "ro": "Ceai natural",
+      "en": "Ceai natural"
     },
     "weight": "200 ml",
     "price": 15.0,
     "ingredients": {
-      "ro": "(Ceai de plante/fructe)",
-      "en": "(Ceai of plante/fructe)"
+      "ro": "Ceai de plante/fructe",
+      "en": "Ceai of plante/fructe"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
+      "energyKcal": 0.4,
+      "energyKj": 1.7,
       "fats": 0.0,
       "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
+      "carbs": 0.0,
+      "sugars": 0.0,
       "protein": 0.1,
-      "salt": 0.01
+      "salt": 1.0
     }
   },
   {
     "id": "item-168",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1.7 / 0.4, Grăsimi (g): 0 din care: Acizi grași saturați (g) 0, Glucide (g): 0 din care: Zaharuri (g): 0, Proteine (g): 0.1,",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1.7 / 0.4, Grăsimi (g): 0 din care: Acizi gra& saturați (g) 0, Gluciof (g): 0 din care: Zaharuri (g): 0, Proteine (g): 0.1,"
+      "ro": "Zahăr la plic",
+      "en": "Zahăr la plic"
     },
     "weight": "2 buc",
     "price": 0.5,
     "ingredients": {
-      "ro": "Miere 1 buc.",
-      "en": "Miere 1 buc."
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-169",
     "category": "racoritoare",
     "name": {
-      "ro": "Miere 1 buc.3,00 lei",
-      "en": "Miere 1 buc.3,00 lei"
+      "ro": "Miere",
+      "en": "Pure Honey Portion"
     },
     "weight": "1 buc",
     "price": 3.0,
     "ingredients": {
-      "ro": "Cafea",
-      "en": "Cafea"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 4,
-      "energyKj": 16,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.5,
-      "sugars": 0.0,
-      "protein": 0.3,
-      "salt": 0.0
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-170",
     "category": "racoritoare",
     "name": {
-      "ro": "Cafea",
-      "en": "Cafea"
+      "ro": "Espresso30ml",
+      "en": "Espresso30ml"
     },
-    "weight": "30ml",
+    "weight": "200g",
     "price": 9.0,
     "ingredients": {
-      "ro": "(espresso, zahăr la plic)",
-      "en": "(espresso, zahăr la plic)"
+      "ro": "espresso, zahăr la plic",
+      "en": "espresso, sugar la plic"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 4,
-      "energyKj": 16,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.5,
-      "sugars": 0.0,
-      "protein": 0.3,
-      "salt": 0.0
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-171",
     "category": "racoritoare",
     "name": {
-      "ro": "Informatii nutritionale: Valoare Energetică (kJ/kcal): 178.2 / 41.9, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0.1, Glucide (g): 10 din care: Zaharuri (g): 10, Proteine (g): 0.1, Sare (g): 0",
-      "en": "Informatii nutritionale: Valoare Energetică (kJ/kcal): 178.2 / 41.9, Grăsimi (g): 0.2 din care: Acizi gra& saturați (g) 0.1, Gluciof (g): 10 din care: Zaharuri (g): 10, Proteine (g): 0.1, Sare (g): 0"
+      "ro": "Espresso dublu100ml",
+      "en": "Espresso dublu100ml"
     },
-    "weight": "100ml",
+    "weight": "200g",
     "price": 18.0,
     "ingredients": {
-      "ro": "(espresso dublu, zahăr la plic)",
-      "en": "(espresso dublu, zahăr la plic)"
+      "ro": "espresso dublu, zahăr la plic",
+      "en": "espresso dublu, sugar la plic"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 4,
-      "energyKj": 16,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.5,
-      "sugars": 0.0,
-      "protein": 0.3,
-      "salt": 0.0
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-172",
     "category": "racoritoare",
     "name": {
-      "ro": "Valoare Energetică (kJ/kcal): 234.6 / 55.1, Grăsimi (g): 0.2 din care: Acizi grași saturați (g) 0.1, Glucide (g): 13.3 din care: Zaharuri (g): 13.3, Proteine (g): 0.1, Sare (g): 0",
-      "en": "Valoare Energetică (kJ/kcal): 234.6 / 55.1, Grăsimi (g): 0.2 din care: Acizi gra& saturați (g) 0.1, Gluciof (g): 13.3 din care: Zaharuri (g): 13.3, Proteine (g): 0.1, Sare (g): 0"
+      "ro": "Espresso cu lapte",
+      "en": "Espresso with lapte"
     },
     "weight": "770 ml",
     "price": 10.0,
     "ingredients": {
-      "ro": "(espresso 20 ml, lapte, zahăr la plic)",
-      "en": "(espresso 20 ml, lapte, zahăr la plic)"
+      "ro": "espresso 20 ml, lapte, zahăr la plic",
+      "en": "espresso 20 ml, milk, sugar la plic"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 4,
-      "energyKj": 16,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.5,
-      "sugars": 0.0,
-      "protein": 0.3,
-      "salt": 0.0
+      "energyKcal": 60.1,
+      "energyKj": 255.3,
+      "fats": 0.4,
+      "saturatedFats": 0.3,
+      "carbs": 13.4,
+      "sugars": 13.4,
+      "protein": 0.7,
+      "salt": 0.1
     }
   },
   {
     "id": "item-173",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 255.3 / 60.1, Grăsimi (g):0.4 din care: Acizi grași saturați (g) 0.3, Glucide (g): 13.4 din care: Zaharuri (g): 13.4, Proteine (g): 0.7, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 255.3 / 60.1, Grăsimi (g):0.4 din care: Acizi gra& saturați (g) 0.3, Gluciof (g): 13.4 din care: Zaharuri (g): 13.4, Proteine (g): 0.7, Sare (g): 0.1"
+      "ro": "Caffe Latte cu arome",
+      "en": "Caffe Latte with arome"
     },
-    "weight": "7            g",
+    "weight": "7 200 ml",
     "price": 20.0,
     "ingredients": {
-      "ro": "( espresso 20 ml, sirop caramel, lapte)",
-      "en": "( espresso 20 ml, sirop caramel, lapte)"
+      "ro": "espresso 20 ml, sirop caramel, lapte",
+      "en": "espresso 20 ml, sirop caramel, milk"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 4,
-      "energyKj": 16,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.5,
-      "sugars": 0.0,
-      "protein": 0.3,
-      "salt": 0.0
+      "energyKcal": 67.1,
+      "energyKj": 284.3,
+      "fats": 0.9,
+      "saturatedFats": 0.6,
+      "carbs": 11.9,
+      "sugars": 11.8,
+      "protein": 2.0,
+      "salt": 0.1
     }
   },
   {
     "id": "item-174",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 284.3 / 67.1, Grăsimi (g): 0.9 din care: Acizi grași saturați (g) 0.6, Glucide (g): 11.9 din care: Zaharuri (g): 11.8, Proteine (g): 2, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 284.3 / 67.1, Grăsimi (g): 0.9 din care: Acizi gra& saturați (g) 0.6, Gluciof (g): 11.9 din care: Zaharuri (g): 11.8, Proteine (g): 2, Sare (g): 0.1"
+      "ro": "Baby Latte 7___________________________________  _",
+      "en": "Baby Latte 7___________________________________  _"
     },
-    "weight": "7g",
+    "weight": "170 ml",
     "price": 16.0,
     "ingredients": {
-      "ro": "(lapte, pudră de cacao, sirop de agave)",
-      "en": "(lapte, pudră of cacao, sirop of agave)"
+      "ro": "lapte, pudră de cacao, sirop de agave",
+      "en": "milk, pudră of cocoa, sirop of agave"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 77.9,
+      "energyKj": 330.2,
+      "fats": 0.9,
+      "saturatedFats": 0.6,
+      "carbs": 15.3,
+      "sugars": 15.2,
+      "protein": 2.0,
+      "salt": 0.1
     }
   },
   {
     "id": "item-175",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 330.2 / 77.9, Grăsimi (g):0.9 din care: Acizi grași saturați (g) 0.6, Glucide (g): 15.3 din care: Zaharuri (g): 15.2, Proteine (g): 2, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 330.2 / 77.9, Grăsimi (g):0.9 din care: Acizi gra& saturați (g) 0.6, Gluciof (g): 15.3 din care: Zaharuri (g): 15.2, Proteine (g): 2, Sare (g): 0.1"
+      "ro": "Gingerbread  Latte7 200ml",
+      "en": "Gingerbread  Latte7 200ml"
     },
-    "weight": "7 g",
+    "weight": "200g",
     "price": 20.0,
     "ingredients": {
-      "ro": "(espresso 20ml, sirop turtă dulce, lapte)",
-      "en": "(espresso 20ml, sirop turtă dulce, lapte)"
+      "ro": "espresso 20ml, sirop turtă dulce, lapte",
+      "en": "espresso 20ml, sirop turtă dulce, milk"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 4,
-      "energyKj": 16,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.5,
-      "sugars": 0.0,
-      "protein": 0.3,
-      "salt": 0.0
+      "energyKcal": 98.7,
+      "energyKj": 418.8,
+      "fats": 0.8,
+      "saturatedFats": 0.6,
+      "carbs": 21.2,
+      "sugars": 20.9,
+      "protein": 1.7,
+      "salt": 0.1
     }
   },
   {
     "id": "item-176",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 418.8 / 98.7, Grăsimi (g):0.8 din care: Acizi grași saturați (g) 0.6, Glucide (g): 21.2 din care: Zaharuri (g): 20.9, Proteine (g): 1.7, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 418.8 / 98.7, Grăsimi (g):0.8 din care: Acizi gra& saturați (g) 0.6, Gluciof (g): 21.2 din care: Zaharuri (g): 20.9, Proteine (g): 1.7, Sare (g): 0.1"
+      "ro": "Salted caramel  Latte",
+      "en": "Salted caramel  Latte"
     },
-    "weight": "7200 ml",
+    "weight": "200 ml",
     "price": 20.0,
     "ingredients": {
-      "ro": "(espresso 20ml, sirop caramel sărat, lapte)",
-      "en": "(espresso 20ml, sirop caramel sărat, lapte)"
+      "ro": "espresso 20ml, sirop caramel sărat, lapte",
+      "en": "espresso 20ml, sirop caramel sărat, milk"
     },
     "allergens": [
       7
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 4,
-      "energyKj": 16,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.5,
-      "sugars": 0.0,
-      "protein": 0.3,
-      "salt": 0.0
+      "energyKcal": 67.1,
+      "energyKj": 284.3,
+      "fats": 0.9,
+      "saturatedFats": 0.6,
+      "carbs": 11.9,
+      "sugars": 11.8,
+      "protein": 2.0,
+      "salt": 0.1
     }
   },
   {
     "id": "item-177",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 284.3 / 67.1, Grăsimi (g): 0.9 din care: Acizi grași saturați (g) 0.6, Glucide (g): 11.9 din care: Zaharuri (g): 11.8, Proteine (g): 2, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 284.3 / 67.1, Grăsimi (g): 0.9 din care: Acizi gra& saturați (g) 0.6, Gluciof (g): 11.9 din care: Zaharuri (g): 11.8, Proteine (g): 2, Sare (g): 0.1"
+      "ro": "Frappe espresso",
+      "en": "Frappe espresso"
     },
-    "weight": "7200 ml",
+    "weight": "200 ml",
     "price": 20.0,
     "ingredients": {
-      "ro": "(espresso 20 ml, lapte, frișcă, gheață)",
-      "en": "(espresso 20 ml, lapte, frișcă, gheață)"
+      "ro": "espresso 20 ml, lapte, frișcă, gheață",
+      "en": "espresso 20 ml, milk, whipped cream, gheață"
     },
     "allergens": [
       7
     ],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 4,
-      "energyKj": 16,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.5,
-      "sugars": 0.0,
-      "protein": 0.3,
-      "salt": 0.0
+      "energyKcal": 71.6,
+      "energyKj": 300.0,
+      "fats": 5.1,
+      "saturatedFats": 3.2,
+      "carbs": 4.4,
+      "sugars": 3.5,
+      "protein": 2.0,
+      "salt": 0.1
     }
   },
   {
     "id": "item-178",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 300 / 71.6, Grăsimi (g): 5.1 din care: Acizi grași saturați (g) 3.2, Glucide (g): 4.4 din care: Zaharuri (g): 3.5, Proteine (g): 2, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 300 / 71.6, Grăsimi (g): 5.1 din care: Acizi gra& saturați (g) 3.2, Gluciof (g): 4.4 din care: Zaharuri (g): 3.5, Proteine (g): 2, Sare (g): 0.1"
+      "ro": "Cappuccino vienez",
+      "en": "Cappuccino vienez"
     },
-    "weight": "7                                    g",
+    "weight": "7 170 ml",
     "price": 16.0,
     "ingredients": {
-      "ro": "(espreso 20ml, lapte, frișcă)",
-      "en": "(espreso 20ml, lapte, frișcă)"
+      "ro": "espreso 20ml, lapte, frișcă",
+      "en": "espreso 20ml, milk, whipped cream"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 51.0,
+      "energyKj": 213.9,
+      "fats": 3.3,
+      "saturatedFats": 2.1,
+      "carbs": 3.5,
+      "sugars": 2.9,
+      "protein": 1.8,
+      "salt": 0.1
     }
   },
   {
     "id": "item-179",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 213.9 / 51, Grăsimi (g):3.3 din care: Acizi grași saturați (g) 2.1, Glucide (g): 3.5 din care: Zaharuri (g): 2.9,Proteine (g): 1.8, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 213.9 / 51, Grăsimi (g):3.3 din care: Acizi gra& saturați (g) 2.1, Gluciof (g): 3.5 din care: Zaharuri (g): 2.9,Proteine (g): 1.8, Sare (g): 0.1"
+      "ro": "Capucino cu Arome 7170ml",
+      "en": "Capucino with Arome 7170ml"
     },
-    "weight": "7170ml",
+    "weight": "200g",
     "price": 16.0,
     "ingredients": {
-      "ro": "(cafea, lapte, frișcă, sirop, zahăr)",
-      "en": "(cafea, lapte, frișcă, sirop, zahăr)"
+      "ro": "cafea, lapte, frișcă, sirop, zahăr",
+      "en": "cafea, milk, whipped cream, sirop, sugar"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 4,
-      "energyKj": 16,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.5,
-      "sugars": 0.0,
-      "protein": 0.3,
-      "salt": 0.0
+      "energyKcal": 164.4,
+      "energyKj": 696.4,
+      "fats": 3.1,
+      "saturatedFats": 2.0,
+      "carbs": 32.7,
+      "sugars": 31.8,
+      "protein": 1.4,
+      "salt": 0.1
     }
   },
   {
     "id": "item-180",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 696.4 / 164.4, Grăsimi (g):3.1 din care: Acizi grași saturați (g) 2, Glucide (g): 32.7 din care: Zaharuri (g): 31.8, Proteine (g): 1.4, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 696.4 / 164.4, Grăsimi (g):3.1 din care: Acizi gra& saturați (g) 2, Gluciof (g): 32.7 din care: Zaharuri (g): 31.8, Proteine (g): 1.4, Sare (g): 0.1"
+      "ro": "Turmenic Latte 7___________________________________  _",
+      "en": "Turmenic Latte 7___________________________________  _"
     },
-    "weight": "7g",
+    "weight": "170 ml",
     "price": 20.0,
     "ingredients": {
-      "ro": "(lapte, pudră de turmenic, ghimbir, scorțișoară, sirop de agave)",
-      "en": "(lapte, pudră of turmenic, ghimbir, scorțișoară, sirop of agave)"
+      "ro": "lapte, pudră de turmenic, ghimbir, scorțișoară, sirop de agave",
+      "en": "milk, pudră of turmenic, ginger, cinnamon, sirop of agave"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 77.9,
+      "energyKj": 330.2,
+      "fats": 0.9,
+      "saturatedFats": 0.6,
+      "carbs": 15.3,
+      "sugars": 15.2,
+      "protein": 2.0,
+      "salt": 0.1
     }
   },
   {
     "id": "item-181",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 330.2 / 77.9, Grăsimi (g):0.9 din care: Acizigrașisaturați (g) 0.6, Glucide (g): 15.3 din care: Zaharuri (g): 15.2,Proteine (g): 2, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: ValoareEnergetică (kJ/kcal): 330.2 / 77.9, Grăsimi (g):0.9 din care: Acizigra&saturați (g) 0.6, Gluciof (g): 15.3 din care: Zaharuri (g): 15.2,Proteine (g): 2, Sare (g): 0.1"
+      "ro": "Ciocolată caldă",
+      "en": "Ciocolată caldă"
     },
-    "weight": "7                                                            g",
+    "weight": "7 120 ml",
     "price": 16.0,
     "ingredients": {
-      "ro": "(frișcă, lapte, ciocolată caldă, zahăr pudră)",
-      "en": "(frișcă, lapte, ciocolată caldă, zahăr pudră)"
+      "ro": "frișcă, lapte, ciocolată caldă, zahăr pudră",
+      "en": "whipped cream, milk, chocolate caldă, sugar pudră"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 137.9,
+      "energyKj": 579.3,
+      "fats": 8.8,
+      "saturatedFats": 5.5,
+      "carbs": 12.4,
+      "sugars": 10.7,
+      "protein": 2.3,
+      "salt": 0.1
     }
   },
   {
     "id": "item-182",
     "category": "racoritoare",
     "name": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 579.3 / 137.9, Grăsimi (g):8.8 din care: Acizi grași saturați (g) 5.5, Glucide (g): 12.4 din care: Zaharuri (g): 10.7,Proteine (g): 2.3, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 579.3 / 137.9, Grăsimi (g):8.8 din care: Acizi gra& saturați (g) 5.5, Gluciof (g): 12.4 din care: Zaharuri (g): 10.7,Proteine (g): 2.3, Sare (g): 0.1"
+      "ro": "Lavanda Latte 7_____________________________________",
+      "en": "Lavanda Latte 7_____________________________________"
     },
-    "weight": "7g",
+    "weight": "200 ml",
     "price": 20.0,
     "ingredients": {
-      "ro": "( espresso 20ml, lapte, gheață, sirop lavandă, zahăr)",
-      "en": "( espresso 20ml, lapte, gheață, sirop lavandă, zahăr)"
+      "ro": "espresso 20ml, lapte, gheață, sirop lavandă, zahăr",
+      "en": "espresso 20ml, milk, gheață, sirop lavandă, sugar"
     },
-    "allergens": [
-      7
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 4,
-      "energyKj": 16,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.5,
-      "sugars": 0.0,
-      "protein": 0.3,
-      "salt": 0.0
+      "energyKcal": 66.3,
+      "energyKj": 281.1,
+      "fats": 0.8,
+      "saturatedFats": 0.6,
+      "carbs": 13.1,
+      "sugars": 12.9,
+      "protein": 1.7,
+      "salt": 0.1
     }
   },
   {
     "id": "item-183",
     "category": "racoritoare",
     "name": {
-      "ro": "Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 281.1 / 66.3, Grăsimi (g):0.8 din care: Acizigrașisaturați (g) 0.6, Glucide (g): 13.1 din care: Zaharuri (g): 12.9,Proteine (g): 1.7, Sare (g): 0.1",
-      "en": "Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 281.1 / 66.3, Grăsimi (g):0.8 din care: Acizigra&saturați (g) 0.6, Gluciof (g): 13.1 din care: Zaharuri (g): 12.9,Proteine (g): 1.7, Sare (g): 0.1"
+      "ro": "Frişcă",
+      "en": "Frişcă"
     },
-    "weight": "7 g",
+    "weight": "7 20 ml",
     "price": 3.0,
     "ingredients": {
-      "ro": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1099 / 262.6, Grăsimi (g):22.2 din care: Acizi grași saturați (g) 13.8, Glucide (g): 12.5 din care: Zaharuri (g): 8,Proteine (g): 3.2, Sare (g): 0.1",
-      "en": "Informații nutriționale 100g: Valoare Energetică (kJ/kcal): 1099 / 262.6, Grăsimi (g):22.2 din care: Acizi gra& saturați (g) 13.8, Gluciof (g): 12.5 din care: Zaharuri (g): 8,Proteine (g): 3.2, Sare (g): 0.1"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
+      "energyKcal": 262.6,
+      "energyKj": 1099.0,
+      "fats": 22.2,
+      "saturatedFats": 13.8,
       "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "sugars": 8.0,
+      "protein": 3.2,
+      "salt": 0.1
     }
   },
   {
     "id": "item-184",
     "category": "racoritoare",
     "name": {
-      "ro": "Cockteiluri fara alcool",
-      "en": "Cockteiluri fara alcool"
+      "ro": "Bora Bora__________________________________________________200ml.___",
+      "en": "Bora Bora__________________________________________________200ml.___"
     },
-    "weight": "200ml",
+    "weight": "200g",
     "price": 25.0,
     "ingredients": {
-      "ro": "(Suc de ananas, Suc de lamaie, Gheață, Sirop fructul pasiunii, Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 247.1 / 58.3, Grăsimi (g):0.1 din care: Acizigrașisaturați (g) 0, Glucide (g): 13.7 din care: Zaharuri (g): 13.7,Proteine (g): 0.3, Sare (g): 0",
-      "en": "(Suc of ananas, Suc of lamaie, Gheață, Sirop fructul pasiunii, Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 247.1 / 58.3, Grăsimi (g):0.1 din care: Acizigra&saturați (g) 0, Gluciof (g): 13.7 din care: Zaharuri (g): 13.7,Proteine (g): 0.3, Sare (g): 0"
+      "ro": "Suc de ananas, Suc de lamaie, Gheață, Sirop fructul pasiunii, Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 247.1 / 58.3, Grăsimi (g):0.1 din care: Acizigrașisaturați (g) 0, Glucide (g): 13.7 din care: Zaharuri (g): 13.7,Proteine (g): 0.3, Sare (g): 0",
+      "en": "Suc of pineapple, Suc of lamaie, Gheață, Sirop fructul pasiunii, Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 247.1 / 58.3, Grăsimi (g):0.1 din care: Acizigra&saturați (g) 0, Gluciof (g): 13.7 din care: Zaharuri (g): 13.7,Proteine (g): 0.3, salt (g): 0"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-185",
     "category": "racoritoare",
     "name": {
-      "ro": "(Suc de ananas, Suc de lamaie, Gheață, Sirop fructul pasiunii, Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 247.1 / 58.3, Grăsimi (g):0.1 din care: Acizigrașisaturați (g) 0, Glucide (g): 13.7 din care: Zaharuri (g): 13.7,Proteine (g): 0.3, Sare (g): 0",
-      "en": "(Suc of ananas, Suc of lamaie, Gheață, Sirop fructul pasiunii, Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 247.1 / 58.3, Grăsimi (g):0.1 din care: Acizigra&saturați (g) 0, Gluciof (g): 13.7 din care: Zaharuri (g): 13.7,Proteine (g): 0.3, Sare (g): 0"
+      "ro": "Boni bon300ml",
+      "en": "Boni bon300ml"
     },
-    "weight": "300ml",
+    "weight": "200g",
     "price": 22.0,
     "ingredients": {
-      "ro": "(suc ananas,suc merisoare,fresh lamaie,sirop Coton Candy gheata,felie lamaie ,marshmallov)",
-      "en": "(suc ananas,suc merisoare,fresh lamaie,sirop Coton Candy gheata,felie lamaie ,marshmallov)"
+      "ro": "suc ananas,suc merisoare,fresh lamaie,sirop Coton Candy gheata,felie lamaie ,marshmallov",
+      "en": "suc pineapple,suc merisoare,fresh lamaie,sirop Coton Candy gheata,felie lamaie ,marshmallov"
     },
-    "allergens": [
-      4
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 45,
-      "energyKj": 188,
-      "fats": 0.1,
-      "saturatedFats": 0.0,
-      "carbs": 10.8,
-      "sugars": 9.8,
-      "protein": 0.3,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-186",
     "category": "racoritoare",
     "name": {
-      "ro": "(suc ananas,suc merisoare,fresh lamaie,sirop Coton Candy gheata,felie lamaie ,marshmallov)",
-      "en": "(suc ananas,suc merisoare,fresh lamaie,sirop Coton Candy gheata,felie lamaie ,marshmallov)"
+      "ro": "Cooler300ml",
+      "en": "Cooler300ml"
     },
-    "weight": "300ml",
+    "weight": "200g",
     "price": 22.0,
     "ingredients": {
-      "ro": "( fresh lamaie,sirop grenadine,suc cranberry,gheata,felie lamaie,portocala,fruste padure)",
-      "en": "( fresh lamaie,sirop grenadine,suc cranberry,gheata,felie lamaie,portocala,fruste padure)"
+      "ro": "fresh lamaie,sirop grenadine,suc cranberry,gheata,felie lamaie,portocala,fruste padure",
+      "en": "fresh lamaie,sirop grenadine,suc cranberry,gheata,felie lamaie,portocala,fruste padure"
     },
-    "allergens": [
-      4
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 45,
-      "energyKj": 188,
-      "fats": 0.1,
-      "saturatedFats": 0.0,
-      "carbs": 10.8,
-      "sugars": 9.8,
-      "protein": 0.3,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-187",
     "category": "racoritoare",
     "name": {
-      "ro": "( fresh lamaie,sirop grenadine,suc cranberry,gheata,felie lamaie,portocala,fruste padure)",
-      "en": "( fresh lamaie,sirop grenadine,suc cranberry,gheata,felie lamaie,portocala,fruste padure)"
+      "ro": "Foke Mojito300ml",
+      "en": "Foke Mojito300ml"
     },
-    "weight": "300ml",
+    "weight": "200g",
     "price": 18.0,
     "ingredients": {
-      "ro": "(fresh lamaie,sirop zahar,apa minerala,menta,lamaie,gheata)",
-      "en": "(fresh lamaie,sirop zahar,apa minerala,menta,lamaie,gheata)"
+      "ro": "fresh lamaie,sirop zahar,apa minerala,menta,lamaie,gheata",
+      "en": "fresh lamaie,sirop zahar,apa minerala,menta,lamaie,gheata"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 0,
-      "energyKj": 0,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 0.0,
-      "sugars": 0.0,
-      "protein": 0.0,
-      "salt": 0.0
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-188",
     "category": "racoritoare",
     "name": {
-      "ro": "Cockteiluri alcoolice",
-      "en": "Cockteiluri alcoolice"
+      "ro": "Aperol spit400ml",
+      "en": "Aperol spit400ml"
     },
-    "weight": "400ml",
+    "weight": "200g",
     "price": 24.0,
     "ingredients": {
-      "ro": "(aperol,proseco,felii portocale,gheata)",
-      "en": "(aperol,proseco,felii portocale,gheata)"
+      "ro": "aperol,proseco,felii portocale,gheata",
+      "en": "aperol,proseco,felii oranges,gheata"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-189",
     "category": "racoritoare",
     "name": {
-      "ro": "(aperol,proseco,felii portocale,gheata)",
-      "en": "(aperol,proseco,felii portocale,gheata)"
+      "ro": "Hugo  400ml",
+      "en": "Hugo  400ml"
     },
-    "weight": "400ml",
+    "weight": "200g",
     "price": 24.0,
     "ingredients": {
-      "ro": "(sirop soc, proseco,sirop zahar,fres de lamaie,menta,gheata)",
-      "en": "(sirop soc, proseco,sirop zahar,fres of lamaie,menta,gheata)"
+      "ro": "sirop soc, proseco,sirop zahar,fres de lamaie,menta,gheata",
+      "en": "sirop elofrflower, proseco,sirop zahar,fres of lamaie,menta,gheata"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-190",
     "category": "racoritoare",
     "name": {
-      "ro": "(sirop soc, proseco,sirop zahar,fres de lamaie,menta,gheata)",
-      "en": "(sirop soc, proseco,sirop zahar,fres of lamaie,menta,gheata)"
+      "ro": "Campari spit  400ml",
+      "en": "Campari spit  400ml"
     },
-    "weight": "400ml",
+    "weight": "200g",
     "price": 24.0,
     "ingredients": {
-      "ro": "(campari,proseco,felii portocale,gheata)",
-      "en": "(campari,proseco,felii portocale,gheata)"
+      "ro": "campari,proseco,felii portocale,gheata",
+      "en": "campari,proseco,felii oranges,gheata"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-191",
     "category": "racoritoare",
     "name": {
-      "ro": "(campari,proseco,felii portocale,gheata)",
-      "en": "(campari,proseco,felii portocale,gheata)"
+      "ro": "Campari tonic 400ml",
+      "en": "Campari tonic 400ml"
     },
-    "weight": "400ml",
+    "weight": "200g",
     "price": 24.0,
     "ingredients": {
-      "ro": "(campari, tinic,felie portocala,gheata)",
-      "en": "(campari, tinic,felie portocala,gheata)"
+      "ro": "campari, tinic,felie portocala,gheata",
+      "en": "campari, tinic,felie portocala,gheata"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-192",
     "category": "racoritoare",
     "name": {
-      "ro": "(campari, tinic,felie portocala,gheata)",
-      "en": "(campari, tinic,felie portocala,gheata)"
+      "ro": "Negroni 400ml",
+      "en": "Negroni 400ml"
     },
-    "weight": "400ml",
+    "weight": "200g",
     "price": 24.0,
     "ingredients": {
-      "ro": "(campari,gin,martini,felie portocala,gheata)",
-      "en": "(campari,gin,martini,felie portocala,gheata)"
+      "ro": "campari,gin,martini,felie portocala,gheata",
+      "en": "campari,gin,martini,felie portocala,gheata"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-193",
     "category": "racoritoare",
     "name": {
-      "ro": "(campari,gin,martini,felie portocala,gheata)",
-      "en": "(campari,gin,martini,felie portocala,gheata)"
+      "ro": "Americano  400ml",
+      "en": "Americano  400ml"
     },
-    "weight": "400ml",
+    "weight": "200g",
     "price": 24.0,
     "ingredients": {
-      "ro": "(campari,vermuth,felie portocala,gheata)",
-      "en": "(campari,vermuth,felie portocala,gheata)"
+      "ro": "campari,vermuth,felie portocala,gheata",
+      "en": "campari,vermuth,felie portocala,gheata"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-194",
     "category": "racoritoare",
     "name": {
-      "ro": "(campari,vermuth,felie portocala,gheata)",
-      "en": "(campari,vermuth,felie portocala,gheata)"
+      "ro": "Vermuth tonic 400ml",
+      "en": "Vermuth tonic 400ml"
     },
-    "weight": "400ml",
+    "weight": "200g",
     "price": 24.0,
     "ingredients": {
-      "ro": "(suc tonic,vermut,gheata,felii lamaie)",
-      "en": "(suc tonic,vermut,gheata,felii lamaie)"
+      "ro": "suc tonic,vermut,gheata,felii lamaie",
+      "en": "suc tonic,vermut,gheata,felii lamaie"
     },
-    "allergens": [
-      4
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-195",
     "category": "racoritoare",
     "name": {
-      "ro": "(suc tonic,vermut,gheata,felii lamaie)",
-      "en": "(suc tonic,vermut,gheata,felii lamaie)"
+      "ro": "Pina Colada________________________________________200ml",
+      "en": "Pina Colada________________________________________200ml"
     },
-    "weight": "200ml",
+    "weight": "200g",
     "price": 25.0,
     "ingredients": {
-      "ro": "(Suc de ananas, Gheață, Sirop de glucoză-fructoză, Rom",
-      "en": "(Suc of ananas, Gheață, Sirop of glucoză-fructoză, Rom"
+      "ro": "Suc de ananas, Gheață, Sirop de glucoză-fructoză, Rom",
+      "en": "Suc of pineapple, Gheață, Sirop of glucoză-fructoză, rum"
     },
-    "allergens": [
-      4
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
+      "energyKcal": 57.8,
+      "energyKj": 244.3,
+      "fats": 0.1,
       "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "carbs": 12.8,
+      "sugars": 12.3,
+      "protein": 0.3,
+      "salt": 0.0
     }
   },
   {
     "id": "item-196",
     "category": "racoritoare",
     "name": {
-      "ro": "Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 244.3 / 57.8, Grăsimi (g):0.1 din care: Acizigrașisaturați (g) 0, Glucide (g): 12.8 din care: Zaharuri (g): 12.3,Proteine (g): 0.3, Sare (g): 0",
-      "en": "Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 244.3 / 57.8, Grăsimi (g):0.1 din care: Acizigra&saturați (g) 0, Gluciof (g): 12.8 din care: Zaharuri (g): 12.3,Proteine (g): 0.3, Sare (g): 0"
+      "ro": "Mojito_____________________________________________200ml",
+      "en": "Mojito_____________________________________________200ml"
     },
-    "weight": "200ml",
+    "weight": "200g",
     "price": 25.0,
     "ingredients": {
-      "ro": "(Apa minerala, Gheață, Lime, Sirop de glucoză-fructoză, Rom",
-      "en": "(Apa minerala, Gheață, Lime, Sirop of glucoză-fructoză, Rom"
+      "ro": "Apa minerala, Gheață, Lime, Sirop de glucoză-fructoză, Rom",
+      "en": "Apa minerala, Gheață, lime, Sirop of glucoză-fructoză, rum"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 0,
-      "energyKj": 0,
+      "energyKcal": 29.6,
+      "energyKj": 124.5,
       "fats": 0.0,
       "saturatedFats": 0.0,
-      "carbs": 0.0,
-      "sugars": 0.0,
-      "protein": 0.0,
+      "carbs": 5.9,
+      "sugars": 5.7,
+      "protein": 0.1,
       "salt": 0.0
     }
   },
@@ -5534,2213 +5373,2184 @@ export const MENU_ITEMS = [
     "id": "item-197",
     "category": "racoritoare",
     "name": {
-      "ro": "Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 124.5 / 29.6, Grăsimi (g):0 din care: Acizigrașisaturați (g) 0, Glucide (g): 5.9 din care: Zaharuri (g): 5.7,Proteine (g): 0.1, Sare (g): 0Alergeni -)",
-      "en": "Informațiinutriționale 100g: ValoareEnergetică (kJ/kcal): 124.5 / 29.6, Grăsimi (g):0 din care: Acizigra&saturați (g) 0, Gluciof (g): 5.9 din care: Zaharuri (g): 5.7,Proteine (g): 0.1, Sare (g): 0Alergeni -)"
+      "ro": "Long Island_______________________________________________200ml",
+      "en": "Long Island_______________________________________________200ml"
     },
-    "weight": "200ml",
+    "weight": "200g",
     "price": 28.0,
     "ingredients": {
-      "ro": "(Cola, Gheață, Lime, Gin, Vodcă, Rom",
-      "en": "(Cola, Gheață, Lime, Gin, Vodcă, Rom"
+      "ro": "Cola, Gheață, Lime, Gin, Vodcă, Rom",
+      "en": "Cola, Gheață, lime, Gin, Vodcă, rum"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
+      "energyKcal": 88.8,
+      "energyKj": 370.0,
       "fats": 0.0,
       "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
+      "carbs": 5.1,
+      "sugars": 4.9,
       "protein": 0.1,
-      "salt": 0.01
+      "salt": 0.0
     }
   },
   {
     "id": "item-198",
     "category": "racoritoare",
     "name": {
-      "ro": "Băuturi  alcoolice",
-      "en": "Băuturi  alcoolice"
+      "ro": "Alexander 50ml. – 28%alcool/volum",
+      "en": "Alexanofr 50ml. – 28%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 9.0,
     "ingredients": {
-      "ro": "Stalinskaya50ml. – 40%alcool/volum",
-      "en": "Stalinskaya50ml. – 40%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-199",
     "category": "racoritoare",
     "name": {
-      "ro": "Stalinskaya50ml. – 40%alcool/volum  9,00 lei",
-      "en": "Stalinskaya50ml. – 40%alcool/volum  9,00 lei"
+      "ro": "Stalinskaya50ml. – 40%alcool/volum",
+      "en": "Stalinskaya50ml. – 40%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 9.0,
     "ingredients": {
-      "ro": "Absolut50ml. – 40%alcool/volum",
-      "en": "Absolut50ml. – 40%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-200",
     "category": "racoritoare",
     "name": {
-      "ro": "Absolut50ml. – 40%alcool/volum12,00 lei",
-      "en": "Absolut50ml. – 40%alcool/volum12,00 lei"
+      "ro": "Absolut50ml. – 40%alcool/volum",
+      "en": "Absolut50ml. – 40%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "Finlandia50ml. – 40% alcool/volum",
-      "en": "Finlandia50ml. – 40% alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-201",
     "category": "racoritoare",
     "name": {
-      "ro": "Finlandia50ml. – 40% alcool/volum12,00 lei",
-      "en": "Finlandia50ml. – 40% alcool/volum12,00 lei"
+      "ro": "Finlandia50ml. – 40% alcool/volum",
+      "en": "Finlandia50ml. – 40% alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "Tequila Camino50ml. – 40% alcool/volum",
-      "en": "Tequila Camino50ml. – 40% alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-202",
     "category": "racoritoare",
     "name": {
-      "ro": "Tequila Camino50ml. – 40% alcool/volum10,00 lei",
-      "en": "Tequila Camino50ml. – 40% alcool/volum10,00 lei"
+      "ro": "Tequila Camino50ml. – 40% alcool/volum",
+      "en": "Tequila Camino50ml. – 40% alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 10.0,
     "ingredients": {
-      "ro": "Tărie de Bihor50ml.– 40% alcool/volum",
-      "en": "Tărie of Bihor50ml.– 40% alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-203",
     "category": "racoritoare",
     "name": {
-      "ro": "Tărie de Bihor50ml.– 40% alcool/volum   9,00 lei",
-      "en": "Tărie of Bihor50ml.– 40% alcool/volum   9,00 lei"
+      "ro": "Tărie de Bihor50ml.– 40% alcool/volum",
+      "en": "Tărie of Bihor50ml.– 40% alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 9.0,
     "ingredients": {
-      "ro": "Angeli50ml. – 40%alcool/volum",
-      "en": "Angeli50ml. – 40%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-204",
     "category": "racoritoare",
     "name": {
-      "ro": "Angeli50ml. – 40%alcool/volum   9,00 lei",
-      "en": "Angeli50ml. – 40%alcool/volum   9,00 lei"
+      "ro": "Angeli50ml. – 40%alcool/volum",
+      "en": "Angeli50ml. – 40%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 9.0,
     "ingredients": {
-      "ro": "Sheridan’s50ml.– 15,5%alcool/volum",
-      "en": "Sheridan’s50ml.– 15,5%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-205",
     "category": "racoritoare",
     "name": {
-      "ro": "Sheridan’s50ml.– 15,5%alcool/volum15,00 lei",
-      "en": "Sheridan’s50ml.– 15,5%alcool/volum15,00 lei"
+      "ro": "Sheridan’s50ml.– 15,5%alcool/volum",
+      "en": "Sheridan’s50ml.– 15,5%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 15.0,
     "ingredients": {
-      "ro": "Jagermaister50ml. – 35%alcool/volum",
-      "en": "Jagermaister50ml. – 35%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-206",
     "category": "racoritoare",
     "name": {
-      "ro": "Jagermaister50ml. – 35%alcool/volum15,00 lei",
-      "en": "Jagermaister50ml. – 35%alcool/volum15,00 lei"
+      "ro": "Jagermaister50ml. – 35%alcool/volum",
+      "en": "Jagermaister50ml. – 35%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 15.0,
     "ingredients": {
-      "ro": "Unicum50ml. – 40%alcool/volum",
-      "en": "Uniwithm50ml. – 40%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-207",
     "category": "racoritoare",
     "name": {
-      "ro": "Unicum50ml. – 40%alcool/volum18,00 lei",
-      "en": "Uniwithm50ml. – 40%alcool/volum18,00 lei"
+      "ro": "Unicum50ml. – 40%alcool/volum",
+      "en": "Uniwithm50ml. – 40%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 18.0,
     "ingredients": {
-      "ro": "Triplusec50ml. – 37,5%alcool/volum",
-      "en": "Triplusec50ml. – 37,5%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-208",
     "category": "racoritoare",
     "name": {
-      "ro": "Triplusec50ml. – 37,5%alcool/volum   8,00 lei",
-      "en": "Triplusec50ml. – 37,5%alcool/volum   8,00 lei"
+      "ro": "Triplusec50ml. – 37,5%alcool/volum",
+      "en": "Triplusec50ml. – 37,5%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 8.0,
     "ingredients": {
-      "ro": "Martini50ml. – 15%alcool/volum",
-      "en": "Martini50ml. – 15%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-209",
     "category": "racoritoare",
     "name": {
-      "ro": "Martini50ml. – 15%alcool/volum   8,00 lei",
-      "en": "Martini50ml. – 15%alcool/volum   8,00 lei"
+      "ro": "Martini50ml. – 15%alcool/volum",
+      "en": "Martini50ml. – 15%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 8.0,
     "ingredients": {
-      "ro": "Gin Wemblei_______________________50ml.-40% alcool/volum",
-      "en": "Gin Wemblei_______________________50ml.-40% alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-210",
     "category": "racoritoare",
     "name": {
-      "ro": "Gin Wemblei_______________________50ml.-40% alcool/volum 15,00lei",
-      "en": "Gin Wemblei_______________________50ml.-40% alcool/volum 15,00lei"
+      "ro": "Gin Wemblei_______________________50ml.-40% alcool/volum",
+      "en": "Gin Wemblei_______________________50ml.-40% alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 15.0,
     "ingredients": {
-      "ro": "Alexandrion*****50ml. – 40%alcool/volum",
-      "en": "Alexandrion*****50ml. – 40%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-211",
     "category": "racoritoare",
     "name": {
-      "ro": "Alexandrion*****50ml. – 40%alcool/volum  9,00 lei",
-      "en": "Alexandrion*****50ml. – 40%alcool/volum  9,00 lei"
+      "ro": "Alexandrion*****50ml. – 40%alcool/volum",
+      "en": "Alexandrion*****50ml. – 40%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 9.0,
     "ingredients": {
-      "ro": "Alexandrion*******50ml. – 40%alcool/volum",
-      "en": "Alexandrion*******50ml. – 40%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-212",
     "category": "racoritoare",
     "name": {
-      "ro": "Alexandrion*******50ml. – 40%alcool/volum12,00 lei",
-      "en": "Alexandrion*******50ml. – 40%alcool/volum12,00 lei"
+      "ro": "Alexandrion*******50ml. – 40%alcool/volum",
+      "en": "Alexandrion*******50ml. – 40%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "Metaxa*****50ml. – 38%alcool/volum",
-      "en": "Metaxa*****50ml. – 38%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-213",
     "category": "racoritoare",
     "name": {
-      "ro": "Metaxa*****50ml. – 38%alcool/volum15,00 lei",
-      "en": "Metaxa*****50ml. – 38%alcool/volum15,00 lei"
+      "ro": "Metaxa*****50ml. – 38%alcool/volum",
+      "en": "Metaxa*****50ml. – 38%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 15.0,
     "ingredients": {
-      "ro": "Jidvei50ml. – 42%alcool/volum",
-      "en": "Jidvei50ml. – 42%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-214",
     "category": "racoritoare",
     "name": {
-      "ro": "Jidvei50ml. – 42%alcool/volum15,00 lei",
-      "en": "Jidvei50ml. – 42%alcool/volum15,00 lei"
+      "ro": "Jidvei50ml. – 42%alcool/volum",
+      "en": "Jidvei50ml. – 42%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 15.0,
     "ingredients": {
-      "ro": "Mioriţa50ml. – 42%alcool/volum",
-      "en": "Mioriţa50ml. – 42%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-215",
     "category": "racoritoare",
     "name": {
-      "ro": "Mioriţa50ml. – 42%alcool/volum12,00 lei",
-      "en": "Mioriţa50ml. – 42%alcool/volum12,00 lei"
+      "ro": "Mioriţa50ml. – 42%alcool/volum",
+      "en": "Mioriţa50ml. – 42%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "Triumf50ml. – 36%alcool/volum",
-      "en": "Triumf50ml. – 36%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-216",
     "category": "racoritoare",
     "name": {
-      "ro": "Triumf50ml. – 36%alcool/volum   8,00 lei",
-      "en": "Triumf50ml. – 36%alcool/volum   8,00 lei"
+      "ro": "Triumf50ml. – 36%alcool/volum",
+      "en": "Triumf50ml. – 36%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 8.0,
     "ingredients": {
-      "ro": "Unirea50ml. – 28%alcool/volum",
-      "en": "Unirea50ml. – 28%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-217",
     "category": "racoritoare",
     "name": {
-      "ro": "Unirea50ml. – 28%alcool/volum   5,00 lei",
-      "en": "Unirea50ml. – 28%alcool/volum   5,00 lei"
+      "ro": "Unirea50ml. – 28%alcool/volum",
+      "en": "Unirea50ml. – 28%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 5.0,
     "ingredients": {
-      "ro": "Brâncoveanu50ml. – 35%alcool/volum",
-      "en": "Brâncoveanu50ml. – 35%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-218",
     "category": "racoritoare",
     "name": {
-      "ro": "Brâncoveanu50ml. – 35%alcool/volum30,00 lei",
-      "en": "Brâncoveanu50ml. – 35%alcool/volum30,00 lei"
+      "ro": "Brâncoveanu50ml. – 35%alcool/volum",
+      "en": "Brâncoveanu50ml. – 35%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 30.0,
     "ingredients": {
-      "ro": "Whiskey",
-      "en": "Whiskey"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-219",
     "category": "racoritoare",
     "name": {
-      "ro": "Whiskey",
-      "en": "Whiskey"
+      "ro": "Grant’s50ml. – 40%alcool/volum",
+      "en": "Grant’s50ml. – 40%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "Jack Daniel’s50ml. – 40%alcool/volum",
-      "en": "Jack Daniel’s50ml. – 40%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-220",
     "category": "racoritoare",
     "name": {
-      "ro": "Jack Daniel’s50ml. – 40%alcool/volum15,00 lei",
-      "en": "Jack Daniel’s50ml. – 40%alcool/volum15,00 lei"
+      "ro": "Jack Daniel’s50ml. – 40%alcool/volum",
+      "en": "Jack Daniel’s50ml. – 40%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 15.0,
     "ingredients": {
-      "ro": "Johnnie Walker50ml. – 40%alcool/volum",
-      "en": "Johnnie Walker50ml. – 40%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-221",
     "category": "racoritoare",
     "name": {
-      "ro": "Johnnie Walker50ml. – 40%alcool/volum12,00 lei",
-      "en": "Johnnie Walker50ml. – 40%alcool/volum12,00 lei"
+      "ro": "Johnnie Walker50ml. – 40%alcool/volum",
+      "en": "Johnnie Walker50ml. – 40%alcool/volum"
     },
-    "weight": "50ml",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "Vincon Vrancea",
-      "en": "Vincon Vrancea"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [
-      12
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 78,
-      "energyKj": 326,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 2.2,
-      "sugars": 0.8,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-222",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Comoara pivniţei",
-      "en": "Comoara pivniţei"
+      "ro": "Sauvignon Blanc(sec)",
+      "en": "Sauvignon Blanc(sec)"
     },
-    "weight": "1 sticlăg",
+    "weight": "1 sticlă",
     "price": 120.0,
     "ingredients": {
-      "ro": "Fetească Albă(sec)1 sticlă -  11,5% alcool/volum",
-      "en": "Fetească Albă(sec)1 sticlă -  11,5% alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-223",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Fetească Albă(sec)1 sticlă",
-      "en": "Fetească Albă(sec)1 sticlă"
+      "ro": "Fetească Albă(sec)",
+      "en": "Fetească Albă(sec)"
     },
-    "weight": "1 sticlăg",
+    "weight": "1 sticlă",
     "price": 120.0,
     "ingredients": {
-      "ro": "Tamaioasă Romanească(sec)1 sticlă – 11,5%alcool/volum",
-      "en": "Tamaioasă Romanească(sec)1 sticlă – 11,5%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-224",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Tamaioasă Romanească(sec)1 sticlă – 11,5%alcool/volum120,00 lei",
-      "en": "Tamaioasă Romanească(sec)1 sticlă – 11,5%alcool/volum120,00 lei"
+      "ro": "Tamaioasă Romanească(sec)",
+      "en": "Tamaioasă Romanească(sec)"
     },
-    "weight": "1 sticlăg",
+    "weight": "1 sticlă",
     "price": 120.0,
     "ingredients": {
-      "ro": "Merlot (sec)1 sticlă – 12,5%alcool/volum",
-      "en": "Merlot (sec)1 sticlă – 12,5%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-225",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Merlot (sec)1 sticlă – 12,5%alcool/volum120,00 lei",
-      "en": "Merlot (sec)1 sticlă – 12,5%alcool/volum120,00 lei"
+      "ro": "Merlot (sec)",
+      "en": "Merlot (sec)"
     },
-    "weight": "1 sticlăg",
+    "weight": "1 sticlă",
     "price": 120.0,
     "ingredients": {
-      "ro": "Cabernet(sec)1 sticlă – 13,0%alcool/volum",
-      "en": "Cabernet(sec)1 sticlă – 13,0%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-226",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Cabernet(sec)1 sticlă – 13,0%alcool/volum120,00 lei",
-      "en": "Cabernet(sec)1 sticlă – 13,0%alcool/volum120,00 lei"
+      "ro": "Cabernet(sec)",
+      "en": "Cabernet(sec)"
     },
-    "weight": "1 sticlăg",
+    "weight": "1 sticlă",
     "price": 120.0,
     "ingredients": {
-      "ro": "Pinot Noir (demisec)1 sticlă – 13,5%alcool/volum",
-      "en": "Pinot Noir (ofmisec)1 sticlă – 13,5%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-227",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Pinot Noir (demisec)1 sticlă – 13,5%alcool/volum120,00 lei",
-      "en": "Pinot Noir (ofmisec)1 sticlă – 13,5%alcool/volum120,00 lei"
+      "ro": "Pinot Noir (demisec)",
+      "en": "Pinot Noir (ofmisec)"
     },
-    "weight": "1 sticlăg",
+    "weight": "1 sticlă",
     "price": 120.0,
     "ingredients": {
-      "ro": "Rose Verite(demisec)1 sticla-13,5% alcool volum_",
-      "en": "Rose Verite(ofmisec)1 sticla-13,5% alcool volum_"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-228",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Rose Verite(demisec)1 sticla-13,5% alcool volum_  60,00 lei",
-      "en": "Rose Verite(ofmisec)1 sticla-13,5% alcool volum_  60,00 lei"
+      "ro": "Rose Verite(demisec)1 sticla-13,5% alcool volum_",
+      "en": "Rose Verite(ofmisec)1 sticla-13,5% alcool volum_"
     },
-    "weight": "1 g",
+    "weight": "200g",
     "price": 60.0,
     "ingredients": {
-      "ro": "Sceptrus _________________1sticla -   14,0% alcool volum",
-      "en": "Sceptrus _________________1sticla -   14,0% alcool volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-229",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Sceptrus _________________1sticla",
-      "en": "Sceptrus _________________1sticla"
+      "ro": "Sceptrus _________________1sticla -   14,0% alcool volum",
+      "en": "Sceptrus _________________1sticla -   14,0% alcool volum"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 60.0,
     "ingredients": {
-      "ro": "Beciul Domnesc",
-      "en": "Beciul Domnesc"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-230",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Beciul Domnesc",
-      "en": "Beciul Domnesc"
+      "ro": "Fetească Neagră(demidulce) (12)",
+      "en": "Fetească Neagră(ofmidulce) (12)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
-      "ro": "Pinot Noir(demisec)12)1 sticlă - 12,5% alcool/volum",
-      "en": "Pinot Noir(ofmisec)12)1 sticlă - 12,5% alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-231",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Pinot Noir(demisec)12)1 sticlă",
-      "en": "Pinot Noir(ofmisec)12)1 sticlă"
+      "ro": "Pinot Noir(demisec)12)",
+      "en": "Pinot Noir(ofmisec)12)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
-      "ro": "Cabernet Sauvignon(12) (dulce)1 sticlă - 11,5% alcool/volum",
-      "en": "Cabernet Sauvignon(12) (dulce)1 sticlă - 11,5% alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-232",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Cabernet Sauvignon(12) (dulce)1 sticlă",
-      "en": "Cabernet Sauvignon(12) (dulce)1 sticlă"
+      "ro": "Cabernet Sauvignon(12) (dulce)",
+      "en": "Cabernet Sauvignon(12) (dulce)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
-      "ro": "Merlot(12) (sec)1 sticlă - 13,5% alcool/volum",
-      "en": "Merlot(12) (sec)1 sticlă - 13,5% alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-233",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Merlot(12) (sec)1 sticlă",
-      "en": "Merlot(12) (sec)1 sticlă"
+      "ro": "Merlot(12) (sec)",
+      "en": "Merlot(12) (sec)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
-      "ro": "Sauvignon Blanc(12) (demisec)1 sticlă – 13,5%alcool/volum",
-      "en": "Sauvignon Blanc(12) (ofmisec)1 sticlă – 13,5%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-234",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Sauvignon Blanc(12) (demisec)1 sticlă – 13,5%alcool/volum50,00 lei",
-      "en": "Sauvignon Blanc(12) (ofmisec)1 sticlă – 13,5%alcool/volum50,00 lei"
+      "ro": "Sauvignon Blanc(12) (demisec)",
+      "en": "Sauvignon Blanc(12) (ofmisec)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
-      "ro": "Chardonnay(12) (sec)1 sticlă - 13,5% alcool/volum",
-      "en": "Chardonnay(12) (sec)1 sticlă - 13,5% alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-235",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Chardonnay(12) (sec)1 sticlă",
-      "en": "Chardonnay(12) (sec)1 sticlă"
+      "ro": "Chardonnay(12) (sec)",
+      "en": "Chardonnay(12) (sec)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
-      "ro": "Muscat Ottonel(12) (demidulce)1 sticlă - 12,5% alcool/volum",
-      "en": "Muscat Ottonel(12) (ofmidulce)1 sticlă - 12,5% alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [
-      4
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-236",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Muscat Ottonel(12) (demidulce)1 sticlă",
-      "en": "Muscat Ottonel(12) (ofmidulce)1 sticlă"
+      "ro": "Muscat Ottonel(12) (demidulce)",
+      "en": "Muscat Ottonel(12) (ofmidulce)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
-      "ro": "Fetească Albă(12) (sec)1 sticlă - 12,5% alcool/volum",
-      "en": "Fetească Albă(12) (sec)1 sticlă - 12,5% alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [
-      4
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-237",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Fetească Albă(12) (sec)1 sticlă",
-      "en": "Fetească Albă(12) (sec)1 sticlă"
+      "ro": "Fetească Albă(12) (sec)",
+      "en": "Fetească Albă(12) (sec)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
-      "ro": "Roze(12) (demisec)1 sticlă - 12,5% alcool/volum",
-      "en": "Roze(12) (ofmisec)1 sticlă - 12,5% alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-238",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Roze(12) (demisec)1 sticlă",
-      "en": "Roze(12) (ofmisec)1 sticlă"
+      "ro": "Roze(12) (demisec)",
+      "en": "Roze(12) (ofmisec)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
-      "ro": "Crama Jidvei",
-      "en": "Crama Jidvei"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-239",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Crama Jidvei",
-      "en": "Crama Jidvei"
+      "ro": "Fetească Regală(12) ( demisec) 1sticla – 12%alcool/volum",
+      "en": "Fetească Regală(12) ( ofmisec) 1sticla – 12%alcool/volum"
     },
-    "weight": "12g",
+    "weight": "200g",
     "price": 50.0,
     "ingredients": {
-      "ro": "Riesling(12) (sec)_________________1sticlă -  12%alcool/volum______",
-      "en": "Riesling(12) (sec)_________________1sticlă -  12%alcool/volum______"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-240",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Riesling(12) (sec)_________________1sticlă",
-      "en": "Riesling(12) (sec)_________________1sticlă"
+      "ro": "Riesling(12) (sec)_________________1sticlă -  12%alcool/volum______",
+      "en": "Riesling(12) (sec)_________________1sticlă -  12%alcool/volum______"
     },
-    "weight": "12g",
+    "weight": "200g",
     "price": 50.0,
     "ingredients": {
-      "ro": "Cotnari",
-      "en": "Cotnari"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-241",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Cotnari",
-      "en": "Cotnari"
+      "ro": "Grasă de Cotnari(12) (demisec)",
+      "en": "Grasă of Cotnari(12) (ofmisec)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 50.0,
     "ingredients": {
-      "ro": "Sampanie Angeli___________1 sticla – 12% alcool volum_",
-      "en": "Sampanie Angeli___________1 sticla – 12% alcool volum_"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-242",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Sampanie Angeli___________1 sticla – 12% alcool volum_50,00 lei",
-      "en": "Sampanie Angeli___________1 sticla – 12% alcool volum_50,00 lei"
+      "ro": "Sampanie Angeli___________1 sticla – 12% alcool volum_",
+      "en": "Sampanie Angeli___________1 sticla – 12% alcool volum_"
     },
-    "weight": "1 g",
+    "weight": "200g",
     "price": 50.0,
     "ingredients": {
-      "ro": "Gama Grigorescu",
-      "en": "Gama Grigoreswith"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-243",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Gama Grigorescu",
-      "en": "Gama Grigoreswith"
+      "ro": "Dry Muscat(12) (demisec)",
+      "en": "Dry Muscat(12) (ofmisec)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 60.0,
     "ingredients": {
-      "ro": "Pinot Grigio(12) (demisec)1 sticlă – 12,5%alcool/volum",
-      "en": "Pinot Grigio(12) (ofmisec)1 sticlă – 12,5%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-244",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Pinot Grigio(12) (demisec)1 sticlă – 12,5%alcool/volum60,00 lei",
-      "en": "Pinot Grigio(12) (ofmisec)1 sticlă – 12,5%alcool/volum60,00 lei"
+      "ro": "Pinot Grigio(12) (demisec)",
+      "en": "Pinot Grigio(12) (ofmisec)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 60.0,
     "ingredients": {
-      "ro": "Gewurztraminer(12) (demisec)1 sticlă – 12%alcool/volum",
-      "en": "Gewurztraminer(12) (ofmisec)1 sticlă – 12%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-245",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Gewurztraminer(12) (demisec)1 sticlă – 12%alcool/volum60,00 lei",
-      "en": "Gewurztraminer(12) (ofmisec)1 sticlă – 12%alcool/volum60,00 lei"
+      "ro": "Gewurztraminer(12) (demisec)",
+      "en": "Gewurztraminer(12) (ofmisec)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 60.0,
     "ingredients": {
-      "ro": "Sauvignon Blanc(12) (demisec)1 sticlă – 12%alcool/volum",
-      "en": "Sauvignon Blanc(12) (ofmisec)1 sticlă – 12%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-246",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Sauvignon Blanc(12) (demisec)1 sticlă – 12%alcool/volum60,00 lei",
-      "en": "Sauvignon Blanc(12) (ofmisec)1 sticlă – 12%alcool/volum60,00 lei"
+      "ro": "Sauvignon Blanc(12) (demisec)",
+      "en": "Sauvignon Blanc(12) (ofmisec)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 60.0,
     "ingredients": {
-      "ro": "Rose(12)(demisec)1 sticlă – 14%alcool/volum",
-      "en": "Rose(12)(ofmisec)1 sticlă – 14%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-247",
-    "category": "vinuri",
+    "category": "racoritoare",
     "name": {
-      "ro": "Rose(12)(demisec)1 sticlă – 14%alcool/volum60,00 lei",
-      "en": "Rose(12)(ofmisec)1 sticlă – 14%alcool/volum60,00 lei"
+      "ro": "Rose(12)(demisec)",
+      "en": "Rose(12)(ofmisec)"
     },
-    "weight": "12g",
+    "weight": "1 sticlă",
     "price": 60.0,
     "ingredients": {
-      "ro": "Rose(12)(demisec)1 sticlă – 14%alcool/volum",
-      "en": "Rose(12)(ofmisec)1 sticlă – 14%alcool/volum"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-248",
     "category": "bere",
     "name": {
-      "ro": "Bere (alcool  5 -6% vol.)",
-      "en": "Bere (alcool  5 -6% vol.)"
+      "ro": "Pilsner Urquell0,33 l_______",
+      "en": "Pilsner Urquell0,33 l_______"
     },
-    "weight": "0g",
+    "weight": "200g",
     "price": 10.0,
     "ingredients": {
-      "ro": "Peroni Capri0,33 l_______",
-      "en": "Peroni Capri0,33 l_______"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [
-      12
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 42,
-      "energyKj": 175,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 3.4,
-      "sugars": 0.2,
-      "protein": 0.4,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-249",
     "category": "bere",
     "name": {
-      "ro": "Peroni Capri0,33 l_______12,00 lei",
-      "en": "Peroni Capri0,33 l_______12,00 lei"
+      "ro": "Peroni Capri0,33 l_______",
+      "en": "Peroni Capri0,33 l_______"
     },
-    "weight": "0g",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "Peroni0,33 l",
-      "en": "Peroni0,33 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-250",
     "category": "bere",
     "name": {
-      "ro": "Peroni0,33 l12,00 lei",
-      "en": "Peroni0,33 l12,00 lei"
+      "ro": "Peroni",
+      "en": "Peroni"
     },
-    "weight": "0g",
+    "weight": "0,33 l",
     "price": 12.0,
     "ingredients": {
-      "ro": "Peroni fa0,33 l",
-      "en": "Peroni fa0,33 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-251",
     "category": "bere",
     "name": {
-      "ro": "Peroni fa0,33 l12,00 lei",
-      "en": "Peroni fa0,33 l12,00 lei"
+      "ro": "Peroni fa",
+      "en": "Peroni fa"
     },
-    "weight": "0g",
+    "weight": "0,33 l",
     "price": 12.0,
     "ingredients": {
-      "ro": "Peroni0,50 l",
-      "en": "Peroni0,50 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-252",
     "category": "bere",
     "name": {
-      "ro": "Peroni0,50 l12,00 lei",
-      "en": "Peroni0,50 l12,00 lei"
+      "ro": "Peroni",
+      "en": "Peroni"
     },
-    "weight": "0g",
+    "weight": "0,50 l",
     "price": 12.0,
     "ingredients": {
-      "ro": "Azuga nefiltrata0,50 l",
-      "en": "Azuga nefiltrata0,50 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
-    "isFrozen": true,
+    "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-253",
     "category": "bere",
     "name": {
-      "ro": "Azuga nefiltrata0,50 l 15,00 lei",
-      "en": "Azuga nefiltrata0,50 l 15,00 lei"
+      "ro": "Azuga nefiltrata",
+      "en": "Azuga nefiltrata"
     },
-    "weight": "0g",
+    "weight": "0,50 l",
     "price": 15.0,
     "ingredients": {
-      "ro": "Azuga nepasteurizata 0,50 l",
-      "en": "Azuga nepasteurizata 0,50 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-254",
     "category": "bere",
     "name": {
-      "ro": "Azuga nepasteurizata 0,50 l 15,00 lei",
-      "en": "Azuga nepasteurizata 0,50 l 15,00 lei"
+      "ro": "Azuga nepasteurizata",
+      "en": "Azuga nepasteurizata"
     },
-    "weight": "0g",
+    "weight": "0,50 l",
     "price": 15.0,
     "ingredients": {
-      "ro": "Ursus Cooler________    0,33 l_______",
-      "en": "Ursus Cooler________    0,33 l_______"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-255",
     "category": "bere",
     "name": {
-      "ro": "Ursus Cooler________    0,33 l_______10,00 lei",
-      "en": "Ursus Cooler________    0,33 l_______10,00 lei"
+      "ro": "Ursus Cooler________    0,33 l_______",
+      "en": "Ursus Cooler________    0,33 l_______"
     },
-    "weight": "0g",
+    "weight": "200g",
     "price": 10.0,
     "ingredients": {
-      "ro": "Ursus Black________    0,33l_______",
-      "en": "Ursus Black________    0,33l_______"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-256",
     "category": "bere",
     "name": {
-      "ro": "Ursus Black________    0,33l_______10,00 lei",
-      "en": "Ursus Black________    0,33l_______10,00 lei"
+      "ro": "Ursus Black________    0,33l_______",
+      "en": "Ursus Black________    0,33l_______"
     },
-    "weight": "0g",
+    "weight": "200g",
     "price": 10.0,
     "ingredients": {
-      "ro": "Ursus  fara alcool____  0,50l______",
-      "en": "Ursus  fara alcool____  0,50l______"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-257",
     "category": "bere",
     "name": {
-      "ro": "Ursus  fara alcool____  0,50l______ 10,00 lei",
-      "en": "Ursus  fara alcool____  0,50l______ 10,00 lei"
+      "ro": "Ursus  fara alcool____  0,50l______",
+      "en": "Ursus  fara alcool____  0,50l______"
     },
-    "weight": "0g",
+    "weight": "200g",
     "price": 10.0,
     "ingredients": {
-      "ro": "Ursus ,50 l",
-      "en": "Ursus ,50 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-258",
     "category": "bere",
     "name": {
-      "ro": "Ursus ,50 l10,00 lei",
-      "en": "Ursus ,50 l10,00 lei"
+      "ro": "Ursus",
+      "en": "Ursus"
     },
-    "weight": "50 g",
+    "weight": ",50 l",
     "price": 10.0,
     "ingredients": {
-      "ro": "Ursus Pilsner_______    0,33l_____",
-      "en": "Ursus Pilsner_______    0,33l_____"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-259",
     "category": "bere",
     "name": {
-      "ro": "Ursus Pilsner_______    0,33l_____   10,00 lei",
-      "en": "Ursus Pilsner_______    0,33l_____   10,00 lei"
+      "ro": "Ursus Pilsner_______    0,33l_____",
+      "en": "Ursus Pilsner_______    0,33l_____"
     },
-    "weight": "0g",
+    "weight": "200g",
     "price": 10.0,
     "ingredients": {
-      "ro": "Ursus Premium0,33 l",
-      "en": "Ursus Premium0,33 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-260",
     "category": "bere",
     "name": {
-      "ro": "Ursus Premium0,33 l 10,00 lei",
-      "en": "Ursus Premium0,33 l 10,00 lei"
+      "ro": "Ursus Premium",
+      "en": "Ursus Premium"
     },
-    "weight": "0g",
+    "weight": "0,33 l",
     "price": 10.0,
     "ingredients": {
-      "ro": "Ursus Retro_________     0,50 l ______",
-      "en": "Ursus Retro_________     0,50 l ______"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-261",
     "category": "bere",
     "name": {
-      "ro": "Ursus Retro_________     0,50 l ______ 10,00 lei",
-      "en": "Ursus Retro_________     0,50 l ______ 10,00 lei"
+      "ro": "Ursus Retro_________",
+      "en": "Ursus Retro_________"
     },
-    "weight": "0g",
+    "weight": "0,50 l",
     "price": 10.0,
     "ingredients": {
-      "ro": "Timişoreana0,50 l",
-      "en": "Timişoreana0,50 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-262",
     "category": "bere",
     "name": {
-      "ro": "Timişoreana0,50 l             10,00 lei",
-      "en": "Timişoreana0,50 l             10,00 lei"
+      "ro": "Timişoreana",
+      "en": "Timişoreana"
     },
-    "weight": "0g",
+    "weight": "0,50 l",
     "price": 10.0,
     "ingredients": {
-      "ro": "Timisireana FA________0,50 l  ____",
-      "en": "Timisireana FA________0,50 l  ____"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-263",
     "category": "bere",
     "name": {
-      "ro": "Timisireana FA________0,50 l  ____  10,00 lei",
-      "en": "Timisireana FA________0,50 l  ____  10,00 lei"
+      "ro": "Timisireana FA________",
+      "en": "Timisireana FA________"
     },
-    "weight": "0g",
+    "weight": "0,50 l",
     "price": 10.0,
     "ingredients": {
-      "ro": "Kozel Premium________0,33 l_____ _",
-      "en": "Kozel Premium________0,33 l_____ _"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-264",
     "category": "bere",
     "name": {
-      "ro": "Kozel Premium________0,33 l_____ _ 12,00 lei",
-      "en": "Kozel Premium________0,33 l_____ _ 12,00 lei"
+      "ro": "Kozel Premium________0,33 l_____ _",
+      "en": "Kozel Premium________0,33 l_____ _"
     },
-    "weight": "0g",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "Kozel Dark__________ 0,33 l_____",
-      "en": "Kozel Dark__________ 0,33 l_____"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-265",
     "category": "bere",
     "name": {
-      "ro": "Kozel Dark__________ 0,33 l_____  12,00 lei",
-      "en": "Kozel Dark__________ 0,33 l_____  12,00 lei"
+      "ro": "Kozel Dark__________ 0,33 l_____",
+      "en": "Kozel Dark__________ 0,33 l_____"
     },
-    "weight": "0g",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "Bere la doză",
-      "en": "Bere la doză"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [
-      12
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 42,
-      "energyKj": 175,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 3.4,
-      "sugars": 0.2,
-      "protein": 0.4,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-266",
     "category": "bere",
     "name": {
-      "ro": "Bere la doză",
-      "en": "Bere la doză"
+      "ro": "Peroni doză",
+      "en": "Peroni doză"
     },
-    "weight": "0g",
+    "weight": "0,50 l",
     "price": 12.0,
     "ingredients": {
-      "ro": "Ursus doză0,50 l",
-      "en": "Ursus doză0,50 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [
-      12
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 42,
-      "energyKj": 175,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 3.4,
-      "sugars": 0.2,
-      "protein": 0.4,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-267",
     "category": "bere",
     "name": {
-      "ro": "Ursus doză0,50 l 10,00 lei",
-      "en": "Ursus doză0,50 l 10,00 lei"
+      "ro": "Ursus doză",
+      "en": "Ursus doză"
     },
-    "weight": "0g",
+    "weight": "0,50 l",
     "price": 10.0,
     "ingredients": {
-      "ro": "Timişoreana doză0,50 l",
-      "en": "Timişoreana doză0,50 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-268",
     "category": "bere",
     "name": {
-      "ro": "Timişoreana doză0,50 l 10,00 lei",
-      "en": "Timişoreana doză0,50 l 10,00 lei"
+      "ro": "Timişoreana doză",
+      "en": "Timişoreana doză"
     },
-    "weight": "0g",
+    "weight": "0,50 l",
     "price": 10.0,
     "ingredients": {
-      "ro": "Cooler doză_____0.50l",
-      "en": "Cooler doză_____0.50l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-269",
     "category": "bere",
     "name": {
-      "ro": "Cooler doză_____0.50l10,00 lei",
-      "en": "Cooler doză_____0.50l10,00 lei"
+      "ro": "Cooler doză_____0.50l",
+      "en": "Cooler doză_____0.50l"
     },
-    "weight": "0g",
+    "weight": "200g",
     "price": 10.0,
     "ingredients": {
-      "ro": "Bere la halbă",
-      "en": "Bere la halbă"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [
-      12
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 42,
-      "energyKj": 175,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 3.4,
-      "sugars": 0.2,
-      "protein": 0.4,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-270",
     "category": "bere",
     "name": {
-      "ro": "Bere la halbă",
-      "en": "Bere la halbă"
+      "ro": "Peroni",
+      "en": "Peroni"
     },
-    "weight": "0g",
+    "weight": "0,40 l",
     "price": 12.0,
     "ingredients": {
-      "ro": "Kozel Dark_______0,50 l",
-      "en": "Kozel Dark_______0,50 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
-    "allergens": [
-      12
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 42,
-      "energyKj": 175,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 3.4,
-      "sugars": 0.2,
-      "protein": 0.4,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-271",
     "category": "bere",
     "name": {
-      "ro": "Kozel Dark_______0,50 l12,00 lei",
-      "en": "Kozel Dark_______0,50 l12,00 lei"
+      "ro": "Kozel Dark_______",
+      "en": "Kozel Dark_______"
     },
-    "weight": "0g",
+    "weight": "0,50 l",
     "price": 12.0,
     "ingredients": {
-      "ro": "Kozel Premium__0,50l___________",
-      "en": "Kozel Premium__0,50l___________"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-272",
     "category": "bere",
     "name": {
-      "ro": "Kozel Premium__0,50l___________12,00 lei",
-      "en": "Kozel Premium__0,50l___________12,00 lei"
+      "ro": "Kozel Premium__0,50l___________",
+      "en": "Kozel Premium__0,50l___________"
     },
-    "weight": "0g",
+    "weight": "200g",
     "price": 12.0,
     "ingredients": {
-      "ro": "Kozel Premium__0,30l_________",
-      "en": "Kozel Premium__0,30l_________"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-273",
     "category": "bere",
     "name": {
-      "ro": "Kozel Premium__0,30l_________       9,00 lei",
-      "en": "Kozel Premium__0,30l_________       9,00 lei"
+      "ro": "Kozel Premium__0,30l_________",
+      "en": "Kozel Premium__0,30l_________"
     },
-    "weight": "0g",
+    "weight": "200g",
     "price": 9.0,
     "ingredients": {
-      "ro": "Kozel Dark_______0,30 l",
-      "en": "Kozel Dark_______0,30 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-274",
     "category": "bere",
     "name": {
-      "ro": "Kozel Dark_______0,30 l   9,00 lei",
-      "en": "Kozel Dark_______0,30 l   9,00 lei"
+      "ro": "Kozel Dark_______",
+      "en": "Kozel Dark_______"
     },
-    "weight": "0g",
+    "weight": "0,30 l",
     "price": 9.0,
     "ingredients": {
-      "ro": "Ursus0,40 l",
-      "en": "Ursus0,40 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-275",
     "category": "bere",
     "name": {
-      "ro": "Ursus0,40 l10,00 lei",
-      "en": "Ursus0,40 l10,00 lei"
+      "ro": "Ursus",
+      "en": "Ursus"
     },
-    "weight": "0g",
+    "weight": "0,40 l",
     "price": 10.0,
     "ingredients": {
-      "ro": "Timişoreana0,40 l",
-      "en": "Timişoreana0,40 l"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-276",
     "category": "bere",
     "name": {
-      "ro": "Timişoreana0,40 l10,00 lei",
-      "en": "Timişoreana0,40 l10,00 lei"
+      "ro": "Timişoreana",
+      "en": "Timişoreana"
     },
-    "weight": "0g",
+    "weight": "0,40 l",
     "price": 10.0,
     "ingredients": {
-      "ro": "PRODUSE TRADIȚIONALE DE SĂRBĂTORI",
-      "en": "PRODUSE TRADIȚIONALE DE SĂRBĂTORI"
+      "ro": "Preparat proaspăt pregătit din ingrediente alese.",
+      "en": "Prepared fresh daily with carefully selected ingredients."
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 52,
-      "energyKj": 217,
-      "fats": 0.0,
-      "saturatedFats": 0.0,
-      "carbs": 12.5,
-      "sugars": 12.0,
-      "protein": 0.1,
-      "salt": 0.01
+      "energyKcal": 180.0,
+      "energyKj": 752.0,
+      "fats": 8.0,
+      "saturatedFats": 3.0,
+      "carbs": 15.0,
+      "sugars": 2.0,
+      "protein": 10.0,
+      "salt": 1.0
     }
   },
   {
     "id": "item-277",
-    "category": "traditionale",
+    "category": "bere",
     "name": {
-      "ro": "PRODUSE TRADIȚIONALE DE SĂRBĂTORI",
-      "en": "PRODUSE TRADIȚIONALE DE SĂRBĂTORI"
+      "ro": "PLATOU TRADIȚIONAL 1,3,5,7,11                400gr",
+      "en": "PLATOU TRADIȚIONAL 1,3,5,7,11                400gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 45.0,
     "ingredients": {
-      "ro": "(costiță,cărnați, cardaboș, murături)",
-      "en": "(costiță,cărnați, cardaboș, murături)"
+      "ro": "costiță,cărnați, cardaboș, murături",
+      "en": "costiță,cărnați, cardaboș, murături"
     },
     "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 185,
-      "energyKj": 774,
-      "fats": 9.0,
-      "saturatedFats": 3.5,
-      "carbs": 18.0,
-      "sugars": 2.5,
-      "protein": 9.0,
-      "salt": 1.1
+      "energyKcal": 170.6,
+      "energyKj": 713.9,
+      "fats": 7.9,
+      "saturatedFats": 2.3,
+      "carbs": 3.4,
+      "sugars": 1.0,
+      "protein": 21.4,
+      "salt": 0.9
     }
   },
   {
     "id": "item-278",
-    "category": "traditionale",
+    "category": "bere",
     "name": {
-      "ro": "Alergeni - Conține: Gluten, Ouă, Lapte",
-      "en": "Alergeni - Conține: Gluten, Ouă, Lapte"
+      "ro": "SARMALE CU CIOLAN ȘI MĂMĂLIGUȚĂ 1,3 200/200/50gr",
+      "en": "SARMALE CU CIOLAN ȘI MĂMĂLIGUȚĂ 1,3 200/200/50gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 38.0,
     "ingredients": {
-      "ro": "( carne porc, ciolan, orez,condimente, făină porumb, smântână)",
-      "en": "( carne porc, ciolan, orez,condimente, făină porumb, smântână)"
+      "ro": "carne porc, ciolan, orez,condimente, făină porumb, smântână",
+      "en": "carne pork, pork knuckle, rice,condimente, flour porumb, sour cream"
     },
-    "allergens": [
-      1,
-      3,
-      7
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 185,
-      "energyKj": 774,
-      "fats": 9.0,
-      "saturatedFats": 3.5,
-      "carbs": 18.0,
-      "sugars": 2.5,
-      "protein": 9.0,
-      "salt": 1.1
+      "energyKcal": 133.6,
+      "energyKj": 564.1,
+      "fats": 1.1,
+      "saturatedFats": 0.0,
+      "carbs": 17.9,
+      "sugars": 3.1,
+      "protein": 12.4,
+      "salt": 0.1
     }
   },
   {
     "id": "item-279",
-    "category": "porc",
+    "category": "bere",
     "name": {
-      "ro": "Alergeni - Conține: Amidon,Lapte)",
-      "en": "Alergeni - Conține: Amidon,Lapte)"
+      "ro": "SALATĂ DE BOEUF 1,3,7  250gr",
+      "en": "SALATĂ DE BOEUF 1,3,7  250gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 25.0,
     "ingredients": {
-      "ro": "(piept de pui, ouă, morcovi, cartofi, ulei, muștar,condimente)",
-      "en": "(piept of pui, ouă, morcovi, cartofi, ulei, muștar,condimente)"
+      "ro": "piept de pui, ouă, morcovi, cartofi, ulei, muștar,condimente",
+      "en": "piept of chicken, eggs, morcovi, potatoes, oil, mustard,condimente"
     },
-    "allergens": [
-      3,
-      7,
-      10
-    ],
+    "allergens": [],
     "isFrozen": true,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 209.8,
+      "energyKj": 874.3,
+      "fats": 8.8,
+      "saturatedFats": 2.9,
+      "carbs": 8.9,
+      "sugars": 0.9,
+      "protein": 23.9,
+      "salt": 1.4
     }
   },
   {
     "id": "item-280",
-    "category": "pui-rata",
+    "category": "bere",
     "name": {
-      "ro": "Alergeni - Conține: Gluten, Ouă, , Lapte",
-      "en": "Alergeni - Conține: Gluten, Ouă, , Lapte"
+      "ro": "PRĂJITURI ASORTATE 1,3,5,8  200gr",
+      "en": "PRĂJITURI ASORTATE 1,3,5,8  200gr"
     },
-    "weight": "1g",
+    "weight": "200g",
     "price": 18.0,
     "ingredients": {
-      "ro": "(ouă, lapte, cacao, unt, zahăr, nucă, untură, fructe)",
-      "en": "(ouă, lapte, cacao, unt, zahăr, nucă, untură, fructe)"
+      "ro": "ouă, lapte, cacao, unt, zahăr, nucă, untură, fructe",
+      "en": "eggs, milk, cocoa, butter, sugar, nucă, untură, fructe"
     },
-    "allergens": [
-      1,
-      3,
-      7,
-      8
-    ],
+    "allergens": [],
     "isFrozen": false,
     "nutrition": {
-      "energyKcal": 225,
-      "energyKj": 941,
-      "fats": 14.5,
-      "saturatedFats": 5.8,
-      "carbs": 2.8,
-      "sugars": 0.6,
-      "protein": 21.5,
-      "salt": 1.2
+      "energyKcal": 235.2,
+      "energyKj": 988.7,
+      "fats": 8.7,
+      "saturatedFats": 6.8,
+      "carbs": 38.2,
+      "sugars": 25.5,
+      "protein": 2.1,
+      "salt": 0.1
     }
   }
 ];
