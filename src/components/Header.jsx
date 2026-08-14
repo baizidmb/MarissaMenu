@@ -1,8 +1,10 @@
 import React from 'react';
-import { UtensilsCrossed, QrCode, ShieldAlert, Receipt, Info, Sparkles, Hotel } from 'lucide-react';
+import { QrCode, ShieldAlert, Receipt, Info, Hotel, Globe } from 'lucide-react';
 import { FISCAL_NOTICE, HOTEL_INFO } from '../data/marissaMenuData';
 
 export default function Header({
+  lang = 'ro',
+  onToggleLang,
   onOpenFiscalModal,
   onOpenAllergenModal,
   onOpenHotelModal,
@@ -10,90 +12,92 @@ export default function Header({
   isQrViewActive
 }) {
   return (
-    <header className="sticky top-0 z-40 bg-[#0B0F19]/90 backdrop-blur-xl border-b border-slate-800/80 shadow-2xl no-print">
-      {/* Romanian Fiscal Compliance Banner */}
+    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-[#E8E2D9] shadow-sm no-print">
+      {/* Romanian Fiscal Compliance Top Banner */}
       <div 
         onClick={onOpenFiscalModal}
-        className="bg-gradient-to-r from-amber-900/90 via-amber-700/80 to-amber-900/90 text-amber-100 text-xs py-2 px-3 text-center cursor-pointer hover:brightness-110 transition-all flex items-center justify-center gap-2 border-b border-amber-500/30 shadow-inner group"
-        title="Apăsați pentru a vizualiza nota legală completă OUG 28/1999"
+        className="bg-[#C19B77] text-white text-[11px] py-1.5 px-3 text-center cursor-pointer hover:bg-[#A8805B] transition-colors flex items-center justify-center gap-2 shadow-inner group"
+        title={lang === 'ro' ? 'Apăsați pentru notă fiscală OUG 28/1999' : 'Click for fiscal notice OUG 28/1999'}
       >
-        <Receipt className="w-3.5 h-3.5 text-amber-300 animate-pulse" />
-        <span className="font-medium tracking-wide truncate max-w-xl">
-          {FISCAL_NOTICE.bannerText}
+        <Receipt className="w-3.5 h-3.5 text-white/90 animate-pulse" />
+        <span className="font-medium tracking-wide truncate max-w-2xl">
+          {FISCAL_NOTICE.bannerText[lang] || FISCAL_NOTICE.bannerText.ro}
         </span>
-        <Info className="w-3.5 h-3.5 text-amber-300 opacity-80 group-hover:scale-110 transition-transform" />
+        <Info className="w-3.5 h-3.5 text-white/80 group-hover:scale-110 transition-transform" />
       </div>
 
-      {/* Main Branding Header */}
+      {/* Main Branding Header Container */}
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
-        {/* Logo & Title */}
+        {/* Left: Official Hotel Marissa Logo & Title */}
         <div 
           onClick={onOpenHotelModal}
-          className="flex items-center gap-3 cursor-pointer group"
-          title="Informații despre Hotel & Restaurant Marissa"
+          className="flex items-center gap-3.5 cursor-pointer group"
+          title={lang === 'ro' ? 'Informații despre Hotel & Restaurant Marissa' : 'Hotel & Restaurant Marissa Information'}
         >
-          {/* Official Hotel Marissa Logo Container */}
-          <div className="h-11 px-2 py-1 rounded-xl bg-slate-900/90 border border-amber-500/40 group-hover:border-amber-400 transition-all flex items-center justify-center shadow-lg shadow-amber-500/10">
+          {/* Logo Placement - Clean, Unboxed & High Resolution */}
+          <div className="h-12 w-auto flex items-center justify-center transition-transform group-hover:scale-105">
             <img
               src={HOTEL_INFO.logoUrl}
               alt="Hotel Marissa Logo"
-              className="h-full w-auto object-contain filter drop-shadow"
+              className="h-12 max-w-[140px] sm:max-w-[180px] object-contain filter drop-shadow-sm"
               onError={(e) => {
                 e.target.onerror = null;
                 e.target.style.display = 'none';
               }}
             />
-            <UtensilsCrossed className="w-5 h-5 text-amber-400 fallback-icon" style={{ display: 'none' }} />
           </div>
 
-          <div>
-            <div className="flex items-center gap-1.5">
-              <h1 className="font-['Cinzel'] font-bold text-lg md:text-xl tracking-wider text-amber-400 group-hover:text-amber-300 transition-colors drop-shadow-sm">
-                RESTAURANT MARISSA
-              </h1>
-              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-            </div>
-            <p className="text-[11px] text-slate-400 font-medium tracking-wide">
-              Smart QR Menu • Gourmet & Comfort Dining
+          <div className="hidden sm:block border-l border-[#E8E2D9] pl-3.5 py-0.5">
+            <h1 className="font-['Playfair_Display'] font-bold text-lg md:text-xl text-[#1C1C1C] group-hover:text-[#C19B77] transition-colors tracking-tight">
+              RESTAURANT MARISSA
+            </h1>
+            <p className="text-[10px] text-[#7A7A7A] font-medium tracking-widest uppercase">
+              {lang === 'ro' ? 'Meniu Digital QR' : 'Smart Digital QR Menu'}
             </p>
           </div>
         </div>
 
-        {/* Action Buttons */}
-        <div className="flex items-center gap-2">
+        {/* Right: Quick Action Buttons & English Menu Switcher */}
+        <div className="flex items-center gap-2 sm:gap-2.5">
+          {/* English / Romanian Language Switcher Button */}
+          <button
+            onClick={onToggleLang}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#F8F6F2] hover:bg-[#EFEBE4] border border-[#C19B77]/40 text-[#1C1C1C] text-xs font-semibold transition-all shadow-sm hover:border-[#C19B77]"
+            title={lang === 'ro' ? 'Switch to English Menu' : 'Comută pe Meniul în Română'}
+          >
+            <Globe className="w-3.5 h-3.5 text-[#C19B77]" />
+            <span className="font-bold tracking-wider">{lang === 'ro' ? '🇬🇧 EN' : '🇷🇴 RO'}</span>
+          </button>
+
           {/* Hotel Info Modal Button */}
           <button
             onClick={onOpenHotelModal}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 border border-slate-700 text-slate-200 text-xs font-medium transition-all hover:border-amber-500/40 hover:text-amber-300"
-            title="Informații Hotel, SPA & Contact"
+            className="hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white hover:bg-[#F8F6F2] border border-[#E8E2D9] text-[#373737] text-xs font-medium transition-all hover:border-[#C19B77]"
           >
-            <Hotel className="w-4 h-4 text-amber-400" />
-            <span className="hidden md:inline">Hotel & SPA</span>
+            <Hotel className="w-3.5 h-3.5 text-[#C19B77]" />
+            <span>Hotel & SPA</span>
           </button>
 
           {/* Allergen & ANPC Modal Button */}
           <button
             onClick={onOpenAllergenModal}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 border border-slate-700 text-slate-200 text-xs font-medium transition-all hover:border-amber-500/40 hover:text-amber-300"
-            title="Ghid Alergeni (1-14) & Produse Decongelate ANPC 183/2016"
+            className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white hover:bg-[#F8F6F2] border border-[#E8E2D9] text-[#373737] text-xs font-medium transition-all hover:border-[#C19B77]"
           >
-            <ShieldAlert className="w-4 h-4 text-amber-400" />
-            <span className="hidden sm:inline">Alergeni & ANPC</span>
+            <ShieldAlert className="w-3.5 h-3.5 text-[#C19B77]" />
+            <span>{lang === 'ro' ? 'Alergeni & ANPC' : 'Allergens & ANPC'}</span>
           </button>
 
           {/* QR Stand View Toggle Button */}
           <button
             onClick={onToggleQrView}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all border ${
+            className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all border shadow-sm ${
               isQrViewActive
-                ? 'bg-amber-500 text-slate-950 border-amber-400 shadow-lg shadow-amber-500/25'
-                : 'bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-500 hover:to-amber-600 text-slate-950 border-amber-500'
+                ? 'bg-[#1C1C1C] text-white border-[#1C1C1C]'
+                : 'bg-[#C19B77] hover:bg-[#A8805B] text-white border-[#C19B77]'
             }`}
-            title="Stand Printabil QR Masă"
           >
-            <QrCode className="w-4 h-4" />
-            <span className="hidden sm:inline">{isQrViewActive ? 'Meniu' : 'QR Stand'}</span>
-            <span className="sm:hidden">{isQrViewActive ? 'Meniu' : 'QR'}</span>
+            <QrCode className="w-3.5 h-3.5" />
+            <span>{isQrViewActive ? (lang === 'ro' ? 'Meniu' : 'Menu') : 'QR Stand'}</span>
           </button>
         </div>
       </div>

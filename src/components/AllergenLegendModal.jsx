@@ -2,71 +2,96 @@ import React from 'react';
 import { X, ShieldAlert, Snowflake, Info, CheckCircle2 } from 'lucide-react';
 import { ALLERGEN_INDEX, FROZEN_PRODUCT_NOTICE } from '../data/marissaMenuData';
 
-export default function AllergenLegendModal({ isOpen, onClose, selectedAllergenId }) {
+export default function AllergenLegendModal({ isOpen, onClose, selectedAllergenId = null, lang = 'ro' }) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md animate-fade-in no-print overflow-y-auto">
-      <div className="bg-slate-900 border border-slate-700/80 rounded-2xl max-w-3xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden my-auto">
-        {/* Modal Header */}
-        <div className="flex items-center justify-between px-5 py-4 border-b border-slate-800 bg-slate-950/80">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in no-print overflow-y-auto">
+      <div className="bg-white border border-[#E8E2D9] rounded-2xl max-w-3xl w-full flex flex-col shadow-2xl overflow-hidden my-auto">
+        {/* Header */}
+        <div className="flex items-center justify-between px-5 py-4 border-b border-[#E8E2D9] bg-[#F8F6F2]">
           <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center">
-              <ShieldAlert className="w-4 h-4 text-amber-400" />
+            <div className="p-2 rounded-xl bg-[#C19B77] text-white">
+              <ShieldAlert className="w-5 h-5" />
             </div>
             <div>
-              <h2 className="font-['Cinzel'] font-bold text-slate-100 text-base md:text-lg">
-                Ghid Alergeni (EU) & Informare ANPC 183/2016
+              <h2 className="font-['Playfair_Display'] font-bold text-[#1C1C1C] text-lg">
+                {lang === 'ro' ? 'Ghid Alergeni & Produse Decongelate' : 'Allergens & Thawed Products Guide'}
               </h2>
-              <p className="text-[11px] text-slate-400">
-                Directiva 2000/13/CE a Parlamentului European • Ordinul ANPC nr. 183/2016
+              <p className="text-[11px] text-[#7A7A7A] font-medium">
+                {lang === 'ro' ? 'Conform Directivă UE 2000/13/CE & Ordin ANPC nr. 183/2016' : 'Compliant with EU Directive 2000/13/CE & ANPC Order 183/2016'}
               </p>
             </div>
           </div>
 
           <button
             onClick={onClose}
-            className="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-amber-400 flex items-center justify-center transition-all"
+            className="w-8 h-8 rounded-lg bg-white border border-[#E8E2D9] text-[#7A7A7A] hover:text-[#1C1C1C] flex items-center justify-center transition-all"
           >
             <X className="w-4 h-4" />
           </button>
         </div>
 
-        {/* Modal Body */}
-        <div className="p-5 overflow-y-auto space-y-6 text-xs text-slate-300">
-          {/* Section 1: EU 14 Allergen Index */}
-          <div>
-            <div className="flex items-center justify-between mb-3">
-              <h3 className="font-bold text-amber-400 text-sm flex items-center gap-1.5">
-                <span>📋</span>
-                <span>Codurile Alergenilor Alimentari (1 - 14)</span>
-              </h3>
-              <span className="text-[10px] text-slate-400 bg-slate-800 px-2 py-0.5 rounded-full border border-slate-700">
-                Directiva 2000/13/CE
-              </span>
+        {/* Content */}
+        <div className="p-5 space-y-6 text-xs text-[#373737] overflow-y-auto max-h-[75vh]">
+          {/* ANPC Order 183/2016 Frozen Products Notice Box */}
+          <div className="bg-amber-50 border border-[#C19B77]/30 rounded-xl p-4 space-y-3">
+            <div className="flex items-center gap-2 text-[#C19B77] font-bold text-xs">
+              <Snowflake className="w-4 h-4" />
+              <h3>{FROZEN_PRODUCT_NOTICE.title[lang] || FROZEN_PRODUCT_NOTICE.title.ro}</h3>
             </div>
+            <p className="text-[11px] text-[#555555] leading-relaxed">
+              {FROZEN_PRODUCT_NOTICE.text[lang] || FROZEN_PRODUCT_NOTICE.text.ro}
+            </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px]">
+              {FROZEN_PRODUCT_NOTICE.categories.map((cat, idx) => {
+                const catType = typeof cat.type === 'object' ? (cat.type[lang] || cat.type.ro) : cat.type;
+                const catItems = typeof cat.items === 'object' ? (cat.items[lang] || cat.items.ro) : cat.items;
+
+                return (
+                  <div key={idx} className="bg-white p-2.5 rounded-lg border border-[#E8E2D9]">
+                    <span className="font-bold text-[#1C1C1C] block mb-0.5">{catType}:</span>
+                    <span className="text-[#555555] text-[10px]">{catItems}</span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* EU Allergen Index Table (1 - 14) */}
+          <div className="space-y-3">
+            <h3 className="font-['Playfair_Display'] font-bold text-[#1C1C1C] text-sm flex items-center gap-2">
+              <Info className="w-4 h-4 text-[#C19B77]" />
+              <span>{lang === 'ro' ? 'Index Alergeni UE (Coduri 1 - 14)' : 'EU Allergen Index (Codes 1 - 14)'}</span>
+            </h3>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
               {ALLERGEN_INDEX.map((alg) => {
                 const isSelected = selectedAllergenId === alg.id;
+                const algName = typeof alg.name === 'object' ? (alg.name[lang] || alg.name.ro) : alg.name;
+                const algDetails = typeof alg.details === 'object' ? (alg.details[lang] || alg.details.ro) : alg.details;
+
                 return (
                   <div
                     key={alg.id}
-                    className={`p-3 rounded-xl border transition-all flex items-start gap-2.5 ${
+                    className={`p-3 rounded-xl border transition-all flex items-start gap-3 ${
                       isSelected
-                        ? 'bg-amber-950/50 border-amber-500 ring-2 ring-amber-500/40'
-                        : 'bg-slate-950/60 border-slate-800 hover:border-slate-700'
+                        ? 'bg-amber-50 border-[#C19B77] shadow-sm'
+                        : 'bg-white border-[#E8E2D9] hover:border-[#C19B77]/50'
                     }`}
                   >
-                    <div className="w-6 h-6 rounded-full bg-amber-500/20 text-amber-400 font-bold border border-amber-500/40 flex items-center justify-center shrink-0 text-xs mt-0.5">
+                    <div className="w-7 h-7 rounded-lg bg-[#C19B77] text-white font-bold text-xs flex items-center justify-center shrink-0 shadow-xs">
                       {alg.id}
                     </div>
-                    <div>
-                      <div className="font-semibold text-slate-100 text-xs">
-                        {alg.name}
+
+                    <div className="space-y-0.5">
+                      <div className="font-bold text-[#1C1C1C] text-xs flex items-center gap-1.5">
+                        <span>{algName}</span>
+                        {isSelected && <CheckCircle2 className="w-3.5 h-3.5 text-[#C19B77]" />}
                       </div>
-                      <p className="text-[11px] text-slate-400 leading-relaxed mt-0.5">
-                        {alg.details}
+                      <p className="text-[11px] text-[#7A7A7A] leading-normal">
+                        {algDetails}
                       </p>
                     </div>
                   </div>
@@ -74,41 +99,15 @@ export default function AllergenLegendModal({ isOpen, onClose, selectedAllergenI
               })}
             </div>
           </div>
-
-          {/* Section 2: ANPC Order 183/2016 Frozen Products Notice */}
-          <div className="bg-gradient-to-br from-cyan-950/40 via-slate-900 to-slate-950 border border-cyan-900/60 rounded-xl p-4 space-y-3">
-            <div className="flex items-center gap-2 text-cyan-300 font-bold text-xs border-b border-cyan-900/60 pb-2">
-              <Snowflake className="w-4 h-4 text-cyan-400 animate-pulse" />
-              <span>{FROZEN_PRODUCT_NOTICE.title}</span>
-            </div>
-
-            <p className="text-slate-300 text-xs leading-relaxed">
-              {FROZEN_PRODUCT_NOTICE.text}
-            </p>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1">
-              {FROZEN_PRODUCT_NOTICE.categories.map((cat, idx) => (
-                <div key={idx} className="bg-slate-950/80 p-2.5 rounded-lg border border-slate-800">
-                  <div className="font-semibold text-cyan-300 text-xs mb-1 flex items-center gap-1">
-                    <span>❄️</span>
-                    <span>{cat.type}:</span>
-                  </div>
-                  <div className="text-[11px] text-slate-400 leading-snug">
-                    {cat.items}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
 
-        {/* Modal Footer */}
-        <div className="px-5 py-3 border-t border-slate-800 bg-slate-950/90 flex justify-end">
+        {/* Footer */}
+        <div className="px-5 py-3 border-t border-[#E8E2D9] bg-[#F8F6F2] flex justify-end">
           <button
             onClick={onClose}
-            className="px-4 py-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold rounded-xl text-xs transition-all shadow-md shadow-amber-500/20"
+            className="px-5 py-2 bg-[#C19B77] hover:bg-[#A8805B] text-white font-bold rounded-xl text-xs transition-all shadow-sm"
           >
-            Am Înțeles
+            {lang === 'ro' ? 'Am înțeles' : 'Close'}
           </button>
         </div>
       </div>

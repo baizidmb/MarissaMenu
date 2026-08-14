@@ -1,74 +1,77 @@
 import React, { useRef } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
 import { MENU_CATEGORIES } from '../data/marissaMenuData';
 
-export default function CategoryNav({ activeCategory, onSelectCategory }) {
-  const scrollRef = useRef(null);
+export default function CategoryNav({ activeCategory, onSelectCategory, lang = 'ro' }) {
+  const navRef = useRef(null);
 
-  const handleScroll = (direction) => {
-    if (scrollRef.current) {
-      const scrollAmount = direction === 'left' ? -260 : 260;
-      scrollRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  const scroll = (direction) => {
+    if (navRef.current) {
+      const scrollAmount = direction === 'left' ? -250 : 250;
+      navRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
     }
   };
 
   return (
-    <div className="sticky top-[93px] z-30 bg-[#0B0F19]/95 backdrop-blur-md border-b border-slate-800/90 py-2.5 px-2 no-print shadow-md">
-      <div className="max-w-7xl mx-auto relative flex items-center">
-        {/* Left Arrow */}
+    <div className="relative z-30 no-print">
+      <div className="flex items-center justify-between gap-2 bg-white/90 backdrop-blur-md p-2 rounded-2xl border border-[#E8E2D9] shadow-sm">
+        {/* Scroll Left Button */}
         <button
-          onClick={() => handleScroll('left')}
-          className="hidden md:flex items-center justify-center w-8 h-8 rounded-full bg-slate-900/90 hover:bg-slate-800 text-slate-300 hover:text-amber-400 border border-slate-700/80 shadow-md absolute left-0 z-10 transition-all"
-          aria-label="Scroll left"
+          onClick={() => scroll('left')}
+          className="p-2 rounded-xl hover:bg-[#F8F6F2] text-[#7A7A7A] hover:text-[#C19B77] transition-all shrink-0 hidden sm:flex items-center justify-center"
+          title="Scroll stânga"
         >
-          <ChevronLeft className="w-4 h-4" />
+          <ChevronLeft className="w-5 h-5" />
         </button>
 
-        {/* Categories Bar */}
+        {/* Categories Horizontal Scroll Strip */}
         <div
-          ref={scrollRef}
-          className="flex items-center gap-2 overflow-x-auto scrollbar-none scroll-smooth px-1 md:px-10 py-1 w-full"
+          ref={navRef}
+          className="flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth py-1 px-1 w-full"
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
-          {/* All Categories Pill */}
+          {/* "All" Category Pill */}
           <button
             onClick={() => onSelectCategory('all')}
-            className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all border shrink-0 ${
+            className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all duration-200 shrink-0 ${
               activeCategory === 'all'
-                ? 'bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 border-amber-400 shadow-md shadow-amber-500/20 scale-105'
-                : 'bg-slate-900/90 text-slate-300 hover:text-amber-300 border-slate-800 hover:border-slate-700'
+                ? 'bg-[#C19B77] text-white shadow-md shadow-[#C19B77]/25 font-bold scale-[1.02]'
+                : 'bg-[#F8F6F2] text-[#373737] hover:bg-[#EFEBE4] border border-[#E8E2D9]'
             }`}
           >
-            <span>✨</span>
-            <span>Toate Preparatele</span>
+            <Sparkles className="w-3.5 h-3.5" />
+            <span>{lang === 'ro' ? 'Toate Categoriile' : 'All Categories'}</span>
           </button>
 
+          {/* Individual Category Pills */}
           {MENU_CATEGORIES.map((cat) => {
             const isActive = activeCategory === cat.id;
+            const categoryName = typeof cat.name === 'object' ? (cat.name[lang] || cat.name.ro) : cat.name;
+
             return (
               <button
                 key={cat.id}
                 onClick={() => onSelectCategory(cat.id)}
-                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-medium whitespace-nowrap transition-all border shrink-0 ${
+                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all duration-200 shrink-0 ${
                   isActive
-                    ? 'bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 font-bold border-amber-400 shadow-md shadow-amber-500/20 scale-105'
-                    : 'bg-slate-900/90 text-slate-300 hover:text-amber-300 border-slate-800 hover:border-slate-700'
+                    ? 'bg-[#C19B77] text-white shadow-md shadow-[#C19B77]/25 font-bold scale-[1.02]'
+                    : 'bg-[#F8F6F2] text-[#373737] hover:bg-[#EFEBE4] border border-[#E8E2D9]'
                 }`}
               >
-                <span className="text-base">{cat.icon}</span>
-                <span>{cat.name}</span>
+                <span className="text-sm">{cat.icon}</span>
+                <span>{categoryName}</span>
               </button>
             );
           })}
         </div>
 
-        {/* Right Arrow */}
+        {/* Scroll Right Button */}
         <button
-          onClick={() => handleScroll('right')}
-          className="hidden md:flex items-center justify-center w-8 h-8 rounded-full bg-slate-900/90 hover:bg-slate-800 text-slate-300 hover:text-amber-400 border border-slate-700/80 shadow-md absolute right-0 z-10 transition-all"
-          aria-label="Scroll right"
+          onClick={() => scroll('right')}
+          className="p-2 rounded-xl hover:bg-[#F8F6F2] text-[#7A7A7A] hover:text-[#C19B77] transition-all shrink-0 hidden sm:flex items-center justify-center"
+          title="Scroll dreapta"
         >
-          <ChevronRight className="w-4 h-4" />
+          <ChevronRight className="w-5 h-5" />
         </button>
       </div>
     </div>

@@ -7,12 +7,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        amber: {
-          400: '#FBBF24',
-          500: '#F59E0B',
-          600: '#D97706',
-          700: '#B45309',
+        marissa: {
+          gold: '#C19B77',
+          goldDark: '#A8805B',
+          goldLight: '#D4B494',
+          goldBg: '#FDFBF7',
+          dark: '#1C1C1C',
+          slate: '#373737',
+          cream: '#F8F6F2',
+          border: '#E8E2D9',
         }
+      },
+      fontFamily: {
+        playfair: ['"Playfair Display"', 'serif'],
+        roboto: ['Roboto', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
       }
     },
   },
