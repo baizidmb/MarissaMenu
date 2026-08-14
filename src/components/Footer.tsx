@@ -1,15 +1,14 @@
 import React from 'react';
-import { Wifi, Phone, MapPin, ExternalLink, ShieldCheck } from 'lucide-react';
+import { Clock, Phone, MapPin, ExternalLink, ShieldCheck, CalendarCheck } from 'lucide-react';
 import { HOTEL_INFO } from '../data/menuData';
 import { Language } from '../types/menu';
 import { TRANSLATIONS } from '../utils/translations';
 
 interface FooterProps {
   lang: Language;
-  onOpenStaffQr: () => void;
 }
 
-export const Footer: React.FC<FooterProps> = ({ lang, onOpenStaffQr }) => {
+export const Footer: React.FC<FooterProps> = ({ lang }) => {
   const t = TRANSLATIONS[lang];
 
   return (
@@ -30,7 +29,7 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenStaffQr }) => {
             </p>
           </div>
 
-          {/* Contact Phones */}
+          {/* Contact & Phone */}
           <div className="space-y-2">
             <h4 className="font-extrabold text-sm text-slate-900 flex items-center gap-1.5">
               <Phone className="w-4 h-4 text-[#C19B77]" />
@@ -43,15 +42,15 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenStaffQr }) => {
             </div>
           </div>
 
-          {/* Guest Wi-Fi Credentials */}
+          {/* Opening & Dining Schedule */}
           <div className="space-y-2">
             <h4 className="font-extrabold text-sm text-slate-900 flex items-center gap-1.5">
-              <Wifi className="w-4 h-4 text-[#C19B77]" />
-              <span>{t.wifiTitle}</span>
+              <Clock className="w-4 h-4 text-[#C19B77]" />
+              <span>{t.scheduleTitle}</span>
             </h4>
-            <div className="bg-[#F8F6F2] p-3 rounded-2xl border border-slate-200 space-y-1">
-              <div className="text-slate-500 text-[11px]">Rețea / SSID: <span className="font-bold text-slate-900">{HOTEL_INFO.wifiSsid}</span></div>
-              <div className="text-slate-500 text-[11px]">Parolă: <span className="font-mono font-bold text-[#C19B77]">{HOTEL_INFO.wifiPass}</span></div>
+            <div className="bg-[#F8F6F2] p-3 rounded-2xl border border-slate-200 space-y-1 font-inter">
+              <div className="text-slate-800 font-bold text-[11px]">{t.scheduleHours}</div>
+              <div className="text-slate-500 text-[10px]">{t.scheduleKitchen}</div>
             </div>
           </div>
 
@@ -84,18 +83,19 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenStaffQr }) => {
           </div>
         </div>
 
-        {/* Bottom Rights & Staff Link */}
+        {/* Bottom Rights & Customer Reservation Link */}
         <div className="pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-slate-400">
           <div>
             © {new Date().getFullYear()} {HOTEL_INFO.name}. {t.rightsReserved}
           </div>
           <div className="flex items-center gap-4">
-            <button
-              onClick={onOpenStaffQr}
-              className="hover:text-[#C19B77] transition-colors font-bold cursor-pointer"
+            <a
+              href={`tel:${HOTEL_INFO.phoneReceptie}`}
+              className="text-[#C19B77] hover:underline font-bold flex items-center gap-1"
             >
-              {t.staffQrBtn}
-            </button>
+              <CalendarCheck className="w-3.5 h-3.5" />
+              <span>{t.reservationsBtn}</span>
+            </a>
             <a href="https://hotelmarissa.ro" target="_blank" rel="noopener noreferrer" className="hover:text-[#C19B77] transition-colors">
               hotelmarissa.ro
             </a>

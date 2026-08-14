@@ -6,7 +6,6 @@ export interface TranslationDictionary {
   
   // Header
   brandTitle: string;
-  brandSubtitle: string;
   tableLabel: string;
   searchPlaceholder: string;
   clearSearch: string;
@@ -72,11 +71,13 @@ export interface TranslationDictionary {
   // Footer
   addressTitle: string;
   contactTitle: string;
-  wifiTitle: string;
+  scheduleTitle: string;
+  scheduleHours: string;
+  scheduleKitchen: string;
   consumerProtectionTitle: string;
   reception: string;
   rightsReserved: string;
-  staffQrBtn: string;
+  reservationsBtn: string;
   
   // Modals
   hotelModalTitle: string;
@@ -103,7 +104,6 @@ export const TRANSLATIONS: Record<Language, TranslationDictionary> = {
   ro: {
     fiscalBanner: '🇷🇴 Conform OUG 28/1999: Solicitați Bonul Fiscal | TelVerde: 0800.800.085',
     brandTitle: 'HOTEL & RESTAURANT MARISSA',
-    brandSubtitle: '★ SMART DIGITAL QR MENU ★',
     tableLabel: 'Masa',
     searchPlaceholder: 'Căutați preparate, ingrediente sau băuturi (ex: Ciorbă, Burger, Somon, Pizza)...',
     clearSearch: 'Șterge căutarea',
@@ -159,11 +159,13 @@ export const TRANSLATIONS: Record<Language, TranslationDictionary> = {
     requestSuccessDescBill: 'Nota de plată este pregătită și un ospătar se îndreaptă spre dumneavoastră.',
     addressTitle: 'Adresă Hotel & Restaurant',
     contactTitle: 'Contact & Recepție',
-    wifiTitle: 'Guest Wi-Fi Terasă',
+    scheduleTitle: 'Program Restaurant & Servire',
+    scheduleHours: 'Luni – Duminică: 08:00 – 23:00',
+    scheduleKitchen: 'Comenzi bucătărie până la 22:30',
     consumerProtectionTitle: 'Protecția Consumatorului',
     reception: 'Recepție:',
     rightsReserved: 'Toate drepturile rezervate. Conform Ordinului ANPC 201/2022 & OUG 28/1999.',
-    staffQrBtn: '🔑 Staff QR Stand',
+    reservationsBtn: '📞 Rezervări Mese: 0744.627.830',
     hotelModalTitle: 'Hotel & Restaurant Marissa',
     allergenModalTitle: 'Ghid Alergeni & Ordinul ANPC 201/2022',
     allergenModalSubtitle: 'Lista celor 14 grupe de alergeni conform Directivei EU 2000/13/CE',
@@ -186,7 +188,6 @@ export const TRANSLATIONS: Record<Language, TranslationDictionary> = {
   en: {
     fiscalBanner: '🇬🇧 Fiscal Receipt Notice OUG 28/1999 | Free Helpline: 0800.800.085',
     brandTitle: 'HOTEL & RESTAURANT MARISSA',
-    brandSubtitle: '★ SMART DIGITAL QR MENU ★',
     tableLabel: 'Table',
     searchPlaceholder: 'Search dishes, ingredients or drinks (e.g. Soup, Burger, Salmon, Pizza)...',
     clearSearch: 'Clear search',
@@ -242,11 +243,13 @@ export const TRANSLATIONS: Record<Language, TranslationDictionary> = {
     requestSuccessDescBill: 'Your bill is being prepared and a waiter is heading to your table.',
     addressTitle: 'Hotel & Restaurant Address',
     contactTitle: 'Contact & Reception',
-    wifiTitle: 'Terrace Guest Wi-Fi',
+    scheduleTitle: 'Restaurant & Dining Hours',
+    scheduleHours: 'Monday – Sunday: 08:00 – 23:00',
+    scheduleKitchen: 'Kitchen orders open until 22:30',
     consumerProtectionTitle: 'Consumer Protection (ANPC)',
     reception: 'Reception:',
     rightsReserved: 'All rights reserved. Compliant with ANPC Order 201/2022 & OUG 28/1999.',
-    staffQrBtn: '🔑 Staff QR Stand',
+    reservationsBtn: '📞 Table Bookings: 0744.627.830',
     hotelModalTitle: 'Hotel & Restaurant Marissa',
     allergenModalTitle: 'Allergen Guide & ANPC Order 201/2022',
     allergenModalSubtitle: 'List of 14 EU allergen groups according to Directive 2000/13/EC',
@@ -269,7 +272,6 @@ export const TRANSLATIONS: Record<Language, TranslationDictionary> = {
   hu: {
     fiscalBanner: '🇭🇺 OUG 28/1999 Jogszabály: Kérje a nyugtát | Ingyenes zöldszám: 0800.800.085',
     brandTitle: 'HOTEL & ÉTTEREM MARISSA',
-    brandSubtitle: '★ OKOS DIGITÁLIS QR ÉTLAP ★',
     tableLabel: 'Asztal',
     searchPlaceholder: 'Keresés az ételek, összetevők vagy italok között (pl. Leves, Burger, Lazac, Pizza)...',
     clearSearch: 'Keresés törlése',
@@ -325,11 +327,13 @@ export const TRANSLATIONS: Record<Language, TranslationDictionary> = {
     requestSuccessDescBill: 'A számlát előkészítettük, a pincér hamarosan érkezik.',
     addressTitle: 'Hotel & Étterem Címe',
     contactTitle: 'Kapcsolat & Recepció',
-    wifiTitle: 'Terasz Vendég Wi-Fi',
+    scheduleTitle: 'Étterem & Kiszolgálás Nyitvatartása',
+    scheduleHours: 'Hétfő – Vasárnap: 08:00 – 23:00',
+    scheduleKitchen: 'Konyhai rendelésfelvétel: 22:30-ig',
     consumerProtectionTitle: 'Fogyasztóvédelem (ANPC)',
     reception: 'Recepció:',
     rightsReserved: 'Minden jog fenntartva. Megfelel az ANPC 201/2022 és OUG 28/1999 rendeleteknek.',
-    staffQrBtn: '🔑 Személyzeti QR Nyomtatás',
+    reservationsBtn: '📞 Asztalfoglalás: 0744.627.830',
     hotelModalTitle: 'Hotel & Étterem Marissa',
     allergenModalTitle: 'Allergén Útmutató & ANPC 201/2022',
     allergenModalSubtitle: 'A 14 fő EU allergén csoport listája az EU 2000/13/EK irányelv szerint',

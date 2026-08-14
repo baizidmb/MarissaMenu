@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { X, Hotel, Phone, Mail, Globe, MapPin, Wifi, ExternalLink } from 'lucide-react';
+import { X, Hotel, Phone, Mail, Globe, MapPin, Clock, ExternalLink } from 'lucide-react';
 import { HOTEL_INFO } from '../data/menuData';
 import { Language } from '../types/menu';
 import { TRANSLATIONS } from '../utils/translations';
@@ -23,7 +23,7 @@ export const HotelInfoModal: React.FC<HotelInfoModalProps> = ({ lang, onClose })
       >
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-100 transition-colors"
+          className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-100 transition-colors cursor-pointer"
           title={t.closeBtn}
         >
           <X className="w-5 h-5" />
@@ -69,10 +69,10 @@ export const HotelInfoModal: React.FC<HotelInfoModalProps> = ({ lang, onClose })
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <Wifi className="w-4 h-4 text-[#C19B77] shrink-0" />
+              <Clock className="w-4 h-4 text-[#C19B77] shrink-0" />
               <div>
-                <span className="font-bold text-slate-900">{t.wifiTitle}: </span>
-                <span className="font-mono text-slate-700">{HOTEL_INFO.wifiSsid} ({HOTEL_INFO.wifiPass})</span>
+                <span className="font-bold text-slate-900">{t.scheduleTitle}: </span>
+                <span className="text-slate-700 font-bold">{t.scheduleHours}</span>
               </div>
             </div>
           </div>
