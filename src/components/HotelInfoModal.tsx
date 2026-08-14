@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { X, Hotel, Phone, Mail, Globe, MapPin, Wifi, ExternalLink } from 'lucide-react';
 import { HOTEL_INFO } from '../data/menuData';
 import { Language } from '../types/menu';
+import { TRANSLATIONS } from '../utils/translations';
 
 interface HotelInfoModalProps {
   lang: Language;
@@ -10,6 +11,8 @@ interface HotelInfoModalProps {
 }
 
 export const HotelInfoModal: React.FC<HotelInfoModalProps> = ({ lang, onClose }) => {
+  const t = TRANSLATIONS[lang];
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm font-jakarta no-print">
       <motion.div
@@ -21,6 +24,7 @@ export const HotelInfoModal: React.FC<HotelInfoModalProps> = ({ lang, onClose })
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-100 transition-colors"
+          title={t.closeBtn}
         >
           <X className="w-5 h-5" />
         </button>
@@ -42,18 +46,18 @@ export const HotelInfoModal: React.FC<HotelInfoModalProps> = ({ lang, onClose })
 
         {/* Details Content */}
         <div className="space-y-4 text-xs">
-          <div className="bg-[#F8F6F2] p-4 rounded-2xl border border-slate-200 space-y-2">
+          <div className="bg-[#F8F6F2] p-4 rounded-2xl border border-slate-200 space-y-2.5 font-inter">
             <div className="flex items-start gap-2">
               <MapPin className="w-4 h-4 text-[#C19B77] shrink-0 mt-0.5" />
               <div>
-                <span className="font-bold text-slate-900">Adresă: </span>
-                <span className="text-slate-600 font-inter">{HOTEL_INFO.address}, {HOTEL_INFO.town}, Jud. {HOTEL_INFO.county}</span>
+                <span className="font-bold text-slate-900">{t.addressTitle}: </span>
+                <span className="text-slate-600">{HOTEL_INFO.address}, {HOTEL_INFO.town}, Jud. {HOTEL_INFO.county}</span>
               </div>
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-[#C19B77] shrink-0" />
               <div>
-                <span className="font-bold text-slate-900">Recepție: </span>
+                <span className="font-bold text-slate-900">{t.reception} </span>
                 <a href={`tel:${HOTEL_INFO.phoneReceptie}`} className="font-bold text-[#C19B77] hover:underline">{HOTEL_INFO.phoneReceptie}</a>
               </div>
             </div>
@@ -67,7 +71,7 @@ export const HotelInfoModal: React.FC<HotelInfoModalProps> = ({ lang, onClose })
             <div className="flex items-center gap-2">
               <Wifi className="w-4 h-4 text-[#C19B77] shrink-0" />
               <div>
-                <span className="font-bold text-slate-900">Guest Wi-Fi: </span>
+                <span className="font-bold text-slate-900">{t.wifiTitle}: </span>
                 <span className="font-mono text-slate-700">{HOTEL_INFO.wifiSsid} ({HOTEL_INFO.wifiPass})</span>
               </div>
             </div>
@@ -77,10 +81,10 @@ export const HotelInfoModal: React.FC<HotelInfoModalProps> = ({ lang, onClose })
             href={HOTEL_INFO.website}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full py-3 rounded-2xl bg-[#C19B77] hover:bg-[#A8805B] text-white font-extrabold text-xs shadow-md transition-all cursor-pointer flex items-center justify-center gap-2"
+            className="w-full py-3 rounded-2xl bg-[#C19B77] hover:bg-[#A8805B] text-white font-extrabold text-xs shadow-md transition-all cursor-pointer flex items-center justify-center gap-2 font-jakarta"
           >
             <Globe className="w-4 h-4" />
-            <span>Vizitați Site-ul Oficial (hotelmarissa.ro)</span>
+            <span>hotelmarissa.ro</span>
             <ExternalLink className="w-3.5 h-3.5" />
           </a>
         </div>

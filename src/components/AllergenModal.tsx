@@ -1,8 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { X, ShieldAlert, Snowflake, Info } from 'lucide-react';
+import { X, ShieldAlert, Snowflake } from 'lucide-react';
 import { ALLERGENS } from '../data/menuData';
 import { Language } from '../types/menu';
+import { TRANSLATIONS } from '../utils/translations';
 
 interface AllergenModalProps {
   lang: Language;
@@ -11,6 +12,8 @@ interface AllergenModalProps {
 }
 
 export const AllergenModal: React.FC<AllergenModalProps> = ({ lang, onClose, selectedAllergenId }) => {
+  const t = TRANSLATIONS[lang];
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm font-jakarta no-print">
       <motion.div
@@ -21,7 +24,8 @@ export const AllergenModal: React.FC<AllergenModalProps> = ({ lang, onClose, sel
       >
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-100 transition-colors"
+          className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-100 transition-colors cursor-pointer"
+          title={t.closeBtn}
         >
           <X className="w-5 h-5" />
         </button>
@@ -32,11 +36,11 @@ export const AllergenModal: React.FC<AllergenModalProps> = ({ lang, onClose, sel
             <ShieldAlert className="w-6 h-6" />
           </div>
           <div>
-            <h3 className="font-extrabold text-lg text-slate-900">
-              {lang === 'ro' ? 'Ghid Alergeni & Ordinul ANPC 201/2022' : 'Allergen Guide & ANPC Order 201/2022'}
+            <h3 className="font-extrabold text-base sm:text-lg text-slate-900">
+              {t.allergenModalTitle}
             </h3>
             <p className="text-xs text-[#C19B77] font-bold">
-              {lang === 'ro' ? 'Lista celor 14 grupe de alergeni conform Directivei EU 2000/13/CE' : 'List of 14 EU Allergen groups'}
+              {t.allergenModalSubtitle}
             </p>
           </div>
         </div>
@@ -49,7 +53,7 @@ export const AllergenModal: React.FC<AllergenModalProps> = ({ lang, onClose, sel
               <span>Informații Produse Decongelate (ANPC 183/2016 & 201/2022)</span>
             </div>
             <p className="text-[11px] leading-relaxed font-inter">
-              Unele ingrediente (carne de pasăre, porc, pește, fructe de mare, legume congelate) pot proveni din produse decongelate. Acestea sunt marcate explicit cu insigna <span className="font-bold">*Produs decongelat</span>.
+              {t.thawedLegalNotice}
             </p>
           </div>
 

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BellRing, CreditCard, X, CheckCircle, Sparkles, Smartphone } from 'lucide-react';
 import { Language } from '../types/menu';
+import { TRANSLATIONS, getTableDisplayText } from '../utils/translations';
 
 interface FloatingActionsProps {
   lang: Language;
@@ -12,6 +13,9 @@ export const FloatingActions: React.FC<FloatingActionsProps> = ({ lang, tableNum
   const [modalType, setModalType] = useState<'waiter' | 'bill' | null>(null);
   const [paymentMethod, setPaymentMethod] = useState<'card' | 'cash'>('card');
   const [sentSuccess, setSentSuccess] = useState(false);
+
+  const t = TRANSLATIONS[lang];
+  const tableDisplay = tableNumber ? getTableDisplayText(tableNumber, lang) : (lang === 'hu' ? '12. Asztal' : lang === 'en' ? 'Table #12' : 'Masa #12');
 
   const handleSendRequest = () => {
     setSentSuccess(true);
@@ -24,28 +28,28 @@ export const FloatingActions: React.FC<FloatingActionsProps> = ({ lang, tableNum
   return (
     <>
       {/* Floating Action Button (FAB) Stack */}
-      <div className="fixed bottom-6 right-4 z-40 flex flex-col items-end gap-3 no-print font-jakarta">
+      <div className="fixed bottom-5 right-3.5 sm:bottom-6 sm:right-6 z-40 flex flex-col items-end gap-2.5 sm:gap-3 no-print font-jakarta">
         {/* Call Waiter FAB */}
         <button
           onClick={() => setModalType('waiter')}
-          className="flex items-center gap-2 px-4 py-3 rounded-full bg-[#C19B77] hover:bg-[#A8805B] text-white font-extrabold text-xs shadow-xl hover:shadow-2xl transition-all scale-100 active:scale-95 cursor-pointer border border-white/30"
-          title="Cheamă Ospătarul"
+          className="flex items-center gap-2 px-3.5 sm:px-4 py-2.5 sm:py-3 rounded-full bg-[#C19B77] hover:bg-[#A8805B] text-white font-extrabold text-xs shadow-xl hover:shadow-2xl transition-all scale-100 active:scale-95 cursor-pointer border border-white/30"
+          title={t.callWaiter}
         >
           <BellRing className="w-4 h-4 animate-bounce" />
-          <span className="hidden xs:inline">
-            {lang === 'ro' ? 'Cheamă Ospătarul' : lang === 'en' ? 'Call Waiter' : 'Pincér Hívása'}
+          <span className="inline">
+            {t.callWaiter}
           </span>
         </button>
 
         {/* Request Bill FAB */}
         <button
           onClick={() => setModalType('bill')}
-          className="flex items-center gap-2 px-4 py-3 rounded-full bg-slate-900 hover:bg-black text-white font-extrabold text-xs shadow-xl hover:shadow-2xl transition-all scale-100 active:scale-95 cursor-pointer border border-white/20"
-          title="Cere Nota"
+          className="flex items-center gap-2 px-3.5 sm:px-4 py-2.5 sm:py-3 rounded-full bg-slate-900 hover:bg-black text-white font-extrabold text-xs shadow-xl hover:shadow-2xl transition-all scale-100 active:scale-95 cursor-pointer border border-white/20"
+          title={t.requestBill}
         >
           <CreditCard className="w-4 h-4 text-amber-400" />
-          <span className="hidden xs:inline">
-            {lang === 'ro' ? 'Cere Nota' : lang === 'en' ? 'Request Bill' : 'Számla Kérése'}
+          <span className="inline">
+            {t.requestBill}
           </span>
         </button>
       </div>
@@ -63,6 +67,7 @@ export const FloatingActions: React.FC<FloatingActionsProps> = ({ lang, tableNum
               <button
                 onClick={() => setModalType(null)}
                 className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-100 transition-colors"
+                title={t.closeBtn}
               >
                 <X className="w-5 h-5" />
               </button>
@@ -71,12 +76,12 @@ export const FloatingActions: React.FC<FloatingActionsProps> = ({ lang, tableNum
                 <div className="py-8 text-center space-y-3">
                   <CheckCircle className="w-14 h-14 text-emerald-500 mx-auto animate-pulse" />
                   <h3 className="text-xl font-extrabold text-slate-900">
-                    {lang === 'ro' ? 'Solicitare Trimisă cu Succes!' : 'Request Sent Successfully!'}
+                    {t.requestSuccessTitle}
                   </h3>
                   <p className="text-xs text-slate-600 font-inter">
-                    {lang === 'ro'
-                      ? `Un ospătar a primit notificarea pentru Masa #${tableNumber || '12'} și vine în cel mai scurt timp.`
-                      : `A waiter has received your request for Table #${tableNumber || '12'} and will be right with you.`}
+                    {modalType === 'waiter'
+                      ? `${t.requestSuccessDescWaiter} (${tableDisplay})`
+                      : `${t.requestSuccessDescBill} (${tableDisplay})`}
                   </p>
                 </div>
               ) : (
@@ -87,19 +92,17 @@ export const FloatingActions: React.FC<FloatingActionsProps> = ({ lang, tableNum
                     </div>
                     <div>
                       <h3 className="font-extrabold text-base text-slate-900">
-                        {modalType === 'waiter'
-                          ? (lang === 'ro' ? 'Cheamă Ospătarul la Masă' : 'Call Waiter to Table')
-                          : (lang === 'ro' ? 'Solicită Nota de Plată' : 'Request Table Bill')}
+                        {modalType === 'waiter' ? t.waiterModalTitle : t.billModalTitle}
                       </h3>
                       <p className="text-xs text-slate-500 font-bold">
-                        Masa curenți: <span className="text-[#C19B77]">#{tableNumber || '12'}</span>
+                        {t.currentTable} <span className="text-[#C19B77]">{tableDisplay}</span>
                       </p>
                     </div>
                   </div>
 
                   {modalType === 'bill' && (
                     <div className="space-y-2">
-                      <label className="text-xs font-extrabold text-slate-700">Modalitate de Plată Preferată:</label>
+                      <label className="text-xs font-extrabold text-slate-700">{t.paymentMethod}</label>
                       <div className="grid grid-cols-2 gap-3">
                         <button
                           onClick={() => setPaymentMethod('card')}
@@ -110,7 +113,7 @@ export const FloatingActions: React.FC<FloatingActionsProps> = ({ lang, tableNum
                           }`}
                         >
                           <CreditCard className="w-5 h-5" />
-                          <span>Card Bancar</span>
+                          <span>{t.payCard}</span>
                         </button>
                         <button
                           onClick={() => setPaymentMethod('cash')}
@@ -121,7 +124,7 @@ export const FloatingActions: React.FC<FloatingActionsProps> = ({ lang, tableNum
                           }`}
                         >
                           <Smartphone className="w-5 h-5" />
-                          <span>Numerar / Cash</span>
+                          <span>{t.payCash}</span>
                         </button>
                       </div>
                     </div>
@@ -133,9 +136,7 @@ export const FloatingActions: React.FC<FloatingActionsProps> = ({ lang, tableNum
                   >
                     <Sparkles className="w-4 h-4" />
                     <span>
-                      {modalType === 'waiter'
-                        ? (lang === 'ro' ? 'Trimite Notificarea' : 'Send Alert')
-                        : (lang === 'ro' ? 'Cere Nota de Plată' : 'Request Bill')}
+                      {modalType === 'waiter' ? t.sendAlert : t.requestBillBtn}
                     </span>
                   </button>
                 </div>

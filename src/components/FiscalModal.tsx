@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { X, Receipt, PhoneCall, ShieldAlert } from 'lucide-react';
+import { X, Receipt, PhoneCall } from 'lucide-react';
 import { Language } from '../types/menu';
+import { TRANSLATIONS } from '../utils/translations';
 
 interface FiscalModalProps {
   lang: Language;
@@ -9,6 +10,8 @@ interface FiscalModalProps {
 }
 
 export const FiscalModal: React.FC<FiscalModalProps> = ({ lang, onClose }) => {
+  const t = TRANSLATIONS[lang];
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm font-jakarta no-print">
       <motion.div
@@ -19,7 +22,8 @@ export const FiscalModal: React.FC<FiscalModalProps> = ({ lang, onClose }) => {
       >
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-100 transition-colors"
+          className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-100 transition-colors cursor-pointer"
+          title={t.closeBtn}
         >
           <X className="w-5 h-5" />
         </button>
@@ -29,28 +33,28 @@ export const FiscalModal: React.FC<FiscalModalProps> = ({ lang, onClose }) => {
             <Receipt className="w-6 h-6" />
           </div>
           <div>
-            <h3 className="font-extrabold text-lg text-slate-900">
-              {lang === 'ro' ? 'Notă Fiscală Obligatorie' : 'Fiscal Compliance Notice'}
+            <h3 className="font-extrabold text-base sm:text-lg text-slate-900">
+              {t.fiscalModalTitle}
             </h3>
             <p className="text-xs text-[#C19B77] font-bold">
-              Conform Ordonanței de Urgență OUG 28/1999
+              {t.fiscalModalSubtitle}
             </p>
           </div>
         </div>
 
         <div className="space-y-4 text-xs">
-          <div className="bg-[#F8F6F2] p-4 rounded-2xl border border-slate-200 space-y-3 font-inter leading-relaxed text-slate-700">
+          <div className="bg-[#F8F6F2] p-4 rounded-2xl border border-slate-200 space-y-2.5 font-inter leading-relaxed text-slate-700">
             <p className="font-bold text-slate-900">
-              Vă rugăm să solicitați bonul fiscal pentru orice bun achiziționat în cadrul Restaurantului Marissa!
+              {t.fiscalModalText1}
             </p>
             <p>
-              În cazul refuzului eliberării bonului fiscal de către personalul de servire, aveți dreptul de a beneficia de bunul achiziționat fără achitarea contravalorii acestuia.
+              {t.fiscalModalText2}
             </p>
           </div>
 
           <div className="bg-amber-50 border border-[#C19B77]/40 p-4 rounded-2xl space-y-2">
             <div className="flex items-center justify-between">
-              <span className="font-extrabold text-slate-900">TelVerde ANAF (Lini gratuită):</span>
+              <span className="font-extrabold text-slate-900">{t.anafHelpline}</span>
               <a href="tel:0800800085" className="font-mono font-extrabold text-sm text-[#C19B77] hover:underline flex items-center gap-1">
                 <PhoneCall className="w-4 h-4" />
                 <span>0800.800.085</span>

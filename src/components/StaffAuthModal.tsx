@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Lock, KeyRound, X, Eye, EyeOff, ShieldCheck, AlertCircle } from 'lucide-react';
 import { HOTEL_INFO } from '../data/menuData';
 import { Language } from '../types/menu';
+import { TRANSLATIONS } from '../utils/translations';
 
 interface StaffAuthModalProps {
   lang: Language;
@@ -14,6 +15,7 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState(false);
+  const t = TRANSLATIONS[lang];
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -37,6 +39,7 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-100 transition-colors cursor-pointer"
+          title={t.closeBtn}
         >
           <X className="w-5 h-5" />
         </button>
@@ -48,12 +51,10 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
           </div>
           <div>
             <h3 className="font-extrabold text-xl text-slate-900">
-              {lang === 'ro' ? 'Acces Management Restaurant' : 'Restaurant Owner Access'}
+              {t.adminTitle}
             </h3>
             <p className="text-xs text-slate-500 font-inter mt-1">
-              {lang === 'ro'
-                ? 'Generarea și imprimarea etichetelor QR pentru mese este protejată prin parolă.'
-                : 'QR stand & sticker printing is restricted to restaurant management.'}
+              {t.adminSubtitle}
             </p>
           </div>
         </div>
@@ -63,7 +64,7 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
           <div className="space-y-1.5">
             <label className="text-xs font-extrabold text-slate-700 flex items-center gap-1.5">
               <KeyRound className="w-3.5 h-3.5 text-[#C19B77]" />
-              <span>{lang === 'ro' ? 'Introduceți Parola de Administrator:' : 'Enter Admin Password:'}</span>
+              <span>{t.passwordLabel}</span>
             </label>
 
             <div className="relative">
@@ -95,7 +96,7 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
               >
                 <AlertCircle className="w-4 h-4 shrink-0" />
                 <span>
-                  {lang === 'ro' ? 'Parolă incorectă! Vă rugăm încercați din nou.' : 'Incorrect password! Please try again.'}
+                  {t.wrongPassword}
                 </span>
               </motion.div>
             )}
@@ -107,7 +108,7 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
               onClick={onClose}
               className="flex-1 py-3 rounded-xl border border-slate-200 text-slate-600 hover:bg-slate-50 font-extrabold text-xs transition-colors cursor-pointer"
             >
-              {lang === 'ro' ? 'Anulează' : 'Cancel'}
+              {t.cancelBtn}
             </button>
 
             <button
@@ -115,7 +116,7 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
               className="flex-1 py-3 rounded-xl bg-[#C19B77] hover:bg-[#A8805B] text-white font-extrabold text-xs shadow-md transition-all cursor-pointer flex items-center justify-center gap-1.5"
             >
               <ShieldCheck className="w-4 h-4" />
-              <span>{lang === 'ro' ? 'Autentificare' : 'Unlock & Print'}</span>
+              <span>{t.unlockBtn}</span>
             </button>
           </div>
         </form>

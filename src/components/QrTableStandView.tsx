@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { QRCodeSVG } from 'qrcode.react';
-import { Printer, ArrowLeft, Lock, Phone, Globe, ShieldCheck, Wifi, Sparkles, Layers, CheckCircle } from 'lucide-react';
+import { Printer, ArrowLeft, Lock, Phone, Globe, ShieldCheck, Wifi, Sparkles } from 'lucide-react';
 import { HOTEL_INFO } from '../data/menuData';
 import { Language } from '../types/menu';
+import { TRANSLATIONS, getTableDisplayText } from '../utils/translations';
 
 interface QrTableStandViewProps {
   onClose: () => void;
@@ -15,17 +16,18 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
   const [designFormat, setDesignFormat] = useState<'sticker' | 'tent' | 'batch'>('sticker');
   const [batchCount, setBatchCount] = useState<number>(12);
 
+  const t = TRANSLATIONS[lang];
   const currentDomain = typeof window !== 'undefined' ? window.location.origin : 'https://hotelmarissa.ro';
-  const getQrUrlForTable = (table: string) => `${currentDomain}/?table=${encodeURIComponent(table)}&utm_source=qr_stand`;
+  const getQrUrlForTable = (table: string) => `${currentDomain}/?table=${encodeURIComponent(table)}&lang=${lang}&utm_source=qr_stand`;
 
   const handlePrint = () => {
     window.print();
   };
 
   return (
-    <div className="min-h-screen bg-[#F8F6F2] py-8 px-4 font-jakarta">
+    <div className="min-h-screen bg-[#F8F6F2] py-6 sm:py-8 px-3 sm:px-4 font-jakarta">
       {/* Top Action & Configuration Bar (Hidden during printing) */}
-      <div className="max-w-5xl mx-auto mb-8 space-y-4 no-print">
+      <div className="max-w-5xl mx-auto mb-6 sm:mb-8 space-y-4 no-print">
         <div className="flex items-center justify-between gap-3 flex-wrap">
           <div className="flex items-center gap-2">
             <button
@@ -33,20 +35,20 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
               className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 text-xs font-bold transition-all shadow-xs cursor-pointer"
             >
               <ArrowLeft className="w-4 h-4" />
-              <span>{lang === 'ro' ? 'Înapoi la Meniu' : 'Back to Menu'}</span>
+              <span>{t.backToMenu}</span>
             </button>
 
             <button
               onClick={onLock}
               className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-rose-50 hover:bg-rose-100 border border-rose-200 text-rose-700 text-xs font-bold transition-all shadow-xs cursor-pointer"
-              title="Blochează Panoul QR"
+              title={t.lockPanel}
             >
               <Lock className="w-3.5 h-3.5" />
-              <span>{lang === 'ro' ? 'Blochează Accesul' : 'Lock Panel'}</span>
+              <span>{t.lockPanel}</span>
             </button>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3 flex-wrap">
             {/* Format Selector Pills */}
             <div className="bg-white p-1 rounded-2xl border border-slate-200 flex items-center gap-1 shadow-2xs">
               <button
@@ -57,7 +59,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
                     : 'text-slate-600 hover:bg-slate-100'
                 }`}
               >
-                🏷️ Sticker Masă (10x10)
+                🏷️ {lang === 'hu' ? 'Matrica (10x10)' : lang === 'en' ? 'Sticker (10x10)' : 'Sticker Masă (10x10)'}
               </button>
               <button
                 onClick={() => setDesignFormat('tent')}
@@ -67,7 +69,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
                     : 'text-slate-600 hover:bg-slate-100'
                 }`}
               >
-                📐 Stand Cort A5
+                📐 {lang === 'hu' ? 'A5 Állvány' : lang === 'en' ? 'A5 Tent' : 'Stand Cort A5'}
               </button>
               <button
                 onClick={() => setDesignFormat('batch')}
@@ -77,7 +79,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
                     : 'text-slate-600 hover:bg-slate-100'
                 }`}
               >
-                📑 Batch (Masa 1 - {batchCount})
+                📑 Batch (1 - {batchCount})
               </button>
             </div>
 
@@ -87,28 +89,28 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
               className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-black text-white text-xs font-extrabold shadow-md transition-all cursor-pointer"
             >
               <Printer className="w-4 h-4 text-amber-300" />
-              <span>{lang === 'ro' ? 'Printează' : 'Print'}</span>
+              <span>{t.printBtn}</span>
             </button>
           </div>
         </div>
 
         {/* Table Number Customizer Bar */}
         {designFormat !== 'batch' ? (
-          <div className="bg-white p-4 rounded-2xl border border-slate-200 flex items-center justify-between gap-4 shadow-2xs">
-            <div className="flex items-center gap-3">
-              <span className="text-xs font-extrabold text-slate-900">Număr Masă:</span>
+          <div className="bg-white p-3.5 sm:p-4 rounded-2xl border border-slate-200 flex items-center justify-between gap-3 shadow-2xs flex-wrap">
+            <div className="flex items-center gap-2 sm:gap-3 flex-wrap">
+              <span className="text-xs font-extrabold text-slate-900">{t.tableLabel}:</span>
               <div className="flex items-center gap-1.5 overflow-x-auto max-w-xl py-1">
-                {['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'Terasă 1', 'Terasă 2', 'Bar'].map((t) => (
+                {['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'Terasă 1', 'Terasă 2', 'Bar'].map((tbl) => (
                   <button
-                    key={t}
-                    onClick={() => setSelectedTable(t)}
+                    key={tbl}
+                    onClick={() => setSelectedTable(tbl)}
                     className={`px-3 py-1 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer ${
-                      selectedTable === t
+                      selectedTable === tbl
                         ? 'bg-[#C19B77] text-white shadow-xs'
                         : 'bg-[#F8F6F2] text-slate-700 hover:bg-slate-200 border border-slate-200'
                     }`}
                   >
-                    Masa #{t}
+                    {getTableDisplayText(tbl, lang)}
                   </button>
                 ))}
               </div>
@@ -125,9 +127,9 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
             </div>
           </div>
         ) : (
-          <div className="bg-white p-4 rounded-2xl border border-slate-200 flex items-center justify-between gap-4 shadow-2xs">
+          <div className="bg-white p-3.5 sm:p-4 rounded-2xl border border-slate-200 flex items-center justify-between gap-4 shadow-2xs flex-wrap">
             <span className="text-xs font-extrabold text-slate-900">Generează stickere pentru:</span>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 flex-wrap">
               {[6, 12, 18, 24, 30].map((count) => (
                 <button
                   key={count}
@@ -138,7 +140,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
                       : 'bg-[#F8F6F2] text-slate-700 hover:bg-slate-200 border border-slate-200'
                   }`}
                 >
-                  Masa 1 - {count}
+                  {lang === 'hu' ? `1 - ${count}. Asztal` : `${t.tableLabel} 1 - ${count}`}
                 </button>
               ))}
             </div>
@@ -148,7 +150,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
 
       {/* SINGLE STICKABLE TABLE DECAL DESIGN (FORMAT 1: 10x10cm STICKER) */}
       {designFormat === 'sticker' && (
-        <div className="max-w-sm mx-auto bg-white rounded-3xl p-7 shadow-2xl border-4 border-[#C19B77]/60 text-center space-y-4 print:shadow-none print:m-0 print:p-6 print:w-[380px] relative overflow-hidden">
+        <div className="max-w-sm mx-auto bg-white rounded-3xl p-6 sm:p-7 shadow-2xl border-4 border-[#C19B77]/60 text-center space-y-4 print:shadow-none print:m-0 print:p-6 print:w-[380px] relative overflow-hidden">
           {/* Decorative Corner Ornaments */}
           <div className="absolute top-2 left-2 w-6 h-6 border-t-2 border-l-2 border-[#C19B77]/50 rounded-tl-lg pointer-events-none" />
           <div className="absolute top-2 right-2 w-6 h-6 border-t-2 border-r-2 border-[#C19B77]/50 rounded-tr-lg pointer-events-none" />
@@ -170,7 +172,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
           {/* Prominent Table Badge */}
           <div className="inline-flex items-center gap-1.5 px-4 py-1 rounded-full bg-gradient-to-r from-amber-500 to-[#C19B77] text-white shadow-md">
             <Sparkles className="w-3.5 h-3.5" />
-            <span className="font-extrabold text-sm tracking-wider uppercase">MASA #{selectedTable}</span>
+            <span className="font-extrabold text-sm tracking-wider uppercase">{getTableDisplayText(selectedTable, lang)}</span>
           </div>
 
           {/* QR Code Container */}
@@ -194,10 +196,10 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
           {/* Instructions */}
           <div className="space-y-1">
             <p className="font-extrabold text-xs text-slate-900 uppercase tracking-wide">
-              {lang === 'ro' ? 'Scanați pentru Meniu Digital & Comandă' : 'Scan for Digital Menu & Order'}
+              {lang === 'hu' ? 'Szkennelje a Digitális Étlaphoz & Rendeléshez' : lang === 'en' ? 'Scan for Digital Menu & Order' : 'Scanați pentru Meniu Digital & Comandă'}
             </p>
             <p className="text-[10px] text-slate-500 font-inter">
-              Apropiați camera telefonului de codul QR pentru a vizualiza meniul complet.
+              {lang === 'hu' ? 'Irányítsa telefonja kameráját a QR-kódra a teljes étlap megtekintéséhez.' : lang === 'en' ? 'Point your smartphone camera at the QR code to browse the complete menu.' : 'Apropiați camera telefonului de codul QR pentru a vizualiza meniul complet.'}
             </p>
           </div>
 
@@ -219,7 +221,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
 
       {/* STAND CORT A5 DESIGN (FORMAT 2) */}
       {designFormat === 'tent' && (
-        <div className="max-w-md mx-auto bg-white rounded-3xl p-8 shadow-2xl border border-slate-200 text-center space-y-6 print:shadow-none print:border-none print:m-0 print:p-6 print:w-full">
+        <div className="max-w-md mx-auto bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-slate-200 text-center space-y-6 print:shadow-none print:border-none print:m-0 print:p-6 print:w-full">
           <div className="space-y-2">
             <img
               src={HOTEL_INFO.logoUrl}
@@ -230,7 +232,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
               {HOTEL_INFO.name}
             </h2>
             <div className="inline-flex items-center gap-1 px-4 py-1 rounded-full bg-slate-900 text-amber-400 text-xs font-extrabold uppercase">
-              MASA #{selectedTable}
+              {getTableDisplayText(selectedTable, lang)}
             </div>
           </div>
 
@@ -253,10 +255,10 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
 
           <div className="space-y-1">
             <p className="font-extrabold text-sm text-slate-900 uppercase tracking-wide">
-              {lang === 'ro' ? 'Scanați pentru Meniu Digital & Nutriție' : 'Scan for Digital Menu & Nutrition'}
+              {lang === 'hu' ? 'Szkennelje a Digitális Étlaphoz & Tápértékekhez' : lang === 'en' ? 'Scan for Digital Menu & Nutrition' : 'Scanați pentru Meniu Digital & Nutriție'}
             </p>
             <p className="text-xs text-slate-500 font-inter">
-              Meniu complet conform ANPC Order 201/2022: valori nutriționale per 100g, alergeni și produse decongelate.
+              {lang === 'hu' ? 'Teljes étlap az ANPC 201/2022 rendelet szerint: 100g-os tápértékek és allergének.' : lang === 'en' ? 'Complete menu compliant with ANPC Order 201/2022: per 100g nutrition and allergens.' : 'Meniu complet conform ANPC Order 201/2022: valori nutriționale per 100g, alergeni și produse decongelate.'}
             </p>
           </div>
 
@@ -294,7 +296,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
                     className="h-6 object-contain"
                   />
                   <span className="px-2.5 py-0.5 rounded-full bg-[#C19B77] text-white text-[11px] font-extrabold">
-                    MASA #{tableNum}
+                    {getTableDisplayText(tableNum, lang)}
                   </span>
                 </div>
 
@@ -317,7 +319,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
 
                 <div className="space-y-0.5">
                   <p className="font-extrabold text-[10px] text-slate-900 uppercase">
-                    Scanați Meniul Digital
+                    {lang === 'hu' ? 'Digitális Étlap' : lang === 'en' ? 'Scan Digital Menu' : 'Scanați Meniul Digital'}
                   </p>
                   <p className="text-[8px] text-slate-400 font-inter truncate">
                     Wi-Fi: {HOTEL_INFO.wifiSsid} ({HOTEL_INFO.wifiPass})

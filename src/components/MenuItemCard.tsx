@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Snowflake, Info, Sparkles, Flame, Leaf } from 'lucide-react';
 import { MenuItem, Language } from '../types/menu';
 import { ALLERGENS } from '../data/menuData';
+import { TRANSLATIONS } from '../utils/translations';
 
 interface MenuItemCardProps {
   item: MenuItem;
@@ -17,6 +18,7 @@ export const MenuItemCard: React.FC<MenuItemCardProps> = ({
   onSelect,
   onSelectAllergen,
 }) => {
+  const t = TRANSLATIONS[lang];
   const name = item.name[lang] || item.name.ro;
   const description = item.description[lang] || item.description.ro;
 
@@ -30,7 +32,7 @@ export const MenuItemCard: React.FC<MenuItemCardProps> = ({
     >
       {/* Animated Image Banner Container */}
       <div 
-        className="relative h-48 sm:h-52 w-full overflow-hidden bg-slate-100 cursor-pointer" 
+        className="relative h-44 sm:h-52 w-full overflow-hidden bg-slate-100 cursor-pointer" 
         onClick={() => onSelect(item)}
       >
         <motion.img
@@ -49,29 +51,29 @@ export const MenuItemCard: React.FC<MenuItemCardProps> = ({
             <motion.span
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
-              className="inline-flex items-center gap-1 bg-sky-950/90 backdrop-blur-md text-sky-200 border border-sky-400/50 px-2.5 py-0.5 rounded-md text-[10px] font-bold shadow-md"
-              title="Produs decongelat (ANPC Order 201/2022)"
+              className="inline-flex items-center gap-1 bg-sky-950/90 backdrop-blur-md text-sky-200 border border-sky-400/50 px-2 py-0.5 rounded-md text-[10px] font-bold shadow-md"
+              title="ANPC Order 201/2022 & 183/2016"
             >
               <Snowflake className="w-3 h-3 text-sky-300 animate-spin" style={{ animationDuration: '8s' }} />
-              <span>*Produs decongelat</span>
+              <span>{t.thawedBadge}</span>
             </motion.span>
           )}
           {item.isSpecialty && (
-            <span className="inline-flex items-center gap-1 bg-gradient-to-r from-amber-500 to-yellow-500 text-white px-2.5 py-0.5 rounded-md text-[10px] font-extrabold shadow-md">
+            <span className="inline-flex items-center gap-1 bg-gradient-to-r from-amber-500 to-yellow-500 text-white px-2 py-0.5 rounded-md text-[10px] font-extrabold shadow-md">
               <Sparkles className="w-3 h-3" />
-              <span>Chef Special</span>
+              <span>{t.chefSpecial}</span>
             </span>
           )}
           {item.isVegetarian && (
-            <span className="inline-flex items-center gap-1 bg-emerald-600 text-white px-2.5 py-0.5 rounded-md text-[10px] font-extrabold shadow-md">
+            <span className="inline-flex items-center gap-1 bg-emerald-600 text-white px-2 py-0.5 rounded-md text-[10px] font-extrabold shadow-md">
               <Leaf className="w-3 h-3" />
-              <span>Vegetarian</span>
+              <span>{t.vegetarian}</span>
             </span>
           )}
           {item.isSpicy && (
-            <span className="inline-flex items-center gap-1 bg-rose-600 text-white px-2.5 py-0.5 rounded-md text-[10px] font-extrabold shadow-md">
+            <span className="inline-flex items-center gap-1 bg-rose-600 text-white px-2 py-0.5 rounded-md text-[10px] font-extrabold shadow-md">
               <Flame className="w-3 h-3 animate-pulse" />
-              <span>Picant</span>
+              <span>{t.spicy}</span>
             </span>
           )}
         </div>
@@ -90,9 +92,9 @@ export const MenuItemCard: React.FC<MenuItemCardProps> = ({
       </div>
 
       {/* Card Content Details */}
-      <div className="p-4 flex-1 flex flex-col justify-between space-y-3">
+      <div className="p-3.5 sm:p-4 flex-1 flex flex-col justify-between space-y-3">
         <div className="space-y-1.5 cursor-pointer" onClick={() => onSelect(item)}>
-          <h3 className="font-extrabold text-base sm:text-lg text-slate-900 group-hover:text-[#C19B77] transition-colors leading-snug tracking-tight">
+          <h3 className="font-extrabold text-sm sm:text-base md:text-lg text-slate-900 group-hover:text-[#C19B77] transition-colors leading-snug tracking-tight">
             {name}
           </h3>
           <p className="text-xs text-slate-600 leading-relaxed font-inter line-clamp-2">
@@ -101,10 +103,10 @@ export const MenuItemCard: React.FC<MenuItemCardProps> = ({
         </div>
 
         {/* Footer Allergen Indices & Detail Button */}
-        <div className="pt-3 border-t border-slate-100 flex items-center justify-between gap-2 text-xs">
+        <div className="pt-2.5 sm:pt-3 border-t border-slate-100 flex items-center justify-between gap-2 text-xs">
           <div className="flex items-center gap-1 flex-wrap">
             <span className="text-[10px] text-slate-400 font-bold mr-0.5">
-              {lang === 'ro' ? 'Alergeni:' : lang === 'en' ? 'Allergens:' : 'Allergének:'}
+              {t.allergensLabel}
             </span>
             {item.allergens && item.allergens.length > 0 ? (
               item.allergens.map((algCode) => {
@@ -128,17 +130,17 @@ export const MenuItemCard: React.FC<MenuItemCardProps> = ({
               })
             ) : (
               <span className="text-[10px] text-emerald-700 font-bold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">
-                {lang === 'ro' ? 'Fără Alergeni' : 'No Allergens'}
+                {t.noAllergens}
               </span>
             )}
           </div>
 
           <button
             onClick={() => onSelect(item)}
-            className="flex items-center gap-1 text-[11px] font-extrabold text-[#C19B77] hover:text-[#A8805B] transition-all py-1 px-2.5 rounded-lg bg-amber-50/80 hover:bg-amber-100/60 border border-[#C19B77]/30 shrink-0 cursor-pointer"
+            className="flex items-center gap-1 text-[10px] sm:text-[11px] font-extrabold text-[#C19B77] hover:text-[#A8805B] transition-all py-1 px-2.5 rounded-lg bg-amber-50/80 hover:bg-amber-100/60 border border-[#C19B77]/30 shrink-0 cursor-pointer"
           >
             <Info className="w-3.5 h-3.5" />
-            <span>{lang === 'ro' ? 'Detalii & Nutriție' : lang === 'en' ? 'Details & Nutrition' : 'Részletek'}</span>
+            <span>{t.detailsBtn}</span>
           </button>
         </div>
       </div>

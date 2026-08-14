@@ -12,6 +12,7 @@ import QrTableStandView from './components/QrTableStandView';
 import StaffAuthModal from './components/StaffAuthModal';
 import { MenuItem, Language } from './types/menu';
 import { MENU_ITEMS, CATEGORIES } from './data/menuData';
+import { TRANSLATIONS } from './utils/translations';
 
 export function App() {
   const [lang, setLang] = useState<Language>('ro');
@@ -30,12 +31,13 @@ export function App() {
 
   // Table number from URL query ?table=12
   const [tableNumber, setTableNumber] = useState<string | null>(null);
+  const t = TRANSLATIONS[lang];
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const params = new URLSearchParams(window.location.search);
-      const t = params.get('table') || params.get('masa');
-      if (t) setTableNumber(t);
+      const tbl = params.get('table') || params.get('masa');
+      if (tbl) setTableNumber(tbl);
 
       const langParam = params.get('lang') as Language;
       if (langParam && ['ro', 'en', 'hu'].includes(langParam)) {
@@ -101,9 +103,11 @@ export function App() {
         const q = searchQuery.toLowerCase().trim();
         const nameRo = item.name.ro.toLowerCase();
         const nameEn = item.name.en.toLowerCase();
+        const nameHu = item.name.hu.toLowerCase();
         const ingRo = item.description.ro.toLowerCase();
         const ingEn = item.description.en.toLowerCase();
-        return nameRo.includes(q) || nameEn.includes(q) || ingRo.includes(q) || ingEn.includes(q);
+        const ingHu = item.description.hu.toLowerCase();
+        return nameRo.includes(q) || nameEn.includes(q) || nameHu.includes(q) || ingRo.includes(q) || ingEn.includes(q) || ingHu.includes(q);
       }
 
       return true;
@@ -147,17 +151,17 @@ export function App() {
       />
 
       {/* Main Content Area */}
-      <main className="max-w-7xl mx-auto px-3 sm:px-6 py-6 flex-1 w-full space-y-8">
+      <main className="max-w-7xl mx-auto px-3 sm:px-6 py-5 sm:py-6 flex-1 w-full space-y-6 sm:space-y-8">
         {/* Results Header */}
         <div className="flex items-center justify-between border-b border-slate-200 pb-3">
           <div>
-            <h2 className="text-base sm:text-lg font-extrabold text-slate-900 uppercase tracking-tight">
+            <h2 className="text-sm sm:text-base md:text-lg font-extrabold text-slate-900 uppercase tracking-tight">
               {activeCategory === 'all'
                 ? (lang === 'ro' ? 'Meniu Complet Restaurant Marissa' : lang === 'en' ? 'Complete Marissa Restaurant Menu' : 'Teljes Éttermi Menü')
                 : (CATEGORIES.find((c) => c.id === activeCategory)?.name[lang] || 'Meniu')}
             </h2>
             <p className="text-xs text-slate-500 font-inter">
-              {filteredItems.length} {lang === 'ro' ? 'preparate proaspete disponibile' : 'fresh dishes available'}
+              {filteredItems.length} {t.availableDishes}
             </p>
           </div>
 
@@ -166,7 +170,7 @@ export function App() {
               onClick={() => setSearchQuery('')}
               className="text-xs font-bold text-[#C19B77] hover:underline cursor-pointer"
             >
-              Șterge căutarea
+              {t.clearSearch}
             </button>
           )}
         </div>
@@ -185,15 +189,13 @@ export function App() {
             ))}
           </div>
         ) : (
-          <div className="bg-white rounded-3xl p-12 text-center space-y-3 border border-slate-200 max-w-md mx-auto my-8">
+          <div className="bg-white rounded-3xl p-8 sm:p-12 text-center space-y-3 border border-slate-200 max-w-md mx-auto my-8 shadow-xs">
             <div className="text-4xl">🔍</div>
-            <h3 className="font-extrabold text-lg text-slate-900">
-              {lang === 'ro' ? 'Niciun preparat găsit' : 'No dishes found'}
+            <h3 className="font-extrabold text-base sm:text-lg text-slate-900">
+              {t.noDishesTitle}
             </h3>
             <p className="text-xs text-slate-500 font-inter leading-relaxed">
-              {lang === 'ro'
-                ? 'Nu am găsit preparate care să corespundă căutării. Încercați să resetați filtrele.'
-                : 'No dishes match your query. Try resetting your search filters.'}
+              {t.noDishesDesc}
             </p>
             <button
               onClick={() => {
@@ -203,7 +205,7 @@ export function App() {
               }}
               className="px-4 py-2 rounded-xl bg-[#C19B77] text-white font-extrabold text-xs shadow-md cursor-pointer"
             >
-              Resetare Filtre
+              {t.resetFilters}
             </button>
           </div>
         )}

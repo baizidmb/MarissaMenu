@@ -6,21 +6,35 @@
   :root {
     color-scheme: light;
   }
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
   body {
     background-color: #F8F6F2;
     color: #111827;
     font-family: 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
     overflow-x: hidden;
+    padding-bottom: env(safe-area-inset-bottom, 16px);
   }
   h1, h2, h3, h4 {
     font-family: 'Plus Jakarta Sans', sans-serif;
   }
 }
 
+/* Hide scrollbars for pill navigation */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* Custom Scrollbars */
 ::-webkit-scrollbar {
-  height: 6px;
-  width: 6px;
+  height: 5px;
+  width: 5px;
 }
 ::-webkit-scrollbar-track {
   background: #F3F4F6;
@@ -42,17 +56,7 @@
 
 .card-white:hover {
   border-color: #C19B77;
-  box-shadow: 0 10px 25px -3px rgba(193, 155, 119, 0.15), 0 4px 10px -2px rgba(0, 0, 0, 0.03);
-}
-
-/* Animations */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.animate-fade-in {
-  animation: fadeIn 0.2s ease-out forwards;
+  box-shadow: 0 12px 28px -4px rgba(193, 155, 119, 0.18), 0 4px 12px -2px rgba(0, 0, 0, 0.04);
 }
 
 /* Print Styles for QR Table Stand */
@@ -60,22 +64,12 @@
   body {
     background-color: #ffffff !important;
     color: #000000 !important;
+    padding: 0 !important;
   }
   .no-print {
     display: none !important;
   }
   .print-only {
     display: block !important;
-  }
-  .printable-qr-card {
-    border: 2px solid #C19B77 !important;
-    box-shadow: none !important;
-    background: #ffffff !important;
-    color: #000000 !important;
-    page-break-inside: avoid;
-    width: 100% !important;
-    max-width: 450px !important;
-    margin: 0 auto !important;
-    padding: 24px !important;
   }
 }
