@@ -827,7 +827,7 @@ export const MENU_ITEMS = [
     "category": "ciorbe",
     "name": {
       "ro": "Ciorbă de burtă 1, 3, 7100gr/",
-      "en": "Ciorbă of Burtă 1, 3, 7100Gr/"
+      "en": "Ciorbă Of Burtă 1, 3, 7100Gr/"
     },
     "weight": "300ml",
     "price": 29.0,
@@ -905,7 +905,7 @@ export const MENU_ITEMS = [
     "category": "ciorbe",
     "name": {
       "ro": "Ciorbă ţărănească de porc 9                50gr/",
-      "en": "Ciorbă Ţărănească of Porc 9                50Gr/"
+      "en": "Ciorbă Ţărănească Of Pork 9                50Gr/"
     },
     "weight": "350ml",
     "price": 25.0,
@@ -931,7 +931,7 @@ export const MENU_ITEMS = [
     "category": "ciorbe",
     "name": {
       "ro": "Ciorbă de fasole cu afumătură 150gr/50gi/",
-      "en": "Ciorbă of Fasole with Afumătură 150Gr/50Gi/"
+      "en": "Ciorbă Of Fasole With Afumătură 150Gr/50Gi/"
     },
     "weight": "300ml",
     "price": 25.0,
@@ -1144,7 +1144,7 @@ export const MENU_ITEMS = [
     "category": "pui-rata",
     "name": {
       "ro": "Piept de pui la",
-      "en": "Piept of Pui La"
+      "en": "Piept Of Chicken La"
     },
     "weight": "200g",
     "price": 28.0,
@@ -1170,7 +1170,7 @@ export const MENU_ITEMS = [
     "category": "pui-rata",
     "name": {
       "ro": "Pulpe de pui dezosate la",
-      "en": "Pulpe of Pui ofzosate La"
+      "en": "Pulpe Of Chicken Dezosate La"
     },
     "weight": "200g",
     "price": 27.0,
@@ -1196,7 +1196,7 @@ export const MENU_ITEMS = [
     "category": "pui-rata",
     "name": {
       "ro": "Piept de rață / Pulpă de rață, cu varză roșie și sos de portocale",
-      "en": "Piept of Rață / Pulpă of Rață, with Varză Roșie & Sos of Portocale"
+      "en": "Piept Of Duck / Pulpă Of Duck, With Varză Roșie & Sauce Of Portocale"
     },
     "weight": "60g",
     "price": 65.0,
@@ -1225,7 +1225,7 @@ export const MENU_ITEMS = [
     "category": "pui-rata",
     "name": {
       "ro": "Escalop din piept de pui cu cartofi piure și sos de ciuperci",
-      "en": "Escalop Din Piept of Pui with Cartofi Piure & Sos of Ciuperci"
+      "en": "Escalop Din Piept Of Chicken With Cartofi Piure & Sauce Of Ciuperci"
     },
     "weight": "150g",
     "price": 45.0,
@@ -1253,7 +1253,7 @@ export const MENU_ITEMS = [
     "category": "pui-rata",
     "name": {
       "ro": "Piept de pui cu legume și sos de cașcaval",
-      "en": "Piept of Pui with Legume & Sos of Cașcaval"
+      "en": "Piept Of Chicken With Legume & Sauce Of Yellow Cheese"
     },
     "weight": "150g",
     "price": 42.0,
@@ -1282,7 +1282,7 @@ export const MENU_ITEMS = [
     "category": "pui-rata",
     "name": {
       "ro": "Piept de pui crispy cu cartofi prajiti și sos roșu",
-      "en": "Piept of Pui Crispy with Cartofi Prajiti & Sos Roșu"
+      "en": "Piept Of Chicken Crispy With Cartofi Prajiti & Sauce Roșu"
     },
     "weight": "50g",
     "price": 38.0,
@@ -1339,7 +1339,7 @@ export const MENU_ITEMS = [
     "category": "pui-rata",
     "name": {
       "ro": "Şniţel din piept de pui",
-      "en": "Şniţel Din Piept of Pui"
+      "en": "Şniţel Din Piept Of Chicken"
     },
     "weight": "180g",
     "price": 24.0,
@@ -1368,7 +1368,7 @@ export const MENU_ITEMS = [
     "category": "vita",
     "name": {
       "ro": "Muşchi de vită la",
-      "en": "Muşchi of Vită La"
+      "en": "Muşchi Of Beef La"
     },
     "weight": "200g",
     "price": 89.0,
@@ -1394,7 +1394,7 @@ export const MENU_ITEMS = [
     "category": "vita",
     "name": {
       "ro": "T-Bone de vită cu sos dijon și cartofi copți",
-      "en": "T-Bone of Vită with Sos Dijon & Cartofi Copți"
+      "en": "T-Bone Of Beef With Sauce Dijon & Cartofi Copți"
     },
     "weight": "80g",
     "price": 125.0,
@@ -1422,7 +1422,7 @@ export const MENU_ITEMS = [
     "category": "vita",
     "name": {
       "ro": "Obrăjori de vită și piure cu aromă de trufe, sos de merișoare",
-      "en": "Obrăjori of Vită & Piure with Aromă of Trufe, Sos of Merișoare"
+      "en": "Obrăjori Of Beef & Piure With Aromă Of Trufe, Sauce Of Merișoare"
     },
     "weight": "280g",
     "price": 98.0,
@@ -1450,7 +1450,7 @@ export const MENU_ITEMS = [
     "category": "vita",
     "name": {
       "ro": "Ossobuco de vită, piure de cartofi cu trufe",
-      "en": "Ossobuco of Vită, Piure of Cartofi with Trufe"
+      "en": "Ossobuco Of Beef, Piure Of Cartofi With Trufe"
     },
     "weight": "150/50/20g",
     "price": 80.0,
@@ -1478,7 +1478,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Mușchiulet de porc, sos de hribi și cartofi cu aromă de trufe",
-      "en": "Mușchiulet of Porc, Sos of Hribi & Cartofi with Aromă of Trufe"
+      "en": "Mușchiulet Of Pork, Sauce Of Hribi & Cartofi With Aromă Of Trufe"
     },
     "weight": "150/350g",
     "price": 55.0,
@@ -1506,7 +1506,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Cotlet de porc Marissa",
-      "en": "Cotlet of Porc Marissa"
+      "en": "Cotlet Of Pork Marissa"
     },
     "weight": "250g",
     "price": 32.0,
@@ -1534,7 +1534,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Șnitel de porc uriaș cu sos picant",
-      "en": "Șnitel of Porc Uriaș with Sos Picant"
+      "en": "Șnitel Of Pork Uriaș With Sauce Picant"
     },
     "weight": "200/50g",
     "price": 30.0,
@@ -1565,7 +1565,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Ceafă  ţigănească și cartofi prăjiți",
-      "en": "Ceafă  Ţigănească & Cartofi Prăjiți"
+      "en": "Ceafă  Ţigănească & Cartofi Fried"
     },
     "weight": "180/150g",
     "price": 52.0,
@@ -1594,7 +1594,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Ceafă de porc la",
-      "en": "Ceafă of Porc La"
+      "en": "Ceafă Of Pork La"
     },
     "weight": "200g",
     "price": 30.0,
@@ -1646,7 +1646,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Ciolan de porc",
-      "en": "Ciolan of Porc"
+      "en": "Ciolan Of Pork"
     },
     "weight": "100g",
     "price": 12.0,
@@ -1672,7 +1672,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Ciolan de porc cu os domnesc",
-      "en": "Ciolan of Porc with Os Domnesc"
+      "en": "Ciolan Of Pork With Os Domnesc"
     },
     "weight": "100g",
     "price": 10.0,
@@ -1698,7 +1698,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Tochitură de porc cu mămăliguță",
-      "en": "Tochitură of Porc with Mămăliguță"
+      "en": "Tochitură Of Pork With Mămăliguță"
     },
     "weight": "200g",
     "price": 45.0,
@@ -1724,7 +1724,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Obrăjori de porc cu cartofi piure și sos de portocale",
-      "en": "Obrăjori of Porc with Cartofi Piure & Sos of Portocale"
+      "en": "Obrăjori Of Pork With Cartofi Piure & Sauce Of Portocale"
     },
     "weight": "200/200/50g",
     "price": 65.0,
@@ -1752,7 +1752,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Cotlet de porc cu os la",
-      "en": "Cotlet of Porc with Os La"
+      "en": "Cotlet Of Pork With Os La"
     },
     "weight": "200g",
     "price": 65.0,
@@ -1778,7 +1778,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "File de somon cu sos teriaki",
-      "en": "File of Somon with Sos Teriaki"
+      "en": "File Of Somon With Sauce Teriaki"
     },
     "weight": "200g",
     "price": 59.0,
@@ -1830,7 +1830,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Păstrăv în crustă de mălâi cu mămăliguță",
-      "en": "Păstrăv În Crustă of Mălâi with Mămăliguță"
+      "en": "Păstrăv În Crustă Of Mălâi With Mămăliguță"
     },
     "weight": "200g",
     "price": 55.0,
@@ -1858,7 +1858,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Tigaie cu fructe de mare",
-      "en": "Tigaie with Fructe of Mare"
+      "en": "Tigaie With Fructe Of Mare"
     },
     "weight": "80g",
     "price": 48.0,
@@ -1888,7 +1888,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Sos roşu 9(ketchup)",
-      "en": "Sos Roşu 9(Ketchup)"
+      "en": "Sauce Roşu 9(Ketchup)"
     },
     "weight": "70g",
     "price": 5.0,
@@ -1914,7 +1914,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Sos alb",
-      "en": "Sos Alb"
+      "en": "Sauce Alb"
     },
     "weight": "70g",
     "price": 5.0,
@@ -1943,7 +1943,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Sos chilli",
-      "en": "Sos Chilli"
+      "en": "Sauce Chilli"
     },
     "weight": "100g",
     "price": 5.0,
@@ -1997,7 +1997,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Mujdei de usturoi",
-      "en": "Mujdei of Usturoi"
+      "en": "Mujdei Of Usturoi"
     },
     "weight": "50g",
     "price": 5.0,
@@ -2049,7 +2049,7 @@ export const MENU_ITEMS = [
     "category": "porc",
     "name": {
       "ro": "Sos alb, cu ciuperci",
-      "en": "Sos Alb, with Ciuperci"
+      "en": "Sauce Alb, With Ciuperci"
     },
     "weight": "100g",
     "price": 12.0,
@@ -2266,7 +2266,7 @@ export const MENU_ITEMS = [
     "category": "garnituri",
     "name": {
       "ro": "Iahnie de fasole",
-      "en": "Iahnie of Fasole"
+      "en": "Iahnie Of Fasole"
     },
     "weight": "200g",
     "price": 12.0,
@@ -2463,7 +2463,7 @@ export const MENU_ITEMS = [
     "category": "paste-risotto",
     "name": {
       "ro": "Tagliatelle cu creveti",
-      "en": "Tagliatelle with Creveti"
+      "en": "Tagliatelle With Creveti"
     },
     "weight": "400g",
     "price": 42.0,
@@ -2523,7 +2523,7 @@ export const MENU_ITEMS = [
     "category": "paste-risotto",
     "name": {
       "ro": "Tagliatelli cu somon",
-      "en": "Tagliatelli with Somon"
+      "en": "Tagliatelli With Somon"
     },
     "weight": "400g",
     "price": 42.0,
@@ -2630,7 +2630,7 @@ export const MENU_ITEMS = [
     "category": "salate",
     "name": {
       "ro": "Salata cu ton",
-      "en": "Salata with Ton"
+      "en": "Salata With Ton"
     },
     "weight": "70g",
     "price": 28.0,
@@ -2715,7 +2715,7 @@ export const MENU_ITEMS = [
     "category": "salate",
     "name": {
       "ro": "Salată cu avocado, pui sau creveti",
-      "en": "Salată with Avocado, Pui Sau Creveti"
+      "en": "Salată With Avocado, Chicken Sau Creveti"
     },
     "weight": "70g",
     "price": 38.0,
@@ -2770,7 +2770,7 @@ export const MENU_ITEMS = [
     "category": "salate",
     "name": {
       "ro": "Salată  de roşii",
-      "en": "Salată  of Roşii"
+      "en": "Salată  Of Roşii"
     },
     "weight": "150g",
     "price": 10.0,
@@ -2851,7 +2851,7 @@ export const MENU_ITEMS = [
     "category": "salate",
     "name": {
       "ro": "Salată de sfeclă roşie",
-      "en": "Salată of Sfeclă Roşie"
+      "en": "Salată Of Sfeclă Roşie"
     },
     "weight": "150g",
     "price": 12.0,
@@ -2877,7 +2877,7 @@ export const MENU_ITEMS = [
     "category": "salate",
     "name": {
       "ro": "Salată de ceapă",
-      "en": "Salată of Ceapă"
+      "en": "Salată Of Ceapă"
     },
     "weight": "150g",
     "price": 8.0,
@@ -2903,7 +2903,7 @@ export const MENU_ITEMS = [
     "category": "desert",
     "name": {
       "ro": "Îngheţată la cupă",
-      "en": "Îngheţată La withpă"
+      "en": "Îngheţată La Cupă"
     },
     "weight": "100g",
     "price": 22.0,
@@ -2932,7 +2932,7 @@ export const MENU_ITEMS = [
     "category": "desert",
     "name": {
       "ro": "Vulcan de ciocolată cu îngheţată și fructe",
-      "en": "Vulcan of Ciocolată with Îngheţată & Fructe"
+      "en": "Vulcan Of Ciocolată With Îngheţată & Fructe"
     },
     "weight": "200g",
     "price": 28.0,
@@ -2994,7 +2994,7 @@ export const MENU_ITEMS = [
     "category": "desert",
     "name": {
       "ro": "Clătite cu",
-      "en": "Clătite with"
+      "en": "Clătite With"
     },
     "weight": "200g",
     "price": 20.0,
@@ -3020,7 +3020,7 @@ export const MENU_ITEMS = [
     "category": "desert",
     "name": {
       "ro": "Papanaşi cu brânză şi",
-      "en": "Papanaşi with Brânză Şi"
+      "en": "Papanaşi With Cheese &"
     },
     "weight": "300g",
     "price": 32.0,
@@ -3046,7 +3046,7 @@ export const MENU_ITEMS = [
     "category": "desert",
     "name": {
       "ro": "Felie desert",
-      "en": "Felie ofsert"
+      "en": "Felie Desert"
     },
     "weight": "150g",
     "price": 22.0,
@@ -4073,7 +4073,7 @@ export const MENU_ITEMS = [
     "category": "ambalaje",
     "name": {
       "ro": "Sos alb",
-      "en": "Sos Alb"
+      "en": "Sauce Alb"
     },
     "weight": "70g",
     "price": 5.0,
@@ -4102,7 +4102,7 @@ export const MENU_ITEMS = [
     "category": "ambalaje",
     "name": {
       "ro": "Sos roşu",
-      "en": "Sos Roşu"
+      "en": "Sauce Roşu"
     },
     "weight": "70g",
     "price": 3.0,
@@ -4130,7 +4130,7 @@ export const MENU_ITEMS = [
     "category": "ambalaje",
     "name": {
       "ro": "Sos roşu picant",
-      "en": "Sos Roşu Picant"
+      "en": "Sauce Roşu Picant"
     },
     "weight": "70g",
     "price": 5.0,
@@ -4158,7 +4158,7 @@ export const MENU_ITEMS = [
     "category": "ambalaje",
     "name": {
       "ro": "Sos roşu / Ketchup",
-      "en": "Sos Roşu / Ketchup"
+      "en": "Sauce Roşu / Ketchup"
     },
     "weight": "70g",
     "price": 5.0,
@@ -4186,7 +4186,7 @@ export const MENU_ITEMS = [
     "category": "ambalaje",
     "name": {
       "ro": "Sos alb",
-      "en": "Sos Alb"
+      "en": "Sauce Alb"
     },
     "weight": "70g",
     "price": 5.0,
@@ -4215,7 +4215,7 @@ export const MENU_ITEMS = [
     "category": "ambalaje",
     "name": {
       "ro": "Sos chili",
-      "en": "Sos Chili"
+      "en": "Sauce Chili"
     },
     "weight": "100g",
     "price": 5.0,
@@ -4243,7 +4243,7 @@ export const MENU_ITEMS = [
     "category": "ambalaje",
     "name": {
       "ro": "Mujdei de usturoi",
-      "en": "Mujdei of Usturoi"
+      "en": "Mujdei Of Usturoi"
     },
     "weight": "50g",
     "price": 5.0,
@@ -4297,7 +4297,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Fresh de portocale",
-      "en": "Fresh of Portocale"
+      "en": "Fresh Of Portocale"
     },
     "weight": "150ml",
     "price": 15.0,
@@ -4323,7 +4323,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Fresh de grapefruit",
-      "en": "Fresh of Grapefruit"
+      "en": "Fresh Of Grapefruit"
     },
     "weight": "150ml",
     "price": 15.0,
@@ -4375,7 +4375,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Limonadă cu arome",
-      "en": "Limonadă with Arome"
+      "en": "Limonadă With Arome"
     },
     "weight": "400ml",
     "price": 15.0,
@@ -4843,7 +4843,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Espresso cu lapte",
-      "en": "Espresso with Lapte"
+      "en": "Espresso With Lapte"
     },
     "weight": "770ml",
     "price": 10.0,
@@ -4869,7 +4869,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Caffe Latte cu arome",
-      "en": "Caffe Latte with Arome"
+      "en": "Caffe Latte With Arome"
     },
     "weight": "200ml",
     "price": 20.0,
@@ -5031,7 +5031,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Capucino cu Arome",
-      "en": "Capucino with Arome"
+      "en": "Capucino With Arome"
     },
     "weight": "7170ml",
     "price": 16.0,
@@ -5659,7 +5659,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Tărie de Bihor",
-      "en": "Tărie of Bihor"
+      "en": "Tărie Of Bihor"
     },
     "weight": "50ml",
     "price": 9.0,
@@ -6283,7 +6283,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Pinot Noir (demisec)",
-      "en": "Pinot Noir (ofmisec)"
+      "en": "Pinot Noir (Demisec)"
     },
     "weight": "1sticlă",
     "price": 120.0,
@@ -6309,7 +6309,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Rose Verite(demisec)",
-      "en": "Rose Verite(ofmisec)"
+      "en": "Rose Verite(Demisec)"
     },
     "weight": "1 sticlă",
     "price": 60.0,
@@ -6361,7 +6361,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Fetească Neagră(demidulce) (12)",
-      "en": "Fetească Neagră(ofmidulce) (12)"
+      "en": "Fetească Neagră(Demidulce) (12)"
     },
     "weight": "1sticlă",
     "price": 50.0,
@@ -6387,7 +6387,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Pinot Noir(demisec)12)",
-      "en": "Pinot Noir(ofmisec)12)"
+      "en": "Pinot Noir(Demisec)12)"
     },
     "weight": "1sticlă",
     "price": 50.0,
@@ -6465,7 +6465,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Sauvignon Blanc(12) (demisec)",
-      "en": "Sauvignon Blanc(12) (ofmisec)"
+      "en": "Sauvignon Blanc(12) (Demisec)"
     },
     "weight": "1sticlă",
     "price": 50.0,
@@ -6517,7 +6517,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Muscat Ottonel(12) (demidulce)",
-      "en": "Muscat Ottonel(12) (ofmidulce)"
+      "en": "Muscat Ottonel(12) (Demidulce)"
     },
     "weight": "1sticlă",
     "price": 50.0,
@@ -6569,7 +6569,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Roze(12) (demisec)",
-      "en": "Roze(12) (ofmisec)"
+      "en": "Roze(12) (Demisec)"
     },
     "weight": "1sticlă",
     "price": 50.0,
@@ -6595,7 +6595,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Fetească Regală(12) ( demisec)",
-      "en": "Fetească Regală(12) ( ofmisec)"
+      "en": "Fetească Regală(12) ( Demisec)"
     },
     "weight": "1 sticlă",
     "price": 50.0,
@@ -6647,7 +6647,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Grasă de Cotnari(12) (demisec)",
-      "en": "Grasă of Cotnari(12) (ofmisec)"
+      "en": "Grasă Of Cotnari(12) (Demisec)"
     },
     "weight": "1sticlă",
     "price": 50.0,
@@ -6699,7 +6699,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Dry Muscat(12) (demisec)",
-      "en": "Dry Muscat(12) (ofmisec)"
+      "en": "Dry Muscat(12) (Demisec)"
     },
     "weight": "1sticlă",
     "price": 60.0,
@@ -6725,7 +6725,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Pinot Grigio(12) (demisec)",
-      "en": "Pinot Grigio(12) (ofmisec)"
+      "en": "Pinot Grigio(12) (Demisec)"
     },
     "weight": "1sticlă",
     "price": 60.0,
@@ -6751,7 +6751,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Gewurztraminer(12) (demisec)",
-      "en": "Gewurztraminer(12) (ofmisec)"
+      "en": "Gewurztraminer(12) (Demisec)"
     },
     "weight": "1sticlă",
     "price": 60.0,
@@ -6777,7 +6777,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Sauvignon Blanc(12) (demisec)",
-      "en": "Sauvignon Blanc(12) (ofmisec)"
+      "en": "Sauvignon Blanc(12) (Demisec)"
     },
     "weight": "1sticlă",
     "price": 60.0,
@@ -6803,7 +6803,7 @@ export const MENU_ITEMS = [
     "category": "racoritoare",
     "name": {
       "ro": "Rose(12)(demisec)",
-      "en": "Rose(12)(ofmisec)"
+      "en": "Rose(12)(Demisec)"
     },
     "weight": "1sticlă",
     "price": 60.0,
@@ -7615,7 +7615,7 @@ export const MENU_ITEMS = [
     "category": "bere",
     "name": {
       "ro": "SARMALE CU CIOLAN ȘI MĂMĂLIGUȚĂ",
-      "en": "Sarmale with Ciolan & Mămăliguță"
+      "en": "Sarmale With Ciolan & Mămăliguță"
     },
     "weight": "200/200/50g",
     "price": 38.0,
@@ -7644,7 +7644,7 @@ export const MENU_ITEMS = [
     "category": "bere",
     "name": {
       "ro": "SALATĂ DE BOEUF",
-      "en": "Salată of Boeuf"
+      "en": "Salată Of Boeuf"
     },
     "weight": "250g",
     "price": 25.0,
