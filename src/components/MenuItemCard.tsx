@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { Snowflake, Info, Sparkles, Flame, Leaf } from 'lucide-react';
 import { MenuItem, Language } from '../types/menu';
 import { ALLERGENS } from '../data/menuData';
@@ -20,56 +21,69 @@ export const MenuItemCard: React.FC<MenuItemCardProps> = ({
   const description = item.description[lang] || item.description.ro;
 
   return (
-    <div className="card-white rounded-2xl overflow-hidden flex flex-col justify-between transition-all duration-300 relative group h-full border border-slate-200 hover:border-[#C19B77] bg-white font-jakarta">
-      {/* Image Banner Container */}
-      <div className="relative h-44 sm:h-48 w-full overflow-hidden bg-slate-100 cursor-pointer" onClick={() => onSelect(item)}>
-        <img
+    <motion.div
+      initial={{ opacity: 0, y: 15 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3 }}
+      whileHover={{ y: -4 }}
+      className="card-white rounded-2xl overflow-hidden flex flex-col justify-between transition-all duration-300 relative group h-full border border-slate-200 hover:border-[#C19B77] bg-white font-jakarta shadow-xs hover:shadow-xl"
+    >
+      {/* Animated Image Banner Container */}
+      <div 
+        className="relative h-48 sm:h-52 w-full overflow-hidden bg-slate-100 cursor-pointer" 
+        onClick={() => onSelect(item)}
+      >
+        <motion.img
           src={item.imageUrl}
           alt={name}
           loading="lazy"
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          whileHover={{ scale: 1.08 }}
+          transition={{ duration: 0.6, ease: 'easeOut' }}
+          className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent opacity-90 transition-opacity group-hover:opacity-100" />
 
         {/* Floating Top Badges */}
         <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5 flex-wrap z-10">
           {item.isThawed && (
-            <span
-              className="inline-flex items-center gap-1 bg-sky-900/90 backdrop-blur-md text-sky-200 border border-sky-400/40 px-2 py-0.5 rounded-md text-[10px] font-bold shadow-md"
+            <motion.span
+              initial={{ scale: 0.9 }}
+              animate={{ scale: 1 }}
+              className="inline-flex items-center gap-1 bg-sky-950/90 backdrop-blur-md text-sky-200 border border-sky-400/50 px-2.5 py-0.5 rounded-md text-[10px] font-bold shadow-md"
               title="Produs decongelat (ANPC Order 201/2022)"
             >
-              <Snowflake className="w-3 h-3 text-sky-300" />
+              <Snowflake className="w-3 h-3 text-sky-300 animate-spin" style={{ animationDuration: '8s' }} />
               <span>*Produs decongelat</span>
-            </span>
+            </motion.span>
           )}
           {item.isSpecialty && (
-            <span className="inline-flex items-center gap-1 bg-amber-500 text-white px-2 py-0.5 rounded-md text-[10px] font-extrabold shadow-md">
+            <span className="inline-flex items-center gap-1 bg-gradient-to-r from-amber-500 to-yellow-500 text-white px-2.5 py-0.5 rounded-md text-[10px] font-extrabold shadow-md">
               <Sparkles className="w-3 h-3" />
               <span>Chef Special</span>
             </span>
           )}
           {item.isVegetarian && (
-            <span className="inline-flex items-center gap-1 bg-emerald-600 text-white px-2 py-0.5 rounded-md text-[10px] font-extrabold shadow-md">
+            <span className="inline-flex items-center gap-1 bg-emerald-600 text-white px-2.5 py-0.5 rounded-md text-[10px] font-extrabold shadow-md">
               <Leaf className="w-3 h-3" />
               <span>Vegetarian</span>
             </span>
           )}
           {item.isSpicy && (
-            <span className="inline-flex items-center gap-1 bg-rose-600 text-white px-2 py-0.5 rounded-md text-[10px] font-extrabold shadow-md">
-              <Flame className="w-3 h-3" />
+            <span className="inline-flex items-center gap-1 bg-rose-600 text-white px-2.5 py-0.5 rounded-md text-[10px] font-extrabold shadow-md">
+              <Flame className="w-3 h-3 animate-pulse" />
               <span>Picant</span>
             </span>
           )}
         </div>
 
         {/* Price & Weight Floating Tag */}
-        <div className="absolute bottom-2.5 right-2.5 bg-white/95 backdrop-blur-md border border-[#C19B77]/40 px-3 py-1 rounded-xl shadow-lg text-right z-10">
+        <div className="absolute bottom-2.5 right-2.5 bg-white/95 backdrop-blur-md border border-[#C19B77]/40 px-3 py-1 rounded-xl shadow-lg text-right z-10 transition-transform group-hover:scale-105">
           <span className="font-extrabold text-base text-[#C19B77]">{item.price.toFixed(2)}</span>
           <span className="text-[10px] font-extrabold text-slate-900 ml-1 uppercase">RON</span>
         </div>
 
         <div className="absolute bottom-2.5 left-2.5 z-10">
-          <span className="bg-slate-900/80 backdrop-blur-md text-white px-2.5 py-0.5 rounded-md text-[11px] font-bold">
+          <span className="bg-slate-900/85 backdrop-blur-md text-white px-2.5 py-0.5 rounded-md text-[11px] font-bold shadow-xs">
             {item.weight}
           </span>
         </div>
@@ -128,7 +142,7 @@ export const MenuItemCard: React.FC<MenuItemCardProps> = ({
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default MenuItemCard;
