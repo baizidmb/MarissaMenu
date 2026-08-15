@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { X, Snowflake, Activity, ShieldAlert, Sparkles, Flame, Leaf } from 'lucide-react';
 import { MenuItem, Language } from '../types/menu';
@@ -18,6 +18,15 @@ export const ItemDetailModal: React.FC<ItemDetailModalProps> = ({
   onClose,
   onSelectAllergen,
 }) => {
+  // Lock background scroll when modal is open
+  useEffect(() => {
+    const originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = originalOverflow;
+    };
+  }, []);
+
   const t = TRANSLATIONS[lang];
   const name = item.name[lang] || item.name.ro;
   const description = item.description[lang] || item.description.ro;
@@ -42,38 +51,37 @@ export const ItemDetailModal: React.FC<ItemDetailModalProps> = ({
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.2, ease: 'easeOut' }}
+      transition={{ duration: 0.2 }}
       onClick={onClose}
       className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 liquid-overlay font-jakarta no-print"
     >
       <motion.div
-        initial={{ opacity: 0, y: 30, scale: 0.96 }}
+        initial={{ opacity: 0, y: 24, scale: 0.97 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
-        exit={{ opacity: 0, y: 30, scale: 0.96 }}
-        transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+        exit={{ opacity: 0, y: 16, scale: 0.97 }}
+        transition={{ duration: 0.22, ease: [0.16, 1, 0.3, 1] }}
         onClick={(e) => e.stopPropagation()}
-        className="liquid-glass-modal w-full max-w-2xl rounded-t-3xl sm:rounded-3xl shadow-2xl overflow-hidden max-h-[92vh] flex flex-col border border-white/80"
+        className="liquid-glass-modal w-full max-w-2xl rounded-t-3xl sm:rounded-3xl shadow-2xl overflow-hidden max-h-[90vh] flex flex-col"
       >
-        {/* Top Banner Image with matching background & zero flash */}
-        <div className="relative h-56 sm:h-64 w-full bg-stone-200 shrink-0 overflow-hidden">
+        {/* Top Banner Image */}
+        <div className="relative h-56 sm:h-64 w-full bg-slate-100 shrink-0 overflow-hidden">
           <img
             src={item.imageUrl}
             alt={name}
-            decoding="sync"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-900/35 to-transparent pointer-events-none" />
 
-          <motion.button
-            whileHover={{ scale: 1.08 }}
-            whileTap={{ scale: 0.92 }}
+          {/* Close Button */}
+          <button
             onClick={onClose}
-            className="absolute top-4 right-4 bg-black/50 hover:bg-black/80 text-white p-2.5 rounded-full backdrop-blur-xl border border-white/20 transition-all shadow-lg cursor-pointer z-20"
+            className="absolute top-4 right-4 bg-black/60 hover:bg-black/85 text-white p-2.5 rounded-full backdrop-blur-md border border-white/20 transition-transform active:scale-95 shadow-md cursor-pointer z-20"
             title={t.closeBtn}
           >
             <X className="w-5 h-5" />
-          </motion.button>
+          </button>
 
+          {/* Badges & Dish Title */}
           <div className="absolute bottom-3.5 left-4 right-4 text-white z-10 space-y-1.5">
             <div className="flex items-center gap-1.5 flex-wrap">
               {item.isThawed && (
@@ -102,7 +110,7 @@ export const ItemDetailModal: React.FC<ItemDetailModalProps> = ({
               )}
             </div>
 
-            <h2 className="text-lg sm:text-2xl font-extrabold tracking-tight leading-tight drop-shadow-sm">
+            <h2 className="text-lg sm:text-2xl font-extrabold tracking-tight leading-tight">
               {name}
             </h2>
 
@@ -110,7 +118,7 @@ export const ItemDetailModal: React.FC<ItemDetailModalProps> = ({
               <span className="bg-white/20 backdrop-blur-md px-3 py-1 rounded-xl font-bold border border-white/20">
                 {item.weight}
               </span>
-              <span className="text-lg sm:text-2xl font-black text-amber-300 drop-shadow-sm">
+              <span className="text-lg sm:text-2xl font-black text-amber-300">
                 {item.price.toFixed(2)} RON
               </span>
             </div>
@@ -118,14 +126,14 @@ export const ItemDetailModal: React.FC<ItemDetailModalProps> = ({
         </div>
 
         {/* Modal Scrollable Body Content */}
-        <div className="p-4 sm:p-6 overflow-y-auto space-y-5 flex-1 text-slate-900">
+        <div className="p-4 sm:p-6 overflow-y-auto space-y-5 flex-1 text-slate-900 bg-white">
           {/* Ingredients Section */}
           <div className="space-y-1.5">
             <h3 className="text-xs sm:text-sm font-extrabold text-[#C19B77] uppercase tracking-wider flex items-center gap-1.5">
               <span>📝</span>
               <span>{t.ingredientsTitle}</span>
             </h3>
-            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed bg-white/70 backdrop-blur-sm p-3.5 rounded-2xl border border-slate-200/80 font-inter shadow-inner">
+            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed bg-[#F8F6F2] p-3.5 rounded-2xl border border-slate-200 font-inter">
               {description}
             </p>
           </div>
@@ -137,9 +145,9 @@ export const ItemDetailModal: React.FC<ItemDetailModalProps> = ({
               <span>{t.nutritionTitle}</span>
             </h3>
 
-            <div className="bg-white/90 backdrop-blur-md border border-slate-200/80 rounded-2xl overflow-hidden shadow-sm">
+            <div className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-xs">
               <table className="w-full text-left text-xs">
-                <thead className="bg-[#F8F6F2]/90 border-b border-slate-200 text-slate-900 font-extrabold">
+                <thead className="bg-[#F8F6F2] border-b border-slate-200 text-slate-900 font-extrabold">
                   <tr>
                     <th className="py-2.5 px-3">{t.nutritionColName}</th>
                     <th className="py-2.5 px-3 text-right">{t.nutritionColPortion} ({item.weight})</th>
@@ -205,7 +213,7 @@ export const ItemDetailModal: React.FC<ItemDetailModalProps> = ({
                     <button
                       key={algCode}
                       onClick={() => onSelectAllergen(algId)}
-                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-50/80 hover:bg-[#C19B77] hover:text-white border border-[#C19B77]/40 transition-all text-xs font-bold cursor-pointer shadow-xs active:scale-95"
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-50 hover:bg-[#C19B77] hover:text-white border border-[#C19B77]/30 transition-colors text-xs font-bold cursor-pointer active:scale-95"
                     >
                       <span className="w-4 h-4 rounded-full bg-[#C19B77] text-white text-[10px] font-extrabold flex items-center justify-center">
                         {algId}

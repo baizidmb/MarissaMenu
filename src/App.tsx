@@ -224,12 +224,7 @@ export function App() {
       {/* Main Content Area */}
       <main className="max-w-7xl mx-auto px-3 sm:px-6 py-5 sm:py-6 flex-1 w-full space-y-6 sm:space-y-8">
         {/* Results Header */}
-        <motion.div 
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.3 }}
-          className="flex items-center justify-between border-b border-slate-200 pb-3"
-        >
+        <div className="flex items-center justify-between border-b border-slate-200 pb-3">
           <div>
             <h2 className="text-sm sm:text-base md:text-lg font-extrabold text-slate-900 uppercase tracking-tight">
               {activeCategory === 'all'
@@ -249,32 +244,23 @@ export function App() {
               {t.clearSearch}
             </button>
           )}
-        </motion.div>
+        </div>
 
-        {/* Menu Items Responsive Grid with Animation */}
+        {/* Menu Items Responsive Grid */}
         {filteredItems.length > 0 ? (
-          <motion.div
-            layout
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
-          >
-            <AnimatePresence>
-              {filteredItems.map((item) => (
-                <MenuItemCard
-                  key={item.id}
-                  item={item}
-                  lang={lang}
-                  onSelect={setSelectedItem}
-                  onSelectAllergen={handleOpenAllergenModalWithId}
-                />
-              ))}
-            </AnimatePresence>
-          </motion.div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+            {filteredItems.map((item) => (
+              <MenuItemCard
+                key={item.id}
+                item={item}
+                lang={lang}
+                onSelect={setSelectedItem}
+                onSelectAllergen={handleOpenAllergenModalWithId}
+              />
+            ))}
+          </div>
         ) : (
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            className="bg-white rounded-3xl p-8 sm:p-12 text-center space-y-3 border border-slate-200 max-w-md mx-auto my-8 shadow-xs"
-          >
+          <div className="bg-white rounded-3xl p-8 sm:p-12 text-center space-y-3 border border-slate-200 max-w-md mx-auto my-8 shadow-xs">
             <div className="text-4xl">🔍</div>
             <h3 className="font-extrabold text-base sm:text-lg text-slate-900">
               {t.noDishesTitle}
@@ -292,7 +278,7 @@ export function App() {
             >
               {t.resetFilters}
             </button>
-          </motion.div>
+          </div>
         )}
       </main>
 
