@@ -45,7 +45,7 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
         </button>
 
         {/* Modal Header */}
-        <div className="text-center space-y-3">
+        <div className="text-center space-y-2">
           <div className="w-14 h-14 rounded-2xl bg-amber-50 border border-[#C19B77]/30 flex items-center justify-center text-[#C19B77] mx-auto shadow-inner">
             <Lock className="w-7 h-7" />
           </div>
@@ -53,9 +53,6 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
             <h3 className="font-extrabold text-xl text-slate-900">
               {t.adminTitle}
             </h3>
-            <p className="text-xs text-slate-500 font-inter mt-1">
-              {t.adminSubtitle}
-            </p>
           </div>
         </div>
 
@@ -123,7 +120,7 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
 
         <div className="text-center pt-2 border-t border-slate-100">
           <p className="text-[10px] text-slate-400">
-            {HOTEL_INFO.name} • Panou Administrator QR Stand
+            {HOTEL_INFO.name}
           </p>
         </div>
       </motion.div>

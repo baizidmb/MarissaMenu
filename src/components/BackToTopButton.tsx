@@ -43,11 +43,11 @@ export const BackToTopButton: React.FC<BackToTopButtonProps> = ({ lang = 'ro' })
           whileTap={{ scale: 0.92 }}
           transition={{ duration: 0.2 }}
           onClick={scrollToTop}
-          className="fixed bottom-20 right-4 sm:bottom-24 sm:right-6 z-30 p-2.5 sm:p-3 rounded-full bg-white/90 hover:bg-white text-slate-800 hover:text-[#C19B77] border border-[#C19B77]/40 hover:border-[#C19B77] shadow-lg hover:shadow-xl backdrop-blur-md transition-all cursor-pointer no-print flex items-center justify-center group"
+          className="fixed bottom-5 left-4 sm:bottom-6 sm:left-6 z-40 p-3 rounded-full bg-white/95 hover:bg-white text-slate-800 hover:text-[#C19B77] border border-[#C19B77]/50 hover:border-[#C19B77] shadow-xl hover:shadow-2xl backdrop-blur-md transition-all cursor-pointer no-print flex items-center justify-center group"
           title={tooltip}
           aria-label={tooltip}
         >
-          <ArrowUp className="w-4 h-4 sm:w-5 sm:h-5 text-[#C19B77] group-hover:-translate-y-0.5 transition-transform" />
+          <ArrowUp className="w-5 h-5 text-[#C19B77] group-hover:-translate-y-0.5 transition-transform" />
         </motion.button>
       )}
     </AnimatePresence>
