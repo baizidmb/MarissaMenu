@@ -308,31 +308,40 @@ export function App() {
         onOpenStaffQr={() => navigate('/staff')}
       />
 
-      {/* Modals & Bottom Drawers */}
-      {selectedItem && (
-        <ItemDetailModal
-          item={selectedItem}
-          lang={lang}
-          onClose={() => setSelectedItem(null)}
-          onSelectAllergen={handleOpenAllergenModalWithId}
-        />
-      )}
+      {/* Modals & Bottom Drawers with Smooth AnimatePresence */}
+      <AnimatePresence>
+        {selectedItem && (
+          <ItemDetailModal
+            key={selectedItem.id}
+            item={selectedItem}
+            lang={lang}
+            onClose={() => setSelectedItem(null)}
+            onSelectAllergen={handleOpenAllergenModalWithId}
+          />
+        )}
+      </AnimatePresence>
 
-      {showHotelModal && (
-        <HotelInfoModal lang={lang} onClose={() => setShowHotelModal(false)} />
-      )}
+      <AnimatePresence>
+        {showHotelModal && (
+          <HotelInfoModal lang={lang} onClose={() => setShowHotelModal(false)} />
+        )}
+      </AnimatePresence>
 
-      {showAllergenModal && (
-        <AllergenModal
-          lang={lang}
-          onClose={() => setShowAllergenModal(false)}
-          selectedAllergenId={selectedAllergenId}
-        />
-      )}
+      <AnimatePresence>
+        {showAllergenModal && (
+          <AllergenModal
+            lang={lang}
+            onClose={() => setShowAllergenModal(false)}
+            selectedAllergenId={selectedAllergenId}
+          />
+        )}
+      </AnimatePresence>
 
-      {showFiscalModal && (
-        <FiscalModal lang={lang} onClose={() => setShowFiscalModal(false)} />
-      )}
+      <AnimatePresence>
+        {showFiscalModal && (
+          <FiscalModal lang={lang} onClose={() => setShowFiscalModal(false)} />
+        )}
+      </AnimatePresence>
     </div>
   );
 }
