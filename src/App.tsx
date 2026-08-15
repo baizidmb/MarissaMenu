@@ -10,8 +10,9 @@ import HotelInfoModal from './components/HotelInfoModal';
 import AllergenModal from './components/AllergenModal';
 import FiscalModal from './components/FiscalModal';
 import QrTableStandView from './components/QrTableStandView';
-import StaffAuthModal from './components/StaffAuthModal';
 import BackToTopButton from './components/BackToTopButton';
+import StaffLogin from './pages/StaffLogin';
+import StaffDashboard from './pages/StaffDashboard';
 import { MenuItem, Language } from './types/menu';
 import { MENU_ITEMS, CATEGORIES } from './data/menuData';
 import { TRANSLATIONS } from './utils/translations';
@@ -28,8 +29,10 @@ export function App() {
   const [showAllergenModal, setShowAllergenModal] = useState<boolean>(false);
   const [selectedAllergenId, setSelectedAllergenId] = useState<number | null>(null);
   const [showFiscalModal, setShowFiscalModal] = useState<boolean>(false);
-  const [showStaffQrView, setShowStaffQrView] = useState<boolean>(false);
-  const [showAuthModal, setShowAuthModal] = useState<boolean>(false);
+  
+  // Staff Portal Views
+  const [viewMode, setViewMode] = useState<'menu' | 'staff_login' | 'staff_dashboard' | 'staff_qr'>('menu');
+  const [isStaffAuthenticated, setIsStaffAuthenticated] = useState<boolean>(false);
 
   // Table number from URL query ?table=12
   const [tableNumber, setTableNumber] = useState<string | null>(null);
@@ -38,6 +41,8 @@ export function App() {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const params = new URLSearchParams(window.location.search);
+      const pathname = window.location.pathname;
+      
       const tbl = params.get('table') || params.get('masa');
       if (tbl) setTableNumber(tbl);
 
@@ -46,13 +51,18 @@ export function App() {
         setLang(langParam);
       }
 
-      if (params.get('staff') === 'true' || params.get('admin') === 'true') {
-        const isAuth = sessionStorage.getItem('marissa_admin_auth') === 'true';
-        if (isAuth) {
-          setShowStaffQrView(true);
-        } else {
-          setShowAuthModal(true);
-        }
+      // Check existing staff session in localStorage
+      const staffSession = localStorage.getItem('marissa_staff_session');
+      const isAuth = Boolean(staffSession);
+      setIsStaffAuthenticated(isAuth);
+
+      if (
+        pathname.includes('/staff') || 
+        pathname.includes('/admin') || 
+        params.get('staff') === 'true' || 
+        params.get('admin') === 'true'
+      ) {
+        setViewMode(isAuth ? 'staff_dashboard' : 'staff_login');
       }
     }
   }, []);
@@ -66,24 +76,15 @@ export function App() {
     setShowAllergenModal(true);
   };
 
-  const handleRequestStaffQr = () => {
-    const isAuth = sessionStorage.getItem('marissa_admin_auth') === 'true';
-    if (isAuth) {
-      setShowStaffQrView(true);
-    } else {
-      setShowAuthModal(true);
-    }
+  const handleStaffLoginSuccess = () => {
+    setIsStaffAuthenticated(true);
+    setViewMode('staff_dashboard');
   };
 
-  const handleAuthSuccess = () => {
-    sessionStorage.setItem('marissa_admin_auth', 'true');
-    setShowAuthModal(false);
-    setShowStaffQrView(true);
-  };
-
-  const handleLockStaffQr = () => {
-    sessionStorage.removeItem('marissa_admin_auth');
-    setShowStaffQrView(false);
+  const handleStaffLogout = () => {
+    localStorage.removeItem('marissa_staff_session');
+    setIsStaffAuthenticated(false);
+    setViewMode('staff_login');
   };
 
   // Filter items dynamically based on Category, Search Query, and Dietary Quick Filters
@@ -116,18 +117,44 @@ export function App() {
     });
   }, [activeCategory, dietaryFilter, searchQuery]);
 
-  if (showStaffQrView) {
+  // View: Staff Login
+  if (viewMode === 'staff_login') {
+    return (
+      <StaffLogin
+        onLoginSuccess={handleStaffLoginSuccess}
+        onBackToMenu={() => setViewMode('menu')}
+      />
+    );
+  }
+
+  // View: Live Real-Time Staff Dashboard
+  if (viewMode === 'staff_dashboard') {
+    return (
+      <StaffDashboard
+        onLogout={handleStaffLogout}
+        onOpenQrGenerator={() => setViewMode('staff_qr')}
+      />
+    );
+  }
+
+  // View: QR Stand Generator
+  if (viewMode === 'staff_qr') {
     return (
       <div className="min-h-screen bg-[#F8F6F2]">
         <QrTableStandView
-          onClose={() => setShowStaffQrView(false)}
-          onLock={handleLockStaffQr}
+          onClose={() => setViewMode('staff_dashboard')}
+          onLock={() => {
+            localStorage.removeItem('marissa_staff_session');
+            setIsStaffAuthenticated(false);
+            setViewMode('menu');
+          }}
           lang={lang}
         />
       </div>
     );
   }
 
+  // View: Customer Digital Menu
   return (
     <div className="min-h-screen bg-[#F8F6F2] text-slate-900 font-jakarta flex flex-col justify-between selection:bg-[#C19B77] selection:text-white">
       {/* Header Bar */}
@@ -233,8 +260,11 @@ export function App() {
       {/* Floating Action Button Stack (Call Waiter & Request Bill) */}
       <FloatingActions lang={lang} tableNumber={tableNumber} />
 
-      {/* Footer Component with ANPC & Staff Auth link */}
-      <Footer lang={lang} onOpenStaffQr={handleRequestStaffQr} />
+      {/* Footer Component with Staff Portal Link */}
+      <Footer
+        lang={lang}
+        onOpenStaffQr={() => setViewMode(isStaffAuthenticated ? 'staff_dashboard' : 'staff_login')}
+      />
 
       {/* Modals & Bottom Drawers */}
       {selectedItem && (
@@ -260,14 +290,6 @@ export function App() {
 
       {showFiscalModal && (
         <FiscalModal lang={lang} onClose={() => setShowFiscalModal(false)} />
-      )}
-
-      {showAuthModal && (
-        <StaffAuthModal
-          lang={lang}
-          onClose={() => setShowAuthModal(false)}
-          onSuccess={handleAuthSuccess}
-        />
       )}
     </div>
   );
