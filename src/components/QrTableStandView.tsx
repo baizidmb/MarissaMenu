@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { QRCodeSVG } from 'qrcode.react';
-import { Printer, ArrowLeft, Lock, Phone, Globe, ShieldCheck, Wifi, Sparkles } from 'lucide-react';
+import { Printer, ArrowLeft, Lock, Phone, Globe, ShieldCheck, Sparkles } from 'lucide-react';
 import { HOTEL_INFO } from '../data/menuData';
 import { Language } from '../types/menu';
 import { TRANSLATIONS, getTableDisplayText } from '../utils/translations';
@@ -148,7 +148,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
         )}
       </div>
 
-      {/* SINGLE STICKABLE TABLE DECAL DESIGN (FORMAT 1: 10x10cm STICKER) */}
+      {/* SINGLE STICKABLE TABLE DECAL DESIGN (FORMAT 1: 10x10cm STICKER - NO WIFI) */}
       {designFormat === 'sticker' && (
         <div className="max-w-sm mx-auto bg-white rounded-3xl p-6 sm:p-7 shadow-2xl border-4 border-[#C19B77]/60 text-center space-y-4 print:shadow-none print:m-0 print:p-6 print:w-[380px] relative overflow-hidden">
           {/* Decorative Corner Ornaments */}
@@ -203,14 +203,18 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
             </p>
           </div>
 
-          {/* Wi-Fi & Legal Footer */}
+          {/* Clean Legal & Hospitality Footer (NO WIFI) */}
           <div className="pt-3 border-t border-slate-100 space-y-1 text-[10px] text-slate-500 font-inter">
-            <div className="flex items-center justify-center gap-3">
-              <span className="flex items-center gap-1 font-bold text-slate-700">
-                <Wifi className="w-3 h-3 text-[#C19B77]" />
-                <span>Wi-Fi: {HOTEL_INFO.wifiSsid}</span>
+            <div className="flex items-center justify-center gap-3 font-bold text-slate-700">
+              <span className="flex items-center gap-1">
+                <Globe className="w-3 h-3 text-[#C19B77]" />
+                <span>hotelmarissa.ro</span>
               </span>
-              <span className="font-mono text-slate-500">({HOTEL_INFO.wifiPass})</span>
+              <span>•</span>
+              <span className="flex items-center gap-1">
+                <Phone className="w-3 h-3 text-[#C19B77]" />
+                <span>{HOTEL_INFO.phoneReceptie}</span>
+              </span>
             </div>
             <p className="text-[9px] text-slate-400">
               ANPC Order 201/2022 & 183/2016 • OUG 28/1999
@@ -219,7 +223,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
         </div>
       )}
 
-      {/* STAND CORT A5 DESIGN (FORMAT 2) */}
+      {/* STAND CORT A5 DESIGN (FORMAT 2 - NO WIFI) */}
       {designFormat === 'tent' && (
         <div className="max-w-md mx-auto bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-slate-200 text-center space-y-6 print:shadow-none print:border-none print:m-0 print:p-6 print:w-full">
           <div className="space-y-2">
@@ -263,10 +267,10 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
           </div>
 
           <div className="pt-4 border-t border-slate-100 space-y-2 text-[11px] text-slate-500 font-inter">
-            <div className="flex items-center justify-center gap-4">
-              <span className="flex items-center gap-1 font-bold text-slate-700">
-                <Wifi className="w-3.5 h-3.5 text-[#C19B77]" />
-                <span>Wi-Fi: {HOTEL_INFO.wifiSsid} ({HOTEL_INFO.wifiPass})</span>
+            <div className="flex items-center justify-center gap-4 font-bold text-slate-700">
+              <span className="flex items-center gap-1">
+                <Globe className="w-3.5 h-3.5 text-[#C19B77]" />
+                <span>hotelmarissa.ro</span>
               </span>
               <span className="flex items-center gap-1">
                 <Phone className="w-3.5 h-3.5 text-[#C19B77]" />
@@ -280,7 +284,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
         </div>
       )}
 
-      {/* MULTI-TABLE BATCH STICKER GENERATOR (FORMAT 3: GRID PRINT SHEET) */}
+      {/* MULTI-TABLE BATCH STICKER GENERATOR (FORMAT 3: GRID PRINT SHEET - NO WIFI) */}
       {designFormat === 'batch' && (
         <div className="max-w-6xl mx-auto space-y-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 print:grid-cols-3 print:gap-4">
@@ -322,7 +326,7 @@ export const QrTableStandView: React.FC<QrTableStandViewProps> = ({ onClose, onL
                     {lang === 'hu' ? 'Digitális Étlap' : lang === 'en' ? 'Scan Digital Menu' : 'Scanați Meniul Digital'}
                   </p>
                   <p className="text-[8px] text-slate-400 font-inter truncate">
-                    Wi-Fi: {HOTEL_INFO.wifiSsid} ({HOTEL_INFO.wifiPass})
+                    hotelmarissa.ro • ANPC 201/2022
                   </p>
                 </div>
               </div>
