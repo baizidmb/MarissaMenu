@@ -13,7 +13,9 @@ import {
   Activity,
   CheckCircle2,
   Filter,
-  ShieldCheck,
+  Radio,
+  Wifi,
+  Sparkles,
 } from 'lucide-react';
 import { HOTEL_INFO } from '../data/menuData';
 import { useTableRequests } from '../hooks/useTableRequests';
@@ -39,6 +41,7 @@ export const StaffDashboard: React.FC<StaffDashboardProps> = ({
     pendingRequests,
     resolvedRequests,
     loading,
+    connectionStatus,
     refresh,
     resolveRequest,
   } = useTableRequests(audioEnabled);
@@ -139,6 +142,23 @@ export const StaffDashboard: React.FC<StaffDashboardProps> = ({
 
           {/* Action Toolbar */}
           <div className="flex items-center gap-2 sm:gap-2.5 flex-wrap">
+            {/* Realtime Status Indicator Badge */}
+            <div
+              className={`px-3 py-1.5 rounded-xl text-xs font-bold border flex items-center gap-1.5 ${
+                connectionStatus === 'SUBSCRIBED'
+                  ? 'bg-emerald-50 text-emerald-700 border-emerald-200'
+                  : connectionStatus === 'CONNECTING'
+                  ? 'bg-amber-50 text-amber-700 border-amber-200'
+                  : 'bg-rose-50 text-rose-700 border-rose-200'
+              }`}
+              title="Stare Conexiune Supabase Realtime"
+            >
+              <Radio className={`w-3.5 h-3.5 ${connectionStatus === 'SUBSCRIBED' ? 'animate-pulse' : ''}`} />
+              <span className="hidden md:inline">
+                {connectionStatus === 'SUBSCRIBED' ? 'Realtime Conectat' : connectionStatus === 'CONNECTING' ? 'Sincronizare Live' : 'Conectat (Polling)'}
+              </span>
+            </div>
+
             {/* Audio Toggle */}
             <button
               onClick={handleToggleAudio}
@@ -223,7 +243,7 @@ export const StaffDashboard: React.FC<StaffDashboardProps> = ({
               <Activity className="w-4 h-4 text-emerald-400" />
               <span>Solicitări Active</span>
               {pendingRequests.length > 0 && (
-                <span className="px-2 py-0.5 rounded-full bg-amber-500 text-white text-[10px] font-black">
+                <span className="px-2 py-0.5 rounded-full bg-amber-500 text-white text-[10px] font-black animate-pulse">
                   {pendingRequests.length}
                 </span>
               )}
