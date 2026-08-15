@@ -13,12 +13,13 @@ export const FiscalModal: React.FC<FiscalModalProps> = ({ lang, onClose }) => {
   const t = TRANSLATIONS[lang];
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm font-jakarta no-print">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 liquid-overlay font-jakarta no-print">
       <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        exit={{ opacity: 0, scale: 0.95 }}
-        className="bg-white rounded-3xl p-6 max-w-lg w-full shadow-2xl border border-slate-200 text-slate-900 relative space-y-5"
+        initial={{ opacity: 0, scale: 0.92, y: 25 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        exit={{ opacity: 0, scale: 0.92, y: 25 }}
+        transition={{ type: 'spring', damping: 28, stiffness: 350 }}
+        className="liquid-glass-modal rounded-3xl p-6 sm:p-7 max-w-lg w-full shadow-2xl border border-white/90 text-slate-900 relative space-y-5"
       >
         <button
           onClick={onClose}
@@ -28,8 +29,8 @@ export const FiscalModal: React.FC<FiscalModalProps> = ({ lang, onClose }) => {
           <X className="w-5 h-5" />
         </button>
 
-        <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
-          <div className="w-12 h-12 rounded-2xl bg-amber-50 border border-[#C19B77]/30 flex items-center justify-center text-[#C19B77] font-bold">
+        <div className="flex items-center gap-3 border-b border-slate-100/80 pb-4">
+          <div className="w-12 h-12 rounded-2xl bg-amber-50/90 border border-[#C19B77]/30 flex items-center justify-center text-[#C19B77] font-bold shadow-inner">
             <Receipt className="w-6 h-6" />
           </div>
           <div>
@@ -43,7 +44,7 @@ export const FiscalModal: React.FC<FiscalModalProps> = ({ lang, onClose }) => {
         </div>
 
         <div className="space-y-4 text-xs">
-          <div className="bg-[#F8F6F2] p-4 rounded-2xl border border-slate-200 space-y-2.5 font-inter leading-relaxed text-slate-700">
+          <div className="bg-white/70 backdrop-blur-sm p-4 rounded-2xl border border-slate-200/80 space-y-2.5 font-inter leading-relaxed text-slate-700 shadow-inner">
             <p className="font-bold text-slate-900">
               {t.fiscalModalText1}
             </p>
@@ -52,7 +53,7 @@ export const FiscalModal: React.FC<FiscalModalProps> = ({ lang, onClose }) => {
             </p>
           </div>
 
-          <div className="bg-amber-50 border border-[#C19B77]/40 p-4 rounded-2xl space-y-2">
+          <div className="bg-amber-50/90 border border-[#C19B77]/40 p-4 rounded-2xl space-y-2 shadow-xs">
             <div className="flex items-center justify-between">
               <span className="font-extrabold text-slate-900">{t.anafHelpline}</span>
               <a href="tel:0800800085" className="font-mono font-extrabold text-sm text-[#C19B77] hover:underline flex items-center gap-1">

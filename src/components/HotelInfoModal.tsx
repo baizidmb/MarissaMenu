@@ -14,12 +14,13 @@ export const HotelInfoModal: React.FC<HotelInfoModalProps> = ({ lang, onClose })
   const t = TRANSLATIONS[lang];
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm font-jakarta no-print">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 liquid-overlay font-jakarta no-print">
       <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        exit={{ opacity: 0, scale: 0.95 }}
-        className="bg-white rounded-3xl p-6 max-w-lg w-full shadow-2xl border border-slate-200 text-slate-900 relative space-y-5"
+        initial={{ opacity: 0, scale: 0.92, y: 25 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        exit={{ opacity: 0, scale: 0.92, y: 25 }}
+        transition={{ type: 'spring', damping: 28, stiffness: 350 }}
+        className="liquid-glass-modal rounded-3xl p-6 sm:p-7 max-w-lg w-full shadow-2xl border border-white/90 text-slate-900 relative space-y-5"
       >
         <button
           onClick={onClose}
@@ -30,8 +31,8 @@ export const HotelInfoModal: React.FC<HotelInfoModalProps> = ({ lang, onClose })
         </button>
 
         {/* Modal Header */}
-        <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
-          <div className="w-12 h-12 rounded-2xl bg-amber-50 border border-[#C19B77]/30 flex items-center justify-center text-[#C19B77] font-bold">
+        <div className="flex items-center gap-3 border-b border-slate-100/80 pb-4">
+          <div className="w-12 h-12 rounded-2xl bg-amber-50/90 border border-[#C19B77]/30 flex items-center justify-center text-[#C19B77] font-bold shadow-inner">
             <Hotel className="w-6 h-6" />
           </div>
           <div>
@@ -46,7 +47,7 @@ export const HotelInfoModal: React.FC<HotelInfoModalProps> = ({ lang, onClose })
 
         {/* Details Content */}
         <div className="space-y-4 text-xs">
-          <div className="bg-[#F8F6F2] p-4 rounded-2xl border border-slate-200 space-y-2.5 font-inter">
+          <div className="bg-white/70 backdrop-blur-sm p-4 rounded-2xl border border-slate-200/80 space-y-2.5 font-inter shadow-inner">
             <div className="flex items-start gap-2">
               <MapPin className="w-4 h-4 text-[#C19B77] shrink-0 mt-0.5" />
               <div>
@@ -81,7 +82,7 @@ export const HotelInfoModal: React.FC<HotelInfoModalProps> = ({ lang, onClose })
             href={HOTEL_INFO.website}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full py-3 rounded-2xl bg-[#C19B77] hover:bg-[#A8805B] text-white font-extrabold text-xs shadow-md transition-all cursor-pointer flex items-center justify-center gap-2 font-jakarta"
+            className="w-full py-3.5 rounded-2xl bg-gradient-to-r from-[#C19B77] to-[#A8805B] hover:brightness-105 text-white font-extrabold text-xs shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2 font-jakarta border border-white/20"
           >
             <Globe className="w-4 h-4" />
             <span>hotelmarissa.ro</span>

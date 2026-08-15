@@ -15,12 +15,13 @@ export const AllergenModal: React.FC<AllergenModalProps> = ({ lang, onClose, sel
   const t = TRANSLATIONS[lang];
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm font-jakarta no-print">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 liquid-overlay font-jakarta no-print">
       <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        exit={{ opacity: 0, scale: 0.95 }}
-        className="bg-white rounded-3xl p-6 max-w-2xl w-full shadow-2xl border border-slate-200 text-slate-900 relative max-h-[85vh] flex flex-col"
+        initial={{ opacity: 0, scale: 0.92, y: 25 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        exit={{ opacity: 0, scale: 0.92, y: 25 }}
+        transition={{ type: 'spring', damping: 28, stiffness: 350 }}
+        className="liquid-glass-modal rounded-3xl p-6 sm:p-7 max-w-2xl w-full shadow-2xl border border-white/90 text-slate-900 relative max-h-[85vh] flex flex-col"
       >
         <button
           onClick={onClose}
@@ -31,8 +32,8 @@ export const AllergenModal: React.FC<AllergenModalProps> = ({ lang, onClose, sel
         </button>
 
         {/* Modal Header */}
-        <div className="flex items-center gap-3 border-b border-slate-100 pb-4 shrink-0">
-          <div className="w-12 h-12 rounded-2xl bg-amber-50 border border-[#C19B77]/30 flex items-center justify-center text-[#C19B77] font-bold">
+        <div className="flex items-center gap-3 border-b border-slate-100/80 pb-4 shrink-0">
+          <div className="w-12 h-12 rounded-2xl bg-amber-50/90 border border-[#C19B77]/30 flex items-center justify-center text-[#C19B77] font-bold shadow-inner">
             <ShieldAlert className="w-6 h-6" />
           </div>
           <div>
@@ -47,7 +48,7 @@ export const AllergenModal: React.FC<AllergenModalProps> = ({ lang, onClose, sel
 
         {/* Scrollable Allergen Grid */}
         <div className="p-1 overflow-y-auto space-y-4 flex-1 text-xs mt-4">
-          <div className="bg-sky-50 border border-sky-200 p-3.5 rounded-2xl text-sky-900 space-y-1">
+          <div className="bg-sky-50/90 border border-sky-200/80 p-3.5 rounded-2xl text-sky-900 space-y-1 backdrop-blur-sm shadow-xs">
             <div className="font-bold flex items-center gap-1.5 text-sky-800">
               <Snowflake className="w-4 h-4 text-sky-600" />
               <span>Informații Produse Decongelate (ANPC 183/2016 & 201/2022)</span>
@@ -63,14 +64,14 @@ export const AllergenModal: React.FC<AllergenModalProps> = ({ lang, onClose, sel
               return (
                 <div
                   key={alg.id}
-                  className={`p-3 rounded-2xl border transition-all ${
+                  className={`p-3.5 rounded-2xl border transition-all ${
                     isHighlight
-                      ? 'bg-amber-50 border-[#C19B77] shadow-md'
-                      : 'bg-[#F8F6F2] border-slate-200 hover:border-[#C19B77]/50'
+                      ? 'bg-amber-50/95 border-[#C19B77] shadow-md ring-2 ring-[#C19B77]/20'
+                      : 'bg-white/70 backdrop-blur-sm border-slate-200/80 hover:border-[#C19B77]/60 hover:bg-white shadow-xs'
                   }`}
                 >
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="w-5 h-5 rounded-full bg-[#C19B77] text-white text-[11px] font-extrabold flex items-center justify-center">
+                    <span className="w-5 h-5 rounded-full bg-[#C19B77] text-white text-[11px] font-extrabold flex items-center justify-center shadow-xs">
                       {alg.id}
                     </span>
                     <span className="font-extrabold text-slate-900">{alg.name[lang] || alg.name.ro}</span>

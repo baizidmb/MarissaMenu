@@ -29,12 +29,13 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/70 backdrop-blur-md font-jakarta no-print">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 liquid-overlay font-jakarta no-print">
       <motion.div
-        initial={{ opacity: 0, scale: 0.95, y: 20 }}
+        initial={{ opacity: 0, scale: 0.92, y: 25 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
-        exit={{ opacity: 0, scale: 0.95, y: 20 }}
-        className="bg-white rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl border border-slate-200 text-slate-900 relative space-y-6"
+        exit={{ opacity: 0, scale: 0.92, y: 25 }}
+        transition={{ type: 'spring', damping: 28, stiffness: 350 }}
+        className="liquid-glass-modal rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl border border-white/90 text-slate-900 relative space-y-6"
       >
         <button
           onClick={onClose}
@@ -46,7 +47,7 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
 
         {/* Modal Header */}
         <div className="text-center space-y-2">
-          <div className="w-14 h-14 rounded-2xl bg-amber-50 border border-[#C19B77]/30 flex items-center justify-center text-[#C19B77] mx-auto shadow-inner">
+          <div className="w-14 h-14 rounded-2xl bg-amber-50/90 border border-[#C19B77]/30 flex items-center justify-center text-[#C19B77] mx-auto shadow-inner">
             <Lock className="w-7 h-7" />
           </div>
           <div>
@@ -74,7 +75,7 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
                 }}
                 placeholder="••••••••"
                 autoFocus
-                className="w-full bg-[#F8F6F2] focus:bg-white border border-slate-200 focus:border-[#C19B77] rounded-xl px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 outline-none transition-all pr-10 font-mono tracking-wider"
+                className="w-full bg-white/70 focus:bg-white border border-slate-200 focus:border-[#C19B77] rounded-xl px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 outline-none transition-all pr-10 font-mono tracking-wider shadow-inner"
               />
               <button
                 type="button"
@@ -108,18 +109,19 @@ export const StaffAuthModal: React.FC<StaffAuthModalProps> = ({ lang, onClose, o
               {t.cancelBtn}
             </button>
 
-            <button
+            <motion.button
+              whileTap={{ scale: 0.96 }}
               type="submit"
-              className="flex-1 py-3 rounded-xl bg-[#C19B77] hover:bg-[#A8805B] text-white font-extrabold text-xs shadow-md transition-all cursor-pointer flex items-center justify-center gap-1.5"
+              className="flex-1 py-3 rounded-xl bg-gradient-to-r from-[#C19B77] to-[#A8805B] text-white font-extrabold text-xs shadow-md transition-all cursor-pointer flex items-center justify-center gap-1.5 border border-white/20"
             >
               <ShieldCheck className="w-4 h-4" />
               <span>{t.unlockBtn}</span>
-            </button>
+            </motion.button>
           </div>
         </form>
 
         <div className="text-center pt-2 border-t border-slate-100">
-          <p className="text-[10px] text-slate-400">
+          <p className="text-[10px] text-slate-400 font-medium">
             {HOTEL_INFO.name}
           </p>
         </div>
