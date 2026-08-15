@@ -78,8 +78,9 @@ export interface TranslationDictionary {
   reception: string;
   rightsReserved: string;
   reservationsBtn: string;
+  staffQrBtn: string;
   
-  // Modals
+  // Modals & Auth
   hotelModalTitle: string;
   allergenModalTitle: string;
   allergenModalSubtitle: string;
@@ -166,6 +167,7 @@ export const TRANSLATIONS: Record<Language, TranslationDictionary> = {
     reception: 'Recepție:',
     rightsReserved: 'Toate drepturile rezervate. Conform Ordinului ANPC 201/2022 & OUG 28/1999.',
     reservationsBtn: '📞 Rezervări Mese: 0744.627.830',
+    staffQrBtn: '🔒 Staff / Admin',
     hotelModalTitle: 'Hotel & Restaurant Marissa',
     allergenModalTitle: 'Ghid Alergeni & Ordinul ANPC 201/2022',
     allergenModalSubtitle: 'Lista celor 14 grupe de alergeni conform Directivei EU 2000/13/CE',
@@ -177,10 +179,10 @@ export const TRANSLATIONS: Record<Language, TranslationDictionary> = {
     closeBtn: 'Închide',
     cancelBtn: 'Anulează',
     unlockBtn: 'Autentificare',
-    adminTitle: 'Acces Management Restaurant',
-    adminSubtitle: 'Generarea și imprimarea etichetelor QR pentru mese este protejată prin parolă.',
-    passwordLabel: 'Introduceți Parola de Administrator:',
-    wrongPassword: 'Parolă incorectă! Vă rugăm încercați din nou.',
+    adminTitle: 'Acces Restricționat — Doar Personal Autorizat',
+    adminSubtitle: 'Această secțiune este destinată exclusiv administratorilor și personalului restaurantului pentru generarea și imprimarea etichetelor QR.',
+    passwordLabel: 'Introduceți Parola de Acces (Staff / Owner):',
+    wrongPassword: 'Parolă incorectă! Accesul este rezervat exclusiv personalului autorizat.',
     lockPanel: 'Blochează Accesul',
     backToMenu: 'Înapoi la Meniu',
     printBtn: 'Printează'
@@ -250,6 +252,7 @@ export const TRANSLATIONS: Record<Language, TranslationDictionary> = {
     reception: 'Reception:',
     rightsReserved: 'All rights reserved. Compliant with ANPC Order 201/2022 & OUG 28/1999.',
     reservationsBtn: '📞 Table Bookings: 0744.627.830',
+    staffQrBtn: '🔒 Staff / Admin',
     hotelModalTitle: 'Hotel & Restaurant Marissa',
     allergenModalTitle: 'Allergen Guide & ANPC Order 201/2022',
     allergenModalSubtitle: 'List of 14 EU allergen groups according to Directive 2000/13/EC',
@@ -261,10 +264,10 @@ export const TRANSLATIONS: Record<Language, TranslationDictionary> = {
     closeBtn: 'Close',
     cancelBtn: 'Cancel',
     unlockBtn: 'Unlock & Enter',
-    adminTitle: 'Restaurant Management Access',
-    adminSubtitle: 'Generating and printing table QR stickers is password protected.',
-    passwordLabel: 'Enter Admin Password:',
-    wrongPassword: 'Incorrect password! Please try again.',
+    adminTitle: 'Restricted Access — Authorized Personnel Only',
+    adminSubtitle: 'This section is strictly intended for restaurant management and staff to generate and print table QR stand stickers.',
+    passwordLabel: 'Enter Access Password (Staff / Owner):',
+    wrongPassword: 'Incorrect password! Access is restricted to authorized personnel only.',
     lockPanel: 'Lock Panel',
     backToMenu: 'Back to Menu',
     printBtn: 'Print'
@@ -334,6 +337,7 @@ export const TRANSLATIONS: Record<Language, TranslationDictionary> = {
     reception: 'Recepció:',
     rightsReserved: 'Minden jog fenntartva. Megfelel az ANPC 201/2022 és OUG 28/1999 rendeleteknek.',
     reservationsBtn: '📞 Asztalfoglalás: 0744.627.830',
+    staffQrBtn: '🔒 Staff / Admin',
     hotelModalTitle: 'Hotel & Étterem Marissa',
     allergenModalTitle: 'Allergén Útmutató & ANPC 201/2022',
     allergenModalSubtitle: 'A 14 fő EU allergén csoport listája az EU 2000/13/EK irányelv szerint',
@@ -345,10 +349,10 @@ export const TRANSLATIONS: Record<Language, TranslationDictionary> = {
     closeBtn: 'Bezárás',
     cancelBtn: 'Mégse',
     unlockBtn: 'Feloldás',
-    adminTitle: 'Étterem Vezetői Belépés',
-    adminSubtitle: 'Az asztali QR-kódok generálása és nyomtatása jelszóval védett.',
-    passwordLabel: 'Adja meg az Admin Jelszót:',
-    wrongPassword: 'Helytelen jelszó! Kérjük, próbálja újra.',
+    adminTitle: 'Korlátozott Hozzáférés — Csak Jogosult Személyzetnek',
+    adminSubtitle: 'Ez a felület kizárólag az étterem vezetősége és személyzete számára elérhető az asztali QR-kódok nyomtatásához.',
+    passwordLabel: 'Adja meg a Belépési Jelszót (Staff / Owner):',
+    wrongPassword: 'Helytelen jelszó! A hozzáférés kizárólag jogosult személyzetnek engedélyezett.',
     lockPanel: 'Hozzáférés Zárolása',
     backToMenu: 'Vissza az Étlaphoz',
     printBtn: 'Nyomtatás'

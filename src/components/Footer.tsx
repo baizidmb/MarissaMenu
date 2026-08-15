@@ -1,14 +1,15 @@
 import React from 'react';
-import { Clock, Phone, MapPin, ExternalLink, ShieldCheck, CalendarCheck } from 'lucide-react';
+import { Clock, Phone, MapPin, ExternalLink, ShieldCheck, CalendarCheck, Lock } from 'lucide-react';
 import { HOTEL_INFO } from '../data/menuData';
 import { Language } from '../types/menu';
 import { TRANSLATIONS } from '../utils/translations';
 
 interface FooterProps {
   lang: Language;
+  onOpenStaffQr: () => void;
 }
 
-export const Footer: React.FC<FooterProps> = ({ lang }) => {
+export const Footer: React.FC<FooterProps> = ({ lang, onOpenStaffQr }) => {
   const t = TRANSLATIONS[lang];
 
   return (
@@ -54,7 +55,7 @@ export const Footer: React.FC<FooterProps> = ({ lang }) => {
             </div>
           </div>
 
-          {/* ANPC Official Consumer Links */}
+          {/* ANPC Official Consumer Links (Only ANPC - anpc.ro, sal removed) */}
           <div className="space-y-2">
             <h4 className="font-extrabold text-sm text-slate-900 flex items-center gap-1.5">
               <ShieldCheck className="w-4 h-4 text-[#C19B77]" />
@@ -65,30 +66,21 @@ export const Footer: React.FC<FooterProps> = ({ lang }) => {
                 href="https://anpc.ro"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-between p-2 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-200 text-[11px] font-bold text-slate-800 transition-colors"
+                className="inline-flex items-center justify-between p-2.5 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-200 text-xs font-bold text-slate-800 transition-colors"
               >
                 <span>ANPC - anpc.ro</span>
-                <ExternalLink className="w-3.5 h-3.5 text-[#C19B77]" />
-              </a>
-              <a
-                href="https://sal.anpc.ro"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-between p-2 rounded-xl bg-slate-50 hover:bg-amber-50 border border-slate-200 text-[11px] font-bold text-slate-800 transition-colors"
-              >
-                <span>SAL - Solutionarea Alternativa a Litigiilor</span>
                 <ExternalLink className="w-3.5 h-3.5 text-[#C19B77]" />
               </a>
             </div>
           </div>
         </div>
 
-        {/* Bottom Rights & Customer Reservation Link */}
+        {/* Bottom Rights & Actions */}
         <div className="pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-slate-400">
           <div>
             © {new Date().getFullYear()} {HOTEL_INFO.name}. {t.rightsReserved}
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 flex-wrap">
             <a
               href={`tel:${HOTEL_INFO.phoneReceptie}`}
               className="text-[#C19B77] hover:underline font-bold flex items-center gap-1"
@@ -96,6 +88,14 @@ export const Footer: React.FC<FooterProps> = ({ lang }) => {
               <CalendarCheck className="w-3.5 h-3.5" />
               <span>{t.reservationsBtn}</span>
             </a>
+            <button
+              onClick={onOpenStaffQr}
+              className="hover:text-slate-700 transition-colors font-bold flex items-center gap-1 cursor-pointer"
+              title="Staff Access"
+            >
+              <Lock className="w-3 h-3" />
+              <span>{t.staffQrBtn}</span>
+            </button>
             <a href="https://hotelmarissa.ro" target="_blank" rel="noopener noreferrer" className="hover:text-[#C19B77] transition-colors">
               hotelmarissa.ro
             </a>

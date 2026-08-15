@@ -64,6 +64,15 @@ export function App() {
     setShowAllergenModal(true);
   };
 
+  const handleRequestStaffQr = () => {
+    const isAuth = sessionStorage.getItem('marissa_admin_auth') === 'true';
+    if (isAuth) {
+      setShowStaffQrView(true);
+    } else {
+      setShowAuthModal(true);
+    }
+  };
+
   const handleAuthSuccess = () => {
     sessionStorage.setItem('marissa_admin_auth', 'true');
     setShowAuthModal(false);
@@ -205,8 +214,8 @@ export function App() {
       {/* Floating Action Button Stack (Call Waiter & Request Bill) */}
       <FloatingActions lang={lang} tableNumber={tableNumber} />
 
-      {/* Footer Component with ANPC & Reservations link */}
-      <Footer lang={lang} />
+      {/* Footer Component with ANPC & Staff Auth link */}
+      <Footer lang={lang} onOpenStaffQr={handleRequestStaffQr} />
 
       {/* Modals & Bottom Drawers */}
       {selectedItem && (
