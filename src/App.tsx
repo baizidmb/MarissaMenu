@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Header from './components/Header';
 import CategoryTabs from './components/CategoryTabs';
@@ -17,6 +17,8 @@ import { MenuItem, Language } from './types/menu';
 import { MENU_ITEMS, CATEGORIES } from './data/menuData';
 import { TRANSLATIONS } from './utils/translations';
 
+type ViewMode = 'menu' | 'staff_login' | 'staff_dashboard' | 'staff_qr';
+
 export function App() {
   const [lang, setLang] = useState<Language>('ro');
   const [activeCategory, setActiveCategory] = useState<string>('all');
@@ -30,42 +32,83 @@ export function App() {
   const [selectedAllergenId, setSelectedAllergenId] = useState<number | null>(null);
   const [showFiscalModal, setShowFiscalModal] = useState<boolean>(false);
   
-  // Staff Portal Views
-  const [viewMode, setViewMode] = useState<'menu' | 'staff_login' | 'staff_dashboard' | 'staff_qr'>('menu');
-  const [isStaffAuthenticated, setIsStaffAuthenticated] = useState<boolean>(false);
+  // Routing & Staff Session State
+  const [viewMode, setViewMode] = useState<ViewMode>('menu');
+  const [isStaffAuthenticated, setIsStaffAuthenticated] = useState<boolean>(() => {
+    if (typeof window === 'undefined') return false;
+    return Boolean(localStorage.getItem('marissa_staff_session'));
+  });
 
   // Table number from URL query ?table=12
   const [tableNumber, setTableNumber] = useState<string | null>(null);
   const t = TRANSLATIONS[lang];
 
-  useEffect(() => {
+  // Helper to change route and sync browser URL seamlessly
+  const navigate = useCallback((path: string, replace: boolean = false) => {
     if (typeof window !== 'undefined') {
-      const params = new URLSearchParams(window.location.search);
-      const pathname = window.location.pathname;
-      
-      const tbl = params.get('table') || params.get('masa');
-      if (tbl) setTableNumber(tbl);
-
-      const langParam = params.get('lang') as Language;
-      if (langParam && ['ro', 'en', 'hu'].includes(langParam)) {
-        setLang(langParam);
-      }
-
-      // Check existing staff session in localStorage
-      const staffSession = localStorage.getItem('marissa_staff_session');
-      const isAuth = Boolean(staffSession);
-      setIsStaffAuthenticated(isAuth);
-
-      if (
-        pathname.includes('/staff') || 
-        pathname.includes('/admin') || 
-        params.get('staff') === 'true' || 
-        params.get('admin') === 'true'
-      ) {
-        setViewMode(isAuth ? 'staff_dashboard' : 'staff_login');
+      if (replace) {
+        window.history.replaceState({}, '', path);
+      } else if (window.location.pathname + window.location.search !== path) {
+        window.history.pushState({}, '', path);
       }
     }
+
+    // Determine target view mode from path
+    const isAuth = Boolean(localStorage.getItem('marissa_staff_session'));
+    setIsStaffAuthenticated(isAuth);
+
+    if (path.startsWith('/staff/login')) {
+      if (isAuth) {
+        if (typeof window !== 'undefined') window.history.replaceState({}, '', '/staff');
+        setViewMode('staff_dashboard');
+      } else {
+        setViewMode('staff_login');
+      }
+    } else if (path.startsWith('/staff/qr')) {
+      if (isAuth) {
+        setViewMode('staff_qr');
+      } else {
+        if (typeof window !== 'undefined') window.history.replaceState({}, '', '/staff/login');
+        setViewMode('staff_login');
+      }
+    } else if (path.startsWith('/staff') || path.startsWith('/admin') || path.includes('view=staff') || path.includes('staff=true')) {
+      if (isAuth) {
+        setViewMode('staff_dashboard');
+      } else {
+        if (typeof window !== 'undefined') window.history.replaceState({}, '', '/staff/login');
+        setViewMode('staff_login');
+      }
+    } else {
+      setViewMode('menu');
+    }
   }, []);
+
+  // Initialize Route & listen for PopState (Back / Forward buttons)
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const params = new URLSearchParams(window.location.search);
+    const pathname = window.location.pathname;
+
+    const tbl = params.get('table') || params.get('masa');
+    if (tbl) setTableNumber(tbl);
+
+    const langParam = params.get('lang') as Language;
+    if (langParam && ['ro', 'en', 'hu'].includes(langParam)) {
+      setLang(langParam);
+    }
+
+    // Route resolution on initial mount
+    const currentPath = pathname + window.location.search;
+    navigate(currentPath, true);
+
+    const handlePopState = () => {
+      navigate(window.location.pathname + window.location.search, true);
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [navigate]);
 
   const handleToggleLang = () => {
     setLang((prev) => (prev === 'ro' ? 'en' : prev === 'en' ? 'hu' : 'ro'));
@@ -77,14 +120,15 @@ export function App() {
   };
 
   const handleStaffLoginSuccess = () => {
+    localStorage.setItem('marissa_staff_session', 'authenticated');
     setIsStaffAuthenticated(true);
-    setViewMode('staff_dashboard');
+    navigate('/staff');
   };
 
   const handleStaffLogout = () => {
     localStorage.removeItem('marissa_staff_session');
     setIsStaffAuthenticated(false);
-    setViewMode('staff_login');
+    navigate('/staff/login');
   };
 
   // Filter items dynamically based on Category, Search Query, and Dietary Quick Filters
@@ -117,36 +161,34 @@ export function App() {
     });
   }, [activeCategory, dietaryFilter, searchQuery]);
 
-  // View: Staff Login
+  // View: Staff Login (/staff/login)
   if (viewMode === 'staff_login') {
     return (
       <StaffLogin
         onLoginSuccess={handleStaffLoginSuccess}
-        onBackToMenu={() => setViewMode('menu')}
+        onBackToMenu={() => navigate('/')}
       />
     );
   }
 
-  // View: Live Real-Time Staff Dashboard
+  // View: Live Real-Time Staff Dashboard (/staff)
   if (viewMode === 'staff_dashboard') {
     return (
       <StaffDashboard
         onLogout={handleStaffLogout}
-        onOpenQrGenerator={() => setViewMode('staff_qr')}
+        onOpenQrGenerator={() => navigate('/staff/qr')}
       />
     );
   }
 
-  // View: QR Stand Generator
+  // View: QR Stand Generator (/staff/qr)
   if (viewMode === 'staff_qr') {
     return (
       <div className="min-h-screen bg-[#F8F6F2]">
         <QrTableStandView
-          onClose={() => setViewMode('staff_dashboard')}
+          onClose={() => navigate('/staff')}
           onLock={() => {
-            localStorage.removeItem('marissa_staff_session');
-            setIsStaffAuthenticated(false);
-            setViewMode('menu');
+            handleStaffLogout();
           }}
           lang={lang}
         />
@@ -154,7 +196,7 @@ export function App() {
     );
   }
 
-  // View: Customer Digital Menu
+  // View: Customer Digital Menu (/)
   return (
     <div className="min-h-screen bg-[#F8F6F2] text-slate-900 font-jakarta flex flex-col justify-between selection:bg-[#C19B77] selection:text-white">
       {/* Header Bar */}
@@ -263,7 +305,7 @@ export function App() {
       {/* Footer Component with Staff Portal Link */}
       <Footer
         lang={lang}
-        onOpenStaffQr={() => setViewMode(isStaffAuthenticated ? 'staff_dashboard' : 'staff_login')}
+        onOpenStaffQr={() => navigate('/staff')}
       />
 
       {/* Modals & Bottom Drawers */}
