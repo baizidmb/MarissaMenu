@@ -42,26 +42,24 @@ export const ItemDetailModal: React.FC<ItemDetailModalProps> = ({
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.25, ease: 'easeOut' }}
+      transition={{ duration: 0.2, ease: 'easeOut' }}
       onClick={onClose}
       className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 liquid-overlay font-jakarta no-print"
     >
       <motion.div
-        initial={{ opacity: 0, y: 50, scale: 0.94 }}
+        initial={{ opacity: 0, y: 30, scale: 0.96 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
-        exit={{ opacity: 0, y: 40, scale: 0.94 }}
-        transition={{ type: 'spring', damping: 28, stiffness: 320 }}
+        exit={{ opacity: 0, y: 30, scale: 0.96 }}
+        transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
         onClick={(e) => e.stopPropagation()}
         className="liquid-glass-modal w-full max-w-2xl rounded-t-3xl sm:rounded-3xl shadow-2xl overflow-hidden max-h-[92vh] flex flex-col border border-white/80"
       >
-        {/* Top Banner Image with Specular Overlay */}
-        <div className="relative h-56 sm:h-64 w-full bg-slate-900 shrink-0 overflow-hidden">
-          <motion.img
-            initial={{ scale: 1.08 }}
-            animate={{ scale: 1 }}
-            transition={{ duration: 0.5, ease: 'easeOut' }}
+        {/* Top Banner Image with matching background & zero flash */}
+        <div className="relative h-56 sm:h-64 w-full bg-stone-200 shrink-0 overflow-hidden">
+          <img
             src={item.imageUrl}
             alt={name}
+            decoding="sync"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/40 to-transparent" />

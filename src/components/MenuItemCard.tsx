@@ -24,44 +24,39 @@ export const MenuItemCard: React.FC<MenuItemCardProps> = ({
 
   return (
     <motion.div
-      layout
-      initial={{ opacity: 0, y: 20, scale: 0.98 }}
-      animate={{ opacity: 1, y: 0, scale: 1 }}
-      exit={{ opacity: 0, scale: 0.95 }}
-      transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-      whileHover={{ y: -6, scale: 1.015, transition: { duration: 0.25 } }}
-      className="liquid-card rounded-3xl overflow-hidden flex flex-col justify-between relative group h-full font-jakarta"
+      initial={{ opacity: 0, y: 15 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.3, ease: 'easeOut' }}
+      whileHover={{ y: -5, transition: { duration: 0.2 } }}
+      className="liquid-card rounded-3xl overflow-hidden flex flex-col justify-between relative group h-full font-jakarta select-none"
     >
       {/* Specular Sheen Effect on Top Edge */}
       <div className="absolute top-0 left-0 right-0 h-[1.5px] bg-gradient-to-r from-transparent via-white/80 to-transparent z-20 pointer-events-none" />
 
       {/* Animated Image Banner Container */}
       <div 
-        className="relative h-48 sm:h-52 w-full overflow-hidden bg-slate-100 cursor-pointer" 
+        className="relative h-48 sm:h-52 w-full overflow-hidden bg-stone-100 cursor-pointer" 
         onClick={() => onSelect(item)}
       >
-        <motion.img
+        <img
           src={item.imageUrl}
           alt={name}
-          loading="lazy"
-          whileHover={{ scale: 1.09 }}
-          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          className="w-full h-full object-cover"
+          decoding="async"
+          className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-106"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-900/20 to-transparent opacity-85 transition-opacity group-hover:opacity-95" />
 
         {/* Floating Top Badges */}
         <div className="absolute top-3 left-3 flex items-center gap-1.5 flex-wrap z-10">
           {item.isThawed && (
-            <motion.span
-              initial={{ scale: 0.9 }}
-              animate={{ scale: 1 }}
+            <span
               className="inline-flex items-center gap-1 bg-sky-950/90 backdrop-blur-md text-sky-200 border border-sky-400/50 px-2.5 py-0.5 rounded-lg text-[10px] font-bold shadow-md"
               title="ANPC Order 201/2022 & 183/2016"
             >
               <Snowflake className="w-3 h-3 text-sky-300 animate-spin" style={{ animationDuration: '9s' }} />
               <span>{t.thawedBadge}</span>
-            </motion.span>
+            </span>
           )}
           {item.isSpecialty && (
             <span className="inline-flex items-center gap-1 bg-gradient-to-r from-amber-500 to-[#C19B77] text-white px-2.5 py-0.5 rounded-lg text-[10px] font-extrabold shadow-md backdrop-blur-sm">
