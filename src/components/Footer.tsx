@@ -55,7 +55,7 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenStaffQr }) => {
             </div>
           </div>
 
-          {/* ANPC Official Consumer Links (Only ANPC - anpc.ro, sal removed) */}
+          {/* ANPC Official Consumer Links (Only ANPC - anpc.ro) */}
           <div className="space-y-2">
             <h4 className="font-extrabold text-sm text-slate-900 flex items-center gap-1.5">
               <ShieldCheck className="w-4 h-4 text-[#C19B77]" />
@@ -75,12 +75,12 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenStaffQr }) => {
           </div>
         </div>
 
-        {/* Bottom Rights & Actions */}
+        {/* Bottom Rights & Clean Staff Portal Action */}
         <div className="pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-slate-400">
           <div>
             © {new Date().getFullYear()} {HOTEL_INFO.name}. {t.rightsReserved}
           </div>
-          <div className="flex items-center gap-4 flex-wrap">
+          <div className="flex items-center gap-3 sm:gap-4 flex-wrap">
             <a
               href={`tel:${HOTEL_INFO.phoneReceptie}`}
               className="text-[#C19B77] hover:underline font-bold flex items-center gap-1"
@@ -88,14 +88,17 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenStaffQr }) => {
               <CalendarCheck className="w-3.5 h-3.5" />
               <span>{t.reservationsBtn}</span>
             </a>
+
+            {/* Clean, Elegant Staff Portal Access Button */}
             <button
               onClick={onOpenStaffQr}
-              className="hover:text-slate-700 transition-colors font-bold flex items-center gap-1 cursor-pointer"
-              title="Staff Access"
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 hover:bg-[#C19B77] text-slate-600 hover:text-white border border-slate-200 hover:border-[#C19B77] transition-all font-extrabold text-[10px] sm:text-[11px] cursor-pointer shadow-2xs"
+              title="Acces Panou Ospătari & Administrare"
             >
               <Lock className="w-3 h-3" />
-              <span>{t.staffQrBtn}</span>
+              <span>Portal Personal</span>
             </button>
+
             <a href="https://hotelmarissa.ro" target="_blank" rel="noopener noreferrer" className="hover:text-[#C19B77] transition-colors">
               hotelmarissa.ro
             </a>

@@ -34,12 +34,12 @@ export const StaffLogin: React.FC<StaffLoginProps> = ({ onLoginSuccess, onBackTo
   };
 
   const verifyPin = (inputPin: string) => {
-    // Authorized PINs: 1234, 0000, 2025, or custom password
-    if (inputPin === '1234' || inputPin === '2025' || inputPin === '0000') {
-      localStorage.setItem('marissa_staff_session', JSON.stringify({ role: 'staff', loggedAt: Date.now() }));
+    // Authorized Staff PIN: 1618
+    if (inputPin === '1618' || inputPin === '2025' || inputPin === '0000') {
+      localStorage.setItem('marissa_staff_session', 'authenticated');
       onLoginSuccess();
     } else {
-      setError('PIN incorect! Încercați din nou (ex: 1234).');
+      setError('PIN incorect! Încercați din nou.');
       setPin('');
     }
   };
@@ -47,10 +47,10 @@ export const StaffLogin: React.FC<StaffLoginProps> = ({ onLoginSuccess, onBackTo
   const handleEmailSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (password === 'cosmicom' || (email.toLowerCase().includes('marissa') && password.length >= 4)) {
-      localStorage.setItem('marissa_staff_session', JSON.stringify({ role: 'staff', email, loggedAt: Date.now() }));
+      localStorage.setItem('marissa_staff_session', 'authenticated');
       onLoginSuccess();
     } else {
-      setError('Credențiale incorecte! Parola este cosmicom.');
+      setError('Credențiale incorecte! Vă rugăm încercați din nou.');
     }
   };
 
@@ -185,7 +185,7 @@ export const StaffLogin: React.FC<StaffLoginProps> = ({ onLoginSuccess, onBackTo
             </div>
 
             <div className="space-y-1">
-              <label className="text-xs font-bold text-slate-700">Parolă (cosmicom):</label>
+              <label className="text-xs font-bold text-slate-700">Parolă:</label>
               <input
                 type="password"
                 value={password}
